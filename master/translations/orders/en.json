@@ -1221,6 +1221,7 @@
     "all": "All orders",
     "fulfilled": "Fulfilled orders",
     "unfulfilled": "Unfulfilled orders",
+    "cancelled": "Cancelled orders",
     "hidden": "Hidden orders"
   },
   "destinationFilter": {
@@ -1304,6 +1305,8 @@
     "fulfilledMenu": "Fulfilled Orders",
     "unfulfilled": "Unfulfilled",
     "unfulfilledMenu": "Unfulfilled Orders",
+    "cancelled": "Cancelled",
+    "cancelledMenu": "Cancelled Orders",
     "clear": "Clear",
     "apply": "Apply"
   },
