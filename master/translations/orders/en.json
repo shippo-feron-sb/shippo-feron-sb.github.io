@@ -1387,6 +1387,11 @@
       "error": "There was an issue saving the recipient address. Please try again later.",
       "alreadyExists": "Recipient address already exists",
       "countryNotAllowed": "Unable to save recipient address. Saving an address from this recipient’s country is not currently available."
+    },
+    "autoComplete": {
+      "searchLabel": "Search saved recipients",
+      "noResults": "No results found",
+      "noCompany": "No company"
     }
   },
   "itemsCard": {
