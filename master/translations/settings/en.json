@@ -1403,5 +1403,12 @@
     "vatIOSSFormat": "Expected format: AA12345678AAA",
     "einFormat": "Expected format: 123456789",
     "learnMore": "Learn more"
+  },
+  "addressBook": {
+    "recipient": {
+      "createLabel": "Create a Label",
+      "edit": "Edit",
+      "noCompany": "No company"
+    }
   }
 }
