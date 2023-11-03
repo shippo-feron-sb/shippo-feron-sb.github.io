@@ -283,7 +283,13 @@
   "recipients": {
     "title": "Recipient addresses",
     "header": "Recipient addresses",
-    "description": "Save frequently used recipient addresses"
+    "description": "Save frequently used recipient addresses",
+    "editAddress": "Edit recipient address",
+    "addAddress": "Add recipient address",
+    "addAddressBtn": "Add address",
+    "createLabel": "Create a Label",
+    "edit": "Edit",
+    "noCompany": "No company"
   },
   "ratesAtCheckout": {
     "title": "Rates at Checkout",
@@ -1403,12 +1409,5 @@
     "vatIOSSFormat": "Expected format: AA12345678AAA",
     "einFormat": "Expected format: 123456789",
     "learnMore": "Learn more"
-  },
-  "addressBook": {
-    "recipient": {
-      "createLabel": "Create a Label",
-      "edit": "Edit",
-      "noCompany": "No company"
-    }
   }
 }
