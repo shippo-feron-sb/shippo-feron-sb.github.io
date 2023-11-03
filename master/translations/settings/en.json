@@ -1408,7 +1408,10 @@
     "recipient": {
       "createLabel": "Create a Label",
       "edit": "Edit",
-      "noCompany": "No company"
-    }
+      "noCompany": "No company",
+      "noSavedRecipients": "No saved recipients",
+      "ZeroSearchResults": "0 search results"
+    },
+    "error": "Network error. Please try refreshing the page."
   }
 }
