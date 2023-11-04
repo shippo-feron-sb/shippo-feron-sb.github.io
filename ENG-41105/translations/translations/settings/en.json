@@ -289,7 +289,10 @@
     "addAddressBtn": "Add address",
     "createLabel": "Create a Label",
     "edit": "Edit",
-    "noCompany": "No company"
+    "noCompany": "No company",
+    "noSavedRecipients": "No saved recipients",
+    "ZeroSearchResults": "0 search results",
+    "error": "Network error. Please try refreshing the page."
   },
   "ratesAtCheckout": {
     "title": "Rates at Checkout",
@@ -1409,5 +1412,15 @@
     "vatIOSSFormat": "Expected format: AA12345678AAA",
     "einFormat": "Expected format: 123456789",
     "learnMore": "Learn more"
+  },
+  "addressBook": {
+    "recipient": {
+      "createLabel": "Create a Label",
+      "edit": "Edit",
+      "noCompany": "No company",
+      "noSavedRecipients": "No saved recipients",
+      "ZeroSearchResults": "0 search results"
+    },
+    "error": "Network error. Please try refreshing the page."
   }
 }
