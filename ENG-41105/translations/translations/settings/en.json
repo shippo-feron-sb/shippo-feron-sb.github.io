@@ -291,7 +291,7 @@
     "edit": "Edit",
     "noCompany": "No company",
     "noSavedRecipients": "No saved recipients",
-    "ZeroSearchResults": "0 search results",
+    "zeroSearchResults": "0 search results",
     "error": "Network error. Please try refreshing the page."
   },
   "ratesAtCheckout": {
@@ -573,6 +573,7 @@
       },
       "trial": {
         "planName": "30 Days Free Trial of Professional Plan",
+        "planNameTesting": "Try Pro with a 30-day free trial",
         "body": {
           "header": "You are currently on a Starter plan. Try Pro to get access to:",
           "pointOne": "Powerful automation workflows",
@@ -1419,7 +1420,7 @@
       "edit": "Edit",
       "noCompany": "No company",
       "noSavedRecipients": "No saved recipients",
-      "ZeroSearchResults": "0 search results"
+      "zeroSearchResults": "0 search results"
     },
     "error": "Network error. Please try refreshing the page."
   }
