@@ -1,0 +1,208 @@
+{
+  "title": "Vous êtes prêt à expédier!",
+  "subtitle": "Que voudriez-vous faire en premier?",
+  "skip": "Passer et aller à l'application",
+  "connect": "Connectez votre magasin",
+  "create": "Créer une étiquette",
+  "tour": "Faire le tour",
+  "registrationSource": {
+    "regSource": "Comment avez-vous entendu parler de nous?"
+  },
+  "storeConnection": {
+    "title": "Connectez votre magasin pour importer automatiquement vos commandes",
+    "subtitle": "À quel magasin voulez-vous vous connecter?",
+    "nextStep": "Je n'utilise aucun de ces",
+    "dismiss": "Je le ferai plus tard"
+  },
+  "additionalInformation": {
+    "title": "Parlez-nous de votre entreprise",
+    "subtitle": "Configurez votre compte",
+    "companyName": "Nom de l'entreprise",
+    "phoneNumber": "Numéro de téléphone",
+    "storePlatform": "Votre plateforme de e-commerce",
+    "whichStorePlatform": "Quelle plateforme de e-commerce?",
+    "monthlyPackages": "Volme des envois mensuels",
+    "primaryCarrier": "Votre transporteur principal",
+    "defaultLabelFormat": "Format d'étiquette par défaut",
+    "skipSetup": "Ignorer la configuration",
+    "skip": "Passer",
+    "finishSetup": "Terminer la configuration",
+    "continue": "Continuer",
+    "next": "L'étape suivante",
+    "address": "D'où allez-vous expédier?",
+    "proPlanTrialMessage": "Vous commencez un essai gratuit du forfait professionnel de Shippo (jusqu'à{{labelCount}} étiquettes par mois). Commençons à créer votre compte.",
+    "whatTypeOfBusiness": "De quelle manière pensez-vous utiliser Shippo ?",
+    "shippoUseCase": "Qu'est-ce qui décrit le mieux vos besoins professionnels ?"
+  },
+  "instructionalMessages": {
+    "title": "Vous pouvez toujours créer des étiquettes manuellement ou en important un fichier CSV avec toutes vos informations de commande.",
+    "primaryStore": "Quelle plateforme de commerce électronique utilisez-vous?",
+    "submit": "Terminer",
+    "connectEbayCanadaPost": "Vos commandes ont bien été synchronisées à partir d'eBay Canada. Pour expédier au Canada, connectez-vous maintenant à un compte Canada Post."
+  },
+  "welcomeMessage": {
+    "title": "Bienvenue {{name}}!",
+    "titleNoName": "Bienvenue à Shippo!",
+    "text": "Nous vous aidons à gérer tous vos besoins d’expédition afin que vous puissiez vous concentrer sur la croissance de votre entreprise.",
+    "next": "Commençons",
+    "godaddyTitle": "<0>Shippo fournit des étiquettes d’envoi à prix réduits aux utilisateurs de GoDaddy.</0><1>Nous avons créé un compte Shippo pour vous et l’avons connecté à votre boutique GoDaddy. Un mot de passe Shippo temporaire a été envoyé à <1>{{email}}</1>.</1>"
+  },
+  "phrases": {
+    "nextSenderAddress": "Suivant: Adresse de livraison",
+    "nextConnectStore": "Connectez votre magasin",
+    "next": "Suivant",
+    "save": "Sauvegarder",
+    "finish": "Terminer"
+  },
+  "progressIndicator": {
+    "business": "Parlez-nous de votre entreprise",
+    "store": "Ajouter votre magasin",
+    "address": "Adresse d'expéditeur par défaut",
+    "payment": "Ajouter des informations de paiement"
+  },
+  "eBayCA": {
+    "message1": "Vos comptes Shippo et eBay.ca ont bien été associés. Toutes vos commandes sur eBay.ca seront désormais accessibles sur la page Commandes.",
+    "message2": "Pour accéder aux tarifs d'expédition et imprimer des étiquettes, veuillez connecter un transporteur maintenant.",
+    "message3": "Connectez un compte de transporteur pour voir les tarifs d'expédition et les étiquettes d'achat.",
+    "skip": "Sauter",
+    "primaryButton": "Connecter un opérateur"
+  },
+  "newOnboarding": {
+    "gettingStarted": "Vous démarrez avec le {{plan}} de Shippo",
+    "getHelp": "Besoin d'aide avec la configuration ?",
+    "contactSupport": "Contactez l'assistance",
+    "primaryCarrier": "Votre transporteur préféré",
+    "optional": "facultatif",
+    "carriers": "Transporteurs",
+    "saveButton": "Enregistrer et continuer",
+    "shippingLabels": "Étiquettes d'expédition",
+    "labelInputLabel": "Enregistrez la taille préférée des étiquettes à imprimer.",
+    "preferences": {
+      "createLabel": "Pour créer une étiquette d'expédition, vous aurez besoin de :",
+      "toPrint": "pour imprimer les étiquettes",
+      "weightPackages": "de vos colis (une balance aide !)",
+      "printer": "Une imprimante",
+      "weight": "poids",
+      "the": "Le",
+      "hintPartOne": "Les dimensions du colis sont nécessaires pour générer les tarifs et effectuer des envois avec Shippo. Enregistrez les dimensions du colis pour les réutiliser avec les commandes qui utilisent les mêmes colis.",
+      "hintPartTwo": "Vous pouvez enregistrer les dimensions pour autant de colis que nécessaire.",
+      "hintPartThree": "Définir un {{packageDefault}} vous fera gagner du temps en appliquant automatiquement les dimensions à tous vos colis (vous pouvez les modifier si besoin).",
+      "packageDefault": "colis par défaut",
+      "insuranceTitleVariant": "Protection totale Shippo",
+      "insuranceLabelVariant": "Protégez automatiquement tous les colis",
+      "insuranceDescVariant": "Protection totale Shippo assure vos colis avec des tarifs bas et un processus de réclamation simple.",
+      "poweredByCoverGenius": "Assurance fournie par Cover Genius",
+      "termsAndConditions": "Modalités et conditions"
+    },
+    "packagedimensions": {
+      "label": "Avez-vous des colis que vous utilisez fréquemment ? Ajoutez la taille maintenant, comme ça vous pouvez réutiliser les détails du colis dans vos commandes. Les colis peuvent être des boîtes, des enveloppes bulles, etc.",
+      "button": "+ Enregistrer la taille du colis"
+    },
+    "orders": {
+      "ordersTitle": "Ajouter des commandes à Shippo",
+      "ordersMechanismTitle": "De quelle manière voulez-vous ajouter des commandes à Shippo ?",
+      "ordersMechanismStore": "Connecter une boutique",
+      "ordersMechanismManual": "Ajouter des commandes manuellement",
+      "ordersMechanismCSV": "Ajoutez des commandes via la feuille de calcul (téléverser un CSV)",
+      "storeSelectionTitle": "Sélectionnez votre plateforme de commerce en ligne",
+      "storeSelectionInfo": "Connectez votre boutique pour synchroniser les commandes sur Shippo.",
+      "senderAddressTitle": "Adresse de l'expéditeur",
+      "requiredAddress": "Pour afficher les tarifs pour les étiquettes d'expédition, nous aurons besoin de l'adresse d'expédition. L'adresse que vous renseignez sera affichée sur vos étiquettes.",
+      "syncAddress": "Shippo va automatiquement synchroniser votre adresse d'expédition depuis {{store}} après que vous vous êtes connecté.",
+      "syncAddressNext": "Ensuite, nous vous montrerons le guide pas à pas de la connexion à votre boutique {{store}}.",
+      "connectTitle": "Se connecter à {{store}}",
+      "connectInfo": "Ensuite, nous vous montrerons le guide pas à pas de la connexion à votre boutique {{store}}.",
+      "connectWix": {
+        "actionInfo": "Ensuite, cliquez sur <0>Connecter la boutique</0> ci-dessous pour vous connecter à {{store}} et connecter vos commandes sur Shippo."
+      },
+      "connectShopify": {
+        "actionInfo": "Introduisez votre lien {{store}} et cliquez sur <0>Connecter la boutique</0> pour vous connecter à votre compte et synchroniser vos commandes {{store}} sur Shippo.",
+        "inputLabel": "lien vers la boutique {{store}}"
+      },
+      "hint": "Vous utilisez plus d'une plateforme de magasin ? Vous pourrez toujours vous connecter à d'autres magasins plus tard."
+    },
+    "onboardingInfo": {
+      "title": "Parlez-nous de vous et de vos besoins",
+      "radioGroupTitle": "De quelle manière pensez-vous utiliser Shippo ?",
+      "shippingLabels": "Étiquettes d'expédition",
+      "yourName": "Votre nom",
+      "email": "Adresse e-mail",
+      "country": "Pays",
+      "countryError": "Le nom du pays ne peut pas être vide",
+      "phoneNumber": "Numéro de téléphone",
+      "phoneNumberPlaceholder": "Obligatoire pour certains transporteurs",
+      "businessNeedsPlaceholder": "De quelle manière Shippo peut-il vous aider ?",
+      "companyNamePlaceholder": "Cela apparaîtra sur vos étiquettes d'expédition",
+      "monthlyVolumePlaceholder": "Cela nous aide à personnaliser votre expérience",
+      "labelInputLabel": "Enregistrez la taille préférée des étiquettes à imprimer.",
+      "businessNeedsLabel": "Qu'est-ce qui décrit le mieux vos besoins professionnels",
+      "companyName": "Nom de l'entreprise",
+      "monthlyVolume": "Volume des expéditions mensuelles",
+      "monthlyVolumeLaunchingSoon": "Bientôt lancé !",
+      "hint": "Cela nous aide à préparer les prochaines étapes pour répondre à vos besoins.",
+      "business": "Pour le business",
+      "personal": "Pour usage personnel",
+      "advanced": "Avancé (3PL, prestataire logistique, etc.)"
+    },
+    "submit": "Soumettre",
+    "exploreButton": "Découvrir Shippo",
+    "getAPIToken": "Obtenir un jeton API",
+    "partners": {
+      "pageTitle": "Commencer avec Shippo",
+      "welcomeTitle": "Bienvenue sur Shippo !",
+      "welcomeOpener": "Pour commencer, parlez-nous un peu plus de vos besoins, jetez un œil à notre documentation API ou découvrez d'abord l'application web de Shippo.",
+      "helpTitle": "Comment pouvons-nous vous aider ?",
+      "helpPlaceholder": "Donnez-nous plus d'informations sur la façon dont nous pouvons vous aider et notre équipe vous répondra sous 48 heures.",
+      "apiTitle": "API de Shippo",
+      "apiLinkText": "Consulter la documentation API de Shippo",
+      "apiTokenText": "Obtenir un jeton API"
+    },
+    "api": {
+      "apiPageTitle": "Se familiariser avec Shippo API",
+      "welcomeTitle": "Bienvenue sur Shippo !",
+      "welcomeOpener": "Notre API est facile à utiliser, personnalisable et fiable pour offrir des services d'expédition à vos partenaires, marchands et plus encore. Consultez notre documentation pour plus de détails.",
+      "apiSupportTitle": "Besoin d'une aide supplémentaire ? Nous sommes heureux de vous aider",
+      "apiDocLink": "Documentation API de Shippo",
+      "chatLink": "Prenez rendez-vous pour chatter avec notre équipe",
+      "monthlyVolume": "Volume des expéditions mensuelles",
+      "hint": "Cela nous aide à préparer les prochaines étapes pour répondre à vos besoins."
+    },
+    "nav": {
+      "welcome": "Inscription",
+      "info": "Vos informations",
+      "preferences": "Préférences d'expédition",
+      "orders": "Ajouter des commandes",
+      "api": "Configuration API",
+      "start": "Mise en route",
+      "shipping": "Détails de l'envoi",
+      "proPlan": "Choose plan"
+    },
+    "proPlanPage": {
+      "starter": "Starter",
+      "pro": "Pro",
+      "upToAmount": "up to 30 labels / month",
+      "pricePerMonth": "Starting at ${{cost}} / month",
+      "free": "Gratuit",
+      "joinWithStarter": "Join with Starter",
+      "moreWithPro": "Get more with Pro",
+      "planFeatures": {
+          "bestRates": "Best rates with top carriers",
+          "unlimitedStoreConnections": "Unlimited store connections",
+          "emailSupport": "Email support",
+          "emailAndChat": "Email & chat support",
+          "oneStore": "1 store connection",
+          "oneLogin": "1 user login",
+          "multiLogins": "5 user logins",
+          "customBranding": "Custom branding",
+          "fulfillmentAutoRules": "Fulfillment automation rules",
+          "noPerLabelFee": "No per-label fee on personal carrier accounts",
+          "centsOnLabel": "5¢ per label on personal carrier accounts"
+        
+      }
+    },
+    "connectStoreButton": "Connecter le magasin",
+    "skipForNow": "Ignorer pour l'instant",
+    "welcome": "Bienvenue",
+    "yourPreferredCarrier": "Votre transporteur préféré"
+  }
+}
