@@ -794,7 +794,8 @@
         "shippingAddressEdit": "Edit Sender",
         "packageWeightDimensionsWarning": "Rates are calculated based on package dimensions and weight. It's recommended to enter the correct weight and dimensions. If not, you may receive adjustment charges.",
         "errors": {
-          "orderWeightExceeded": "For international orders, the package weight must be heavier or equal to the weight of the customs items ({{weight}} {{weightUnit}})."
+          "orderWeightExceeded": "For international orders, the package weight must be heavier or equal to the weight of the customs items ({{weight}} {{weightUnit}}).",
+          "templateNameLengthExceeded": "Package template name cannot be longer than {{maxLength}} characters."
         },
         "modals": {
           "common": {
