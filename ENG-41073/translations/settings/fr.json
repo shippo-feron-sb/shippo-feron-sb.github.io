@@ -384,15 +384,14 @@
     "successNotification": "Terminé avec succès ! Votre plan sera automatiquement mis à jour le {{date}}",
     "learnMore": "En savoir plus",
     "proPlanCallout": {
-      "enablePersonalCarrier": "Enable personal carrier accounts",
-      "tryProTrial": "Try Pro with a 30-day free trial to connect personal carrier accounts and use them to purchase labels without any additional per-label fees.",
-      "startTrial": "Start free Pro trial",
-      "proPlanSuccess": "Your plan has successfully been upgraded to Pro",
-      "proPlanError": "Something went wrong upgrading to Pro",
-      "reachedLabelLimit": "You’ve reached the 30 label per month limit",
-      "tryProWithTrial": "Try Pro with a 30-day free trial to unlock unlimited labels per month and access all of Shippo’s features.",
-      "unlockUnlimitedLabels": "Unlock unlimited labels",
-      "yourPlanRenews": "You've reached the 30 label per month limit. Your plan renews on {{formattedDate}}."
+      "enablePersonalCarrier": "Autorisez les comptes de transporteurs personnels",
+      "tryProTrial": "Essayez le plan Pro et bénéficiez d'une période d'essai gratuite de 30 jours afin de connecter des comptes de transporteurs personnels que vous pourrez utiliser pour acheter des étiquettes sans avoir à payer de frais supplémentaires pour chaque étiquette.",
+      "startTrial": "Démarrer l'essai gratuit Pro",
+      "proPlanSuccess": "Votre plan a bien été mis à niveau vers la version Pro",
+      "proPlanError": "Une erreur s'est produite lors de la mise à niveau vers le plan Pro",
+      "reachedLabelLimit": "Vous avez atteint la limite mensuelle de 30 étiquettes.",
+      "tryProWithTrial": "Essayez le plan Pro et bénéficiez d'une période d'essai gratuite de 30 jours qui vous permettra de disposer d'un nombre illimité d'étiquettes par mois et d'accéder à l'ensemble des fonctionnalités de Shippo.",
+      "yourPlanRenews": "Vous avez atteint la limite mensuelle de 30 étiquettes. Votre plan sera renouvelé le {{formattedDate}}."
     },
     "adjust": {
       "planNotFound": "Impossible de trouver votre plan actuel. Veuillez réessayer ou contacter support@goshippo.com",
