@@ -540,7 +540,8 @@
       "reachedLabelLimit": "You’ve reached the 30 label per month limit",
       "tryProWithTrial": "Try Pro with a 30-day free trial to unlock unlimited labels per month and access all of Shippo’s features.",
       "unlockUnlimitedLabels": "Unlock unlimited labels",
-      "yourPlanRenews": "You've reached the 30 label per month limit. Your plan renews on {{formattedDate}}."
+      "yourPlanRenews": "You've reached the 30 label per month limit. Your plan renews on {{formattedDate}}.",
+      "thirtyDays": "for 30 days to unlock unlimited labels per month and access all of Shippo’s features."
     },
     "adjust": {
       "planNotFound": "Couldn't find your current plan. Please try again or contact support@goshippo.com",
