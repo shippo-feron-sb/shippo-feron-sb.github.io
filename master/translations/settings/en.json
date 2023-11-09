@@ -283,7 +283,16 @@
   "recipients": {
     "title": "Recipient addresses",
     "header": "Recipient addresses",
-    "description": "Save frequently used recipient addresses"
+    "description": "Save frequently used recipient addresses",
+    "editAddress": "Edit recipient address",
+    "addAddress": "Add recipient address",
+    "addAddressBtn": "Add address",
+    "createLabel": "Create a Label",
+    "edit": "Edit",
+    "noCompany": "No company",
+    "noSavedRecipients": "No saved recipients",
+    "zeroSearchResults": "0 search results",
+    "error": "Network error. Please try refreshing the page."
   },
   "ratesAtCheckout": {
     "title": "Rates at Checkout",
@@ -1422,7 +1431,7 @@
       "edit": "Edit",
       "noCompany": "No company",
       "noSavedRecipients": "No saved recipients",
-      "ZeroSearchResults": "0 search results"
+      "zeroSearchResults": "0 search results"
     },
     "error": "Network error. Please try refreshing the page."
   }
