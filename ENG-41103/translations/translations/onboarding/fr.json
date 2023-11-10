@@ -174,7 +174,30 @@
       "orders": "Ajouter des commandes",
       "api": "Configuration API",
       "start": "Mise en route",
-      "shipping": "Détails de l'envoi"
+      "shipping": "Détails de l'envoi",
+      "proPlan": "Choisissez votre plan"
+    },
+    "proPlanPage": {
+      "starter": "Démarrage",
+      "pro": "Pro",
+      "upToAmount": "30 étiquettes au maximum / mois",
+      "pricePerMonth": "À partir de {{cost}} $ / mois",
+      "free": "Gratuit",
+      "joinWithStart": "Rejoindre avec le plan de démarrage",
+      "moreWithPro": "En obtenir davantage avec Pro",
+      "planFeatures": {
+        "bestRates": "Les meilleurs tarifs avec les meilleurs transporteurs",
+        "emailSupport": "Assistance par e-mail",
+        "unlimitedStoreConnections": "Connexions de boutique illimitées",
+        "emailAndChat": "Assistance par e-mail et par chat",
+        "oneStore": "1 connexion de boutique",
+        "oneLogin": "1 identifiant utilisateur",
+        "multiLogins": "5 identifiants utilisateur",
+        "customBranding": "Personnalisation à l'image de la marque",
+        "fulfillmentAutoRules": "Règles d'automatisation pour l'exécution des commandes",
+        "noPerLabelFee": "Aucuns frais par étiquette sur les comptes de transporteurs personnels",
+        "centsOnLabel": "5 ¢ par étiquette sur les comptes de transporteurs personnels"
+      }
     },
     "connectStoreButton": "Connecter le magasin",
     "skipForNow": "Ignorer pour l'instant",

@@ -383,6 +383,17 @@
   "plans": {
     "successNotification": "Terminé avec succès ! Votre plan sera automatiquement mis à jour le {{date}}",
     "learnMore": "En savoir plus",
+    "proPlanCallout": {
+      "enablePersonalCarrier": "Autorisez les comptes de transporteurs personnels",
+      "tryProTrial": "Essayez le plan Pro et bénéficiez d'une période d'essai gratuite de 30 jours afin de connecter des comptes de transporteurs personnels que vous pourrez utiliser pour acheter des étiquettes sans avoir à payer de frais supplémentaires pour chaque étiquette.",
+      "startTrial": "Démarrer l'essai gratuit Pro",
+      "proPlanSuccess": "Votre plan a bien été mis à niveau vers la version Pro",
+      "proPlanError": "Une erreur s'est produite lors de la mise à niveau vers le plan Pro",
+      "reachedLabelLimit": "Vous avez atteint la limite mensuelle de 30 étiquettes.",
+      "tryProWithTrial": "Essayez le plan Pro et bénéficiez d'une période d'essai gratuite de 30 jours qui vous permettra de disposer d'un nombre illimité d'étiquettes par mois et d'accéder à l'ensemble des fonctionnalités de Shippo.",
+      "yourPlanRenews": "Vous avez atteint la limite mensuelle de 30 étiquettes. Votre plan sera renouvelé le {{formattedDate}}.",
+      "thirtyDays": "pendant 30 jours pour débloquer des étiquettes illimitées par mois et accéder à toutes les fonctionnalités de Shippo."
+    },
     "adjust": {
       "planNotFound": "Impossible de trouver votre plan actuel. Veuillez réessayer ou contacter support@goshippo.com",
       "fetchPricingPlansError": "Impossible de récupérer les plans tarifaires. Veuillez réessayer ou contacter support@goshippo.com",
