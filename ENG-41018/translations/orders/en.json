@@ -1400,7 +1400,8 @@
       "notValidatedMsg": "The address you are attempting to save could not be validated.",
       "mayBeLostMsg": "Packages may be lost, delayed, or incur surcharges if sent to an unvalidated address.",
       "fixAddressBtn": "Fix address",
-      "saveAnywayBtn": "Save anyway"
+      "saveAnywayBtn": "Save anyway",
+      "error": "There was an issue validating the address."
     }
   },
   "itemsCard": {
