@@ -170,7 +170,8 @@
       "noTemplatesAvailable": "No templates available",
       "search": "Search",
       "searchTemplates": "Search templates and carrier packages",
-      "orderTo": "Order {{orderNumber}} to {{customerName}}"
+      "orderTo": "Order {{orderNumber}} to {{customerName}}",
+      "save": "Save"
     },
     "multi": {
       "addressPopupButtonTitle": "Edit Address",
@@ -793,7 +794,8 @@
         "shippingAddressEdit": "Edit Sender",
         "packageWeightDimensionsWarning": "Rates are calculated based on package dimensions and weight. It's recommended to enter the correct weight and dimensions. If not, you may receive adjustment charges.",
         "errors": {
-          "orderWeightExceeded": "For international orders, the package weight must be heavier or equal to the weight of the customs items ({{weight}} {{weightUnit}})."
+          "orderWeightExceeded": "For international orders, the package weight must be heavier or equal to the weight of the customs items ({{weight}} {{weightUnit}}).",
+          "templateNameLengthExceeded": "Package template name cannot be longer than {{maxLength}} characters."
         },
         "modals": {
           "common": {
@@ -1145,7 +1147,7 @@
       "zipRequired": "Postal code can't be blank",
       "zipCodeInvalid": "Invalid postal code for selected country",
       "countryInvalid": "Country can't be blank",
-      "requiredFieldWithName": "{{fieldName}} is a required.",
+      "requiredFieldWithName": "{{fieldName}} is a required field.",
       "maxLengthFieldWithName": "{{fieldName}} can't be more than {{maxLength}} characters"
     },
     "addressNames": {

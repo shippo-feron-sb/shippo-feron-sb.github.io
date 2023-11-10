@@ -283,7 +283,17 @@
   "recipients": {
     "title": "Recipient addresses",
     "header": "Recipient addresses",
-    "description": "Save frequently used recipient addresses"
+    "description": "Save frequently used recipient addresses",
+    "editAddress": "Edit recipient address",
+    "addAddress": "Add recipient address",
+    "addAddressBtn": "Add address",
+    "createLabel": "Create a Label",
+    "edit": "Edit",
+    "noCompany": "No company",
+    "noSavedRecipients": "No saved recipients",
+    "zeroSearchResults": "0 search results",
+    "error": "Network error. Please try refreshing the page.",
+    "search": "Search saved recipients"
   },
   "ratesAtCheckout": {
     "title": "Rates at Checkout",
@@ -522,6 +532,18 @@
   "plans": {
     "successNotification": "Success! Your plan will automatically update on {{date}}",
     "learnMore": "Learn more",
+    "proPlanCallout": {
+      "enablePersonalCarrier": "Enable personal carrier accounts",
+      "tryProTrial": "Try Pro with a 30-day free trial to connect personal carrier accounts and use them to purchase labels without any additional per-label fees.",
+      "startTrial": "Start free Pro trial",
+      "proPlanSuccess": "Your plan has successfully been upgraded to Pro",
+      "proPlanError": "Something went wrong upgrading to Pro",
+      "reachedLabelLimit": "You’ve reached the 30 label per month limit",
+      "tryProWithTrial": "Try Pro with a 30-day free trial to unlock unlimited labels per month and access all of Shippo’s features.",
+      "unlockUnlimitedLabels": "Unlock unlimited labels",
+      "yourPlanRenews": "You've reached the 30 label per month limit. Your plan renews on {{formattedDate}}.",
+      "thirtyDays": "for 30 days to unlock unlimited labels per month and access all of Shippo’s features."
+    },
     "adjust": {
       "planNotFound": "Couldn't find your current plan. Please try again or contact support@goshippo.com",
       "fetchPricingPlansError": "Couldn't fetch pricing plans. Please try again or contact support@goshippo.com",
@@ -564,6 +586,7 @@
       },
       "trial": {
         "planName": "30 Days Free Trial of Professional Plan",
+        "planNameTesting": "Try Pro with a 30-day free trial",
         "body": {
           "header": "You are currently on a Starter plan. Try Pro to get access to:",
           "pointOne": "Powerful automation workflows",
@@ -1410,7 +1433,7 @@
       "edit": "Edit",
       "noCompany": "No company",
       "noSavedRecipients": "No saved recipients",
-      "ZeroSearchResults": "0 search results"
+      "zeroSearchResults": "0 search results"
     },
     "error": "Network error. Please try refreshing the page."
   }
