@@ -292,7 +292,8 @@
     "noCompany": "No company",
     "noSavedRecipients": "No saved recipients",
     "zeroSearchResults": "0 search results",
-    "error": "Network error. Please try refreshing the page."
+    "error": "Network error. Please try refreshing the page.",
+    "search": "Search saved recipients"
   },
   "ratesAtCheckout": {
     "title": "Rates at Checkout",
