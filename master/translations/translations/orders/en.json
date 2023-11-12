@@ -1394,6 +1394,11 @@
       "searchLabel": "Search saved recipients",
       "noResults": "No results found",
       "noCompany": "No company"
+    },
+    "update": {
+      "success": "Recipient address updated",
+      "error": "There was an issue updating the recipient address. Please try again later.",
+      "alreadyExists": "Recipient address already exists"
     }
   },
   "itemsCard": {
