@@ -283,7 +283,18 @@
   "recipients": {
     "title": "Recipient addresses",
     "header": "Recipient addresses",
-    "description": "Save frequently used recipient addresses"
+    "description": "Save frequently used recipient addresses",
+    "editAddress": "Edit recipient address",
+    "addAddress": "Add recipient address",
+    "addAddressBtn": "Add address",
+    "addBtn": "Add",
+    "createLabel": "Create a Label",
+    "edit": "Edit",
+    "noCompany": "No company",
+    "noSavedRecipients": "No saved recipients",
+    "zeroSearchResults": "0 search results",
+    "error": "Network error. Please try refreshing the page.",
+    "search": "Search saved recipients"
   },
   "ratesAtCheckout": {
     "title": "Rates at Checkout",
@@ -531,7 +542,8 @@
       "reachedLabelLimit": "You’ve reached the 30 label per month limit",
       "tryProWithTrial": "Try Pro with a 30-day free trial to unlock unlimited labels per month and access all of Shippo’s features.",
       "unlockUnlimitedLabels": "Unlock unlimited labels",
-      "yourPlanRenews": "You've reached the 30 label per month limit. Your plan renews on {{formattedDate}}."
+      "yourPlanRenews": "You've reached the 30 label per month limit. Your plan renews on {{formattedDate}}.",
+      "thirtyDays": "for 30 days to unlock unlimited labels per month and access all of Shippo’s features."
     },
     "adjust": {
       "planNotFound": "Couldn't find your current plan. Please try again or contact support@goshippo.com",
@@ -1422,7 +1434,7 @@
       "edit": "Edit",
       "noCompany": "No company",
       "noSavedRecipients": "No saved recipients",
-      "ZeroSearchResults": "0 search results"
+      "zeroSearchResults": "0 search results"
     },
     "error": "Network error. Please try refreshing the page."
   }

@@ -1147,7 +1147,7 @@
       "zipRequired": "Postal code can't be blank",
       "zipCodeInvalid": "Invalid postal code for selected country",
       "countryInvalid": "Country can't be blank",
-      "requiredFieldWithName": "{{fieldName}} is a required.",
+      "requiredFieldWithName": "{{fieldName}} is a required field.",
       "maxLengthFieldWithName": "{{fieldName}} can't be more than {{maxLength}} characters"
     },
     "addressNames": {
@@ -1402,6 +1402,11 @@
       "fixAddressBtn": "Fix address",
       "saveAnywayBtn": "Save anyway",
       "error": "There was an issue validating the address."
+    },
+    "update": {
+      "success": "Recipient address updated",
+      "error": "There was an issue updating the recipient address. Please try again later.",
+      "alreadyExists": "Recipient address already exists"
     }
   },
   "itemsCard": {
