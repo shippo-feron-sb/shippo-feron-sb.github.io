@@ -1,0 +1,13 @@
+{
+  "totalNumberOfItems": "Nombre Total D'articles",
+  "estimatedTotalWeight": "Poids Total Estimé",
+  "title": "Ramassage des horaires USPS",
+  "listTitle": "Nous avons trouvé les colis {{carrierName}} suivants avec une date de livraison de demain",
+  "listBottomText": {
+    "USPS": "USPS Impossible d'accepter des articles de plus de 70 lb ou 130 po. Les envois postaux pesant plus de 13 oz et portant uniquement des timbres-poste ne sont pas admissibles au ramassage",
+    "DHL Express": "Le poids maximum autorisé pour les colis domestiques américains est de 150 livres. La dimension maximale des emballages domestiques américains est de 108 pouces de longueur ou de 165 pouces de longueur plus la circonférence (2Hx2L). Ces limitations ne s'appliquent pas aux envois internationaux."
+  },
+  "pickupDateTitle": "Date de ramassage",
+  "date": "Date",
+  "pickupDateText": "Vos colis seront récupérés par {{carrierName}} dans les prochains jours ouvrables. Votre date de ramassage réelle sera confirmée une fois que votre ramassage aura été planifié avec succès."
+}
