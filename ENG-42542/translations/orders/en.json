@@ -1394,6 +1394,19 @@
       "searchLabel": "Search saved recipients",
       "noResults": "No results found",
       "noCompany": "No company"
+    },
+    "invalidAddress":{
+      "title": "Save unvalidated address?",
+      "notValidatedMsg": "The address you are attempting to save could not be validated.",
+      "mayBeLostMsg": "Packages may be lost, delayed, or incur surcharges if sent to an unvalidated address.",
+      "fixAddressBtn": "Fix address",
+      "saveAnywayBtn": "Save anyway",
+      "error": "There was an issue validating the address."
+    },
+    "update": {
+      "success": "Recipient address updated",
+      "error": "There was an issue updating the recipient address. Please try again later.",
+      "alreadyExists": "Recipient address already exists"
     }
   },
   "itemsCard": {
