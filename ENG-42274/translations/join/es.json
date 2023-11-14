@@ -1,0 +1,22 @@
+{
+  "firstName": "Nombre",
+  "lastName": "Apellidos",
+  "email": "Correo electrónico",
+  "password": "Contraseña",
+  "passwordMessage": "Debe tener más de ocho caracteres y no puede ser una contraseña que se utilice habitualmente",
+  "signUp": "Empezar",
+  "loading": "Trabajando...",
+  "termsAndPolicy": "Al hacer clic en {{start}} a continuación, aceptas los {{terms}} y la {{privacy}} de Shippo.",
+  "accountExists": "¿Ya tienes una cuenta de Shippo?",
+  "terms": "Condiciones",
+  "privacy": "Política de privacidad",
+  "login": "Iniciar sesión",
+  "workEmail": "Correo electrónico del trabajo",
+  "embeddable": {
+    "title": "Wix utiliza Shippo para ofrecer tarifas de envío con descuento",
+    "messaging": "Crea una cuenta para comprar las etiquetas directamente en Wix"
+  },
+  "personalizedStore": {
+    "signUp": "Obtener envío con descuento"
+  }
+}
