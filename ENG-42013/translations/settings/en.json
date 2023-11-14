@@ -276,8 +276,8 @@
     "headerSubtext": "Save packages you use most often to speed up your label purchase process"
   },
   "addresses": {
-    "title": "Addresses Settings",
-    "header": "Addresses",
+    "title": "Sender & return addresses",
+    "header": "Sender & return addresses",
     "description": "Save addresses you use most often to speed up your label purchase process."
   },
   "recipients": {
