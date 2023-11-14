@@ -276,8 +276,8 @@
     "headerSubtext": "Save packages you use most often to speed up your label purchase process"
   },
   "addresses": {
-    "title": "Addresses Settings",
-    "header": "Addresses",
+    "title": "Sender & return addresses",
+    "header": "Sender & return addresses",
     "description": "Save addresses you use most often to speed up your label purchase process."
   },
   "recipients": {
@@ -287,6 +287,7 @@
     "editAddress": "Edit recipient address",
     "addAddress": "Add recipient address",
     "addAddressBtn": "Add address",
+    "addBtn": "Add",
     "createLabel": "Create a Label",
     "edit": "Edit",
     "noCompany": "No company",
