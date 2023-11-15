@@ -928,7 +928,6 @@
         "useAsDefault": "Use as default",
         "contactUs": "Contact Us",
         "default": "Default",
-        "paypalAccount": "PayPal Account",
         "chargedAsShippo": "Charged as \"Shippo\"",
         "changeDefaultPayment": "Change default payment method?",
         "cancel": "Cancel",
@@ -936,7 +935,6 @@
         "changeDefault": "Change default",
         "cardEnding": "Card ending",
         "bankEnding": "Bank account ending",
-        "payPal": "PayPal",
         "successCCUpdate": "Success! Your credit card has been updated.",
         "successChangePaymentUpdate": "Success! Your default payment method has been updated.",
         "errorChangePaymentUpdate": "Oops! Your default payment method could not be updated. Please try again."
