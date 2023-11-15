@@ -1407,6 +1407,10 @@
       "success": "Recipient address updated",
       "error": "There was an issue updating the recipient address. Please try again later.",
       "alreadyExists": "Recipient address already exists"
+    },
+    "delete": {
+      "success": "Recipient address deleted",
+      "error": "There was an issue deleting the recipient address. Please try again later"
     }
   },
   "itemsCard": {
