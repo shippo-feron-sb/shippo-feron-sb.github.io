@@ -1434,7 +1434,8 @@
       "edit": "Edit",
       "noCompany": "No company",
       "noSavedRecipients": "No saved recipients",
-      "zeroSearchResults": "0 search results"
+      "zeroSearchResults": "0 search results",
+      "deleteAddress": "Delete address"
     },
     "error": "Network error. Please try refreshing the page."
   }
