@@ -231,6 +231,29 @@
       "mobileManualLabelNotice": "<0>Shippo is optimized for desktop. But, if you prefer to explore Shippo on mobile,</0> <1>click here</1><2>.</2>",
       "onboardingWelcomeTitleWithName": "Welcome to Shippo, {{firstName}}!"
     },
+    "proPlanPage": {
+      "starter": "Starter",
+      "pro": "Pro",
+      "upToAmount": "up to 30 labels / month",
+      "pricePerMonth": "Starting at ${{cost}} / month",
+      "free": "Free",
+      "joinWithStarter": "Join with Starter",
+      "moreWithPro": "Get more with Pro",
+      "planFeatures": {
+          "bestRates": "Best rates with top carriers",
+          "unlimitedStoreConnections": "Unlimited store connections",
+          "emailSupport": "Email support",
+          "emailAndChat": "Email & chat support",
+          "oneStore": "1 store connection",
+          "oneLogin": "1 user login",
+          "multiLogins": "5 user logins",
+          "customBranding": "Custom branding",
+          "fulfillmentAutoRules": "Fulfillment automation rules",
+          "noPerLabelFee": "No per-label fee on personal carrier accounts",
+          "centsOnLabel": "5¢ per label on personal carrier accounts"
+        
+      }
+    },
     "apiError": "Oops! We were not able to save your information. Please try again.",
     "godaddyNotice": "We have created a Shippo account for you and connected it to you GoDaddy store. A temporary password has been sent to {{email}}. "
   }
