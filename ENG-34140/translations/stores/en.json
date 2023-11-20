@@ -1,7 +1,6 @@
 {
   "title": "Stores",
   "subtitle": "Connect and manage your e-commerce stores",
-  "requestStoreQuestion": "Need to connect to a platform not listed above?",
   "disconnectModal": {
     "cancel": "Cancel",
     "body": "Orders from this channel will remain, but nothing will be synced once you confirm.",
