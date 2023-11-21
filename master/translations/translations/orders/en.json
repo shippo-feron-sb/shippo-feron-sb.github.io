@@ -162,6 +162,7 @@
       "buyLabelOptions": "Select options to buy label",
       "createPackingSlip": "Create packing slip",
       "viewPurchaseLabel": "View purchase label details",
+      "duplicateOrder": "Duplicate order",
       "clearAll": "Clear All",
       "continue": "Continue",
       "addPackageTemplate": "New template",
