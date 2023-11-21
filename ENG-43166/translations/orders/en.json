@@ -1396,7 +1396,7 @@
       "noResults": "No results found",
       "noCompany": "No company"
     },
-    "invalidAddress":{
+    "invalidAddress": {
       "title": "Save unvalidated address?",
       "notValidatedMsg": "The address you are attempting to save could not be validated.",
       "mayBeLostMsg": "Packages may be lost, delayed, or incur surcharges if sent to an unvalidated address.",
@@ -1407,7 +1407,8 @@
     "update": {
       "success": "Recipient address updated",
       "error": "There was an issue updating the recipient address. Please try again later.",
-      "alreadyExists": "Recipient address already exists"
+      "alreadyExists": "Recipient address already exists",
+      "countryNotAllowed": "Unable to update recipient address. Saving an address from this recipient’s country is not currently available."
     },
     "delete": {
       "success": "Recipient address deleted",
