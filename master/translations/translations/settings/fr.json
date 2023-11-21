@@ -831,7 +831,7 @@
     "note4": "Paiements instantanés pour les réclamations approuvées",
     "shippoTotalProtection": "Protection totale Shippo",
     "insureAllPackage": "Ajouter automatiquement une assurance à tous mes colis",
-    "xcoverNote": "En ajoutant l'assurance, vous acceptez les <1>modalités, conditions et exclusions de la police</1>. Assurance fournie par Cover Genius.",
+    "xcoverNote": "En ajoutant une protection, vous acceptez les <1>termes, conditions et exclusions</1>. Protection vendue par Cover Genius et optimisée par XCover.",
     "insureWithAmount": "Ajouter automatiquement une assurance à tous mes colis d'une valeur supérieure à",
     "formHeading": "Protection automatique des colis",
     "save": "Enregistrer"
