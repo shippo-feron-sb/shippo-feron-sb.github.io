@@ -1063,6 +1063,7 @@
     "drawerCardTitleConfirmationNoInsurance": "Your shipment is not insured",
     "drawerCardTitleConfirmationHighValueInsurance": "{{amount}} in shipments is not insured",
     "drawerCardTitleConfirmationInsurance": "Your shipment is insured",
+    "drawerCardTitleConfirmationNotAllInsured":"Not all shipments are insured",
     "addFor": "Add for",
     "shipmentInsurance": "Shipment insurance",
     "shipmentInsuredValue": "Insured value",
