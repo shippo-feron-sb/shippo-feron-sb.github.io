@@ -1,8 +1,6 @@
 {
   "title": "Magasins",
   "subtitle": "Vérifiez si vous avez lié votre boutique en ligne ou si vous vous connectez à un autre magasin ici.",
-  "requestStoreQuestion": "Besoin de vous connecter à une plateforme non répertoriée ci-dessus?",
-  "requestStoreLink": "Demandez une platforme",
   "disconnectModal": {
     "cancel": "Annuler",
     "body": "Les commandes de ce canal resteront, mais rien ne sera synchronisé une fois que vous aurez confirmé. Ça ne peut pas être annulé.",
