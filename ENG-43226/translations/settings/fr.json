@@ -535,7 +535,6 @@
         "useAsDefault": "Utiliser par défault",
         "contactUs": "Contactez-nous",
         "default": "Par défault",
-        "paypalAccount": "Compte PayPal",
         "chargedAsShippo": "Facturé \"Shippo\"",
         "changeDefaultPayment": "Changer de mode de paiement par défaut ?",
         "cancel": "Annuler",
@@ -543,7 +542,6 @@
         "changeDefault": "Modifier",
         "cardEnding": "Carte bancaire se terminant par",
         "bankEnding": "Compte bancaire se terminant par",
-        "payPal": "PayPal",
         "successCCUpdate": "Succès ! Votre carte de crédit a été modifiée.",
         "successChangePaymentUpdate": "Terminé avec succès ! Votre mode de paiement par défaut a été mis à jour.",
         "errorChangePaymentUpdate": "Oups ! Votre mode de paiement par défaut n'a pas pu être mis à jour. Veuillez réessayer."
@@ -833,7 +831,7 @@
     "note4": "Paiements instantanés pour les réclamations approuvées",
     "shippoTotalProtection": "Protection totale Shippo",
     "insureAllPackage": "Ajouter automatiquement une assurance à tous mes colis",
-    "xcoverNote": "En ajoutant l'assurance, vous acceptez les <1>modalités, conditions et exclusions de la police</1>. Assurance fournie par Cover Genius.",
+    "xcoverNote": "En ajoutant une protection, vous acceptez les <1>termes, conditions et exclusions</1>. Protection vendue par Cover Genius et optimisée par XCover.",
     "insureWithAmount": "Ajouter automatiquement une assurance à tous mes colis d'une valeur supérieure à",
     "formHeading": "Protection automatique des colis",
     "save": "Enregistrer"

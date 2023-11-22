@@ -162,6 +162,7 @@
       "buyLabelOptions": "Select options to buy label",
       "createPackingSlip": "Create packing slip",
       "viewPurchaseLabel": "View purchase label details",
+      "duplicateOrder": "Duplicate order",
       "clearAll": "Clear All",
       "continue": "Continue",
       "addPackageTemplate": "New template",
@@ -616,7 +617,7 @@
     "bypassAddressValidationCTA": "Confirm address",
     "negotiatedRate": "You will be charged the negotiated rate",
     "insuranceCoverage": "{{insuranceValue}} coverage included in the price",
-    "xcoverNote": "By purchasing protection, you agree to the <1>policy terms, conditions, and exclusions</1>. Protection powered by Cover Genius.",
+    "xcoverNote": "By adding protection, you agree to the <1>terms, conditions and exclusions</1>. Protection sold by Cover Genius and powered by XCover.",
     "total": "Total:",
     "fixOrderToContinue": "Please update order details to continue",
     "fixOrderTooltip": "The most common issues are with Package Info, Recipient, and Customs Declarations.",
@@ -942,7 +943,7 @@
     "insuredByXcover": "Insured by Shippo Total Protection",
     "insuranceByShipsurance": "Insurance by Shipsurance",
     "termsConditions": "Terms and conditions",
-    "xcoverNote": "By purchasing protection, you agree to the <1>policy terms, conditions, and exclusions</1>. Protection powered by Cover Genius.",
+    "xcoverNote": "By adding protection, you agree to the <1>terms, conditions and exclusions</1>. Protection sold by Cover Genius and powered by XCover.",
     "exclusionsApply": "Exclusions Apply",
     "weWillHelp": "We'll help get your claim resolved quickly.",
     "basicCoverage": "Some rates include basic coverage.",
@@ -1395,7 +1396,7 @@
       "noResults": "No results found",
       "noCompany": "No company"
     },
-    "invalidAddress":{
+    "invalidAddress": {
       "title": "Save unvalidated address?",
       "notValidatedMsg": "The address you are attempting to save could not be validated.",
       "mayBeLostMsg": "Packages may be lost, delayed, or incur surcharges if sent to an unvalidated address.",
@@ -1406,7 +1407,8 @@
     "update": {
       "success": "Recipient address updated",
       "error": "There was an issue updating the recipient address. Please try again later.",
-      "alreadyExists": "Recipient address already exists"
+      "alreadyExists": "Recipient address already exists",
+      "countryNotAllowed": "Unable to update recipient address. Saving an address from this recipient’s country is not currently available."
     },
     "delete": {
       "success": "Recipient address deleted",

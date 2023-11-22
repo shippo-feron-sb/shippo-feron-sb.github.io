@@ -470,7 +470,7 @@
     "incompleteOrdersBatch_plural": "{{count}} commandes ont besoin d'attention",
     "labelNotPurchased": "{{count}} étiquette ne sera pas achetée",
     "labelNotPurchased_plural": "{{count}} étiquettes ne seront pas achetées",
-    "xcoverNote": "En ajoutant l'assurance, vous acceptez les <1>modalités, conditions et exclusions de la police</1>. Assurance fournie par Cover Genius."
+    "xcoverNote": "En ajoutant une protection, vous acceptez les <1>termes, conditions et exclusions</1>. Protection vendue par Cover Genius et optimisée par XCover."
   },
   "calculateRates": {
     "header": "Détails de la commande",
@@ -699,7 +699,7 @@
     "coverageValue": "Valeur de la couverture",
     "poweredByCoverGenius": "Assurance fournie par Cover Genius",
     "termsAndConditions": "Modalités et conditions",
-    "xcoverNote": "En ajoutant l'assurance, vous acceptez les <1>modalités, conditions et exclusions de la police</1>. Assurance fournie par Cover Genius."
+    "xcoverNote": "En ajoutant une protection, vous acceptez les <1>termes, conditions et exclusions</1>. Protection vendue par Cover Genius et optimisée par XCover."
   },
   "shipmentExtras": {
     "returnLabelsNotInsuredWarning": "Les étiquettes de retour ne peuvent pas être assurées lorsqu'une signature est requise. Créez une étiquette distincte s'il faut une assurance pour le retour.",
