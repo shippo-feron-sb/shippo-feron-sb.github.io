@@ -1,0 +1,22 @@
+{
+  "email": "E-Mail",
+  "firstName": "Vorname",
+  "lastName": "Nachname",
+  "password": "Passwort",
+  "passwordMessage": "Muss mindestens 8 Zeichen lang und darf kein generell genutztes Passwort sein",
+  "signUp": "Erste Schritte",
+  "loading": "In Bearbeitung...",
+  "termsAndPolicy": "Wenn Sie unten auf {{start}} erklären Sie sich mit den {{terms}} und {{privacy}} von Shippo einverstanden.",
+  "terms": "Geschäftsbedingungen",
+  "privacy": "Datenschutzrichtlinie",
+  "accountExists": "Sie haben bereits ein Shippo-Konto?",
+  "login": "Anmelden",
+  "workEmail": "E-Mail-Adresse (geschäftlich)",
+  "personalizedStore": {
+    "signUp": "Erhalte ermäßigten Versand"
+  },
+  "embeddable": {
+    "title": "Wix nutzt Shippo, um verbilligte Versandtarife anzubieten",
+    "messaging": "Erstellen Sie ein Konto, um Label direkt in Wix zu kaufen"
+  }
+}
