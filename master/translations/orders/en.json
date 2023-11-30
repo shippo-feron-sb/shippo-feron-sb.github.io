@@ -1157,6 +1157,11 @@
       "recipient": "Recipient",
       "return": "Return",
       "to": "Recipient"
+    }, 
+    "returnAddressNames": {
+      "sender": "Sender (Customer)",
+      "recipient": "Return to",
+      "to": "Return to"
     }
   },
   "bypassAddress": {
