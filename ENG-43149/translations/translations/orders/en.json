@@ -72,12 +72,12 @@
   "blackbeard": {
     "title": "Orders",
     "shipmentInsured": "Your shipment is insured",
-    "shipmentInsured_plural": "Your shipments are insured",
+    "shipmentInsuredVariant_plural": "Your shipments are protected",
     "shipmentInsuredVariant": "Your shipment is protected",
     "shipmentNotInsured": "Your shipment is not insured",
-    "shipmentNotInsured_plural": "Your shipments are not insured",
+    "shipmentNotInsuredVariant_plural": "Your shipments are not protected",
     "shipmentNotInsuredVariant": "Your shipment is not protected",
-    "shipmentMixedInsured": "Not all shipments are insured",
+    "shipmentMixedInsured": "Not all shipments are protected",
     "recommendInsurance": "We recommend protecting your shipment against loss and damage for",
     "xcoverRecommendItems": "Protect your shipments for up to the total order value of lost, stolen or damaged shipments for",
     "signatureAdded": "Signature added to insured shipments over",
@@ -650,7 +650,9 @@
       "buySingleLabel": "Buy 1 label",
       "buyMultipleLabels": "Buy {{count}} labels",
       "errorMessage": "Please unselect an order to continue",
-      "alreadyFulfilled": "already fulfilled. Deselect to continue purchases for other"
+      "alreadyFulfilled": "already fulfilled. Deselect to continue purchases for other",
+      "loading": "Loading",
+      "purchasing": "Purchasing Labels"
     }
   },
   "calculateRates": {
