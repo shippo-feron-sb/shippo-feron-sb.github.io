@@ -1399,7 +1399,10 @@
     "autoComplete": {
       "searchLabel": "Search saved recipients",
       "noResults": "No results found",
-      "noCompany": "No company"
+      "noCompany": "No company",
+      "noAddresses": "No saved recipient addresses",
+      "noAddressesNote": "Click the checkbox to the right to save a recipient address",
+      "noAddressesNoteMobile": "Click the checkbox above to save a recipient address"
     },
     "invalidAddress": {
       "title": "Save unvalidated address?",
