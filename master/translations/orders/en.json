@@ -1423,6 +1423,12 @@
       "error": "There was an issue deleting the recipient address. Please try again later"
     }
   },
+  "returnLabelWorkflow": {
+    "createBatchEntry": {
+      "error": "Something went wrong, please refresh and try again",
+      "loading": "Loading..."
+    }
+  },
   "itemsCard": {
     "edit": "Edit items",
     "cannotEditMixed": "Cannot edit items for multiple orders simultaneously",
