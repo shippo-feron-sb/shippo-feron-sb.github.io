@@ -29,7 +29,7 @@
       "close": "Close",
       "export": "Export",
       "exporting": "Exporting...",
-      "download": "Download CSV",
+      "download": "Download",
       "processing": "Processing export...",
       "complete": "Export complete",
       "success": "Successfully completed CSV export for {{StartDate}} to {{EndDate}}",
