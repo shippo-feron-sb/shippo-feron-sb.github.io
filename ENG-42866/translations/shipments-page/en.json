@@ -39,11 +39,13 @@
     "shipmentInformation": {
       "label": "1 shipping label",
       "title": "View shipment detail",
+      "returnTitle": "Return shipment detail",
       "tracking": "Tracking #",
       "trackingStatus": "Tracking status",
       "shipDate": "Ship date",
       "rate": "Rate",
       "order": "Order",
+      "returnOrder": "Return for order",
       "customer": "Customer",
       "total": "Total",
       "viewOrder": "View order"
