@@ -38,6 +38,7 @@
     },
     "shipmentInformation": {
       "label": "1 shipping label",
+      "returnLabel": "1 return label",
       "title": "View shipment detail",
       "returnTitle": "Return shipment detail",
       "tracking": "Tracking #",
