@@ -145,6 +145,7 @@
       "inclInsurance": "incl. {{value, currency}} insurance",
       "return": "Return",
       "whenUsed": "when used",
+      "payOnUse": "Pay on use",
       "test": "Test"
     }
   },
