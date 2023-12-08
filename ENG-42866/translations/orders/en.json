@@ -600,7 +600,7 @@
       "PARTIALLY_FULFILLED": "Partially fulfilled",
       "AWAITPAY": "Payment pending",
       "CANCELLED": "Cancelled",
-      "RETURN": "Return<0 />created"
+      "RETURN": "Return created"
     }
   },
   "checkout": {
