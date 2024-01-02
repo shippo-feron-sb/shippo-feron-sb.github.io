@@ -62,6 +62,15 @@
   "fullScreenBanner": {
     "emailVerificationRequired": "<0>Please verify your email to purchase labels.  </0><1>Resend Verification Email</1>",
     "emailResendNotification": "We’ve sent a new verification link. Click the link in the email to complete verification.",
-    "failedInvoice": "<0>Labels cannot be purchased while invoices are past due. Please check your invoices and reattempt charge. </0><1>View Invoices</1>"
+    "failedInvoice": "<0>Labels cannot be purchased while invoices are past due. Please check your invoices and reattempt charge. </0><1>View Invoices</1>",
+    "pastDueInvoice": {
+      "actionLabel": "View invoices",
+      "message": "Labels cannot be purchased while invoices are past due. Please check your invoices and reattempt charge."
+    },
+    "verifyEmail": {
+      "actionLabel": "Resend verification email",
+      "message": "Please verify your email to purchase labels.",
+      "successNotification": "We’ve sent a new verification link. Click the link in the email to complete verification."
+    }
   }
 }

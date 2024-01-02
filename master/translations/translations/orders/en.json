@@ -173,7 +173,7 @@
       "selectCarrierParcel": "Select a Carrier provided parcel",
       "noTemplatesAvailable": "No templates available",
       "search": "Search",
-      "searchTemplates": "Search templates and carrier packages",
+      "searchTemplates": "Search carrier provided parcels",
       "orderTo": "Order {{orderNumber}} to {{customerName}}",
       "save": "Save"
     },
@@ -360,7 +360,8 @@
     "newPackageTemplate": "New package template",
     "carrierBasedTemplateNotice": "When using a carrier template, only rates from that carrier will be eligible for label purchase.",
     "noItems": "No items",
-    "noRows": "No rows",
+    "noRows": "No orders",
+    "zeroSearchResults": "0 search results",
     "packingSlipNoteAdded": "Packing slip note added",
     "noRates": "No rates",
     "loadingRate": "Loading Rate",
@@ -609,7 +610,8 @@
       "SHIPPED": "Shipped",
       "PARTIALLY_FULFILLED": "Partially fulfilled",
       "AWAITPAY": "Payment pending",
-      "CANCELLED": "Cancelled"
+      "CANCELLED": "Cancelled",
+      "RETURN": "Return created"
     }
   },
   "checkout": {
@@ -1114,8 +1116,8 @@
     "orderDetails": "Order Details",
     "createNewLabel": "Create New Label",
     "addresses": "Addresses...",
-    "saveAsDefaultSender": "Save as Default Sender Address",
-    "useAsReturnAddress": "Use as Return Address",
+    "saveAsDefaultSender": "Save as default sender address",
+    "useAsReturnAddress": "Use as return address",
     "senderAddress": "Sender address",
     "recipientAddress": "Recipient address",
     "recipientInfo": "Recipient Info",
@@ -1123,7 +1125,7 @@
     "shipTo": "Ship To",
     "saveRecipientAddress": "Save recipient address",
     "returnAddress": "Return address",
-    "saveAsDefaultReturn": "Save as Default Return Address",
+    "saveAsDefaultReturn": "Save as default return address",
     "step1": "Step 1 of 2",
     "cancel": "Cancel",
     "apply": "Apply",
@@ -1202,10 +1204,6 @@
     "title": "Get Canada Post Rates",
     "submit": "Submit",
     "description": "Enter the following information and agree to Canada Post's terms below to access discounted rates in Shippo."
-  },
-  "surveyModal": {
-    "withPromoTitle": "Thank you for the feedback!",
-    "withPromoPara": "We've applied the promo code giving you 25% off of up to $10 in labels"
   },
   "promoNotice": {
     "promoCode": "Promo code",
@@ -1303,6 +1301,7 @@
   "mobileNotifications": {
     "error": "An error occurred when sending your emails.",
     "copyTrackingNumber": "Tracking number copied",
+    "copyTrackingNumber_plural": "Tracking numbers copied",
     "orderFilter": "Order filter applied",
     "incompleteAddress": "Your address is incomplete",
     "fixAction": "Fix",
