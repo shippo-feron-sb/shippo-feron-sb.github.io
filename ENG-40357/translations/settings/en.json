@@ -1,0 +1,1440 @@
+{
+  "branding": {
+    "title": "Branding Settings",
+    "header": "Branding",
+    "description": "Connect with your customers by applying branded elements to the shipping experience",
+    "preview": {
+      "title": "Preview",
+      "description": "To preview your branded assets, visit their respective settings pages:"
+    },
+    "logo": {
+      "heading": "Logo",
+      "descriptionLine1": "Your logo will be applied to your tracking pages, notification emails, and packing slips.",
+      "descriptionLine2": "To apply your logo to USPS labels, visit the <0>Labels</0> settings page.",
+      "descriptionZeroState": "Upload a logo that will be applied to your tracking pages, notification emails and packing slips.",
+      "uploadSuccess": "Success! Your company logo has been uploaded.",
+      "uploadError": "Oops! Your logo image update failed. Please try again.",
+      "uploadUnsuccessful": "Upload unsuccessful - {{cause}}",
+      "fileSizeExceedsLimit": "file size exceeds 1MB",
+      "invalidFileFormat": "file must be PNG or JPEG format",
+      "tooltip": {
+        "line1": "PNG or JPEG format only",
+        "line2": "Max size of 1MB",
+        "line3": "Will be resized to 150px height",
+        "line4": "Ideal width:height ratio is 8:1"
+      }
+    },
+    "brandColor": {
+      "heading": "Brand Color",
+      "inputLabel": "Hex value",
+      "descriptionLine1": "Your brand color will be applied to your tracking pages and emails.",
+      "descriptionLine2": "Choose a primary color for buttons, text titles, etc. and a lighter background color for design accents.",
+      "updateSuccess": "Success! Your brand color has been updated.",
+      "updateError": "Oops! Your brand color update failed. Please try again.",
+      "inputError": "Invalid characters",
+      "primaryLabel": "Primary color",
+      "secondaryLabel": "Background color"
+    },
+    "nonPro": {
+      "title": "Enable your own branding",
+      "description": "Upgrade to Pro Plan to have your branding on:",
+      "trackingPages": "Tracking pages",
+      "notificationEmails": "Notification emails",
+      "packingSlips": "Packing slips",
+      "learnMore": "Learn More",
+      "upgradeAccount": "Upgrade account"
+    },
+    "uploadLogo": "Upload logo",
+    "updateLogo": "Update logo",
+    "saveColor": "Save"
+  },
+  "carriers": {
+    "title": "Carriers Settings",
+    "header": "Carriers",
+    "description": "Use your existing contracts or discounted Shippo rates.",
+    "connectButtonText": "Connect Carrier Account",
+    "connectCarrierAccount": "Connect Your {{carrierName}} Account",
+    "cancel": "Cancel",
+    "back": "Back",
+    "activateMasterAccountSuccess": "Success! Your {{carrierName}} account has been activated.",
+    "addCarrierSuccess": "Success! You now have access to {{carrierName}} rates.",
+    "updateCarrierSuccess": "Your {{carrierName}} Account was successfully updated.",
+    "ebayOnly": "This account can only be used for fulfillment of eBay orders.",
+    "popularAccountsBannerTitle": "Connect Your Carrier(s)",
+    "popularAccountsBannerSubtitle": "Add your own carrier account and rates for even more rate options.",
+    "connectCarrierImageAltText": "Link. Open a form to connect your {{carrierName}} account",
+    "searchCarriers": "Search carrier...",
+    "searchCarriersNoResult": "No results for ",
+    "filterCarriers": "Filter by Origin Country",
+    "filterCarriersZeroState": "All Origin Countries",
+    "carrier": "Carrier",
+    "account": "Account",
+    "active": "Active",
+    "edit": "Edit",
+    "descriptions": {
+      "usps": {
+        "discounts": "Access discounts up to 90%",
+        "pickups": "Schedule package pickups",
+        "manifests": "Create Manifests"
+      },
+      "dhl_express": {
+        "discounts": "Access discounts up to 75%",
+        "pickups": "Schedule package pickups",
+        "customs": "Pre-fill customs forms"
+      },
+      "lso": {
+        "discounts": "Save 40% on regional deliveries",
+        "shipments": "Most shipments arrive in 1 day",
+        "pickups": "Free, automated pickups"
+      },
+      "ups": {
+        "discounts": "Access discounts up to 62%"
+      },
+      "canada_post": {
+        "discounts": "Access exclusive discounts up to 12%",
+        "reach": "Reach all 16.5 million Canadian addresses",
+        "access": "Gain immediate access with no additional signup required"
+      }
+    },
+    "form": {
+      "connect": "Connect",
+      "create": "Create",
+      "edit": "Edit",
+      "titleText": "{{formType}} {{carrierName}} Account",
+      "createFormTab": "Create account",
+      "connectFormTab": "Connect account",
+      "enableTestMode": "Enable test mode",
+      "enableActualTestAccount": "This is a test account",
+      "actualTestAccount": "Only check this box if this is a {{carrierName}} test account",
+      "testAccountInfo": "Test mode lets you create sample labels to familiarize yourself with the process without spending money.",
+      "retailRatesDisclaimer": "Shippo will display default retail rates for this carrier. However if you want to input your custom rates, please contact <0>support@goshippo.com</0>.",
+      "testLearnMore": "Learn more",
+      "updateAccount": "Save",
+      "connectAccount": "Connect Account",
+      "verifying": "Verifying",
+      "updating": "Updating",
+      "createACarrierAccount": "Create a {{carrierName}} Account",
+      "serviceLevelsSection": {
+        "header": "Show/Hide Service Levels",
+        "subtitle": "Hiding a service level will <0>hide it everywhere</0> in Shippo's web app. Service levels used elsewhere (as a default, automation rule, or rate at checkout) cannot be hidden.",
+        "showHideAll": "Show/Hide All",
+        "disabledTooltipMsg": "This service level is used elsewhere (as a default, automation rule, or rate at checkout) and can’t be hidden. You must disable other settings before you can hide it.",
+        "apiOnlyMsg": "Please use our <0>API</0> to add/modify your account or contact <1>support@goshippo.com</1>"
+      }
+    },
+    "planInfo": {
+      "paygPlanDisclaimer": "With your current plan, Shippo charges an additional 5¢ per label purchased through your own connected carrier accounts",
+      "formPaygPlanDisclaimer": "Note: With your current plan, Shippo charges an additional 5¢ per label purchased through your own connected carrier accounts",
+      "adjustPlanLink": "Upgrade to Professional Plan"
+    },
+    "promo": {
+      "getSpecialDiscounts": "Continue",
+      "ups": "Save Up To 62% On UPS® Rates",
+      "canada_post": "New! Sign up to receive Canada Post® Rates"
+    },
+    "masterAccountsTab": "Shippo Accounts",
+    "userAccountsTab": "Your Accounts",
+    "upsShortForm": {
+      "title": "Save Up To 62% On UPS® Rates",
+      "description": "You're just one click away from saving on UPS shipping. Agree to UPS' terms below to access discounted rates in Shippo.",
+      "primaryButton": "Continue"
+    },
+    "upsMasterForm": {
+      "companySubtext": "Note: UPS uses your company name for recipient communications. If you have not provided a company name, UPS will use your first and last name."
+    },
+    "activateAccount": "Activate Account",
+    "createAtCarrierWebsite": "To create a {{accountType}} account, visit the {{carrierName}} website.",
+    "clickToGetStarted": "Click here to get started.",
+    "canadaPostMasterForm": {
+      "fields": {
+        "company": "Company Name",
+        "full_name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number"
+      },
+      "fieldError": {
+        "required": "Required",
+        "invalidPhone": "Provided phone number is not valid."
+      }
+    },
+    "shortform": {
+      "ups_us": {
+        "title": "Save Up To 62% On UPS® Rates",
+        "description": "You're just one click away from saving on UPS shipping. Agree to UPS' terms below to access discounted rates in Shippo.",
+        "primaryButton": "Continue"
+      },
+      "ups_ca": {
+        "title": "Get UPS® DAP Rates",
+        "description": "You're just one click away from saving on UPS shipping. Agree to UPS' terms below to access discounted rates in Shippo.",
+        "primaryButton": "Continue"
+      },
+      "canada_post": {
+        "title": "Get Canada Post Rates",
+        "description": "You're just one click away from saving on Canada Post shipping. Agree to Canada Post's terms below to access discounted rates in Shippo.",
+        "primaryButton": "Continue"
+      }
+    },
+    "canadaPostRedirectForm": {
+      "description": "You can easily connect your existing Canada Post account with Shippo by logging into your Canada Post account:",
+      "buttonText": "Connect via Canada Post",
+      "reloadInstruction": "Reload this page after the connection to confirm your account."
+    }
+  },
+  "company": {
+    "title": "Company Settings"
+  },
+  "labels": {
+    "title": "Labels & Packing Slips Settings",
+    "labelFormatTooltip": "Choose the file type of the label. PDF is best for letter/fullpage formats, 4x6 is the best for thermal printers.",
+    "packingSlipTooltip": "Choose the file type of the packing slip. PDF is best for letter/fullpage formats, 4x6 is the best for thermal printers.",
+    "textOnLabelTooltip": "Print up to two lines on the shipping label. Only available for some carriers. Max 50 characters per line.",
+    "carrierLabelTooltip": "Choose the carrier of your default shipping service.",
+    "serviceLevelTooltip": "Setting a default shipping service will allow you to purchase a label immediately after entering package details.",
+    "updateInstructions": "Go to the <1>Branding</1> page to update your logo. Logo will appear greyscale on label.",
+    "errors": {
+      "labelTextMaxChars": "Label text cannot be longer than 50 characters per line."
+    },
+    "noOption": "No service level is available",
+    "printPreferences": {
+      "title": "Print preferences",
+      "printOrder": {
+        "label": "Print order",
+        "options": {
+          "SEPARATE": "Print labels and packing slips separately",
+          "TOGETHER": "Collate labels and packing slips",
+          "ONE_PAGE": "Single page label and packing slip"
+        }
+      },
+      "labelFormat": {
+        "label": "Label format"
+      },
+      "packingSlipFormat": {
+        "label": "Packing slip format"
+      },
+      "collatedFormat": {
+        "label": "Label & packing slip format"
+      },
+      "labelPackingSlipFormat": "Label & packing slip format: 8.5 x 11 in PDF",
+      "addTextOnLabel": {
+        "label": "Add text on label",
+        "firstLine": "First line",
+        "secondLine": "Second line",
+        "useOrderNumberLabel": "Use order number",
+        "orderNumber": "[Order number]"
+      },
+      "addStorePolicyOnPS": {
+        "label": "Add store policy on packing slip",
+        "placeholder": "Store policy",
+        "helperText": "Include return policy, final sale items, or other policies"
+      },
+      "showPricingOnPS": "Show pricing on packing slip"
+    },
+    "defaultServicelevel": {
+      "title": "Default service level",
+      "allCurrentSelections": "[all current selections]",
+      "noDefaultServiceLevel": "No default service level",
+      "selectCarrier": {
+        "label": "1. Select a carrier",
+        "noOption": "No carrier is available"
+      },
+      "selectServicelevel": {
+        "label": "2. Select a service level",
+        "errorMsg": "Service level is required"
+      }
+    },
+    "defaultReturnServicelevel": {
+      "title": "Default return label service level",
+      "allCurrentSelections": "[all current selections]",
+      "noDefaultServiceLevel": "No default service level",
+      "selectCarrier": {
+        "label": "1. Select a carrier",
+        "noOption": "No carrier is available"
+      },
+      "selectServicelevel": {
+        "label": "2. Select a service level for returns",
+        "errorMsg": "Service level is required"
+      }
+    },
+    "autoCreateReturnLabel": "Auto-create return labels for outbound shipments",
+    "headerTitle": "Labels & Packing Slips",
+    "headerSubtext": "Set printing, sizing, and service level templates.",
+    "labelSettings": "Label Settings",
+    "showPrices": "Show Pricing",
+    "saveBtn": "Save"
+  },
+  "notifications": {
+    "title": "Notifications Settings"
+  },
+  "packages": {
+    "title": "Packages Settings",
+    "deleteModalTitle": "Delete this Package Template?",
+    "deleteModalText": "You will not be able to use this template for any future labels. Any previously purchased labels will not be affected.",
+    "deleteModalTextAutomations": "You will not be able to use this template for any future labels. Any previously purchased labels will not be affected.<0 /><0 />This package template is associated with an automation rule. Deleting it will delete the rule. This cannot be undone.",
+    "cancelButton": "Cancel",
+    "removeButton": "Delete Package Template",
+    "headerTitle": "Packages",
+    "headerSubtext": "Save packages you use most often to speed up your label purchase process"
+  },
+  "addresses": {
+    "title": "Sender & return addresses",
+    "header": "Sender & return addresses",
+    "description": "Save addresses you use most often to speed up your label purchase process."
+  },
+  "recipients": {
+    "title": "Recipient addresses",
+    "header": "Recipient addresses",
+    "description": "Save frequently used recipient addresses",
+    "editAddress": "Edit recipient address",
+    "addAddress": "Add recipient address",
+    "addAddressBtn": "Add address",
+    "addBtn": "Add",
+    "createLabel": "Create a Label",
+    "edit": "Edit",
+    "noCompany": "No company",
+    "noSavedRecipients": "No saved recipients",
+    "zeroSearchResults": "0 search results",
+    "error": "Network error. Please try refreshing the page.",
+    "search": "Search saved recipients"
+  },
+  "ratesAtCheckout": {
+    "title": "Rates at Checkout",
+    "description": "Shippo-powered rate estimates in your store checkout. <0>Learn more</0>",
+    "learnMoreLink": "Learn more",
+    "shippingOptionsTitle": "Shipping Options",
+    "addShippingOptionButton": "Add Shipping Option",
+    "addShippingOptionMessage": "Add a shipping option to select carrier/service and send rates to your store checkout.",
+    "tableHeaderShippingOption": "Shipping Option",
+    "tableHeaderRateAdjustment": "Details",
+    "tableHeaderActions": "Actions",
+    "tableFooterMsg": "Rates will be estimated using dimensions from this package:",
+    "DeleteButton": "Delete",
+    "EditButton": "Edit",
+    "CheckoutPreviewTitle": "Checkout Preview",
+    "CheckoutPreviewShowOptions": "Show options",
+    "CheckoutPreviewDeliveryMethod": "DELIVERY METHOD",
+    "CheckoutPreviewFooterMsg": "Shippo rates may be estimated based on items in cart, customer address, package, and more. More delivery methods may be available in your store settings.",
+    "form": {
+      "title": "Add Shipping Option",
+      "editTitle": "Edit Shipping Option",
+      "description": "Configure the shipping option to display to customers at checkout. You will have to turn these on in your Wix store settings.",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g. Standard Shipping",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "e.g. Arrive in 3-7 days",
+      "rateTypeLabel": "Option Type",
+      "rateTypeLiveRate": "Live rate",
+      "rateTypeFlatRate": "Flat rate",
+      "rateTypeFreeShipping": "Free shipping",
+      "adjustmentTypeDiscount": "Discount",
+      "adjustmentTypeMarkup": "Markup",
+      "rateTypePlaceholder": "Select...",
+      "liveRateSettingsTitle": "Live Rates Settings",
+      "liveRateSettingsDesc": "Shippo will estimate shipping rate for your shoppers using live information from their cart like recipient address and item weights. Choose multiple services and we’ll display the cheapest one. <0>Learn more</0>",
+      "liveRateSettingsServiceLevelsLabel": "Services",
+      "liveRateSettingsServiceLevelsLabelOptional": "Services (optional)",
+      "liveRateSettingsServiceLevelsPlaceholder": "Select one or more services",
+      "liveRateSettingsServiceLevelsNotes": {
+        "liveRate": "Cheapest service will be used for estimate",
+        "flatRate": "Cheapest service will be assigned to the order.",
+        "freeShipping": "Cheapest service will be assigned to the order."
+      },
+      "liveRateSettingsPackToCalLabel": "Package to Calculate",
+      "liveRateSettingsPackToCalPlaceholder": "Select package",
+      "liveRateSettingsPackToCalNote": "Shippo will calculate dimensional weight from these dimensions:",
+      "liveRateSettingsFlatRateLabel": "Flat Rate",
+      "liveRateSettingsFlatRateNote": "This rate will be the fallback if rates don’t load.",
+      "liveRateSettingsRateAdjustmentLabel": "Adjustment",
+      "liveRateSettingsFreeThresholdLabel": "Minimum cart total",
+      "validateRequiredName": "Name is required",
+      "validateMinLenName": "Min length is 3",
+      "validateMaxLenName": "Max length is 50",
+      "validateRequiredDesc": "Description is required",
+      "validateMinLenDesc": "Min length is 3",
+      "validateMaxLenDesc": "Max length is 50",
+      "validateRequiredFlatRate": "Flat Rate Amount is required",
+      "validateRateAdjustment": "Rate Adjustment % is required",
+      "validateRequiredFlatRateAmount": "Flat Rate Amount is required",
+      "validateRequiredServiceLevel": "Services are required",
+      "validateRequiredRateType": "Rate Type is required",
+      "validateRequiredFreeShippingThreshold": "Free Shipping threshold is required",
+      "deleteWarningMsg": "Delete Shipping Option",
+      "cancel": "Cancel",
+      "save": "Save",
+      "change": "Manage packages",
+      "selectPackage": "Create a package",
+      "learnMoreLink": "Learn more",
+      "liveRateSettingsLiveRateLabel": "Fallback when estimate can’t be calculated",
+      "widgetSenderAddressTitle": "Sender Address*",
+      "widgetSenderAddressAddAddress": "Add an address",
+      "widgetSenderAddressDiffAddress": "Use a different address",
+      "widgetPackageTitle": "Packaging*",
+      "widgetPackageCreate": "Create a package",
+      "widgetPackageManage": "Manage packages",
+      "widgetWeightTitle": "Weight",
+      "widgetWeightContent": "Shipping weight is calculated from item weights set in your store.",
+      "widgetSenderAddressError": "No sender address is set.",
+      "widgetPackageError": "No package created.",
+      "cannotEstimateRates": "We cannot estimate rates."
+    },
+    "tableHeaderRateType": "Option Type",
+    "deleteModal": {
+      "title": "Delete Shipping Option?",
+      "text": "Are you sure you want to delete this shipping option?",
+      "cancelButton": "Cancel",
+      "deleteButton": "Delete"
+    }
+  },
+  "automations": {
+    "title": "Automations",
+    "description": "Based on conditions that you specify, automation rules automatically apply shipping selections to newly imported orders on your behalf (from either your connected stores or .csv import). To learn more, visit our <0>Automations Rules Support Article</0> or <1>FAQ</1>.",
+    "descriptionSupportLinkText": "Automations Rules Support Article",
+    "descriptionFAQLinkText": "FAQ",
+    "descriptionTip": "Tip: Automation rules run in sequence from top to bottom so that while multiple actions can apply to an order, the first of the same type of action (e.g. Assign Package) will apply. Drag and drop to reorder your automation rules.",
+    "deleteModalTitle": "Delete automation rule?",
+    "deleteModalText": "Are you sure you want to delete this automation rule?",
+    "cancelButton": "Cancel",
+    "removeButton": "Delete",
+    "learnMoreLink": "Learn more",
+    "customRulesTitle": "Shipping Rules",
+    "createRuleButton": "Create New Rule",
+    "noCustomRules": "No custom rules have been set up yet. Create a new rule to get started.",
+    "defaultRuleTitle": "Default Rules <1/>",
+    "defaultRulesDescription": "Once shipping rules are applied, defaults will apply to all remaining orders.",
+    "noDefaultSet": "No default set",
+    "setUpDefault": "Set up Default",
+    "defaultPackageTemplateRuleTitle": "Default Package Template",
+    "defaultServiceTemplateRuleTitle": "Default Service Level",
+    "managePackagesLink": "Manage Packages",
+    "manageServiceLink": "Manage Service Levels",
+    "processOrders": "<0/> Run Automations",
+    "reorderRules": "<0/> Rearrange",
+    "saveReorder": "Save",
+    "reorderTableDescription": "Rule description",
+    "reorderTableLastModified": "Last Modified",
+    "reorderTableActions": "Actions",
+    "reorderRulesInstructions": "Drag rules with <1/> to rearrange the automation sequence",
+    "contactUs": "Contact us",
+    "runAutomationBtnTooltip": "Heads up, automations will only run on orders imported from a store or CSV.",
+    "serviceLevelRetrievalError": "Please try again or contact support at support@goshippo.com.",
+    "notification": {
+      "inProcess": "Automations are processing",
+      "complete": "Automations are completed"
+    },
+    "form": {
+      "title": "{{formAction}} automation rule",
+      "edit": "Edit",
+      "create": "Create",
+      "save": "Save rule",
+      "orderWeight": "Order weight",
+      "actions": {
+        "package": "Assign package template",
+        "serviceLevel": "Assign service level",
+        "senderAddress": "Assign sender address"
+      },
+      "senderAddressPlaceholder": "Sender address",
+      "serviceLevelPlaceholder": "Search by carrier or service",
+      "comingSoon": "Coming Soon",
+      "itemName": "Item name",
+      "sku": "Item SKU",
+      "orderItemQuantity": "Total item quantity",
+      "shippingDestination": "Shipment destination",
+      "selectTemplate": "Select template",
+      "description": "Choose from the conditions below to automatically apply actions to incoming orders. Orders must meet ALL conditions for an action to be applied.",
+      "letUsKnow": "Not seeing what you need? <0>Share Feedback</0>",
+      "letUsKnowLinkText": "Share Feedback",
+      "ifConditionSectionTitle": "If",
+      "andConditionSectionTitle": "And",
+      "actionSectionTitle": "Then",
+      "addCondition": "Add Condition",
+      "addAction": "Add Action",
+      "nameLabel": "Rule name",
+      "namePlaceholder": "Name your rule, e.g. \"less than 3lbs\"",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Description (optional)",
+      "operatorLabel": "Operator",
+      "weightLabel": "Weight",
+      "unitLabel": "Unit",
+      "skuLabel": "Item SKU",
+      "orderItemQuantityLabel": "Quantity",
+      "productNameLabel": "Item name",
+      "shippingDestinationLabel": "Destination",
+      "zipcodeLabel": "Zip code",
+      "zipcodeLabels": {
+        "us": "Zip code",
+        "ca": "Postal/zip code"
+      },
+      "stateLabels": {
+        "us": "State",
+        "ca": "Province/territory"
+      },
+      "countryLabel": "Country",
+      "actionTypeLabel": "Action",
+      "serviceLevelLabel": "Service Level",
+      "selectAction": "Select action",
+      "selectConditionType": "Property",
+      "selectConditionPlaceholder": "Condition",
+      "productNameFieldHelpText": "Try this: Copy and paste the product name from your store.",
+      "errors": {
+        "noEmptyCondition": "You must choose a condition.",
+        "onlySingleItemCondition": "You may only select 1 product name per rule. Create a new rule for additional products.",
+        "noConditionTypeCombinations": "You may only select one order property type per automation rule.",
+        "onlySingleConditions": "\"Is equal to\" can only be used on its own. If you wish to specify a value and range, please use \"is greater than or equal to\" or \"is less than or equal to\".",
+        "noOtherConditionsToBeApplied": "Based on the selections that have been made, no other conditions may be applied",
+        "nameRequired": "You must enter a rule name.",
+        "nameUnique": "You must choose a unique name.",
+        "actionsRequired": "You must choose an action.",
+        "conditionsRequired": "You must add at least one condition.",
+        "parcelTemplateRequired": "You must select a package template.",
+        "conditionsWeightRequired": "You must enter a valid order weight.",
+        "serviceLevelTokenRequired": "You must select a service level.",
+        "senderAPIAddressRequired": "You must select a valid sender address.",
+        "invalidWeightRange": "Invalid weight range.",
+        "duplicateWeightOperators": "The weight condition type cannot be the same.",
+        "invalidOperatorCombination": "\"{{ firstOperator }}\" cannot be used with \"{{ secondOperator }}\" as a weight condition.",
+        "invalidUnitsCombination": "All weight units within a rule must be the same.",
+        "negativeRange": "Weight must be greater than or equal to zero.",
+        "maxLength": "Max length {{ max }} characters.",
+        "conditionsProductNameRequired": "You must enter a product name.",
+        "conditionsItemSkuRequired": "You must enter an item SKU.",
+        "conditionsOrderItemQuantityRequired": "You must enter a valid quantity value.",
+        "conditionsOrderItemQuantityNotValidInteger": "Item quantity must be an integer value greater than 0.",
+        "conditionsShippingDestinationRequired": "You must choose a shipment destination.",
+        "conditionsShippingDestinationStateRequired": "You must select at least one state.",
+        "conditionsShippingDestinationZipcodeRequired": "You must enter at least one zipcode.",
+        "conditionsShippingDestinationCountryRequired": "You must select at least one country."
+      },
+      "selectDestination": "Select Destination",
+      "shipToZipcodeHelpMsg": "Use commas to separate zip codes. Use * for grouping multiple zip codes (i.e. 941**).",
+      "shippoMasterAccount": "Shippo Master",
+      "personalAccount": "Personal account",
+      "testAccount": "Test Mode",
+      "serviceCategories": "Service Categories",
+      "defaultServiceLevelOption": "Default"
+    },
+    "emptyRules": {
+      "cta": "You don't have any shipping rules set up yet. Want to create one?"
+    },
+    "enableAutomations": {
+      "title": "Enable Automations",
+      "automateActions": "Automate actions, such as applying a package template or generating a specific label, based on order conditions, such as weight, product name, and recipient location.",
+      "upgradeToPro": "Upgrade to the Professional plan to access automations."
+    },
+    "ruleDescriptions": {
+      "automationsSuffix": " automations",
+      "automationsPrefix": "Automation ",
+      "automationsActions": " actions:",
+      "actions": {
+        "package": " package assigned",
+        "serviceLevel": " service level assigned",
+        "senderAddress": " assigned as sender address"
+      }
+    }
+  },
+  "plans": {
+    "successNotification": "Success! Your plan will automatically update on {{date}}",
+    "learnMore": "Learn more",
+    "proPlanCallout": {
+      "enablePersonalCarrier": "Enable personal carrier accounts",
+      "tryProTrial": "Try Pro with a 30-day free trial to connect personal carrier accounts and use them to purchase labels without any additional per-label fees.",
+      "startTrial": "Start free Pro trial",
+      "proPlanSuccess": "Your plan has successfully been upgraded to Pro",
+      "proPlanError": "Something went wrong upgrading to Pro",
+      "reachedLabelLimit": "You’ve reached the 30 label per month limit",
+      "tryProWithTrial": "Try Pro with a 30-day free trial to unlock unlimited labels per month and access all of Shippo’s features.",
+      "unlockUnlimitedLabels": "Unlock unlimited labels",
+      "yourPlanRenews": "You've reached the 30 label per month limit. Your plan renews on {{formattedDate}}.",
+      "thirtyDays": "for 30 days to unlock unlimited labels per month and access all of Shippo’s features."
+    },
+    "adjust": {
+      "planNotFound": "Couldn't find your current plan. Please try again or contact support@goshippo.com",
+      "fetchPricingPlansError": "Couldn't fetch pricing plans. Please try again or contact support@goshippo.com",
+      "title": {
+        "adjust": "Adjust Your Plan",
+        "upgrade": "Upgrade Your Plan"
+      },
+      "downgrade": {
+        "actionButton": "Downgrade",
+        "cancel": "Cancel",
+        "modalTitle": "Downgrade to Starter Plan",
+        "confirmation": "I understand that by downgrading I will lose access to custom branding, automation rules, and multiple user access for my account. Any previously configured automation rules and branded experiences will not be able to be recovered in the future.",
+        "disclaimer": "Downgrading means losing access to Pro features."
+      },
+      "starter": {
+        "currentPlan": "CURRENT PLAN",
+        "planName": "Starter Plan",
+        "downgradePlan": "DOWNGRADE PLAN",
+        "description": "Free to use with no monthly fees or volume restrictions; perfect for businesses that don't have a set amount of shipments."
+      },
+      "pro": {
+        "planName": "Professional Plan",
+        "description": "The ideal plan for emerging businesses with powerful automation workflows and branded user experiences. Up to 5 users per account.",
+        "startTrial": "Try It Now",
+        "adjustPlan": "Adjust Plan",
+        "slider": {
+          "per": "per",
+          "sliderLabel": "I print about <1>{{labelCount}}</1> labels per {{frequency}}",
+          "frequencyOptions": {
+            "lowercase": {
+              "month": "month",
+              "year": "year"
+            },
+            "uppercase": {
+              "month": "Month",
+              "year": "Year"
+            }
+          }
+        }
+      },
+      "trial": {
+        "planName": "30 Days Free Trial of Professional Plan",
+        "planNameTesting": "Try Pro with a 30-day free trial",
+        "body": {
+          "header": "You are currently on a Starter plan. Try Pro to get access to:",
+          "pointOne": "Powerful automation workflows",
+          "pointTwo": "Branded user experiences",
+          "pointThree": "Insurance and personal carrier discounts",
+          "pointThreeVariant": "Personal carrier discounts",
+          "pointFour": "Collaboration with up to 5 teammates"
+        },
+        "footer": "After the trial period ends on {{endDate}}, your premium subscription will begin at {{price}} per {{frequency}}. Cancel anytime before the trial ends and you will not be charged."
+      },
+      "premier": {
+        "planName": "Premier Plan",
+        "description": "Custom shipping solutions for high-volume shippers.",
+        "contactUs": "Contact Us"
+      }
+    },
+    "help": {
+      "moreQuestions": "More questions?",
+      "open247": "Our <1>help center</1> is open 24/7",
+      "reachOut": "Or reach out to our global <0>support team</0>. We're here to help.",
+      "reachOutLinkText": "support team"
+    },
+    "upgrade": {
+      "successMessage": "Your account has been upgraded to the Growth plan. Branded customer experiences, live chat support and zero label fees up to 2500 shipments are now available to you.",
+      "successTitle": "Upgrade Success",
+      "closeButtonText": "Close",
+      "upgradeButtonText": "Upgrade"
+    },
+    "featureGate": {
+      "learnMore": "Learn more",
+      "upgradePlan": "Upgrade Plan"
+    }
+  },
+  "tracking": {
+    "title": "Tracking",
+    "previewDevice": "Select Preview Device",
+    "preview": "Preview",
+    "brandAndFooter": {
+      "title": "Brand and footer elements",
+      "replyToEmail": {
+        "title": "Reply-to email",
+        "description": "The email address to which customer replies are sent.",
+        "replyToEmailInput": {
+          "placeholder": "Reply-to email",
+          "invalidEmail": "Please enter a valid Email"
+        }
+      },
+      "brand": {
+        "description": "Brand elements",
+        "logo": {
+          "label": "Logo"
+        },
+        "primaryColor": {
+          "label": "Primary color",
+          "hexLabel": "Hex value"
+        },
+        "backgroundColor": {
+          "label": "Background color",
+          "hexLabel": "Hex value"
+        },
+        "submit": {
+          "success": "Your Brand and Footer settings have been updated successfully.",
+          "fail": "There was a problem updating your settings. Please try again later."
+        },
+        "brandLinkCopy": "Update brand elements"
+      },
+      "footer": {
+        "description": "Footer",
+        "returnPolicy": {
+          "label": "Source",
+          "options": {
+            "STORE_POLICY": "Return policy from packing slips",
+            "EXTERNAL": "External return policy link",
+            "NONE": "No return policy"
+          }
+        },
+        "returnPolicyLinkInput": {
+          "placeholder": "Return policy link",
+          "required": "Return policy link is required",
+          "invalidUrl": "Please enter a valid URL"
+        },
+        "tooltipLabel": "Why include a return policy?",
+        "tooltipContent": "Showing your return policy prevents complaints, even if you don't accept returns.",
+        "updateReturnPolicy": "Update return policy",
+        "updateSocialMediaLink": "Update social media links",
+        "save": "Save"
+      }
+    },
+    "orderShipping": {
+      "title": "Your order is shipping",
+      "description": "Email content",
+      "emailEnabledLabel": "Enable email notification",
+      "emailSubjectLabel": "Email subject",
+      "emailContent": {
+        "label": "Custom text",
+        "placeholder": "Add a custom message or signature to the email",
+        "required": "Email content is required and must be less than 1000 characters"
+      },
+      "delay": {
+        "enabledLabel": "Delay email send",
+        "durationLabel": "Email timing"
+      },
+      "submit": {
+        "success": "Your email settings have been updated successfully.",
+        "fail": "There was a problem updating your settings. Please try again later."
+      }
+    },
+    "orderArrived": {
+      "title": "Your order has arrived",
+      "description": "Email content",
+      "emailEnabledLabel": "Enable email notification",
+      "emailSubjectLabel": "Email subject",
+      "emailContent": {
+        "label": "Custom text",
+        "placeholder": "Add a custom message or signature to the email",
+        "required": "Email content is required and must be less than 1000 characters"
+      },
+      "reengagement": {
+        "title": "Reengagement",
+        "spotlight": {
+          "title": "Spotlight",
+          "description": "Engage with customers through a product tutorial, promo video, blog post, or a product promotion.",
+          "sectionTitle": {
+            "label": "Section title",
+            "length": "Section title must be 60 characters or fewer in length"
+          },
+          "url": {
+            "label": "Spotlight link",
+            "length": "Spotlight link must have fewer than 256 characters"
+          }
+        },
+        "productRecommendations": {
+          "title": "Product recommendations",
+          "description": "Add popular products to encourage repeat purchases. Recommended image size: 300px square. Max size: 2MB.",
+          "sectionTitle": {
+            "label": "Section title",
+            "length": "Section title must be 60 characters or fewer in length"
+          },
+          "url": {
+            "label": "Product link",
+            "length": "Product link must have fewer than 256 characters"
+          },
+          "tooltipLabel": "Worried about choosing the right product?",
+          "tooltipContent": "Don't worry! Even imperfect recommendations lead to repeat business."
+        },
+        "promotions": {
+          "title": "Promotions",
+          "description": "Connect with your customers by adding upcoming sales & events. Recommended image size: w: 1080px x h: 520.",
+          "url": {
+            "label": "Promotion link",
+            "length": "Promotion link must have fewer than 256 characters"
+          },
+          "tooltipLabel": "What to include",
+          "tooltipContent": "Include seasonal events, special sales, articles and blogs, or other promotions."
+        },
+        "submit": {
+          "success": "Your settings have been updated successfully.",
+          "fail": "There was a problem updating your settings. Please try again later."
+        }
+      },
+      "submit": {
+        "success": "Your email settings have been updated successfully.",
+        "fail": "There was a problem updating your settings. Please try again later."
+      }
+    },
+    "promotions": {
+      "title": "Promotions",
+      "description": "Connect with your customers by adding upcoming sales & events. Recommended image size: w: 1080px x h: 520.",
+      "linkUrl": {
+        "label": "Promo link",
+        "length": "Promo link must have fewer than 256 characters."
+      },
+      "submit": {
+        "success": "Your promotion settings have been updated successfully.",
+        "fail": "There was a problem updating your settings. Please try again later."
+      },
+      "tooltipLabel": "What to include",
+      "tooltipContent": "Include seasonal events, special sales, articles and blogs, or other promotions."
+    },
+    "productRecommendations": {
+      "title": "Product Recommendations",
+      "description": "Add popular products on this page to encourage repeat purchase.",
+      "sectionTitle": {
+        "label": "Title",
+        "length": "Title must be 60 characters or fewer in length"
+      },
+      "url": {
+        "label": "Product link",
+        "length": "Product link must have fewer than 256 characters"
+      }
+    },
+    "testLink": "View test link",
+    "sendTestEmail": "Send test email",
+    "sendingTestEmail": "Sending test email...",
+    "sendTestEmailSuccess": "A test email was sent successfully. You should see it appear in your inbox shortly.",
+    "sendTestEmailFailed": "There was a problem sending a test email. Please try again later.",
+    "emailsTitle": "Emails",
+    "trackingPageTitle": "Tracking Page",
+    "emailNotifications": "Email notifications",
+    "emailNotificationsDescription": "Automatically notify your customers on their orders and cross sell your products.",
+    "promotionsTitle": "Promotions",
+    "promotionsDescription": "Connect with your customers by adding upcoming sales & events. Image size: 1080px wide by 400px tall. Max file size: 5MB.",
+    "description": "Upload your branding assets to customize your tracking pages below.",
+    "liveExample": "Preview",
+    "customization": "Customization",
+    "upgradeToPro": "Upgrade to Pro",
+    "upgradeCopy": "Upgrade to a Pro plan to reinforce your brand and connect with customers by including branding and ads on your tracking pages.",
+    "imageUpload": {
+      "label": "Upload image",
+      "menu": {
+        "delete": "Delete",
+        "replace": "Replace"
+      }
+    },
+    "submit": {
+      "success": "Your settings have been updated successfully.",
+      "fail": "There was a problem updating your settings. Please try again later."
+    },
+    "save": "Save",
+    "publish": "Publish Live",
+    "errors": {
+      "unknown_error": "An unexpected error occurred. Please try again later, or contact support if the issue persists.",
+      "invalid_file_type": "Invalid image file format. Please use a file of type '{{ fileType }}'.",
+      "invalid_file_size": "File is too large. Please use a file of {{ size }}MB or smaller.",
+      "invalid_link": "An invalid URL was provided. Please double check that it is no more than 255 characters in length, does not have any invalid characters, and starts with http or https.",
+      "timeout": "Upload is taking longer than normal, please bear with us..."
+    },
+    "proPreview": "See sample pro version.",
+    "proPreviewLink": "Preview"
+  },
+  "account": {
+    "plan": {
+      "starterPlan": "Starter Plan",
+      "freeToUse": "Free to use with no monthly fees or volume restrictions when you use Shippo's carrier accounts.",
+      "labelFee": "$0.05 fee will be applied per label when using your own connected carrier account(s).",
+      "upgradePlan": "Upgrade Plan",
+      "premierPlan": "Premier Plan",
+      "nextBilling": "Next billing date: {{ date }} {{ billingFrequency }}",
+      "billedMonthly": "billed monthly",
+      "billedYearly": "billed yearly",
+      "perMonth": "per month",
+      "perYear": "per year",
+      "forQuestions": "For questions about your plan, please contact your account manager or support@goshippo.com.",
+      "contactUs": "Contact Us",
+      "professionalPlan": "Professional Plan",
+      "professionalPlanTrial": "Professional Plan Trial",
+      "pricePerMonth": "<0>${{ price }}</0> {{ perWhen }}",
+      "labelsPerMonth": "Up to <1>{{ labels }}</1> labels {{ perWhen }}",
+      "usersPerAccount": "<0>{{ users }}</0> users per account",
+      "planWillUpgradeYearlyBilling": "<0>🚀</0> Your plan will automatically update to <2>Professional Plan</2> (up to <4>{{ labels }}</4> labels per year) and you'll be billed on <6>{{ date }}</6>",
+      "planWillUpgradeMonthlyBilling": "<0>🚀</0> Your plan will automatically update to <2>Professional Plan</2> (up to <4>{{ labels }}</4> labels per month) and you'll be billed on <6>{{ date }}</6>",
+      "planWillDowngrade": "Your plan will automatically update to <1>Starter Plan</1> on <3>{{ date }}</3>",
+      "closeAccount": {
+        "title": "Close Account",
+        "description": "When you close your account, you lose access to your historical shipping data and settings.",
+        "modal": {
+          "title": "Close account",
+          "description": "We're sad to see you go! Please note that closing your account is permanent. Any data and account configurations will not be recoverable in the future.",
+          "cancel": "Cancel",
+          "confirm": "Close Account"
+        },
+        "form": {
+          "reasonLabel": "Why do you want to close your account?",
+          "reasonPlaceholder": "Reason for leaving",
+          "reasons": {
+            "missingFeature": "Shippo is missing a feature I need",
+            "highCost": "It costs too much",
+            "businessShuttingDown": "My business is seasonal or shutting down",
+            "preferredCompetitor": "I prefer a different service provider",
+            "other": "Other"
+          },
+          "tellUsMoreLabel": "Tell us more",
+          "tellUsMoreMaxLengthError": "This field cannot be longer than {{maxLengthTellUsMore}} characters.",
+          "tellUsMorePlaceholder": "Share some details",
+          "tellUsMoreRequiredError": "This field cannot be empty.",
+          "apiError": "There was a problem closing your account. Please try again later."
+        }
+      },
+      "daysLeftInTrial": "{{ days }} day left in trial",
+      "daysLeftInTrial_plural": "{{ days }} days left in trial"
+    },
+    "profile": {
+      "title": "Profile",
+      "description": "For your security, making changes to your profile information requires that you confirm your password.",
+      "password": "Password",
+      "save": "Save",
+      "role": "Role",
+      "accountOwner": "Account Owner",
+      "emailError": "Email is required",
+      "email": "Email",
+      "name": "Name",
+      "nameError": "Name is required",
+      "changePassword": "Change Password",
+      "language": "Language",
+      "french": "French",
+      "english": "English",
+      "successMessage": "Success! Your information has been saved.",
+      "emailVerification": "<0>You must verify your email to purchase labels. Check your email to activate.</0> <1>Resend Email</1>",
+      "resendEmailSuccess": "We’ve sent a new verification link. Click the link in the email to complete verification.",
+      "passwordModal": {
+        "description": "For your security, making changes to your profile information requires that you confirm your password.",
+        "title": "Confirm your password",
+        "cancel": "Cancel",
+        "confirmSave": "Confirm",
+        "password": "Password",
+        "passwordError": "Current password is required"
+      },
+      "changePasswordModal": {
+        "title": "Change Password",
+        "currentPassword": "Current password",
+        "passwordError": "Current password is required",
+        "newPassword": "New password",
+        "newPasswordError": "New password is required",
+        "confirmNewPassword": "Confirm new password",
+        "confirmNewPasswordError": "Confirm new password is required",
+        "passwordMatchError": "The passwords do not match",
+        "cancel": "Cancel",
+        "save": "Save"
+      },
+      "ordersPage": {
+        "ordersPage": "Orders page",
+        "description": "We've improved viewing orders and shipments, and the process to buy one or many labels at once without leaving the page.",
+        "optIn": "New Orders page",
+        "optOut": "Classic Orders page",
+        "save": "Save",
+        "success": "Successfully changed Orders page view"
+      }
+    },
+    "billing": {
+      "paymentMethods": {
+        "noCreditCard": "Add a credit card to get started with Shippo.",
+        "addCreditCard": "Add Credit/Debit Card",
+        "title": "Payment Methods",
+        "exp": "Exp.",
+        "updateCard": "Update Card",
+        "ending": "ending",
+        "bankAccEnding": "Bank account ending",
+        "useAsDefault": "Use as default",
+        "contactUs": "Contact Us",
+        "default": "Default",
+        "chargedAsShippo": "Charged as \"Shippo\"",
+        "changeDefaultPayment": "Change default payment method?",
+        "cancel": "Cancel",
+        "confirmChangeDefaultPayment": "Are you sure you want to change your default payment method to <0><0/></0>?",
+        "changeDefault": "Change default",
+        "cardEnding": "Card ending",
+        "bankEnding": "Bank account ending",
+        "successCCUpdate": "Success! Your credit card has been updated.",
+        "successChangePaymentUpdate": "Success! Your default payment method has been updated.",
+        "errorChangePaymentUpdate": "Oops! Your default payment method could not be updated. Please try again."
+      },
+      "promoCode": {
+        "header": "Promo Code",
+        "subheader": "Have a promo code? Lucky you! Enter it here:",
+        "buttonText": "Apply",
+        "currentPromo": {
+          "activePromoCode": "Active promo code: ",
+          "seeTerms": "See Terms"
+        },
+        "replacePromoModal": {
+          "header": "Replace promo code?",
+          "body": {
+            "line1": "Are you sure you want to replace your current promo code: ",
+            "line2": "Once you replace this promo code, it will no longer be active.",
+            "line3": "If your new promo does not offer a free pro plan benefit, please downgrade via the 'plans' tab to prevent charges."
+          },
+          "replaceAction": "Replace",
+          "cancelAction": "Cancel"
+        },
+        "promoApplied": "Success! Your promo code has been applied to your account.",
+        "terms": {
+          "DEFAULT": {
+            "firstHalf": "Buy and ship your first {{minUnits}} USPS or DHL Express packages using Shippo’s Master Accounts before {{oneMonth}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. ",
+            "limit": "Limit first {{maxUses}} users. ",
+            "secondHalf": "Promo valid only for users who received this offer directly from Shippo. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. ",
+            "expiration": "Offer expires at 11:59PM Pacific Time on {{endDate}}."
+          },
+          "DEFAULT_EXTENDED_TRIAL": "Enjoy {{freeMonths}} months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free {{freeMonths}}-month promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first {{freeMonths}} months after sign up.",
+          "2FREEPRO": "Enjoy 2 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 2 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first two month after sign up.",
+          "3MONTHSFREENOW": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
+          "3MONTHSFREESUMMER": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
+          "6FREEPROFS": "Enjoy 6 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 6-month promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first 6 months after sign up.",
+          "BREX4MONTHSFREE": "Enjoy four months of our professional plan, free on us when you sign up using the Brex promo code. Must have an active Shippo account to use code. One free 4 months promotion per customer. Promo valid for users who receive this offer directly from Shippo or Brex. May not be combined with other offers, discounts, or credits. Valid only for the first four months after signup.",
+          "FREESTYLE1000": "Buy and ship your first 500 USPS or DHL Express packages using Shippo’s Master Accounts before 12/31/2019 and get $1,000 credit towards your future Shippo invoices applied in January 2020. Must have an active Shippo account to use code. One $1,000 credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or Freestyle. May not be combined with other offers, discounts, or credits. Unused credits will expire within 6 months. Offer expires at 11:59PM Pacific Time on 10/31/2019.",
+          "NOLABELFEES": "Enjoy our professional plan, which includes no per-label fees and the ability to brand your customer emails and tracking pages for free. One free Shippo professional subscription for 5 years per customer. You need to switch your plan to Professional in Shippo after applying the code. Promo valid only for users that receive the offer directly from Shippo, purchase under 5 thousand labels per month, and use Shippo's master accounts with USPS and DHL. Offer must be redeemed by December 31, 2019. May not be combined with other offers, discounts, or credits. Valid for 5 years after redemption. Shippo reserves the right to evaluate promotions on an annual basis to account for potential changes to its plans and pricing.",
+          "SHIP2TEE": "Buy and ship your first {{minUnits}} USPS or DHL Express packages using Shippo’s Master Accounts before {endDate} and get a Shippo T-shirt. Must have an active Shippo account to use code. One Shippo T-Shirt per customer, while supplies last. Promo valid only for users who received this offer directly from Shippo. May not be combined with other offers, discounts, or credits. Offer expires at 11:59PM Pacific Time on {{endDate}}.",
+          "SHIP150": "Buy and ship your first USPS or DHL Express package using Shippo’s Master Accounts before {{endDate}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or Freestyle. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. Offer expires at 11:59PM Pacific Time on {{endDate}}.",
+          "SHIPHERO1000": "Buy and ship your first 500 USPS or DHL Express packages using Shippo’s Master Accounts before 12/31/2019 and get $1,000 credit towards your future Shippo invoices applied in January 2020. Must have an active Shippo account to use code. One $1,000 credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or ShipHero. May not be combined with other offers, discounts, or credits. Unused credits will expire within 6 months. Offer expires at 11:59PM Pacific Time on 10/31/2019.",
+          "USPSREFERRAL": "All USPS Referred customers get Shippo's Professional Plan for free with code: USPSREFERRAL. Must have an active Shippo account to use code. Promo valid only for users referred through USPS reps. Valid for lifetime after signup.",
+          "NEXTSTOPSHIPPO": "All FedEx Referred customers get Shippo's Professional Plan for free with code: NEXTSTOPSHIPPO. Must have an active Shippo account to use code. Promo valid only for users referred through FedEx reps. Valid for 3 month after signup.",
+          "USPSREP01": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or USPS affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
+          "WEEBLYTEN": "Buy and ship your first USPS or DHL Express package using Shippo’s Master Accounts before {{endDate}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. Promo valid only for users who received this offer directly from Shippo or Weebly. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. Offer expires at 11:59PM Pacific Time on {{endDate}}."
+        },
+        "errors": {
+          "code": {
+            "PROMO_AWAITING_START": "Promo code not valid yet.",
+            "PROMO_EXPIRED": "Promo code has expired.",
+            "PROMO_INVALID": "Promo code invalid.",
+            "PROMO_USAGE_EXHAUSTED": "Promo code is no longer available.",
+            "PROMO_ALREADY_APPLIED": "Promo code already applied to account.",
+            "PROMO_NEW_USERS_ONLY": "Promo code is for new users only.",
+            "MAX_LENGTH": "Promo code cannot be longer than 24 characters.",
+            "REQUIRED": "Promo code cannot be empty."
+          }
+        }
+      },
+      "allTransactions": {
+        "header": "All Transactions",
+        "subheader": "Search, filter, and export across every label purchase, surcharge, fee or refund credit.",
+        "buttonText": "View All",
+        "noResults": "No results found",
+        "actionText": "Please try adjusting your search and/or filters",
+        "backToBilling": "Back to Billing",
+        "table": {
+          "headers": {
+            "dateTime": "Date, Time",
+            "invoiceItemType": "Type",
+            "orderDetails": "Details",
+            "trackingNumber": "Tracking Number",
+            "invoiceItemAmountStatus": "Status",
+            "invoice": "Invoice",
+            "amount": "Amount"
+          },
+          "invoiceItemType": {
+            "LABEL_PAYMENT": "Label payment",
+            "LABEL_FAILURE": "Label failure",
+            "LABEL_SURCHARGE": "Label surcharge",
+            "LABEL_REFUND": "Label refund",
+            "REBATE": "Rebate",
+            "ONE_OFF_CREDIT": "Credit",
+            "LEGACY_CHARGE": "Misc. charge",
+            "LEGACY_REFUND": "Misc. refund",
+            "INVALID_TYPE": "Unknown",
+            "TRACK_FEE": "Tracking fee",
+            "ADDRESS_VALIDATION_FEE": "Address validation",
+            "BRANDING": "Branding fee",
+            "MULTI_USER_LOGIN": "User seats fee",
+            "INSURANCE_FEE": "Insurance fee",
+            "LABEL_FEE": "Label fee",
+            "SUBSCRIPTION_PLAN_FEE": "Subscription fee",
+            "POSTAGE_PRICE": "Postage price",
+            "PROMO_CODE_CREDIT": "Promo credit",
+            "LABEL_PRICE_TRUE_UP_CHARGE": "Label Price True Up Charge",
+            "LABEL_PRICE_TRUE_UP_REFUND": "Label Price True Up Refund",
+            "PREAUTH_CAPTURE": "Preauth capture",
+            "LABEL_PAYMENT_ADJUSTMENT": "Label payment adjustment",
+            "LABEL_REFUND_ADJUSTMENT": "Label refund adjustment",
+            "UNKNOWN": "Unknown"
+          },
+          "invoiceStatus": {
+            "paid": "Paid",
+            "pending": "Pending",
+            "credited": "Credited"
+          }
+        },
+        "export": {
+          "cancel": "Cancel",
+          "error": "Oops! Something went wrong with your export. Please try again, or contact <0>support@goshippo.com</0> if you continue to have issues.",
+          "export": "Export to CSV",
+          "header": "Export Transactions",
+          "notice": "If your file does not start downloading, you may need to enable popups in your browser and try again.",
+          "textLine1WithFilters": "You are about to export invoice items to CSV.",
+          "textLine1WithoutFilters": "You have not set any filters—this will export the latest 10,000 transactions.",
+          "textLine2WithFilters": "Invoice items matching these filters will be exported:",
+          "textLine2WithoutFilters": "To set filters, click <0>Cancel</0> below and then click <0>Add Filters</0> next to the search bar."
+        },
+        "exportButtonText": "Export CSV",
+        "filters": {
+          "add": "Add Filters",
+          "clear": "Clear Filters",
+          "apply": "Apply",
+          "pageSizeLabel": "Transactions per page",
+          "placeholders": {
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "invoiceStatus": "Status",
+            "invoiceItemType": "Type",
+            "storeName": "Store",
+            "carrierAccount": "Carrier account"
+          },
+          "options": {
+            "invoiceStatus": {
+              "PAID": "Paid",
+              "UNPAID": "Unpaid"
+            }
+          }
+        }
+      },
+      "pendingTransactions": {
+        "backToBilling": "Back to Billing",
+        "header": "Pending Transactions",
+        "subheader": "Review pending transactions and refund requests. ",
+        "buttonText": "View Pending",
+        "pageTitle": "Pending Transactions",
+        "emptyTitle": "No pending Transactions",
+        "emptySubtitle": "Some transactions may take a few minutes to show up here – check back soon",
+        "table": {
+          "headers": {
+            "dateTime": "Date, Time",
+            "description": "Description",
+            "trackingNumber": "Tracking Number",
+            "amount": "Amount"
+          }
+        }
+      },
+      "invoices": {
+        "download": {
+          "invoiceDate": "Date: {{invoiceDate}}",
+          "invoiceNumber": "Invoice No.: {{invoiceNumber}}",
+          "vatDisclaimer": "VAT to be autoreversed by the buyer",
+          "errors": {
+            "retrieveInvoice": "Error retrieving invoice. Please try again or contact support@goshippo.com",
+            "retrieveInvoiceItems": "Error retrieving invoice items. Please try again or contact support@goshippo.com"
+          },
+          "invoiceItemsTable": {
+            "gstIncluded": "GST incl.",
+            "title": "Billed Transactions",
+            "headers": {
+              "date": "Date",
+              "itemType": "Item Type",
+              "carrier": "Carrier",
+              "trackingNumber": "Tracking Number",
+              "tax": "Tax",
+              "amount": "Amount"
+            },
+            "footers": {
+              "subtotal": "Subtotal",
+              "total": "Total"
+            }
+          }
+        },
+        "header": "Invoices",
+        "subheader": {
+          "text": "Invoices display all transactions that occurred in the given payment cycle, they can help you understand what you are being charged for.",
+          "link": "(Learn more)"
+        },
+        "table": {
+          "cells": {
+            "invoiceNumber": "Shippo Invoice #",
+            "button": "View",
+            "status": {
+              "paid": "Paid",
+              "unpaid": "Unpaid",
+              "inProgress": "Charge in process",
+              "success": "Charge successful",
+              "failure": "Failed",
+              "reattempt": "Reattempt",
+              "writtenOff": "Written Off",
+              "paymentPending": "Payment pending",
+              "open": "Draft"
+            },
+            "error": {
+              "paymentDeclined": "Your payment has been declined. Please contact your card issuer for more information.",
+              "unsupportedCurrency": "Your payment has been declined due to an unsupported currency. Please use an alternative payment method.",
+              "duplicateTransaction": "Your payment has been declined due to a duplicate transaction. Please contact support for more information.",
+              "expiredCard": "Your payment has been declined due to an expired card. Please update your card information and try again.",
+              "incorrectCardDetails": "Your payment has been declined due to incorrect card details. Please update your card information and try again.",
+              "insufficientFunds": "Your payment has been declined due to insufficient funds. Please use an alternative payment method.",
+              "temporaryError": "Your payment could not be completed. Please try again later.",
+              "useAlternateMethod": "Your payment has been declined. Please use an alternative payment method. ",
+              "contactSupport": "Your payment could not be completed. Please contact support for more information. "
+            },
+            "writtenOffToolTip": "This invoice does not require payment.  No action is needed.",
+            "paymentPendingToolTip": "ACH payment is processing and will be confirmed as paid or failed in up to 5 days. No action is needed."
+          }
+        }
+      },
+      "notifications": {
+        "steelMarketplace": "You have successfully connected to Steel Marketplace. A one-time $10 credit will be applied to your next invoice."
+      }
+    },
+    "nav": {
+      "generalSettings": "General Settings",
+      "currentPlanSettings": "Current Plan Settings",
+      "billingSettings": "Billing Settings",
+      "profileSettings": "Profile Settings",
+      "accountSettings": "Account Settings",
+      "generalTabName": "GENERAL",
+      "planTabName": "PLAN",
+      "billingTabName": "BILLING",
+      "profileTabName": "PROFILE",
+      "account": "Account"
+    }
+  },
+  "api": {
+    "title": "API",
+    "description": "Access and manage the Shippo API here to automate shipping and connect to multiple carriers with one integration.",
+    "token": {
+      "title": "Token",
+      "liveToken": "Live Token",
+      "liveTokenDescription": "You should never expose your Live Token. PLEASE STORE SECURELY.",
+      "liveTokenToolTip": "Used to create live objects and production labels. It may be used for any GET or POST requests.",
+      "testToken": "Test Token",
+      "generateButton": "Generate Token",
+      "testTokenDescription": "See <1>Test Mode documentation</1> for more details.",
+      "testTokenToolTip": "This token will allow you to create any test objects and test labels for free. It may be used for any GET or POST requests.",
+      "maxToken": "Max of 2 tokens reached",
+      "manageToken": "Manage your token"
+    },
+    "tokenGenerateModal": {
+      "title": "Your API Token is",
+      "copied": "Copied",
+      "done": "Done",
+      "instruction1": "You should never expose your API Token. <1>Please store securely.</1>",
+      "instruction2": "<2>This is the only time that the API Token can be viewed.</2> You won't see it later. However, you can create a new API Token at any time."
+    },
+    "tokenManageModal": {
+      "title": "Manage Your Tokens",
+      "createdOn": "Created on {{date}}, {{time}}",
+      "done": "Done",
+      "instruction1": "You should never expose your API Token. <3>Please store securely.</3>",
+      "instruction2": "<4>This is the only time that the API Token can be viewed.</4> You won't see it later. However, you can create a new API Token at any time.",
+      "confirmDelete": "Are you sure you want to remove this token? It will <5>break</5> any existing integrations",
+      "yes": "Yes",
+      "isDeleting": "Removing...",
+      "removeToken": "Yes, remove token",
+      "noLiveToken": "You don't have any active live tokens.",
+      "noTestToken": "You don't have any active test tokens."
+    },
+    "webhooks": {
+      "addWebhooks": "Add webhook",
+      "title": "Webhooks",
+      "description": "For more details about webhooks, please see the <2>webhook documentation</2>.",
+      "eventOptions": {
+        "allEvents": "All Events",
+        "trackUpdated": "Track Updated",
+        "batchPurchased": "Batch Purchased",
+        "batchCreated": "Batch Created",
+        "transactionCreated": "Transaction Created",
+        "transactionUpdated": "Transaction Updated"
+      },
+      "webhookTableHeader": {
+        "active": "Active",
+        "eventType": "Event Type",
+        "mode": "Mode",
+        "url": "URL",
+        "actions": "Actions"
+      },
+      "sendTest": "Sending Test...",
+      "save": "Save",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "sampleTest": "Send Sample",
+      "success": "Success",
+      "error": "Webhook Error",
+      "modeOptions": {
+        "live": "Live",
+        "test": "Test"
+      },
+      "noWebhooks": "No Webhooks",
+      "validation": {
+        "eventType": "Event type is required",
+        "url": "URL is required",
+        "invalidUrl": "Invalid webhook url"
+      },
+      "reactivate": "Reactivate"
+    },
+    "versioning": {
+      "title": "Versioning",
+      "button": "Update",
+      "currentVersion": "Your current API Version: {{date}}",
+      "learnMore": "You are on the latest API version. Learn more about <1>API Versions</1>.",
+      "updateAvailable": "Updates available",
+      "noUpdateAvailable": "No updates available",
+      "upgrade": "Upgrade",
+      "cancel": "Cancel",
+      "upgradeModal": {
+        "instruction1": "Upgrading your API version may break your implementation. Be sure to test your code first. <1>Learn more about how API versioning works here</1>.",
+        "instruction2": "You’re upgrading to the latest API version from: <1>{{date}}</1>",
+        "instruction3": "<0>See changelog for details before upgrading.</0>",
+        "instruction4": "<0>Learn how to test the new API version.</0>",
+        "instruction5": "<0>YOU WILL NOT BE ABLE TO ROLLBACK AFTER UPGRADING.</0>",
+        "instruction6": "I am aware of the backwards incompatible changes of upgrading and understand that I cannot roll back after upgrading."
+      }
+    }
+  },
+  "packingSlips": {
+    "settings": "Packing Slip Settings",
+    "selectorLabel": "Default packing slip",
+    "storeSignatureText": "Seasonal greetings and/or store signature",
+    "storePolicyTextLabel": "Store Policy",
+    "storePolicyTextPlaceholder": "Include store-wide return, final sale items, inventory specific returns and any other policies.",
+    "noteLabel": "Note"
+  },
+  "users": {
+    "title": "Users",
+    "userList": "User List",
+    "pendingInvites": "Pending Invites",
+    "emptyPendingList": "No pending invites",
+    "resendInvite": "Resend invite",
+    "errorResendInvite": "Error resending invite.",
+    "addUser": "Add user",
+    "emailInvalid": "Enter a valid email address",
+    "userExists": "User already exists",
+    "limitReached": "You have reached {{count}} users limit. Contact sales to increase the limit.",
+    "emailRequired": "Email is required",
+    "error": "Error while inviting user",
+    "success": "User invite sent!",
+    "deleteSuccess": "User successfully deleted.",
+    "deleteError": "Error while deleting user",
+    "addUserModal": {
+      "addNewUser": "Add New User",
+      "email": "Email",
+      "sendInvite": "Send Invite",
+      "cancel": "Cancel"
+    },
+    "deleteUserModal": {
+      "deleteUser": "Delete User",
+      "deleteInvite": "Delete Invite",
+      "pendingInviteDeleteMessage": "Are you sure you want to remove the invitation to {{email}}?",
+      "deleteMessage": "Are you sure you want to delete {{firstName}} from this account?",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "enableAddUser": {
+      "headline": "Add users to your account",
+      "description": "Upgrade to Pro Plan to add users to your Shippo account",
+      "benefits": {
+        "ownEmail": "Add up to 5 users",
+        "orderFilters": "Users have their own logins",
+        "sharePermissions": "Independent filtering"
+      }
+    }
+  },
+  "apps": {
+    "title": "Apps",
+    "noApps": "You have no authorized apps.",
+    "apps": "Authorized Apps",
+    "deleteAppTitle": "Are you sure?",
+    "deleteAppText": "Are you sure you want to de-authorize {{selectedApp}}?",
+    "keepIt": "Keep it",
+    "removeAuth": "Remove Authorization",
+    "deleteError": "Error while de-authorizing app"
+  },
+  "errors": {
+    "shopify_multiple_accounts": "Oops! You can only connect one Shopify account at a time."
+  },
+  "insurance": {
+    "title": "Insurance",
+    "heading": "Insurance",
+    "desc": "{{packageProtectionLink}} covers packages for up to $15,000. It's easier and more cost effective than carrier insurance. Package Protection is administered by Shipsurance. Certain exclusions apply. Please read the Shipsurance {{tnc}} for details.",
+    "descVariant": "<0>Shippo Total Protection</0> insures your packages with low rates and an easy claims process. You’re covered for the value of lost, stolen or damaged shipments up to $10,000 including reshipping and return reimbursement.",
+    "packageProtection": "Package Protection",
+    "packageProtectionRules": "Package Protection Rules",
+    "learnMore": "Learn more.",
+    "exlusionsApply": "Exclusions apply",
+    "shippoTotalProtection": "Shippo Total Protection",
+    "formHeading": "Automatic package protection",
+    "faq": "FAQ",
+    "insureAllPackage": "Automatically add insurance to all my packages",
+    "insureAllPackageVariant": "Automatically add protection to all my packages",
+    "insureWithAmount": "Automatically add insurance to all my packages with a value above",
+    "insureWithAmountVariant": "Automatically add protection to all my packages with a value above",
+    "insureManually": "Do not automatically add insurance. I prefer to manually add insurance",
+    "insureManuallyVariant": "Do not automatically add protection. I prefer to add manually",
+    "currency": "Currency",
+    "value": "Value",
+    "tnc": "Terms of Service",
+    "shipsuranceNote": "Shipping insurance costs 1% of the declared order value, minimum charge $1.",
+    "xcoverNote": "By adding protection, you agree to the <1>terms, conditions and exclusions</1>. Protection sold by Cover Genius and powered by XCover.",
+    "note1": "Certain fragile items can't be insured. This includes items like TVs, monitors, plate/stained glass, and live plants.",
+    "note1Variant": "20% cheaper and 20 days faster claims compared to carrier insurance†",
+    "note2": "Insured packages must be shipped in non-descript, unbranded packaging",
+    "note2Variant": "Coverage for lost, stolen, or damaged shipments",
+    "note3": "Jewelry, laptops, tablets/iPads, and items valued over $10,000 require a signature confirmation.",
+    "note3Variant": "Reshipping and return reimbursement",
+    "note4": "Instant payouts for approved claims",
+    "save": "Save"
+  },
+  "nav": {
+    "header":"Settings",
+    "shipping": {
+      "title": "Shipping",
+      "labels": "Labels & packing slips",
+      "carriers": "Carriers",
+      "packages": "Packages",
+      "automations": "Automations {{isPro}}",
+      "tracking-page": "Tracking",
+      "insurance": "Insurance",
+      "international-defaults": "International defaults",
+      "rates-at-checkout": "Rates at checkout"
+    },
+    "business": {
+      "title": "Your business",
+      "stores": "Stores",
+      "company": "Company info",
+      "addresses": "Sender addresses",
+      "branding": "Branding {{isPro}}"
+    },
+    "account": {
+      "title": "Account",
+      "billing": "Billing",
+      "plan": "Plan",
+      "profile": "Profile",
+      "users": "Users {{isPro}}"
+    },
+    "advanced":{
+      "title": "Advanced",
+      "apps": "Apps",
+      "api": "API"
+    },
+    "address-book": {
+      "title": "Address book",
+      "recipients": "Recipients",
+      "senderReturn": "Sender & return"
+    }
+  },
+  "internationalDefaults": {
+    "headerTitle": "International defaults",
+    "headerSubtext": "Optimize the fulfillment process by setting default preferences for international shipments.",
+    "save": "Save",
+    "incoterm": "Incoterm",
+    "incotermDesc": "Incoterm determines who pays for the shipment, insurance, customs clearance, and other logistical activities.",
+    "incotermLabel": "Incoterm default",
+    "purposeOfShipment": "Purpose of shipment",
+    "purposeOfShipmentDesc": "Customs require a purpose of shipment, which can affect how your shipment is cleared and taxes are calculated.",
+    "purposeOfShipmentLabel": "Purpose of shipment default",
+    "purposeOfShipmentOptions": {
+      "merchandise": "Merchandise",
+      "documents": "Documents",
+      "gift": "Gift",
+      "sample": "Sample",
+      "return": "Documents",
+      "return_merchandise": "Return merchandise",
+      "humanitarian_donation": "Humanitarian donation",
+      "other": "Other"
+    },
+    "contentsExplanationLabel": "Content explanations",
+    "required": "This field is required",
+    "20CharactersField": "This field can't be more than 20 charecters",
+    "taxIdType": "Tax ID",
+    "taxIdTypeDesc": "Tax ID may be required if your shipments contain goods purchased by your recipients.",
+    "taxIdTypeLabel": "Tax ID default",
+    "taxIdNumberLabel": "{{taxIDTypeVal}} number default",
+    "vatIOSSFormat": "Expected format: AA12345678AAA",
+    "einFormat": "Expected format: 123456789",
+    "learnMore": "Learn more"
+  },
+  "addressBook": {
+    "recipient": {
+      "createLabel": "Create a Label",
+      "edit": "Edit",
+      "noCompany": "No company",
+      "noSavedRecipients": "No saved recipients",
+      "zeroSearchResults": "0 search results",
+      "deleteAddress": "Delete address"
+    },
+    "error": "Network error. Please try refreshing the page."
+  }
+}
