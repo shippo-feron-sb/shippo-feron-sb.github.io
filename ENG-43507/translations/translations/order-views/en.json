@@ -1,0 +1,6 @@
+{
+  "deleteModalTitle": "Are you sure?",
+  "deleteModalText": "Are you sure you want to delete {{selectedTab}} saved search?",
+  "cancelButton": "Cancel",
+  "removeButton": "Remove"
+}

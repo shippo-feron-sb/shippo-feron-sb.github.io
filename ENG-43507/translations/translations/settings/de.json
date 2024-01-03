@@ -1,0 +1,193 @@
+{
+  "account": {
+    "billing": {
+      "paymentMethods": {
+        "noCreditCard": "Fügen Sie eine Kreditkarte hinzu, um mit der Nutzung von Shippo zu beginnen.",
+        "addCreditCard": "Kreditkarte hinzufügen",
+        "title": "Zahlungsoptionen",
+        "exp": "Gültig bis",
+        "updateCard": "Karte aktualisieren",
+        "ending": "mit den Endziffern",
+        "bankAccEnding": "Bankkonto mit den Endziffern",
+        "useAsDefault": "Als Standardeinstellung verwenden",
+        "contactUs": "Kontakt",
+        "default": "Standardeinstellung",
+        "paypalAccount": "PayPal-Konto",
+        "chargedAsShippo": "Mit dem Vermerk „Shippo“ abgebucht",
+        "changeDefaultPayment": "Standardzahlungsmethode ändern?",
+        "cancel": "Abbrechen",
+        "confirmChangeDefaultPayment": "Sind Sie sicher, dass Sie Ihre Standardzahlungsmethode zu <0><0/></0> ändern möchten?",
+        "changeDefault": "Standardeinstellung ändern",
+        "cardEnding": "Karte mit den Endziffern",
+        "bankEnding": "Bankkonto mit den Endziffern",
+        "payPal": "PayPal",
+        "successCCUpdate": "Super! Ihre Kreditkarte wurde aktualisiert.",
+        "successChangePaymentUpdate": "Super! Ihre Standardzahlungsmethode wurde aktualisiert."
+      },
+      "promoCode": {
+        "header": "Promo-Code",
+        "subheader": "Haben Sie einen Promo-Code? Dann haben Sie Glück! Geben Sie ihn hier ein:",
+        "buttonText": "Anwenden"
+      },
+      "allTransactions": {
+        "header": "Alle Transaktionen",
+        "subheader": "Suchen, filtern und exportieren Sie nach allen Etikettenkäufen, Aufpreisen, Gebühren oder Erstattungsgutschriften.",
+        "buttonText": "Alle anzeigen",
+        "noResults": "Keine Ergebnisse gefunden",
+        "actionText": "Bitte versuchen Sie, Ihre Suche und/oder Filter anzupassen",
+        "backToBilling": "Zurück zu Abrechnung",
+        "table": {
+          "headers": {
+            "dateTime": "Datum, Uhrzeit",
+            "invoiceItemType": "Typ",
+            "orderDetails": "Details",
+            "trackingNumber": "Verfolgungsnummer",
+            "invoiceItemAmountStatus": "Status",
+            "invoice": "Rechnung",
+            "amount": "Menge"
+          },
+          "invoiceItemType": {
+            "LABEL_PAYMENT": "Etikettenzahlung",
+            "LABEL_FAILURE": "Etikettenfehler",
+            "LABEL_SURCHARGE": "Aufpreis für Etikett",
+            "LABEL_REFUND": "Etikettenrückerstattung",
+            "REBATE": "Rückvergütung",
+            "ONE_OFF_CREDIT": "Guthaben",
+            "LEGACY_CHARGE": "Verschiedene Gebühren",
+            "LEGACY_REFUND": "Verschiedene Erstattungen",
+            "INVALID_TYPE": "Unbekannt",
+            "TRACK_FEE": "Verfolgungsgebühr",
+            "ADDRESS_VALIDATION_FEE": "Adressüberprüfung",
+            "BRANDING": "Branding-Gebühr",
+            "MULTI_USER_LOGIN": "Gebühr für Benutzerplätze",
+            "INSURANCE_FEE": "Versicherungsgebühr",
+            "LABEL_FEE": "Etikettengebühr",
+            "SUBSCRIPTION_PLAN_FEE": "Dauerauftragsgebühr",
+            "POSTAGE_PRICE": "Portogebühren",
+            "PROMO_CODE_CREDIT": "Promo-Guthaben",
+            "LABEL_PRICE_TRUE_UP_CHARGE": "Etikettenpreis True-Up-Gebühr",
+            "LABEL_PRICE_TRUE_UP_REFUND": "Etikettenpreis True-Up-Rückerstattung",
+            "UNKNOWN": "Unbekannt",
+            "PREAUTH_CAPTURE": "Erfassung der Vorauthentifizierung"
+          },
+          "invoiceStatus": {
+            "paid": "Bezahlt",
+            "pending": "Ausstehend",
+            "credited": "Gutgeschrieben"
+          }
+        },
+        "export": {
+          "cancel": "Abbrechen",
+          "error": "Ups! Beim Export ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter <0>support@goshippo.com</0>, sollten die Probleme weiterhin bestehen.",
+          "export": "In CSV-Datei exportieren",
+          "header": "Transaktionen exportieren",
+          "notice": "Wenn die Datei nicht heruntergeladen werden kann, müssen Sie möglicherweise Pop-ups in Ihrem Browser aktivieren und es erneut versuchen.",
+          "textLine1WithFilters": "Sie sind dabei, Rechnungselemente in eine CSV-Datei zu exportieren.",
+          "textLine1WithoutFilters": "Sie haben keine Filter festgelegt. Es werden die letzten 10.000 Transaktionen exportiert.",
+          "textLine2WithFilters": "Rechnungselemente, die diesen Filtern entsprechen, werden exportiert:",
+          "textLine2WithoutFilters": "Wenn Sie Filter festlegen möchten, klicken Sie unten auf <0>Abbrechen</0> und dann auf <0>Filter hinzufügen</0> neben der Suchleiste."
+        },
+        "exportButtonText": "CSV-Datei exportieren",
+        "filters": {
+          "add": "Filter hinzufügen",
+          "clear": "Filter löschen",
+          "apply": "Anwenden",
+          "pageSizeLabel": "Transaktionen pro Seite",
+          "placeholders": {
+            "startDate": "Startdatum",
+            "endDate": "Enddatum",
+            "invoiceStatus": "Status",
+            "invoiceItemType": "Typ",
+            "storeName": "Speichern",
+            "carrierAccount": "Konto des Spediteurs"
+          },
+          "options": {
+            "invoiceStatus": {
+              "PAID": "Bezahlt",
+              "UNPAID": "Nicht bezahlt"
+            }
+          }
+        }
+      },
+      "pendingTransactions": {
+        "backToBilling": "Zurück zu Abrechnung",
+        "header": "Ausstehende Transaktionen",
+        "subheader": "Überprüfen Sie ausstehende Transaktionen und Rückerstattungsanforderungen.",
+        "buttonText": "Ausstehende Transaktionen anzeigen",
+        "pageTitle": "Ausstehende Transaktionen",
+        "emptyTitle": "Keine ausstehenden Transaktionen",
+        "emptySubtitle": "Bei einigen Transaktionen kann es ein paar Minuten dauern, bis sie hier angezeigt werden – sehen Sie gleich noch einmal nach",
+        "table": {
+          "headers": {
+            "dateTime": "Datum, Uhrzeit",
+            "description": "Beschreibung",
+            "trackingNumber": "Verfolgungsnummer",
+            "amount": "Menge"
+          }
+        }
+      },
+      "invoices": {
+        "download": {
+          "invoiceDate": "Datum: {{invoiceDate}}",
+          "invoiceNumber": "Rechnungs-Nr.: {{invoiceNumber}}",
+          "vatDisclaimer": "Mehrwertsteuer, die vom Käufer automatisch zurückerstattet wird",
+          "errors": {
+            "retrieveInvoice": "Fehler beim Abrufen der Rechnung. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter support@goshippo.com",
+            "retrieveInvoiceItems": "Fehler beim Abrufen von Rechnungselementen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter support@goshippo.com"
+          },
+          "invoiceItemsTable": {
+            "gstIncluded": "Inklusive MwSt.",
+            "title": "Abgerechnete Transaktionen",
+            "headers": {
+              "date": "Datum",
+              "itemType": "Artikeltyp",
+              "carrier": "Spediteur",
+              "trackingNumber": "Verfolgungsnummer",
+              "tax": "Steuer",
+              "amount": "Menge"
+            },
+            "footers": {
+              "subtotal": "Zwischensumme",
+              "total": "Gesamt"
+            }
+          }
+        },
+        "header": "Rechnungen",
+        "subheader": {
+          "text": "Rechnungen zeigen alle Transaktionen an, die in dem jeweiligen Zahlungszeitraum stattgefunden haben. Sie geben Ihnen Aufschluss darüber, was Ihnen in Rechnung gestellt wird.",
+          "link": "(Weitere Informationen)"
+        },
+        "table": {
+          "cells": {
+            "invoiceNumber": "Shippo-Rechnung Nr.",
+            "download": "Herunterladen",
+            "button": "Anzeigen",
+            "status": {
+              "paid": "Bezahlt",
+              "paymentPending": "Zahlung ausstehend",
+              "unpaid": "Nicht bezahlt",
+              "inProgress": "Abbuchung in Bearbeitung",
+              "success": "Abbuchung erfolgreich",
+              "failure": "Fehlgeschlagen",
+              "reattempt": "Wiederholen",
+              "writtenOff": "Abgeschrieben"
+            },
+            "writtenOffToolTip": "Diese Rechnung muss nicht bezahlt werden. Es sind keine Maßnahmen erforderlich."
+          }
+        }
+      }
+    },
+    "nav": {
+      "planTabName": "PLAN",
+      "billingTabName": "ABRECHNUNG",
+      "profileTabName": "PROFIL",
+      "account": "Konto"
+    },
+    "profile": {
+      "password": "Passwort",
+      "passwordModal": {
+        "password": "Passwort"
+      }
+    }
+  }
+}
