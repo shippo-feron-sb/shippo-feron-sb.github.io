@@ -1,0 +1,26 @@
+{
+    "connectAStore": "Connect a store",
+    "welcome": "Welcome to Shippo, {{user}}",
+    "welcomeDescription": "To access discounted rates on shipping labels, start by creating a label:",
+    "uploadCSV": "Upload CSV",
+    "connectStore": "Connect a store",
+    "connectStorePlatform": "Connect a store platform",
+    "addOrdersManually": "Add orders manually",
+    "createLabel": "Create a label",
+    "gettingStarted": "Getting Started",
+    "FooterLinkOne": "How to create a label",
+    "FooterLinkTwo": "How-to Shippo video series",
+    "FooterLinkThree": "How to connect your store",
+    "FooterLinkFour": "Printer and label best practices",
+    "FooterLinkFive": "How to manually create an order",
+    "manyMore": "and many more",
+    "tableOverlay": {
+      "titleHeader": {
+        "orders": "Let's start shipping, {{firstName}}",
+        "shipments": "This is where you’ll track your shipments"
+      },
+      "connectStoreButton": "Connect a store",
+      "createLabel": "Manually create a label",
+      "importCSV": "Upload a CSV"
+    }
+}
