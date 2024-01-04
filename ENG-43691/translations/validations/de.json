@@ -1,0 +1,6 @@
+{
+  "minLength": "Muss mindestens {{min}} Zeichen umfassen",
+  "requiredField": "Dies ist ein Pflichtfeld",
+  "requiredFieldWithName": "{{fieldName}} ist ein Pflichtfeld.",
+  "emailInvalid": "Format der E-Mail-Adresse ungültig"
+}
