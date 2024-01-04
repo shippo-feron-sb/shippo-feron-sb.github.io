@@ -1,0 +1,28 @@
+{
+  "progressMeter": {
+    "welcome": "Bienvenue !",
+    "dismiss": "Rejeter",
+    "seeMoreOptions": "Afficher plus d'options",
+    "continueSetup": "Continuer avec la configuration",
+    "congrats": "Félicitations !",
+    "completedCongratsTitle": "Vous pouvez désormais créer une étiquette avec Shippo",
+    "progressPercentTitle": "Votre compte est",
+    "progressPercentBody": "% configuré"
+  },
+  "todoSteps": {
+    "todoTitle": "Pour créer une étiquette avec Shippo :",
+    "addEmail": "Ajouter l'adresse e-mail",
+    "addSenderAddress": "Ajouter l'adresse de l'expéditeur",
+    "addOrder": "Ajouter une commande",
+    "addPayment": "Ajouter les infos de paiement",
+    "addEmailCompleted": "Adresse e-mail ajoutée",
+    "addSenderAddressCompleted": "Adresse de l'expéditeur ajoutée",
+    "addOrderCompleted": "Commande(s) ajoutée(s)",
+    "addPaymentCompleted": "Infos de paiement ajoutées"
+  },
+  "todoStepsOptional": {
+    "createTemplates": "Créer des modèles de colis",
+    "setLabelDefaults": "Définissez les paramètres par défaut de l'étiquette et du bordereau d'expédition",
+    "addPersonalCarrier": "Ajouter le compte du transporteur personnel"
+  }
+}
