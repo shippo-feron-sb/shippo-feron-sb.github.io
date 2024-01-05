@@ -1,0 +1,22 @@
+{
+  "manualLabel": {
+    "name": "Name",
+    "phone": "Telefonnummer",
+    "street": "Straße",
+    "streetNumber": "Hausnummer",
+    "streetLine2": "Straße (Zeile 2)",
+    "city": "Stadt",
+    "state": "Bundesland",
+    "postalCode": "Postleitzahl",
+    "country": "Land",
+    "select": "Auswählen",
+    "error": {
+      "nameRequired": "Name darf nicht leer sein",
+      "streetNumberRequired": "Hausnummer darf nicht leer sein",
+      "cityRequired": "Stadt darf nicht leer sein",
+      "stateRequired": "Bundesland für dieses Land erforderlich",
+      "zipcodeInvalid": "Ungültige Postleitzahl für das ausgewählte Land",
+      "countryInvalid": "Land darf nicht leer sein"
+    }
+  }
+}
