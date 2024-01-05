@@ -1,0 +1,8 @@
+{
+  "currency": "{{value, currency}}",
+  "number": "{{value, number}}",
+  "test": "Test {{type}}",
+  "search": "Search",
+  "day": "{{count}} day",
+  "day_plural": "{{count}} days"
+}
