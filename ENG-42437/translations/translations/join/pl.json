@@ -1,0 +1,22 @@
+{
+  "firstName": "Imię",
+  "lastName": "Nazwisko",
+  "email": "E-mail",
+  "password": "Hasło",
+  "passwordMessage": "Hasło musi mieć co najmniej 8 znaków i nie może być powszechnie używane",
+  "signUp": "Zaczynajmy",
+  "loading": "Pracujemy nad tym...",
+  "termsAndPolicy": "Klikając na {{start}} poniżej, wyrażasz zgodę na {{terms}} i {{privacy}} Shippo.",
+  "terms": "Warunki",
+  "privacy": "Polityka prywatności",
+  "accountExists": "Masz już konto na Shippo?",
+  "login": "Zaloguj się",
+  "workEmail": "Służbowy adres e-mail",
+  "embeddable": {
+    "title": "Wix korzysta z Shippo, aby oferować obniżone stawki za wysyłkę",
+    "messaging": "Utwórz konto, aby móc kupować etykiety bezpośrednio w Wix"
+  },
+  "personalizedStore": {
+    "signUp": "Uzyskaj dostawę ze zniżką"
+  }
+}
