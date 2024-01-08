@@ -1,0 +1,6 @@
+{
+  "deleteModalTitle": "Êtes-vous sûr?",
+  "deleteModalText": "Êtes-vous sûr de vouloir {{selectedTab}} supprimer la recherche enregistrée?",
+  "cancelButton": "Annuler",
+  "removeButton": "Retirer"
+}

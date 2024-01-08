@@ -1,0 +1,22 @@
+{
+  "manualLabel": {
+    "name": "Nazwa",
+    "phone": "Telefon",
+    "street": "Ulica",
+    "streetNumber": "Numer domu",
+    "streetLine2": "Ulica (linia 2)",
+    "city": "Miasto",
+    "state": "Stan",
+    "postalCode": "Kod pocztowy",
+    "country": "Kraj",
+    "select": "Wybierz",
+    "error": {
+      "nameRequired": "Nazwa nie może być pusta",
+      "streetNumberRequired": "Numer ulicy nie może być pusty",
+      "cityRequired": "Miasto nie może być puste",
+      "stateRequired": "Stan potrzebny dla tego kraju",
+      "zipcodeInvalid": "Nieprawidłowy kod pocztowy dla wybranego kraju",
+      "countryInvalid": "Kraj nie może być pusty"
+    }
+  }
+}
