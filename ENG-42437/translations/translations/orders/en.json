@@ -1527,7 +1527,7 @@
     "updateRecipient_many": "{{count}} updates needed for Recipient",
     "updateCustoms_one": "{{count}} update needed for Customs",
     "updateCustoms_many": "{{count}} updates needed for Customs",
-    "refreshRates": "Refresh rates to continue",
+    "refreshRates": "Refresh",
     "noRatesForCarrier": "Edit package to view rates from other carriers"
   },
   "uspsSoftPack": {
