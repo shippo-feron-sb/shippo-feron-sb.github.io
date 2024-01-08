@@ -18,7 +18,8 @@
     "mixed": "Mixed",
     "total": "Total",
     "continue": "Continue",
-    "learnMore": "Learn more"
+    "learnMore": "Learn more",
+    "remove": "Remove"
   },
   "all": {
     "title": "Orders",
@@ -657,8 +658,8 @@
       "titleMultiple": "Order details",
       "packageOptions": "Package options",
       "buyLabel": "Buy label",
-      "buySingleLabel": "Buy 1 label",
-      "buyMultipleLabels": "Buy {{count}} labels",
+      "buyLabelWithCount": "Buy {{count}} label",
+      "buyLabelWithCount_plural": "Buy {{count}} labels",
       "errorMessage": "Please unselect an order to continue",
       "alreadyFulfilled": "already fulfilled. Deselect to continue purchases for other",
       "loading": "Loading",
