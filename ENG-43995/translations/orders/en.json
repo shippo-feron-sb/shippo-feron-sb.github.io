@@ -1284,7 +1284,8 @@
   "shippingMethod": {
     "shippingMethod": "Customer-selected",
     "clear": "Clear all",
-    "apply": "Apply"
+    "apply": "Apply",
+    "selectAll": "Select all"
   },
   "save": {
     "save": "Save",
