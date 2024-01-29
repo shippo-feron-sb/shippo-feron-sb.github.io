@@ -327,8 +327,6 @@
       "shippingDestination": "Destination de l'envoi",
       "selectTemplate": "Sélectionnez un modèle",
       "description": "Choisissez parmi les conditions ci-dessous pour appliquer automatiquement des actions aux commandes entrantes. Les commandes doivent remplir TOUTES les conditions pour qu'une action soit appliquée.",
-      "letUsKnow": "Vous ne trouvez pas ce dont vous avez besoin ? Faites-le savoir à notre équipe de produits. <0>Partager les commentaires</0>",
-      "letUsKnowLinkText": "Partager les commentaires",
       "ifConditionSectionTitle": "Si",
       "andConditionSectionTitle": "Et",
       "actionSectionTitle": "Alors",

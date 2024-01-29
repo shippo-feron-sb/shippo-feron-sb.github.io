@@ -175,7 +175,8 @@
   },
   "notify": {
     "genericSuccessMessage": "Successfully sent an email notification",
-    "genericErrorMessage": "An error was encountered when sending a notification"
+    "genericErrorMessage": "An error was encountered when sending a notification",
+    "copyTrackingNumber": "Tracking number copied"
   },
   "dialog": {
     "close": "Close",

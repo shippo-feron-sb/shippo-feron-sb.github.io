@@ -440,8 +440,6 @@
       "shippingDestination": "Shipment destination",
       "selectTemplate": "Select template",
       "description": "Choose from the conditions below to automatically apply actions to incoming orders. Orders must meet ALL conditions for an action to be applied.",
-      "letUsKnow": "Not seeing what you need? <0>Share Feedback</0>",
-      "letUsKnowLinkText": "Share Feedback",
       "ifConditionSectionTitle": "If",
       "andConditionSectionTitle": "And",
       "actionSectionTitle": "Then",
@@ -1358,7 +1356,7 @@
     "save": "Save"
   },
   "nav": {
-    "header":"Settings",
+    "header": "Settings",
     "shipping": {
       "title": "Shipping",
       "labels": "Labels & packing slips",
@@ -1384,7 +1382,7 @@
       "profile": "Profile",
       "users": "Users {{isPro}}"
     },
-    "advanced":{
+    "advanced": {
       "title": "Advanced",
       "apps": "Apps",
       "api": "API"
