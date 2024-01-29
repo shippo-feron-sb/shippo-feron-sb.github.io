@@ -302,6 +302,7 @@
     "initialNote": "Take into consideration the following important information:",
     "bullet1": "Refunds typically take <0>14 days</0> to credit into your account. ",
     "link": "Read more about refunds",
+    "bulletInsurance": "Toute assurance souscrite auprès d'un transporteur ou par le biais de Shippo Total Protection sera annulée et vous sera remboursée",
     "bullet2": "You will immediately be unable to use this shipping label for postage",
     "bullet3": "This action cannot be undone, but you can create a new label",
     "finalNote": "Note also that USPS labels that have not been used for 30 days since creation are automatically refunded.",
@@ -692,6 +693,8 @@
     "exclusionsApply": "Des exclusions s'appliquent",
     "termsConditions": "Conditions générales",
     "insuranceByShipsurance": "Assurance par Shipsurance",
+    "numOfInsured": "{{numInsured}} de {{numOrders}} couverts",
+    "numOfRequired": "{{numRequired}} de {{numOrders}} requis",
     "customValue": "Valeur personnalisée",
     "totalValue": "Valeur totale",
     "insuredValue": "Valeur assurée",
@@ -776,6 +779,9 @@
   "blackbeard": {
     "shipmentInsuredVariant": "Votre envoi est protégé",
     "shipmentNotInsuredVariant": "Votre envoi n'est pas protégé", 
+    "shipmentMixedInsured": "Tous les envois ne sont pas protégés",
+    "shipmentNotInsured": "Votre envoi n'est pas protégé",
+    "shipmentNotInsuredVariant_plural": "Vos envois ne sont pas protégés",
     "xcoverRecommendItems": "Protégez vos envois à hauteur de la valeur totale de la commande en cas de perte, de vol ou d'endommagement moyennant",
     "noCoverage": "Aucune couverture",
     "coverageValue": "Valeur de la couverture"

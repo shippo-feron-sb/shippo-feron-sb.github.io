@@ -38,12 +38,15 @@
     },
     "shipmentInformation": {
       "label": "1 shipping label",
+      "returnLabel": "1 return label",
       "title": "View shipment detail",
+      "returnTitle": "Return shipment detail",
       "tracking": "Tracking #",
       "trackingStatus": "Tracking status",
       "shipDate": "Ship date",
       "rate": "Rate",
       "order": "Order",
+      "returnOrder": "Return for order",
       "customer": "Customer",
       "total": "Total",
       "viewOrder": "View order"
@@ -142,6 +145,7 @@
       "inclInsurance": "incl. {{value, currency}} insurance",
       "return": "Return",
       "whenUsed": "when used",
+      "payOnUse": "Pay on use",
       "test": "Test"
     }
   },
@@ -171,7 +175,8 @@
   },
   "notify": {
     "genericSuccessMessage": "Successfully sent an email notification",
-    "genericErrorMessage": "An error was encountered when sending a notification"
+    "genericErrorMessage": "An error was encountered when sending a notification",
+    "copyTrackingNumber": "Tracking number copied"
   },
   "dialog": {
     "close": "Close",
