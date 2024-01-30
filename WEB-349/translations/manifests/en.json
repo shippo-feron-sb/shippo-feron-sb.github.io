@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Manifests",
+  "title": "Create a new Manifest",
+  "subtitle": "Select carrier account, submission date, and sender address for your manifest. For more info, <1>visit our FAQ</1>.",
+  "manifestInfo": "Manifest information",
+  "carrierTooltip": "Note: If you have multiple accounts for one carrier, you may need to generate multiple manifests.",
+  "carrierTooltipUspsOnly": "Note: If you want to manifest labels of other carriers, contact Shippo support team.",
+  "carrierAccount": "Carrier Account",
+  "carrierAccountError": "Carrier can't be blank",
+  "labelCreateDateTooltip": "Select a date",
+  "labelCreateDate": "Label Creation Date",
+  "labelCreateDateError": "Label creation date can't be blank",
+  "submissionDate": "Submission Date",
+  "submissionDateError": "Submission date can't be blank",
+  "senderAddressTooltip": "Note: If you ship from multiple addresses, you may need to create multiple manifests.",
+  "senderAddress": "Sender Address",
+  "senderAddressError": "Sender address date can't be blank",
+  "carrier": "Carrier",
+  "handoffDate": "Hand-off Date",
+  "status": "Status",
+  "files": "Files",
+  "download": "Download",
+  "downloading": "Downloading",
+  "SUCCESS": "Complete",
+  "ERROR": "Error",
+  "recentManifestTitle": "Recent Manifests",
+  "recentManifestSubtitle": "Shippo will save your manifests for up to 5 days.",
+  "noAddresses": "No labels at any address",
+  "noManifests": "No recent manifests",
+  "countdownBanner": "There is {{count}} hour remaining to your Manifest with the submission date of {{date}}",
+  "countdownBanner_plural": "There are {{count}} hours remaining to your Manifest with the submission date of {{date}}",
+  "manifestLabels": {
+    "creatingCountDescription": "Unmanifested labels between {{date1}} --> {{date2}} {{timezone}}",
+    "titles": {
+      "section": "Available labels",
+      "service": "Shipping Service",
+      "label": "Label Count"
+    },
+    "countdown": {
+      "day": "day",
+      "day_plural": "days",
+      "hour": "hour",
+      "hour_plural": "hours",
+      "minute": "minute",
+      "minute_plural": "minutes",
+      "remaining": "remaining"
+    },
+    "label": "labels",
+    "daysDisplay": {
+      "Today": "Today",
+      "Tomorrow": "Tomorrow",
+      "Yesterday": "Yesterday"
+    },
+    "noLabelsAvailable": "No labels available for manifest.",
+    "totalLabelsReady": "{{count}} labels ready"
+  },
+  "createManifest": {
+    "title": "Create Manifest",
+    "generating": "Generating Manifests"
+  },
+  "showMore": "Show More",
+  "showLess": "Show Less",
+  "carrierAboutTitle": "About {{ name }} Manifests",
+  "carrierAboutCopy": {
+    "usps": "USPS manifests, or SCAN forms, can be created for labels generated today and up to 4 days in the future. To be included in today’s manifest, labels must be created before midnight CST.",
+    "australia_post": "All Australia Post customers are required to manifest their daily shipments, no matter how many, in order to avoid a fine. Labels must be manifested within 30 days of the label creation date.",
+    "canada_post": "Only contract customers can create manifests (if you do not have a contract ID that you can add to Shippo, you will get an error when trying to create a manifest). Contract customers that ship more than 50 shipments a day will need to create manifests to transmit the shipments for billing for a given day. Contract customers that ship less than 50 daily can usually skip the manifest requirement, but are encouraged to verify with Canada Post. If a contract customer doesn't close out a shipment day by creating a manifest, Canada Post may bill for & transmit the shipments on customer's behalf.",
+    "dhl_ecommerce": "End of day manifests are required by DHL eCommerce. The electronic data will be transmitted to DHL through Shippo, and you will need to print 2 copies of the Driver's Summary Manifest (DSM) that is created. The DSM is a printed document that summarizes all shipments being given to DHL eCommerce for that day, grouped by product. You will need to provide these copies to your DHL driver at pick-up/drop-off.",
+    "newgistics": "When a manifest request for Newgistics transactions is created, Shippo sends a \"Client Manifest Information\" (CMI) file to Newgistics. This is all done electronically - unlike other Manifest services (such as the USPS), Newgistics does not return a physical document for the labels to be scanned. Users who provide an ACCURATE manifest to Newgistics receive fewer package exceptions because the manifest provides a reference document for package level information. Manifests must be posted by 11 pm PST the day before a shipment is picked up for processing."
+  },
+  "carrierLabelCreationDateCopy": {
+    "default": "Select a date",
+    "usps": "For USPS, you must generate a manifest on the same calendar date that you create the labels.",
+    "australia_post": "For AustraliaPost, you may generate a manifest for labels created in the last 30 days.",
+    "canada_post": "For Canada Post, you must generate a manifest on the same calendar date that you create the labels.",
+    "dhl_ecommerce": "For DHL eCommerce, you must generate a manifest on the same calendar date that you create the labels.",
+    "newgistics": "Manifests must be posted by 11 pm PST the day before a shipment is picked up for processing."
+  },
+  "QUEUED": "Generating..."
+}
