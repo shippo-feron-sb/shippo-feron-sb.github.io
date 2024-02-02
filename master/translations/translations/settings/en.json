@@ -172,6 +172,11 @@
         "title": "Get Canada Post Rates",
         "description": "You're just one click away from saving on Canada Post shipping. Agree to Canada Post's terms below to access discounted rates in Shippo.",
         "primaryButton": "Continue"
+      },
+      "dhl_express": {
+        "title": "Save with DHL Express",
+        "description": "You're just one click away from saving on DHL Express shipping. Agree to DHL’s terms below to access discounted rates in Shippo.",
+        "primaryButton": "Continue"
       }
     },
     "canadaPostRedirectForm": {
