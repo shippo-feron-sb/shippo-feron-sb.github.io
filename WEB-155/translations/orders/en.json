@@ -658,7 +658,7 @@
     "buyLabel": {
       "title": "Order detail",
       "titleMultiple": "Order details",
-      "packageOptions": "Package options",
+      "packageOptions": "Options",
       "buyLabel": "Buy label",
       "buyLabelWithCount": "Buy {{count}} label",
       "buyLabelWithCount_plural": "Buy {{count}} labels",
