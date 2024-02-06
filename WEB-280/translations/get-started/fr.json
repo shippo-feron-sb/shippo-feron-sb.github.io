@@ -1,0 +1,11 @@
+{
+  "tableOverlay": {
+    "titleHeader": {
+      "orders": "Vous pouvez commencer à expédier, {{firstName}}",
+      "shipments": "C'est ici que vous pourrez suivre vos expéditions"
+    },
+    "connectStoreButton": "Connecter une boutique",
+    "createLabel": "Créer une étiquette manuellement",
+    "importCSV": "Importer un fichier CSV"
+  }
+}
