@@ -61,7 +61,7 @@
         },
         "export": {
           "cancel": "İptal et",
-          "error": "Hay aksi! Dışa aktarım işlemizle ilgili bir sorun oluştu. Lütfen tekrar deneyin. Sorun devam ederse <0>support@goshippo.com</0> adresinden bize ulaşın.",
+          "error": "Hay aksi! Dışa aktarım işlemizle ilgili bir sorun oluştu. Lütfen tekrar deneyin. Sorun devam ederse <0>support@shippo.com</0> adresinden bize ulaşın.",
           "export": "CSV olarak dışa aktar",
           "header": "İşlemleri Dışa Aktar",
           "notice": "Dosya indirme işlemi başlamazsa, tarayıcınızda açılır pencereleri etkinleştirip tekrar denemeniz gerekebilir.",
@@ -115,8 +115,8 @@
           "invoiceNumber": "Fatura No.: {{invoiceNumber}}",
           "vatDisclaimer": "KDV otomatik olarak sorumlu sıfatıyla alıcı tarafından ödenecektir",
           "errors": {
-            "retrieveInvoice": "Fatura alınırken hata oluştu. Lütfen tekrar deneyin veya support@goshippo.com adresinden bize ulaşın.",
-            "retrieveInvoiceItems": "Fatura kalemleri alınırken hata oluştu. Lütfen tekrar deneyin veya support@goshippo.com adresinden bize ulaşın."
+            "retrieveInvoice": "Fatura alınırken hata oluştu. Lütfen tekrar deneyin veya support@shippo.com adresinden bize ulaşın.",
+            "retrieveInvoiceItems": "Fatura kalemleri alınırken hata oluştu. Lütfen tekrar deneyin veya support@shippo.com adresinden bize ulaşın."
           },
           "invoiceItemsTable": {
             "gstIncluded": "GST dahil",

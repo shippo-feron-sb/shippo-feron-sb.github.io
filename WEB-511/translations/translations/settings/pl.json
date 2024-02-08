@@ -61,7 +61,7 @@
         },
         "export": {
           "cancel": "Anuluj",
-          "error": "Ups! Coś poszło nie tak z Twoim eksportem. Spróbuj ponownie lub skontaktuj się z <0>support@goshippo.com</0>, jeśli nadal masz problemy.",
+          "error": "Ups! Coś poszło nie tak z Twoim eksportem. Spróbuj ponownie lub skontaktuj się z <0>support@shippo.com</0>, jeśli nadal masz problemy.",
           "export": "Eksportuj do pliku CSV",
           "header": "Eksportuj transakcje",
           "notice": "Jeśli pobieranie pliku nie rozpocznie się, być może trzeba włączyć wyskakujące okienka w przeglądarce i spróbować ponownie.",
@@ -115,8 +115,8 @@
           "invoiceNumber": "Nr faktury: {{invoiceNumber}}",
           "vatDisclaimer": "VAT do automatycznego zwrotu przez kupującego",
           "errors": {
-            "retrieveInvoice": "Błąd pobierania faktury. Spróbuj ponownie lub skontaktuj się z support@goshippo.com.",
-            "retrieveInvoiceItems": "Błąd pobierania pozycji faktury. Proszę spróbować ponownie lub skontaktować się z support@goshippo.com."
+            "retrieveInvoice": "Błąd pobierania faktury. Spróbuj ponownie lub skontaktuj się z support@shippo.com.",
+            "retrieveInvoiceItems": "Błąd pobierania pozycji faktury. Proszę spróbować ponownie lub skontaktować się z support@shippo.com."
           },
           "invoiceItemsTable": {
             "gstIncluded": "Wliczono GST",

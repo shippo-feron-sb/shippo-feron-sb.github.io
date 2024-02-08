@@ -45,7 +45,7 @@
     "download": "Télécharger",
     "noNumber": "[pas de numéro]",
     "error": {
-      "fraud": "Votre compte a été suspendu, vos étiquettes ne seront pas disponibles au téléchargement tant que la suspension de votre compte ne sera pas résolue. Votre compte ne sera pas facturé pour les étiquettes non disponibles. Veuillez contacter support@goshippo.com pour réactiver votre compte."
+      "fraud": "Votre compte a été suspendu, vos étiquettes ne seront pas disponibles au téléchargement tant que la suspension de votre compte ne sera pas résolue. Votre compte ne sera pas facturé pour les étiquettes non disponibles. Veuillez contacter support@shippo.com pour réactiver votre compte."
     },
     "paperlessTrade": {
       "shipmentIneligible": "Non éligible pour le commerce sans papier.",
@@ -259,7 +259,7 @@
     "editSender": "Modifier l'expéditeur",
     "modals": {
       "fraud": {
-        "body": "Bonjour,<1 />Il semble qu'un problème puisse empêcher l'accès à votre compte pour le moment.<3 />Pour revenir à l'expédition le plus tôt possible, veuillez contacter support@goshippo.com pour obtenir de l'aide et inclure le texte suivant dans la ligne d'objet: «URGENT: Shippo Verification Needed».<5 />L'équipe Shippo",
+        "body": "Bonjour,<1 />Il semble qu'un problème puisse empêcher l'accès à votre compte pour le moment.<3 />Pour revenir à l'expédition le plus tôt possible, veuillez contacter support@shippo.com pour obtenir de l'aide et inclure le texte suivant dans la ligne d'objet: «URGENT: Shippo Verification Needed».<5 />L'équipe Shippo",
         "confirmButtonText": "Contactez le support"
       }
     },
@@ -707,7 +707,7 @@
   "shipmentExtras": {
     "returnLabelsNotInsuredWarning": "Les étiquettes de retour ne peuvent pas être assurées lorsqu'une signature est requise. Créez une étiquette distincte s'il faut une assurance pour le retour.",
     "shipmentInsuredVariant": "Votre envoi est protégé",
-    "shipmentNotInsuredVariant": "Votre envoi n'est pas protégé", 
+    "shipmentNotInsuredVariant": "Votre envoi n'est pas protégé",
     "xcoverRecommend": "Protégez vos envois jusqu’à la valeur totale de la commande des envois perdus, volés ou endommagés",
     "xcoverRecommendItems": "Protégez vos envois à hauteur de la valeur totale de la commande en cas de perte, de vol ou d'endommagement moyennant {{value}}.",
     "noCoverage": "Aucune couverture",
@@ -778,7 +778,7 @@
   },
   "blackbeard": {
     "shipmentInsuredVariant": "Votre envoi est protégé",
-    "shipmentNotInsuredVariant": "Votre envoi n'est pas protégé", 
+    "shipmentNotInsuredVariant": "Votre envoi n'est pas protégé",
     "shipmentMixedInsured": "Tous les envois ne sont pas protégés",
     "shipmentNotInsured": "Votre envoi n'est pas protégé",
     "shipmentNotInsuredVariant_plural": "Vos envois ne sont pas protégés",

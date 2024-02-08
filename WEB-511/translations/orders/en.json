@@ -51,7 +51,7 @@
     "download": "Download",
     "noNumber": "[no number]",
     "error": {
-      "fraud": "Your account has been suspended, your labels will not be available for download until your account suspension is resolved. Your account will not be charged for any labels that are not available. Please reach out to support@goshippo.com to re-activate your account."
+      "fraud": "Your account has been suspended, your labels will not be available for download until your account suspension is resolved. Your account will not be charged for any labels that are not available. Please reach out to support@shippo.com to re-activate your account."
     },
     "paperlessTrade": {
       "shipmentIneligible": "Not eligible for paperless trade.",
@@ -383,7 +383,7 @@
       "missingCustomsItems": "Customs items required",
       "setSenderAddress": "Set Sender Address",
       "transactionFailedTitle": "Couldn't buy label",
-      "transactionFailedMessage": "Please try again. If you continue to see this message, contact support@goshippo.com",
+      "transactionFailedMessage": "Please try again. If you continue to see this message, contact support@shippo.com",
       "retryShipment": "Retry",
       "plusMore": "+ {{count}} more",
       "packageWeight": "Package weight is less than the weight of items in the order.",
@@ -404,7 +404,7 @@
     "editSender": "Edit Sender",
     "modals": {
       "fraud": {
-        "body": "Hello, <1 />It looks like there may be an issue that is preventing access to your account at this time.<3 />To get you back to shipping ASAP, please contact support@goshippo.com for assistance, and include the following text in the subject line: “URGENT: Shippo Verification Needed.”<5 />The Shippo Team",
+        "body": "Hello, <1 />It looks like there may be an issue that is preventing access to your account at this time.<3 />To get you back to shipping ASAP, please contact support@shippo.com for assistance, and include the following text in the subject line: “URGENT: Shippo Verification Needed.”<5 />The Shippo Team",
         "confirmButtonText": "Contact Support"
       }
     },
