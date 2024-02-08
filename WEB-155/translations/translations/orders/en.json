@@ -685,7 +685,8 @@
         "error": "Note could not be added. Please try again"
       },
       "download": {
-        "success": "Successfully downloaded packing slip"
+        "success": "Successfully downloaded packing slip",
+        "error": "Packing slip could not be downloaded. Please try again"
       }
     }
   },
