@@ -61,7 +61,7 @@
         },
         "export": {
           "cancel": "Annuleren",
-          "error": "Oeps! Er is iets fout gegaan met je export. Probeer het opnieuw, of neem contact op met <0>support@goshippo.com</0> als je problemen blijft houden.",
+          "error": "Oeps! Er is iets fout gegaan met je export. Probeer het opnieuw, of neem contact op met <0>support@shippo.com</0> als je problemen blijft houden.",
           "export": "Exporteren naar CSV",
           "header": "Transacties exporteren",
           "notice": "Als je bestand niet begint met downloaden, moet je misschien pop-ups inschakelen in je browser en het opnieuw proberen.",
@@ -115,8 +115,8 @@
           "invoiceNumber": "Factuurnr.: {{invoiceNumber}}",
           "vatDisclaimer": "Btw wordt automatisch afgedragen door de koper",
           "errors": {
-            "retrieveInvoice": "Fout bij het ophalen van de factuur. Probeer het opnieuw of neem contact op met support@goshippo.com",
-            "retrieveInvoiceItems": "Fout bij het ophalen van de factuuritems. Probeer het opnieuw of neem contact op met support@goshippo.com"
+            "retrieveInvoice": "Fout bij het ophalen van de factuur. Probeer het opnieuw of neem contact op met support@shippo.com",
+            "retrieveInvoiceItems": "Fout bij het ophalen van de factuuritems. Probeer het opnieuw of neem contact op met support@shippo.com"
           },
           "invoiceItemsTable": {
             "gstIncluded": "incl. btw",
