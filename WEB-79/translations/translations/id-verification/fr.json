@@ -16,7 +16,7 @@
   "failed": {
     "title": "Nous n'avons pas pu terminer votre vérification",
     "message_start": "Nous n'avons pas pu terminer votre vérification pour les raisons suivantes:",
-    "message_end": "Veuillez réessayer ou contacter le support à support@goshippo.com.",
+    "message_end": "Veuillez réessayer ou contacter le support à support@shippo.com.",
     "no-retry": "Veuillez contacter notre service client pour terminer votre vérification."
   },
   "errors": {
