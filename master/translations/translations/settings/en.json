@@ -107,7 +107,7 @@
       "enableActualTestAccount": "This is a test account",
       "actualTestAccount": "Only check this box if this is a {{carrierName}} test account",
       "testAccountInfo": "Test mode lets you create sample labels to familiarize yourself with the process without spending money.",
-      "retailRatesDisclaimer": "Shippo will display default retail rates for this carrier. However if you want to input your custom rates, please contact <0>support@goshippo.com</0>.",
+      "retailRatesDisclaimer": "Shippo will display default retail rates for this carrier. However if you want to input your custom rates, please contact <0>support@shippo.com</0>.",
       "testLearnMore": "Learn more",
       "updateAccount": "Save",
       "connectAccount": "Connect Account",
@@ -119,7 +119,7 @@
         "subtitle": "Hiding a service level will <0>hide it everywhere</0> in Shippo's web app. Service levels used elsewhere (as a default, automation rule, or rate at checkout) cannot be hidden.",
         "showHideAll": "Show/Hide All",
         "disabledTooltipMsg": "This service level is used elsewhere (as a default, automation rule, or rate at checkout) and can’t be hidden. You must disable other settings before you can hide it.",
-        "apiOnlyMsg": "Please use our <0>API</0> to add/modify your account or contact <1>support@goshippo.com</1>"
+        "apiOnlyMsg": "Please use our <0>API</0> to add/modify your account or contact <1>support@shippo.com</1>"
       }
     },
     "planInfo": {
@@ -420,7 +420,7 @@
     "reorderRulesInstructions": "Drag rules with <1/> to rearrange the automation sequence",
     "contactUs": "Contact us",
     "runAutomationBtnTooltip": "Heads up, automations will only run on orders imported from a store or CSV.",
-    "serviceLevelRetrievalError": "Please try again or contact support at support@goshippo.com.",
+    "serviceLevelRetrievalError": "Please try again or contact support at support@shippo.com.",
     "notification": {
       "inProcess": "Automations are processing",
       "complete": "Automations are completed"
@@ -549,8 +549,8 @@
       "thirtyDays": "for 30 days to unlock unlimited labels per month and access all of Shippo’s features."
     },
     "adjust": {
-      "planNotFound": "Couldn't find your current plan. Please try again or contact support@goshippo.com",
-      "fetchPricingPlansError": "Couldn't fetch pricing plans. Please try again or contact support@goshippo.com",
+      "planNotFound": "Couldn't find your current plan. Please try again or contact support@shippo.com",
+      "fetchPricingPlansError": "Couldn't fetch pricing plans. Please try again or contact support@shippo.com",
       "title": {
         "adjust": "Adjust Your Plan",
         "upgrade": "Upgrade Your Plan"
@@ -833,7 +833,7 @@
       "billedYearly": "billed yearly",
       "perMonth": "per month",
       "perYear": "per year",
-      "forQuestions": "For questions about your plan, please contact your account manager or support@goshippo.com.",
+      "forQuestions": "For questions about your plan, please contact your account manager or support@shippo.com.",
       "contactUs": "Contact Us",
       "professionalPlan": "Professional Plan",
       "professionalPlanTrial": "Professional Plan Trial",
@@ -1048,7 +1048,7 @@
         },
         "export": {
           "cancel": "Cancel",
-          "error": "Oops! Something went wrong with your export. Please try again, or contact <0>support@goshippo.com</0> if you continue to have issues.",
+          "error": "Oops! Something went wrong with your export. Please try again, or contact <0>support@shippo.com</0> if you continue to have issues.",
           "export": "Export to CSV",
           "header": "Export Transactions",
           "notice": "If your file does not start downloading, you may need to enable popups in your browser and try again.",
@@ -1102,8 +1102,8 @@
           "invoiceNumber": "Invoice No.: {{invoiceNumber}}",
           "vatDisclaimer": "VAT to be autoreversed by the buyer",
           "errors": {
-            "retrieveInvoice": "Error retrieving invoice. Please try again or contact support@goshippo.com",
-            "retrieveInvoiceItems": "Error retrieving invoice items. Please try again or contact support@goshippo.com"
+            "retrieveInvoice": "Error retrieving invoice. Please try again or contact support@shippo.com",
+            "retrieveInvoiceItems": "Error retrieving invoice items. Please try again or contact support@shippo.com"
           },
           "invoiceItemsTable": {
             "gstIncluded": "GST incl.",

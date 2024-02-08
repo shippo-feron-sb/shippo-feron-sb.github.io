@@ -103,7 +103,7 @@
       "enableActualTestAccount": "C'est un compte test",
       "actualTestAccount": "Cochez cette case uniquement s'il s'agit d'un compte de test {{carrierName}}",
       "testAccountInfo": "Le mode test vous permet de créer des exemples d'étiquettes pour vous familiariser avec le processus sans dépenser d'argent.",
-      "retailRatesDisclaimer": "Shippo affichera les tarifs de détail par défaut pour ce transporteur. Toutefois, si vous souhaitez saisir vos tarifs personnalisés, veuillez contacter <0>support@goshippo.com</0>.",
+      "retailRatesDisclaimer": "Shippo affichera les tarifs de détail par défaut pour ce transporteur. Toutefois, si vous souhaitez saisir vos tarifs personnalisés, veuillez contacter <0>support@shippo.com</0>.",
       "testLearnMore": "Apprendre encore plus",
       "updateAccount": "Sauver",
       "connectAccount": "Connecter un compte",
@@ -303,7 +303,7 @@
     "reorderRulesInstructions": "Faites glisser les règles avec <1/> pour réorganiser la séquence d'automatisation",
     "contactUs": "Contactez-nous",
     "runAutomationBtnTooltip": "Attention, les automatisations ne fonctionneront que sur les commandes importées d'un magasin ou d'un fichier CSV.",
-    "serviceLevelRetrievalError": "Veuillez réessayer ou contacter le support à support@goshippo.com.",
+    "serviceLevelRetrievalError": "Veuillez réessayer ou contacter le support à support@shippo.com.",
     "notification": {
       "inProcess": "Les automatisations sont en cours de traitement",
       "complete": "les automatisations sont terminées"
@@ -393,8 +393,8 @@
       "thirtyDays": "pendant 30 jours pour débloquer des étiquettes illimitées par mois et accéder à toutes les fonctionnalités de Shippo."
     },
     "adjust": {
-      "planNotFound": "Impossible de trouver votre plan actuel. Veuillez réessayer ou contacter support@goshippo.com",
-      "fetchPricingPlansError": "Impossible de récupérer les plans tarifaires. Veuillez réessayer ou contacter support@goshippo.com",
+      "planNotFound": "Impossible de trouver votre plan actuel. Veuillez réessayer ou contacter support@shippo.com",
+      "fetchPricingPlansError": "Impossible de récupérer les plans tarifaires. Veuillez réessayer ou contacter support@shippo.com",
       "title": {
         "adjust": "Ajustez votre plan",
         "upgrade": "Mettre votre plan à niveau"
@@ -482,7 +482,7 @@
       "billedYearly": "facturé annuellement",
       "perMonth": "par mois",
       "perYear": "par année",
-      "forQuestions": "Pour toute question concernant votre plan, veuillez contacter votre gestionnaire de compte ou support@goshippo.com.",
+      "forQuestions": "Pour toute question concernant votre plan, veuillez contacter votre gestionnaire de compte ou support@shippo.com.",
       "contactUs": "Contactez-nous",
       "professionalPlan": "Plan professionnel",
       "professionalPlanTrial": "Version d'essai du plan professionnel",
@@ -644,7 +644,7 @@
         },
         "export": {
           "cancel": "Annuler",
-          "error": "Oups ! Quelque chose s'est mal passé avec votre exportation. Veuillez réessayer, ou contactez <0>support@goshippo.com</0> si vous continuez à avoir des problèmes.",
+          "error": "Oups ! Quelque chose s'est mal passé avec votre exportation. Veuillez réessayer, ou contactez <0>support@shippo.com</0> si vous continuez à avoir des problèmes.",
           "export": "Exporter en CSV",
           "header": "Exporter les transactions",
           "notice": "Si le téléchargement de votre fichier ne démarre pas, vous devrez peut-être activer les fenêtres contextuelles dans votre navigateur et réessayer.",
@@ -698,8 +698,8 @@
           "invoiceNumber": "N ° facture: {{invoiceNumber}}",
           "vatDisclaimer": "TVA à inverser automatiquement par l'acheteur",
           "errors": {
-            "retrieveInvoice": "Erreur lors de la récupération de la facture. Veuillez réessayer ou contacter support@goshippo.com",
-            "retrieveInvoiceItems": "Erreur lors de la récupération des éléments de facture. Veuillez réessayer ou contacter support@goshippo.com"
+            "retrieveInvoice": "Erreur lors de la récupération de la facture. Veuillez réessayer ou contacter support@shippo.com",
+            "retrieveInvoiceItems": "Erreur lors de la récupération des éléments de facture. Veuillez réessayer ou contacter support@shippo.com"
           },
           "invoiceItemsTable": {
             "gstIncluded": "GST incl.",
