@@ -666,6 +666,28 @@
       "alreadyFulfilled": "already fulfilled. Deselect to continue purchases for other",
       "loading": "Loading",
       "purchasing": "Purchasing Labels"
+    },
+    "packingSlip": {
+      "title": "Add note to packing slip",
+      "enterNote": "Enter note",
+      "cancelButton": "Cancel",
+      "submitButton": {
+        "idle": "Submit",
+        "loading": "Saving"
+      },
+      "downloadButton": {
+        "idle": "Download",
+        "loading": "Downloading"
+      },
+      "packingSlip": "Packing Slip",
+      "update": {
+        "success": "Note added to packing slip",
+        "error": "Note could not be added. Please try again"
+      },
+      "download": {
+        "success": "Successfully downloaded packing slip",
+        "error": "Packing slip could not be downloaded. Please try again"
+      }
     }
   },
   "calculateRates": {
