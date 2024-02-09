@@ -8,7 +8,7 @@
     "resendEmail": "Resend Email",
     "cancel": "Cancel",
     "refresh": "Refresh",
-    "verifyYourEmail": "<0>Before adding your credit card and making a purchase, please verify your email using the link we sent.</0><1>If you did not receive the verification email, contact <2>support@goshippo.com</2>.</1>",
+    "verifyYourEmail": "<0>Before adding your credit card and making a purchase, please verify your email using the link we sent.</0><1>If you did not receive the verification email, contact <2>support@shippo.com</2>.</1>",
     "emailResent": "<0>New verification email sent!</0>"
   }
 }
