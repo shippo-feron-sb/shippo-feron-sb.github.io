@@ -16,7 +16,7 @@
   "failed": {
     "title": "We couldn't complete your verification",
     "message_start": "We weren't able to complete your verification because of the following:",
-    "message_end": "Please try again or contact support at support@goshippo.com.",
+    "message_end": "Please try again or contact support at support@shippo.com.",
     "no-retry": "Please contact our customer support team to complete your verification."
   },
   "errors": {
@@ -26,7 +26,7 @@
     "selfie_document_missing_photo": "We had a hard time finding your picture on your ID.",
     "selfie_face_mismatch": "The selfie provided did not match with the document photo.",
     "selfie_unverified_other": "We couldn't match your images.",
-    "selfie_manipulated": "We couldn't match your images.", 
+    "selfie_manipulated": "We couldn't match your images.",
     "id_number_unverified_other": "We could not verify your ID number.",
     "id_number_insufficient_document_data": "We need more information in your provided document to match with the ID number.",
     "id_number_mismatch": "We could not verify your ID number.",
