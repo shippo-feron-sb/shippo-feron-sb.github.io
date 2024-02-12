@@ -77,7 +77,7 @@
         },
         "export": {
           "cancel": "Cancel",
-          "error": "Oops! Something went wrong with your export. Please try again, or contact <0>support@goshippo.com</0> if you continue to have issues.",
+          "error": "Oops! Something went wrong with your export. Please try again, or contact <0>support@shippo.com</0> if you continue to have issues.",
           "export": "Export to CSV",
           "header": "Export Transactions",
           "notice": "If your file does not start downloading, you may need to enable popups in your browser and try again.",
@@ -131,8 +131,8 @@
           "invoiceNumber": "Invoice No.: {{invoiceNumber}}",
           "vatDisclaimer": "VAT to be auto-reversed by the buyer",
           "errors": {
-            "retrieveInvoice": "Error retrieving invoice. Please try again or contact support@goshippo.com",
-            "retrieveInvoiceItems": "Error retrieving invoice items. Please try again or contact support@goshippo.com"
+            "retrieveInvoice": "Error retrieving invoice. Please try again or contact support@shippo.com",
+            "retrieveInvoiceItems": "Error retrieving invoice items. Please try again or contact support@shippo.com"
           },
           "invoiceItemsTable": {
             "gstIncluded": "VAT incl.",
