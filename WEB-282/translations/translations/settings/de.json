@@ -78,7 +78,7 @@
         },
         "export": {
           "cancel": "Abbrechen",
-          "error": "Ups! Beim Export ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter <0>support@goshippo.com</0>, sollten die Probleme weiterhin bestehen.",
+          "error": "Ups! Beim Export ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter <0>support@shippo.com</0>, sollten die Probleme weiterhin bestehen.",
           "export": "In CSV-Datei exportieren",
           "header": "Transaktionen exportieren",
           "notice": "Wenn die Datei nicht heruntergeladen werden kann, müssen Sie möglicherweise Pop-ups in Ihrem Browser aktivieren und es erneut versuchen.",
@@ -132,8 +132,8 @@
           "invoiceNumber": "Rechnungs-Nr.: {{invoiceNumber}}",
           "vatDisclaimer": "Mehrwertsteuer, die vom Käufer automatisch zurückerstattet wird",
           "errors": {
-            "retrieveInvoice": "Fehler beim Abrufen der Rechnung. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter support@goshippo.com",
-            "retrieveInvoiceItems": "Fehler beim Abrufen von Rechnungselementen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter support@goshippo.com"
+            "retrieveInvoice": "Fehler beim Abrufen der Rechnung. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter support@shippo.com",
+            "retrieveInvoiceItems": "Fehler beim Abrufen von Rechnungselementen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter support@shippo.com"
           },
           "invoiceItemsTable": {
             "gstIncluded": "Inklusive MwSt.",

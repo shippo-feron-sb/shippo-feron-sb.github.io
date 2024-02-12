@@ -61,7 +61,7 @@
         },
         "export": {
           "cancel": "Cancelar",
-          "error": "¡Vaya! Algo salió mal con la exportación. Inténtalo de nuevo o ponte en contacto con <0>support@goshippo.com</0> si sigues teniendo problemas.",
+          "error": "¡Vaya! Algo salió mal con la exportación. Inténtalo de nuevo o ponte en contacto con <0>support@shippo.com</0> si sigues teniendo problemas.",
           "export": "Exportar a CSV",
           "header": "Exportar transacciones",
           "notice": "Si el archivo no empieza a descargarse, puede que tengas que activar las ventanas emergentes en tu navegador e intentarlo de nuevo.",
@@ -115,8 +115,8 @@
           "invoiceNumber": "N.º de factura: {{invoiceNumber}}",
           "vatDisclaimer": "El comprador debe revertir el IVA automáticamente",
           "errors": {
-            "retrieveInvoice": "Error al recuperar la factura. Inténtalo de nuevo o ponte en contacto con support@goshippo.com",
-            "retrieveInvoiceItems": "Error al recuperar los elementos de la factura. Inténtalo de nuevo o ponte en contacto con support@goshippo.com"
+            "retrieveInvoice": "Error al recuperar la factura. Inténtalo de nuevo o ponte en contacto con support@shippo.com",
+            "retrieveInvoiceItems": "Error al recuperar los elementos de la factura. Inténtalo de nuevo o ponte en contacto con support@shippo.com"
           },
           "invoiceItemsTable": {
             "gstIncluded": "GST incluido",
