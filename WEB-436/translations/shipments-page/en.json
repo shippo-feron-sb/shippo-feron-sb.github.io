@@ -180,7 +180,7 @@
   },
   "dialog": {
     "close": "Close",
-    "fraud": "Your account has been suspended, your labels will not be available for download until your account suspension is resolved. Your account will not be charged for any labels that are not available. Please reach out to support@goshippo.com to re-activate your account."
+    "fraud": "Your account has been suspended, your labels will not be available for download until your account suspension is resolved. Your account will not be charged for any labels that are not available. Please reach out to support@shippo.com to re-activate your account."
   },
   "table": {
     "noRows": "0 search results",
