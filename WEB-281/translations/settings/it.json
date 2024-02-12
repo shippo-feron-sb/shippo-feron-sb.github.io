@@ -61,7 +61,7 @@
         },
         "export": {
           "cancel": "Annulla",
-          "error": "Ops! Si è verificato un errore durante l'esportazione. Se il problema persiste, riprova o contatta <0>support@goshippo.com</0>.",
+          "error": "Ops! Si è verificato un errore durante l'esportazione. Se il problema persiste, riprova o contatta <0>support@shippo.com</0>.",
           "export": "Esporta in CSV",
           "header": "Esporta transazioni",
           "notice": "Se il download del file non inizia, potrebbe essere necessario abilitare le finestre a comparsa nel browser e riprovare.",
@@ -115,8 +115,8 @@
           "invoiceNumber": "Fattura n.: {{invoiceNumber}}",
           "vatDisclaimer": "IVA con inversione contabile da parte dell'acquirente",
           "errors": {
-            "retrieveInvoice": "Errore durante il recupero della fattura. Riprova o contatta support@goshippo.com",
-            "retrieveInvoiceItems": "Errore durante il recupero delle voci di fatturazione. Riprova o contatta support@goshippo.com"
+            "retrieveInvoice": "Errore durante il recupero della fattura. Riprova o contatta support@shippo.com",
+            "retrieveInvoiceItems": "Errore durante il recupero delle voci di fatturazione. Riprova o contatta support@shippo.com"
           },
           "invoiceItemsTable": {
             "gstIncluded": "GST incl.",
