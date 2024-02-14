@@ -1,9 +1,0 @@
-{
-  "cells": {
-    "insurance": {
-      "coverageIncluded": "Valeur de la couverture",
-      "coverage": "couverture",
-      "fileClaim": "Déposer une plainte"
-    }
-  }
-}
