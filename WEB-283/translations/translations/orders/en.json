@@ -1142,6 +1142,7 @@
     "createNewLabel": "Create New Label",
     "addresses": "Addresses...",
     "saveAsDefaultSender": "Save as default sender address",
+    "senderAndReturnAreTheSame": "Sender and return addresses are the same",
     "useAsReturnAddress": "Use as return address",
     "senderAddress": "Sender address",
     "editAddress": "Edit address",
