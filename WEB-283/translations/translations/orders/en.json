@@ -1198,7 +1198,6 @@
     "addressNames": {
       "returnTo": "Return",
       "sender": "Sender",
-      "senderReturn": "Sender & return",
       "recipient": "Recipient",
       "return": "Return",
       "to": "Recipient"
