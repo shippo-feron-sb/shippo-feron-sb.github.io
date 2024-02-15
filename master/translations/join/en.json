@@ -87,5 +87,10 @@
   "embeddable": {
     "title": "Wix uses Shippo to offer discounted shipping rates",
     "messaging": "Create an account to buy labels directly in Wix"
+  },
+  "onboarding2024": {
+    "learnMore": "Learn more",
+    "back": "Back",
+    "next": "Next"
   }
 }
