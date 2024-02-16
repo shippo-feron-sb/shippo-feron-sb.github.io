@@ -554,7 +554,7 @@
         "actionButton": "Downgrade",
         "cancel": "Cancel",
         "modalTitle": "Downgrade to Starter Plan",
-        "confirmation": "I understand that by downgrading I will lose access to custom branding and multiple user access for my account. Any previously configured automation rules and branded experiences will not be able to be recovered in the future.",
+        "confirmation": "I understand that by downgrading I will lose access to custom branding and multiple user access for my account. Any previously configured branded experiences will not be able to be recovered in the future.",
         "disclaimer": "Downgrading means losing access to Pro features."
       },
       "starter": {
