@@ -1,0 +1,22 @@
+{
+  "manualLabel": {
+    "name": "Naam",
+    "phone": "Telefoonnummer",
+    "street": "Straat",
+    "streetNumber": "Huisnummer",
+    "streetLine2": "Straat (regel 2)",
+    "city": "Stad",
+    "state": "Provincie",
+    "postalCode": "Postcode",
+    "country": "Land",
+    "select": "Selecteren",
+    "error": {
+      "nameRequired": "Naam mag niet leeg zijn",
+      "streetNumberRequired": "Huisnummer mag niet leeg zijn",
+      "cityRequired": "Stad mag niet leeg zijn",
+      "stateRequired": "Staat nodig voor dit land",
+      "zipcodeInvalid": "Ongeldige postcode voor geselecteerd land",
+      "countryInvalid": "Land mag niet leeg zijn"
+    }
+  }
+}
