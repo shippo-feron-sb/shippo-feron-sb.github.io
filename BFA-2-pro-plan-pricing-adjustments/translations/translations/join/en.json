@@ -1,0 +1,133 @@
+{
+  "messaging": "Up to 90% off USPS rates",
+  "partnerMessaging": {
+    "ebay": "Everything you need to manage your eBay shipping",
+    "shopify": "Integrate your Shopify account with Shippo to access discounted rates and streamline your shipping.",
+    "wix": "Register with Shippo to claim your discount on shipping labels with leading shipping carriers"
+  },
+  "title": "Shipping Simplified",
+  "seoTitle": "Sign-Up To Shippo For Free",
+  "seoDescription": "Click here to sign up for a free Shippo account to start saving up to 90% on your e-commerce shipments today. Compare shipping rates and services all in one place",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "companyName": "Company Name",
+  "email": "Email",
+  "workEmail": "Work email",
+  "password": "Password",
+  "passwordMessage": "Must be 8+ characters and cannot be a commonly used password",
+  "phone": "Phone",
+  "emailNotif": "Yes, I'd like to receive email tips and news from Shippo",
+  "signUp": "Get Started",
+  "loading": "Working...",
+  "termsAndPolicy": "By clicking on {{start}} below, you agree to the Shippo {{terms}} and {{privacy}}.",
+  "shippoTermsAndPolicy": "I agree to the Shippo {{terms}} and {{privacy}}",
+  "terms": "terms",
+  "privacy": "privacy policy",
+  "upsTerms": "I agree to the UPS {{upsTechnologyAgreement}}",
+  "upsTechnologyAgreement": "technology agreement",
+  "accountExists": "Already have a Shippo account?",
+  "login": "Log in",
+  "customerQuote": "Shippo helps us create, download, and print labels quicker than ever. Now we don’t have to sit for long periods entering shipment information to get labels—which frees up our time to do other things, like sourcing the finest goods made in Portland!",
+  "companyURL": "Company URL",
+  "phoneNumber": "Phone Number",
+  "rightContent": {
+    "title": "Over 100 Million Packages Shipped a Year on Shippo",
+    "create": "Create Shipping <1 /> Labels & Docs",
+    "connect": "Connect Your <1 /> Favorite Tools",
+    "customer": "Manage Your <1 /> Customer Experiences",
+    "grow": "Grow Your <1 /> Business"
+  },
+  "carrierBrandedMessaging": {
+    "ups": {
+      "line1": "Shipping made easy with UPS",
+      "line2": "",
+      "line3": "Sign up for free!"
+    },
+    "fedex": {
+      "line1": "Shippo + FedEx makes\n shipping easy",
+      "line2": "",
+      "line3": "Sign up for free!"
+    }
+  },
+  "searchTermMessaging": {
+    "usps": {
+      "line1": "Shipping made easy with USPS",
+      "line2": "Automatically get up to 90% off USPS rates.",
+      "line3": "Sign up for free!"
+    },
+    "ups": {
+      "line1": "Shipping made easy with UPS",
+      "line2": "Save up to 76% on UPS rates",
+      "line3": "Sign up for free!"
+    },
+    "fedex": {
+      "line1": "Shipping made easy with FedEx",
+      "line2": "Get up to 50% off FedEx rates",
+      "line3": "Sign up for free!"
+    },
+    "dhl_express": {
+      "line1": "Shipping made easy with DHL",
+      "line2": "Save up to 63% on DHL rates",
+      "line3": "Sign up for free!"
+    }
+  },
+  "personalizedStore": {
+    "signUp": "Get Discounted Shipping",
+    "wix": "Wix Shipping Simplified",
+    "shopify": "Shopify Shipping Simplified",
+    "godaddy": "GoDaddy Shipping Simplified",
+    "square": "Square Shipping Simplified",
+    "weebly": "Square Shipping Simplified",
+    "import": "Automatically import your orders to get instant access to the best rates across carriers",
+    "tracking": "Buy discounted labels, manage tracking, returns, and so much more all in a few easy steps",
+    "savings": "Free to use and has helped thousands of businesses like you save big on shipping",
+    "importEmbeddable": "Easily fulfill your orders, directly within your ecommerce dashboard",
+    "trackingEmbeddable": "With Shippo powered fulfillment, you’ll get instant access to the best rates across carriers and so much more in a few easy steps"
+  },
+  "embeddable": {
+    "title": "Wix uses Shippo to offer discounted shipping rates",
+    "messaging": "Create an account to buy labels directly in Wix"
+  },
+  "onboarding2024": {
+    "learnMore": "Learn more",
+    "back": "Back",
+    "next": "Next",
+    "plans": {
+      "starter": {
+        "title": "Starter",
+        "pricing": "Free",
+        "description": "Up to 30 labels/month",
+        "features": {
+          "line1": "Best rates with top carriers",
+          "line2": "Unlimited store connections",
+          "line3": "Time-saving automations",
+          "line4": "Email support",
+          "line5": "1 user login"
+        }
+      },
+      "pro": {
+        "title": "Pro",
+        "pricing": "Free 30-day trial",
+        "description": "Then starts at $19/month",
+        "features": {
+          "line1": "Up to 10,000 labels/month",
+          "line2": "Your own carrier accounts",
+          "line3": "Branded shipping",
+          "line4": "Email, chat & phone support",
+          "line5": "5 user logins"
+        }
+      },
+      "developer":{
+        "title": "Developer",
+        "pricing": "Free",
+        "description": "Up to 30 labels/month",
+        "features": {
+          "line1": "1 integration, 40 carriers",
+          "line2": "Best rates with top carriers",
+          "line3": "Your own carrier accounts",
+          "line4": "Enterprise-ready security"
+        }
+      }
+    }
+  }
+}
