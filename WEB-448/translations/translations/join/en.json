@@ -128,6 +128,16 @@
           "line4": "Enterprise-ready security"
         }
       }
+    },
+    "join": {
+      "line1": "Join 100k savvy",
+      "line2": "shippers and power up",
+      "line3": "your business today",
+      "termsLine1": "By signing up, you agree to Shippo's",
+      "termsAnd": " and ",
+      "terms": "Terms",
+      "privacy": "Privacy Policy",
+      "createAccount": "Create account"
     }
   }
 }
