@@ -322,6 +322,7 @@
       "number": "Order #",
       "order": "Order",
       "date": "Date",
+      "tag": "Tag",
       "customer": "Customer",
       "items": "Items",
       "shipping": "Shipping",
@@ -464,7 +465,6 @@
     "link": "Read more about refunds",
     "bullet2": "You will immediately be unable to use this shipping label for postage",
     "bullet3": "This action cannot be undone, but you can create a new label",
-    "finalNote": "Note also that USPS labels that have not been used for 30 days since creation are automatically refunded.",
     "bulletInsurance": "Any insurance purchased with a carrier or through Shippo Total Protection will be voided and refunded to you",
     "confirm": "Yes, request refund",
     "errorTitle": "Label Refund Currently Unavailable",
@@ -1429,6 +1429,7 @@
     "useAddress": "Use Address",
     "saveToAddressBook": "Save to address book",
     "useAsReturnAddress": "Use as return address",
+    "applyToSavedAddress": "Apply changes to the saved address",
     "apply": "Apply"
   },
   "addressBook": {
