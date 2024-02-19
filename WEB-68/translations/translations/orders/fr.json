@@ -305,7 +305,6 @@
     "bulletInsurance": "Toute assurance souscrite auprès d'un transporteur ou par le biais de Shippo Total Protection sera annulée et vous sera remboursée",
     "bullet2": "You will immediately be unable to use this shipping label for postage",
     "bullet3": "This action cannot be undone, but you can create a new label",
-    "finalNote": "Note also that USPS labels that have not been used for 30 days since creation are automatically refunded.",
     "confirm": "Yes, request refund",
     "errorTitle": "Remboursement d'étiquettes momentanément indisponible",
     "errorText": "Postes Canada est en train de traiter votre requête initiale d'achat d'étiquettes. Pour rembourser votre achat, veuillez réessayer votre remboursement d'étiquette au moins 60 minutes après l'heure de l'achat de l'étiquette."
