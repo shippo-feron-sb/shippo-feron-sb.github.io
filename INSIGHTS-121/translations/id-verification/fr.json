@@ -1,0 +1,41 @@
+{
+  "buttons": {
+    "dismiss": "Rejeter",
+    "support": "Contactez le support",
+    "verify": "Vérifier l'ID",
+    "retry": "Réessayer"
+  },
+  "inProgress": {
+    "title": "Nous vérifions votre ID ...",
+    "message": "Le processus de vérification prend généralement environ 5 minutes. Veuillez vérifier vos e-mails pour connaître les résultats de votre demande de vérification, puis réessayer votre achat."
+  },
+  "pending": {
+    "title": "Vérifiez votre compte",
+    "message": "Pour garantir la sécurité de votre compte, il nous suffit de vérifier votre identité.<1><0>Les informations fournies seront utilisées à des fins de vérification uniquement</0><0>Shippo ne partagera jamais vos informations de vérification</0><0>Le processus ne prend que quelques minutes</0></1>"
+  },
+  "failed": {
+    "title": "Nous n'avons pas pu terminer votre vérification",
+    "message_start": "Nous n'avons pas pu terminer votre vérification pour les raisons suivantes:",
+    "message_end": "Veuillez réessayer ou contacter le support à support@shippo.com.",
+    "no-retry": "Veuillez contacter notre service client pour terminer votre vérification."
+  },
+  "errors": {
+    "document_expired": "Le document que vous avez choisi a expiré.",
+    "document_invalid": "Nous n'avons pas pu reconnaître votre forme de documentation.",
+    "unexpected_document_country": "Quelque chose d'inattendu s'est produit de notre côté.",
+    "unexpected_document_type": "Nous n'avons pas pu reconnaître votre forme de documentation.",
+    "scan_not_readable": "Nous avons eu du mal à lire l'image.",
+    "scan_missing_back": "Nous avons eu un problème avec le dos de votre pièce d'identité.",
+    "scan_id_type_not_supported": "Nous ne prenons pas en charge cette forme d'identification.",
+    "scan_corrupt": "Nous avons rencontré un problème avec l'un des fichiers que vous avez fournis.",
+    "scan_failed_grayscale": "Quelque chose d'inattendu s'est produit de notre côté.",
+    "scan_error": "Quelque chose d'inattendu s'est produit de notre côté.",
+    "no_document_face": "Nous avons eu du mal à trouver votre photo sur votre carte d'identité.",
+    "no_face_match": "Nous avons rencontré un problème de correspondance avec votre ID.",
+    "no_selfie_face": "Nous avons eu du mal à vous repérer.",
+    "several_selfie_faces": "Il semble qu'il puisse y avoir plusieurs personnes dans votre selfie.",
+    "no_match_found": "Nous n'avons pas pu faire correspondre vos images.",
+    "error_processing_request": "Quelque chose d'inattendu s'est produit de notre côté.",
+    "consent_declined": "Vous avez refusé le consentement pour la vérification d'identité."
+  }
+}
