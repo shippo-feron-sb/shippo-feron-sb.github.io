@@ -68,7 +68,6 @@
     "primaryButton": "Connecter un opérateur"
   },
   "newOnboarding": {
-    "gettingStarted": "Vous démarrez avec le {{plan}} de Shippo",
     "getHelp": "Besoin d'aide avec la configuration ?",
     "contactSupport": "Contactez l'assistance",
     "primaryCarrier": "Votre transporteur préféré",
