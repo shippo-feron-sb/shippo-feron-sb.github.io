@@ -117,7 +117,7 @@
           "line5": "5 user logins"
         }
       },
-      "developer":{
+      "developer": {
         "title": "Developer",
         "pricing": "Free",
         "description": "Up to 30 labels/month",
@@ -126,6 +126,19 @@
           "line2": "Best rates with top carriers",
           "line3": "Your own carrier accounts",
           "line4": "Enterprise-ready security"
+        }
+      }
+    },
+    "pages": {
+      "connect_store": {
+        "title": "Connect Your Store",
+        "description": "Connect your store to Shippo to import orders and start shipping",
+        "popular": "Popular Connections",
+        "all": "All Connections",
+        "do_it_yourself": {
+          "title": "Do it yourself",
+          "manual": "Create a shipment manually",
+          "upload": "Upload a spreadsheet"
         }
       }
     },
