@@ -566,7 +566,10 @@
         "currentPlan": "CURRENT PLAN",
         "planName": "Starter Plan",
         "downgradePlan": "DOWNGRADE PLAN",
-        "description": "Free to use (up to 30 labels / month)."
+        "description": {
+          "payg": "Free to use with no monthly fees or volume restrictions; perfect for businesses that don't have a set amount of shipments.",
+          "payg30ll": "Free to use (up to 30 labels / month)."
+        }
       },
       "pro": {
         "planName": "Professional Plan",
