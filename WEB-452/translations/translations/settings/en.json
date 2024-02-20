@@ -1181,7 +1181,7 @@
     "docs": {
       "apiDocs": {
         "title": "READ THE API DOCS",
-        "description": "Our API guides and comprehensive reference will have you shipping in no time",
+        "description": "Our API guides and comprehensive reference will have you shipping in no time.",
         "linkText": "Go to the API docs"
       },
       "sdk": {
