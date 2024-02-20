@@ -133,11 +133,10 @@
       "line1": "Join 100k savvy",
       "line2": "shippers and power up",
       "line3": "your business today",
-      "termsLine1": "By signing up, you agree to Shippo's",
-      "termsAnd": " and ",
+      "createAccount": "Create account",
+      "termsAndPolicy": "By signing up, you agree to Shippo’s{{lineBreakTag}}{{terms}} and {{privacy}}.",
       "terms": "Terms",
-      "privacy": "Privacy Policy",
-      "createAccount": "Create account"
+      "privacy": "Privacy Policy"
     }
   }
 }
