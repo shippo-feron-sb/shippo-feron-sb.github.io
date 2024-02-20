@@ -70,7 +70,6 @@
   "newOnboarding": {
     "connectedStore": "Complete set up to see your {{store}} orders in Shippo and access discounts on labels",
     "storePlan": "You're starting with Shippo's <0>{{plan}}</0>",
-    "gettingStarted": "You're getting started with Shippo's {{plan}}",
     "getHelp": "Need help setting up?",
     "contactSupport": "Contact Support",
     "primaryCarrier": "Your preferred carrier",
@@ -103,7 +102,7 @@
       "nonMasterCarrierCopy": "Because you’re shipping from {{country}}, you will need to connect your own carrier account(s) in order to see rates for shipping labels and ship with Shippo.",
       "carrierNotice": "You must add a carrier account to access rates on Shippo when your sender address is in {{country}}. Sender address not in {{country}}?",
       "updateCountry": "Update country",
-      "insuranceTitle": "Shipping protection", 
+      "insuranceTitle": "Shipping protection",
       "insuranceTitleVariant": "Shippo Total Protection",
       "insuranceLabel": "Automatically add insurance to all packages",
       "insuranceLabelVariant": "Automatically protect all packages",
@@ -240,18 +239,17 @@
       "joinWithStarter": "Join with Starter",
       "moreWithPro": "Get more with Pro",
       "planFeatures": {
-          "bestRates": "Best rates with top carriers",
-          "unlimitedStoreConnections": "Unlimited store connections",
-          "emailSupport": "Email support",
-          "emailAndChat": "Email & chat support",
-          "oneStore": "1 store connection",
-          "oneLogin": "1 user login",
-          "multiLogins": "5 user logins",
-          "customBranding": "Custom branding",
-          "fulfillmentAutoRules": "Fulfillment automation rules",
-          "noPerLabelFee": "No per-label fee on personal carrier accounts",
-          "centsOnLabel": "5¢ per label on personal carrier accounts"
-        
+        "bestRates": "Best rates with top carriers",
+        "unlimitedStoreConnections": "Unlimited store connections",
+        "emailSupport": "Email support",
+        "emailAndChat": "Email & chat support",
+        "oneStore": "1 store connection",
+        "oneLogin": "1 user login",
+        "multiLogins": "5 user logins",
+        "customBranding": "Custom branding",
+        "fulfillmentAutoRules": "Fulfillment automation rules",
+        "noPerLabelFee": "No per-label fee on personal carrier accounts",
+        "centsOnLabel": "5¢ per label on personal carrier accounts"
       }
     },
     "apiError": "Oops! We were not able to save your information. Please try again.",
