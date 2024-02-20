@@ -149,7 +149,8 @@
       "createAccount": "Create account",
       "termsAndPolicy": "By signing up, you agree to{{lineBreakTag}}Shippo’s {{terms}} and {{privacy}}.",
       "terms": "Terms",
-      "privacy": "Privacy Policy"
+      "privacy": "Privacy Policy",
+      "shipmentFields": "Estimated monthly shipments"
     }
   }
 }
