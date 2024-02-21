@@ -131,7 +131,7 @@
     },
     "pages": {
       "connect_store": {
-        "title": "Connect Your Store",
+        "title": "Add your orders",
         "description": "Connect your store to Shippo to import orders and start shipping",
         "popular": "Popular Connections",
         "all": "All Connections",
