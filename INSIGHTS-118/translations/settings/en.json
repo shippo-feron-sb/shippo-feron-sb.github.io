@@ -1442,5 +1442,10 @@
   },
   "snackbars": {
     "success": "Success! Changes saved."
+  },
+  "analytics": {
+    "shippingActivity": "SHIPPING ACTIVITY",
+    "costOfShipping": "COST OF SHIPPING",
+    "deliveryStats": "DELIVERY STATS"
   }
 }
