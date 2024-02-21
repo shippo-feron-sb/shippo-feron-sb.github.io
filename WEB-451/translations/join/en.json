@@ -133,8 +133,8 @@
       "connect_store": {
         "title": "Add your orders",
         "description": "Connect your store to Shippo to import orders and start shipping",
-        "popular": "Popular Connections",
-        "all": "All Connections",
+        "popular": "Popular connections",
+        "all": "All connections",
         "do_it_yourself": {
           "title": "Do it yourself",
           "manual": "Create a shipment manually",
