@@ -117,7 +117,7 @@
           "line5": "5 user logins"
         }
       },
-      "developer": {
+      "developer":{
         "title": "Developer",
         "pricing": "Free",
         "description": "Up to 30 labels/month",
@@ -128,28 +128,6 @@
           "line4": "Enterprise-ready security"
         }
       }
-    },
-    "pages": {
-      "connect_store": {
-        "title": "Connect Your Store",
-        "description": "Connect your store to Shippo to import orders and start shipping",
-        "popular": "Popular Connections",
-        "all": "All Connections",
-        "do_it_yourself": {
-          "title": "Do it yourself",
-          "manual": "Create a shipment manually",
-          "upload": "Upload a spreadsheet"
-        }
-      }
-    },
-    "join": {
-      "line1": "Join 100k savvy",
-      "line2": "shippers and power up",
-      "line3": "your business today",
-      "createAccount": "Create account",
-      "termsAndPolicy": "By signing up, you agree to{{lineBreakTag}}Shippo’s {{terms}} and {{privacy}}.",
-      "terms": "Terms",
-      "privacy": "Privacy Policy"
     }
   }
 }
