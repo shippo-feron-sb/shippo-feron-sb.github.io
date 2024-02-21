@@ -141,6 +141,15 @@
           "upload": "Upload a spreadsheet"
         }
       }
+    },
+    "join": {
+      "line1": "Join 100k savvy",
+      "line2": "shippers and power up",
+      "line3": "your business today",
+      "createAccount": "Create account",
+      "termsAndPolicy": "By signing up, you agree to{{lineBreakTag}}Shippo’s {{terms}} and {{privacy}}.",
+      "terms": "Terms",
+      "privacy": "Privacy Policy"
     }
   }
 }
