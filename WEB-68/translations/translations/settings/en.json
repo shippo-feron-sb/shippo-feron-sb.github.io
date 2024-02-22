@@ -1366,6 +1366,7 @@
       "title": "Shipping",
       "labels": "Labels & packing slips",
       "carriers": "Carriers",
+      "tags": "Tags",
       "packages": "Packages",
       "automations": "Automations {{isPro}}",
       "tracking-page": "Tracking",
@@ -1442,5 +1443,19 @@
   },
   "snackbars": {
     "success": "Success! Changes saved."
+  },
+  "analytics": {
+    "shippingActivity": "SHIPPING ACTIVITY",
+    "costOfShipping": "COST OF SHIPPING",
+    "deliveryStats": "DELIVERY STATS"
+},
+  "tags": {
+    "title": "Tags",
+    "heading": "Tags",
+    "desc": "Create tags to mark single or multiple orders into groups you can filter and save",
+    "createTag": "Create Tag",
+    "toggle": "Tags are",
+    "on": "ON",
+    "off": "OFF"
   }
 }
