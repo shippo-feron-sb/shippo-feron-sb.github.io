@@ -1178,6 +1178,18 @@
   "api": {
     "title": "API",
     "description": "Access and manage the Shippo API here to automate shipping and connect to multiple carriers with one integration.",
+    "docs": {
+      "apiDocs": {
+        "title": "READ THE API DOCS",
+        "description": "Our API guides and comprehensive reference will have you shipping in no time.",
+        "linkText": "Go to the API docs"
+      },
+      "sdk": {
+        "title": "GET STARTED WITH OUR SDK",
+        "description": "Available in multiple languages to make integration easy.",
+        "linkText": "Shippo SDKs on GitHub"
+      }
+    },
     "token": {
       "title": "Token",
       "liveToken": "Live Token",
@@ -1444,6 +1456,11 @@
   "snackbars": {
     "success": "Success! Changes saved."
   },
+  "analytics": {
+    "shippingActivity": "SHIPPING ACTIVITY",
+    "costOfShipping": "COST OF SHIPPING",
+    "deliveryStats": "DELIVERY STATS"
+  },
   "tags": {
     "title": "Tags",
     "heading": "Tags",
@@ -1452,6 +1469,9 @@
     "toggle": "Tags are",
     "on": "ON",
     "off": "OFF",
-    "fetchError": "Tags could not be fetched. Please refresh and try again."
+    "fetchError": "Tags could not be fetched. Please refresh and try again.",
+    "list": {
+      "tagName": "Tag Name"
+    }
   }
 }
