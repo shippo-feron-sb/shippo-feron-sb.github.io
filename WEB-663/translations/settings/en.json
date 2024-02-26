@@ -306,6 +306,7 @@
     "description": "Shippo-powered rate estimates in your store checkout. <0>Learn more</0>",
     "learnMoreLink": "Learn more",
     "shippingOptionsTitle": "Shipping Options",
+    "emptyStateIllustrationDescription": "No Shipping Options have been added yet",
     "addShippingOptionButton": "Add Shipping Option",
     "addShippingOptionMessage": "Add a shipping option to select carrier/service and send rates to your store checkout.",
     "tableHeaderShippingOption": "Shipping Option",
@@ -449,6 +450,7 @@
       "andConditionSectionTitle": "And",
       "actionSectionTitle": "Then",
       "addCondition": "Add Condition",
+      "removeCondition": "Remove Condition",
       "addAction": "Add Action",
       "nameLabel": "Rule name",
       "namePlaceholder": "Name your rule, e.g. \"less than 3lbs\"",
@@ -515,12 +517,8 @@
       "defaultServiceLevelOption": "Default"
     },
     "emptyRules": {
+      "illustrationDescription": "No custom rules have been set up yet",
       "cta": "You don't have any shipping rules set up yet. Want to create one?"
-    },
-    "enableAutomations": {
-      "title": "Enable Automations",
-      "automateActions": "Automate actions, such as applying a package template or generating a specific label, based on order conditions, such as weight, product name, and recipient location.",
-      "upgradeToPro": "Upgrade to the Professional plan to access automations."
     },
     "ruleDescriptions": {
       "automationsSuffix": " automations",
@@ -559,7 +557,7 @@
         "actionButton": "Downgrade",
         "cancel": "Cancel",
         "modalTitle": "Downgrade to Starter Plan",
-        "confirmation": "I understand that by downgrading I will lose access to custom branding, automation rules, and multiple user access for my account. Any previously configured automation rules and branded experiences will not be able to be recovered in the future.",
+        "confirmation": "I understand that by downgrading I will lose access to custom branding and multiple user access for my account. Any previously configured branded experiences will not be able to be recovered in the future.",
         "disclaimer": "Downgrading means losing access to Pro features."
       },
       "starter": {
@@ -1181,6 +1179,18 @@
   "api": {
     "title": "API",
     "description": "Access and manage the Shippo API here to automate shipping and connect to multiple carriers with one integration.",
+    "docs": {
+      "apiDocs": {
+        "title": "READ THE API DOCS",
+        "description": "Our API guides and comprehensive reference will have you shipping in no time.",
+        "linkText": "Go to the API docs"
+      },
+      "sdk": {
+        "title": "GET STARTED WITH OUR SDK",
+        "description": "Available in multiple languages to make integration easy.",
+        "linkText": "Shippo SDKs on GitHub"
+      }
+    },
     "token": {
       "title": "Token",
       "liveToken": "Live Token",
@@ -1371,7 +1381,7 @@
       "carriers": "Carriers",
       "tags": "Tags",
       "packages": "Packages",
-      "automations": "Automations {{isPro}}",
+      "automations": "Automations",
       "tracking-page": "Tracking",
       "insurance": "Insurance",
       "international-defaults": "International defaults",
