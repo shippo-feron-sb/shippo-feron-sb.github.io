@@ -92,6 +92,7 @@
     "learnMore": "Learn more",
     "back": "Back",
     "next": "Next",
+    "genericError": "Something went wrong. Please try again.",
     "plans": {
       "starter": {
         "title": "Starter",
