@@ -91,6 +91,66 @@
   "onboarding2024": {
     "learnMore": "Learn more",
     "back": "Back",
-    "next": "Next"
+    "next": "Next",
+    "genericError": "Something went wrong. Please try again.",
+    "plans": {
+      "starter": {
+        "title": "Starter",
+        "pricing": "Free",
+        "description": "Up to 30 labels/month",
+        "features": {
+          "line1": "Best rates with top carriers",
+          "line2": "Unlimited store connections",
+          "line3": "Time-saving automations",
+          "line4": "Email support",
+          "line5": "1 user login"
+        }
+      },
+      "pro": {
+        "title": "Pro",
+        "pricing": "Free 30-day trial",
+        "description": "Then starts at $19/month",
+        "features": {
+          "line1": "Up to 10,000 labels/month",
+          "line2": "Your own carrier accounts",
+          "line3": "Branded shipping",
+          "line4": "Email, chat & phone support",
+          "line5": "5 user logins"
+        }
+      },
+      "developer": {
+        "title": "Developer",
+        "pricing": "Free",
+        "description": "Up to 30 labels/month",
+        "features": {
+          "line1": "1 integration, 40 carriers",
+          "line2": "Best rates with top carriers",
+          "line3": "Your own carrier accounts",
+          "line4": "Enterprise-ready security"
+        }
+      }
+    },
+    "pages": {
+      "connect_store": {
+        "title": "Connect Your Store",
+        "description": "Connect your store to Shippo to import orders and start shipping",
+        "popular": "Popular Connections",
+        "all": "All Connections",
+        "do_it_yourself": {
+          "title": "Do it yourself",
+          "manual": "Create a shipment manually",
+          "upload": "Upload a spreadsheet"
+        }
+      }
+    },
+    "join": {
+      "line1": "Join 100k savvy",
+      "line2": "shippers and power up",
+      "line3": "your business today",
+      "createAccount": "Create account",
+      "termsAndPolicy": "By signing up, you agree to{{lineBreakTag}}Shippo’s {{terms}} and {{privacy}}.",
+      "terms": "Terms",
+      "privacy": "Privacy Policy"
+    }
   }
 }
