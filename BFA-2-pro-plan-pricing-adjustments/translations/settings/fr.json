@@ -374,11 +374,6 @@
     "emptyRules": {
       "illustrationDescription": "Aucune règle personnalisée n'a encore été configurée",
       "cta": "Vous n'avez pas encore de règles d'expédition configurées. Vous voulez en créer une ?"
-    },
-    "enableAutomations": {
-      "title": "Activer les automatismes",
-      "automateActions": "Automatiser des actions, telles que l'application d'un modèle de colis ou la génération d'une étiquette spécifique, en fonction des conditions de la commande, comme le poids, le nom du produit et l'emplacement du destinataire.",
-      "upgradeToPro": "Passez au plan professionnel pour accéder aux automatismes."
     }
   },
   "plans": {
@@ -406,7 +401,7 @@
         "actionButton": "Rétrograder",
         "cancel": "Annuler",
         "modalTitle": "Rétrograder au plan de démarrage",
-        "confirmation": "Je comprends qu'en rétrogradant, je perdrai l'accès à la marque personnalisée, aux règles d'automatisation et à l'accès à plusieurs utilisateurs pour mon compte. Les règles d'automatisation et les expériences de marque configurées précédemment ne pourront plus être récupérées à l'avenir.",
+        "confirmation": "Je comprends qu'en rétrogradant, je perdrai l'accès à la marque personnalisée et à l'accès à plusieurs utilisateurs pour mon compte. Les expériences de marque configurées précédemment ne pourront plus être récupérées à l'avenir.",
         "disclaimer": "La rétrogradation implique la perte de l'accès aux fonctionnalités professionnelles."
       },
       "starter": {
@@ -787,7 +782,7 @@
       "labels": "Étiquettes et bordereaux",
       "carriers": "Transporteurs",
       "packages": "Paquets",
-      "automations": "Automatisations {{isPro}}",
+      "automations": "Automatisations",
       "tracking-page": "Suivi",
       "insurance": "Assurance",
       "rates-at-checkout": "Tarifs appliqués lors du paiement"
