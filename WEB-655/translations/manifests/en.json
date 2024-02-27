@@ -4,7 +4,6 @@
   "subtitle": "Select carrier account, submission date, and sender address for your manifest. For more info, <1>visit our FAQ</1>.",
   "manifestInfo": "Manifest information",
   "carrierTooltip": "Note: If you have multiple accounts for one carrier, you may need to generate multiple manifests.",
-  "carrierTooltipUspsOnly": "Note: If you want to manifest labels of other carriers, contact Shippo support team.",
   "carrierAccount": "Carrier Account",
   "carrierAccountError": "Carrier can't be blank",
   "labelCreateDateTooltip": "Select a date",
