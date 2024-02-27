@@ -322,7 +322,7 @@
       "number": "Order #",
       "order": "Order",
       "date": "Date",
-      "tag": "Tag",
+      "tags": "Tags",
       "customer": "Customer",
       "items": "Items",
       "shipping": "Shipping",
