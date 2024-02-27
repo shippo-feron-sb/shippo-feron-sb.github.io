@@ -399,7 +399,8 @@
       "surchargeTitleUPS": "$165 surcharge possible",
       "surchargeTitleUPSLargePackage": "${{amount}} surcharge possible",
       "warningTitleUPS": "You're close to the limit!",
-      "warningTitle": "Warning"
+      "warningTitle": "Warning",
+      "addTagToOrderError": "Failed to add tag, please try again."
     },
     "addRecipient": "Add recipient",
     "editSender": "Edit Sender",
