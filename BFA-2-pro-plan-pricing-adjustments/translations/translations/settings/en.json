@@ -1461,14 +1461,19 @@
     "shippingActivity": "SHIPPING ACTIVITY",
     "costOfShipping": "COST OF SHIPPING",
     "deliveryStats": "DELIVERY STATS"
-},
+  },
   "tags": {
     "title": "Tags",
     "heading": "Tags",
     "desc": "Create tags to mark single or multiple orders into groups you can filter and save",
-    "createTag": "Create Tag",
     "toggle": "Tags are",
     "on": "ON",
-    "off": "OFF"
+    "off": "OFF",
+    "fetchError": "Tags could not be retrieved. Refresh and try again.",
+    "list": {
+      "tagName": "Tag name",
+      "createTag": "Create tag",
+      "deleteTag": "Delete tag"
+    }
   }
 }

@@ -3,7 +3,6 @@
   "title": "Créer un nouveau manifeste",
   "subtitle": "Sélectionnez un compte de transporteur, une date de création de l'étiquette, et une adresse d'expéditeur pour votre manifeste. Pour en savoir plus, consultez cette FAQ.",
   "carrierTooltip": "Sélectionner un transporteur",
-  "carrierTooltipUspsOnly": "Si vous souhaitez créer des manifestes d'autres transporteurs, contacter l'équipe d'assistance Shippo.",
   "carrierAccount": "Compte du transporteur",
   "carrierAccountError": "Le transporteur ne peut pas être vide",
   "labelCreateDateTooltip": "Sélectionnez une date",
