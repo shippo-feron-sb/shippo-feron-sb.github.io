@@ -132,10 +132,10 @@
     },
     "pages": {
       "connect_store": {
-        "title": "Connect Your Store",
+        "title": "Add your orders",
         "description": "Connect your store to Shippo to import orders and start shipping",
-        "popular": "Popular Connections",
-        "all": "All Connections",
+        "popular": "Popular connections",
+        "all": "All connections",
         "do_it_yourself": {
           "title": "Do it yourself",
           "manual": "Create a shipment manually",
@@ -150,7 +150,8 @@
       "createAccount": "Create account",
       "termsAndPolicy": "By signing up, you agree to{{lineBreakTag}}Shippo’s {{terms}} and {{privacy}}.",
       "terms": "Terms",
-      "privacy": "Privacy Policy"
+      "privacy": "Privacy Policy",
+      "shipmentFields": "Estimated monthly shipments"
     }
   }
 }
