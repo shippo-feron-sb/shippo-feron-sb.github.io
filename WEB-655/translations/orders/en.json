@@ -770,7 +770,6 @@
         }
       },
       "savings": {
-        "lowPrice": "Best price for this service",
         "retail": "Retail price: ",
         "save": "You save"
       }
