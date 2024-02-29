@@ -322,7 +322,7 @@
       "number": "Order #",
       "order": "Order",
       "date": "Date",
-      "tag": "Tag",
+      "tags": "Tags",
       "customer": "Customer",
       "items": "Items",
       "shipping": "Shipping",
@@ -399,7 +399,8 @@
       "surchargeTitleUPS": "$165 surcharge possible",
       "surchargeTitleUPSLargePackage": "${{amount}} surcharge possible",
       "warningTitleUPS": "You're close to the limit!",
-      "warningTitle": "Warning"
+      "warningTitle": "Warning",
+      "addTagToOrderError": "Failed to add tag, please try again."
     },
     "addRecipient": "Add recipient",
     "editSender": "Edit Sender",
@@ -770,7 +771,6 @@
         }
       },
       "savings": {
-        "lowPrice": "Best price for this service",
         "retail": "Retail price: ",
         "save": "You save"
       }
@@ -1141,9 +1141,14 @@
     "orderDetails": "Order Details",
     "createNewLabel": "Create New Label",
     "addresses": "Addresses...",
+    "mixedAddresses": "Mixed addresses",
     "saveAsDefaultSender": "Save as default sender address",
+    "senderAndReturnAreTheSame": "Sender and return addresses are the same",
     "useAsReturnAddress": "Use as return address",
     "senderAddress": "Sender address",
+    "editAddress": "Edit address",
+    "editAddress_plural": "Edit addresses",
+    "updateAddress": "Update address",
     "recipientAddress": "Recipient address",
     "recipientInfo": "Recipient Info",
     "shipFrom": "Ship From",
@@ -1422,10 +1427,11 @@
     "senderAddress": "Sender Address",
     "keepCurrentSelections": "Keep current selections",
     "addresses": "addresses",
-    "addNewAddress": " Add a New Address +",
+    "useNewAddress": " Use a new address",
     "useAddress": "Use Address",
     "saveToAddressBook": "Save to address book",
     "useAsReturnAddress": "Use as return address",
+    "applyToSavedAddress": "Apply changes to the saved address",
     "apply": "Apply"
   },
   "addressBook": {
