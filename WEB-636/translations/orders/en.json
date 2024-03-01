@@ -469,7 +469,7 @@
     "bulletInsurance": "Any insurance purchased with a carrier or through Shippo Total Protection will be voided and refunded to you",
     "confirm": "Yes, request refund",
     "errorTitle": "Label Refund Currently Unavailable",
-    "errorText": "Canada Post is still processing your initial label purchase request. To refund your purchase, please re-attempt your label refund at least 60 minutes after the time of your label purchase."
+    "errorText": "{{carrierName}} is still processing your initial label purchase request. To refund your purchase, please re-attempt your label refund at least {{refundDelay}} minutes after the time of your label purchase."
   },
   "duplicateOrders": {
     "toasts": {
