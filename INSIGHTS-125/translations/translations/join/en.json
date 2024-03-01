@@ -92,6 +92,7 @@
     "learnMore": "Learn more",
     "back": "Back",
     "next": "Next",
+    "genericError": "Something went wrong. Please try again.",
     "plans": {
       "starter": {
         "title": "Starter",
@@ -131,10 +132,10 @@
     },
     "pages": {
       "connect_store": {
-        "title": "Connect Your Store",
+        "title": "Add your orders",
         "description": "Connect your store to Shippo to import orders and start shipping",
-        "popular": "Popular Connections",
-        "all": "All Connections",
+        "popular": "Popular connections",
+        "all": "All connections",
         "do_it_yourself": {
           "title": "Do it yourself",
           "manual": "Create a shipment manually",
@@ -147,9 +148,13 @@
       "line2": "shippers and power up",
       "line3": "your business today",
       "createAccount": "Create account",
+      "formSubmitting": "Working...",
+      "accountExists": "Already have a Shippo account?",
+      "login": "Log in",
       "termsAndPolicy": "By signing up, you agree to{{lineBreakTag}}Shippo’s {{terms}} and {{privacy}}.",
       "terms": "Terms",
-      "privacy": "Privacy Policy"
+      "privacy": "Privacy Policy",
+      "shipmentFields": "Estimated monthly shipments"
     }
   }
 }
