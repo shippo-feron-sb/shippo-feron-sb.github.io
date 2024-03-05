@@ -1473,7 +1473,8 @@
     "list": {
       "tagName": "Tag name",
       "createTag": "Create tag",
-      "deleteTag": "Delete tag"
+      "deleteTag": "Delete tag",
+      "icon": "Icon"
     }
   }
 }
