@@ -1475,6 +1475,18 @@
       "createTag": "Create tag",
       "deleteTag": "Delete tag",
       "icon": "Icon"
+    },
+    "create": {
+      "success": "Tag added",
+      "error": "Failed to create tag, please try again later."
+    },
+    "delete": {
+      "success": "Tag removed",
+      "error": "Failed to delete tag, please try again later."
+    },
+    "update": {
+      "success": "Changes saved",
+      "error": "Failed to update tag, please try again later."
     }
   }
 }
