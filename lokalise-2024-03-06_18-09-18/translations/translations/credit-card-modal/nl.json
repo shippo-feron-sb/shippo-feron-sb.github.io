@@ -1,0 +1,21 @@
+{
+  "title": "Je creditcard toevoegen",
+  "disclaimer": "Porto-, verzekerings- en Shippo-kosten worden <0/> op deze creditcard in rekening gebracht.",
+  "security": "AES-256 Bankniveau encryptie",
+  "submit": "Kaart toevoegen",
+  "blocked": "Er is een probleem met je betaalrekening. Werk je factuurgegevens bij om door te gaan.",
+  "billingAddress": "Factuuradres",
+  "cancel": "Annuleren",
+  "useSenderAddress": "Primair verzendadres gebruiken",
+  "useDifferentAddress": "Ander adres gebruiken",
+  "saveAsPrimaryAddress": "Dit adres opslaan als je verzendadres",
+  "updateSenderAddressToMatchBilling": "Afzender bijwerken om overeen te komen met factuuradres",
+  "cardNumber": "Kaartnummer",
+  "expiration": "Verloopt op",
+  "CVV": "CVV",
+  "editAddress": "Adres bewerken",
+  "closeIcon": "Sluiten",
+  "addressError": "Voer een geldig adres in",
+  "titleUpdate": "Creditcard bijwerken",
+  "submitUpdate": "Kaart bijwerken"
+}
