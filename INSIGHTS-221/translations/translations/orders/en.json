@@ -400,7 +400,8 @@
       "surchargeTitleUPSLargePackage": "${{amount}} surcharge possible",
       "warningTitleUPS": "You're close to the limit!",
       "warningTitle": "Warning",
-      "addTagToOrderError": "Failed to add tag, please try again."
+      "addTagToOrderError": "Failed to add tag, please try again later.",
+      "removeTagFromOrderError": "Failed to remove tag, please try again later."
     },
     "addRecipient": "Add recipient",
     "editSender": "Edit Sender",
@@ -1274,6 +1275,14 @@
     "cancelled": "Cancelled orders",
     "hidden": "Hidden orders"
   },
+  "orderTags": {
+    "createNew": "Create new"
+  },
+  "orderTagsFilter": {
+    "label": "Tags",
+    "labelWithCount": "Tags: {{count}}",
+    "notTagger": "Not tagged"
+  },
   "destinationFilter": {
     "all": "All destinations",
     "domestic": "Domestic",
@@ -1519,7 +1528,12 @@
     "carrierNickname": "My {{carrier}} Account",
     "missingInformation": "{{count}} missing information",
     "typeRequired": "Add {{type}} to view rates",
-    "refreshNeeded": "Refresh rates"
+    "refreshNeeded": "Refresh rates",
+    "insightTransitTime":"Often arrives {{days}} day {{status}}",
+    "insightTransitTime_plural":"Often arrives {{days}} days {{status}}",
+    "insightsTransitOnTime": "Often arrives on time",
+    "insightTooltipTitle": "Shippo Insights:",
+    "insightTooltipContent": " Calculated based on actual delivery times for parcels in the last 90 days with similar Origin/destination as this order"
   },
   "toolbar": {
     "addNoteToPackingSlip": "Add Note To Packing Slip",
