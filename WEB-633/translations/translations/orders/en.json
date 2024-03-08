@@ -399,7 +399,9 @@
       "surchargeTitleUPS": "$165 surcharge possible",
       "surchargeTitleUPSLargePackage": "${{amount}} surcharge possible",
       "warningTitleUPS": "You're close to the limit!",
-      "warningTitle": "Warning"
+      "warningTitle": "Warning",
+      "addTagToOrderError": "Failed to add tag, please try again later.",
+      "removeTagFromOrderError": "Failed to remove tag, please try again later."
     },
     "addRecipient": "Add recipient",
     "editSender": "Edit Sender",
@@ -1272,6 +1274,14 @@
     "unfulfilled": "Unfulfilled orders",
     "cancelled": "Cancelled orders",
     "hidden": "Hidden orders"
+  },
+  "orderTags": {
+    "createNew": "Create new"
+  },
+  "orderTagsFilter": {
+    "label": "Tags",
+    "labelWithCount": "Tags: {{count}}",
+    "notTagger": "Not tagged"
   },
   "destinationFilter": {
     "all": "All destinations",
