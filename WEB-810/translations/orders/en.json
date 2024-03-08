@@ -1528,12 +1528,7 @@
     "carrierNickname": "My {{carrier}} Account",
     "missingInformation": "{{count}} missing information",
     "typeRequired": "Add {{type}} to view rates",
-    "refreshNeeded": "Refresh rates",
-    "insightTransitTime":"Often arrives {{days}} day {{status}}",
-    "insightTransitTime_plural":"Often arrives {{days}} days {{status}}",
-    "insightsTransitOnTime": "Often arrives on time",
-    "insightTooltipTitle": "Shippo Insights:",
-    "insightTooltipContent": " Calculated based on actual delivery times for parcels in the last 90 days with similar Origin/destination as this order"
+    "refreshNeeded": "Refresh rates"
   },
   "toolbar": {
     "addNoteToPackingSlip": "Add Note To Packing Slip",
