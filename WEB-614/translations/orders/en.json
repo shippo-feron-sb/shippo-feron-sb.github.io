@@ -1563,7 +1563,7 @@
     "successfullyUnhidden_plural": "Orders successfully unhidden",
     "downloadLabels": "Download labels",
     "clearSelection": "Clear selection",
-    "editTagsFilter": "Edit tags"
+    "editTags": "Edit tags"
   },
   "pagination": {
     "showHiddenOrders": "Show only hidden orders",
