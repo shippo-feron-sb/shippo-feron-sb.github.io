@@ -176,7 +176,6 @@
       "noTemplatesAvailable": "No templates available",
       "search": "Search",
       "searchTemplates": "Search carrier provided parcels",
-      "orderTo": "Order {{orderNumber}} to {{customerName}}",
       "save": "Save"
     },
     "multi": {
@@ -322,7 +321,7 @@
       "number": "Order #",
       "order": "Order",
       "date": "Date",
-      "tag": "Tag",
+      "tags": "Tags",
       "customer": "Customer",
       "items": "Items",
       "shipping": "Shipping",
@@ -399,7 +398,9 @@
       "surchargeTitleUPS": "$165 surcharge possible",
       "surchargeTitleUPSLargePackage": "${{amount}} surcharge possible",
       "warningTitleUPS": "You're close to the limit!",
-      "warningTitle": "Warning"
+      "warningTitle": "Warning",
+      "addTagToOrderError": "Failed to add tag, please try again later.",
+      "removeTagFromOrderError": "Failed to remove tag, please try again later."
     },
     "addRecipient": "Add recipient",
     "editSender": "Edit Sender",
@@ -770,7 +771,6 @@
         }
       },
       "savings": {
-        "lowPrice": "Best price for this service",
         "retail": "Retail price: ",
         "save": "You save"
       }
@@ -1141,9 +1141,14 @@
     "orderDetails": "Order Details",
     "createNewLabel": "Create New Label",
     "addresses": "Addresses...",
+    "mixedAddresses": "Mixed addresses",
     "saveAsDefaultSender": "Save as default sender address",
+    "senderAndReturnAreTheSame": "Sender and return addresses are the same",
     "useAsReturnAddress": "Use as return address",
     "senderAddress": "Sender address",
+    "editAddress": "Edit address",
+    "editAddress_plural": "Edit addresses",
+    "updateAddress": "Update address",
     "recipientAddress": "Recipient address",
     "recipientInfo": "Recipient Info",
     "shipFrom": "Ship From",
@@ -1268,6 +1273,14 @@
     "unfulfilled": "Unfulfilled orders",
     "cancelled": "Cancelled orders",
     "hidden": "Hidden orders"
+  },
+  "orderTags": {
+    "createNew": "Create new"
+  },
+  "orderTagsFilter": {
+    "label": "Tags",
+    "labelWithCount": "Tags: {{count}}",
+    "notTagger": "Not tagged"
   },
   "destinationFilter": {
     "all": "All destinations",
@@ -1422,10 +1435,11 @@
     "senderAddress": "Sender Address",
     "keepCurrentSelections": "Keep current selections",
     "addresses": "addresses",
-    "addNewAddress": " Add a New Address +",
+    "useNewAddress": " Use a new address",
     "useAddress": "Use Address",
     "saveToAddressBook": "Save to address book",
     "useAsReturnAddress": "Use as return address",
+    "applyToSavedAddress": "Apply changes to the saved address",
     "apply": "Apply"
   },
   "addressBook": {
@@ -1513,7 +1527,12 @@
     "carrierNickname": "My {{carrier}} Account",
     "missingInformation": "{{count}} missing information",
     "typeRequired": "Add {{type}} to view rates",
-    "refreshNeeded": "Refresh rates"
+    "refreshNeeded": "Refresh rates",
+    "insightTransitTime":"Often arrives {{days}} day {{status}}",
+    "insightTransitTime_plural":"Often arrives {{days}} days {{status}}",
+    "insightsTransitOnTime": "Often arrives on time",
+    "insightTooltipTitle": "Shippo Insights:",
+    "insightTooltipContent": " Calculated based on actual delivery times for parcels in the last 90 days with similar Origin/destination as this order"
   },
   "toolbar": {
     "addNoteToPackingSlip": "Add Note To Packing Slip",
