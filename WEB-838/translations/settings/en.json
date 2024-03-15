@@ -1373,6 +1373,10 @@
     "note4": "Instant payouts for approved claims",
     "save": "Save"
   },
+  "micro-frontend": {
+    "title": "Micro frontend",
+    "description": "The contents below are dynamically loaded from a micro frontend. How cool is that?"
+  },
   "nav": {
     "header": "Settings",
     "shipping": {
@@ -1410,6 +1414,11 @@
       "title": "Address book",
       "recipients": "Recipients",
       "senderReturn": "Sender & return"
+    },
+    "micro-frontend": {
+      "title": "Micro frontend",
+      "feature-a": "Feature A",
+      "feature-b": "Feature B"
     }
   },
   "internationalDefaults": {

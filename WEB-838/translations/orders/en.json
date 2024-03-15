@@ -176,7 +176,6 @@
       "noTemplatesAvailable": "No templates available",
       "search": "Search",
       "searchTemplates": "Search carrier provided parcels",
-      "orderTo": "Order {{orderNumber}} to {{customerName}}",
       "save": "Save"
     },
     "multi": {
