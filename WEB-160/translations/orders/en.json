@@ -720,7 +720,8 @@
         "POPULAR": "POPULAR",
         "FASTEST": "FASTEST",
         "MORE": "MORE RATES",
-        "CHEAPEST_AND_FASTEST": "CHEAPEST & FASTEST"
+        "CHEAPEST_AND_FASTEST": "CHEAPEST & FASTEST",
+        "PAY_ON_USE": "PAY ON USE"
       },
       "moreDetails": "More",
       "lessDetails": "Less",
