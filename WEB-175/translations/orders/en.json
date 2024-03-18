@@ -669,7 +669,8 @@
       "purchasing": "Purchasing Labels",
       "creatingReturnLabel": "Creating label",
       "returnLabelTitle": "Confirm return label",
-      "forOrder": "Order"
+      "forOrder": "Order",
+      "createReturnLabel": "Create return label"
     },
     "packingSlip": {
       "title": "Add note to packing slip",
