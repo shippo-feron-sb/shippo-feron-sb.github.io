@@ -667,7 +667,8 @@
       "alreadyFulfilled": "already fulfilled. Deselect to continue purchases for other",
       "loading": "Loading",
       "purchasing": "Purchasing Labels",
-      "returnLabelTitle": "Buy return label",
+      "creatingReturnLabel": "Creating label",
+      "returnLabelTitle": "Confirm return label",
       "forOrder": "for Order"
     },
     "packingSlip": {
