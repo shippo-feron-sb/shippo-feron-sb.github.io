@@ -653,7 +653,10 @@
     "labelNotPurchased_plural": "{{count}} labels will not be purchased",
     "viewDetailsLink": "(View Details)",
     "invoiceFrequencyWithThreshold": " You will be invoiced {{billingFrequency}} <0>or</0> when you spend over ${{invoiceThreshold}}.",
-    "invoiceFrequencyWithoutThreshold": " You will be invoiced {{billingFrequency}}."
+    "invoiceFrequencyWithoutThreshold": " You will be invoiced {{billingFrequency}}.",
+    "returnTotal": "Total",
+    "payOnUse": "(pay on use)",
+    "returnWarning": "Return rate may change based on actual size and weight"
   },
   "drawers": {
     "buyLabel": {
