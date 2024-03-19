@@ -666,7 +666,11 @@
       "errorMessage": "Please unselect an order to continue",
       "alreadyFulfilled": "already fulfilled. Deselect to continue purchases for other",
       "loading": "Loading",
-      "purchasing": "Purchasing Labels"
+      "purchasing": "Purchasing Labels",
+      "creatingReturnLabel": "Creating label",
+      "returnLabelTitle": "Confirm return label",
+      "forOrder": "Order",
+      "createReturnLabel": "Create return label"
     },
     "packingSlip": {
       "title": "Add note to packing slip",
