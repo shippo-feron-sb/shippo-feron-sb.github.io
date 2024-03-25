@@ -152,6 +152,7 @@
       "printLabels": "Print Labels",
       "addNote": "Add Note on Packing Slip",
       "createAnother": "Create another label",
+      "viewReturn": "View return label",
       "createReturn": "Create return label",
       "refundLabel": "Refund label",
       "refundLabels": "Refund labels",
@@ -1124,6 +1125,7 @@
     "signatureConfirmation": "Signature confirmation",
     "signature": "Signature",
     "signatureIconAltText": "signature icon",
+    "signatureErrorMsg": "Signature could not be applied because it is not available for {{source}}",
     "shipmentIconAltText": "shipment icon",
     "insuranceTotalCost": "Total cost",
     "coverage": "coverage",
@@ -1216,7 +1218,9 @@
     "returnAddressNames": {
       "sender": "Sender (Customer)",
       "recipient": "Return to",
-      "to": "Return to"
+      "to": "Return to",
+      "editSender": "Sender (customer) address",
+      "editReturnTo": "Return to address"
     }
   },
   "bypassAddress": {
@@ -1537,8 +1541,8 @@
     "missingInformation": "{{count}} missing information",
     "typeRequired": "Add {{type}} to view rates",
     "refreshNeeded": "Refresh rates",
-    "insightTransitTime":"Often arrives {{days}} day {{status}}",
-    "insightTransitTime_plural":"Often arrives {{days}} days {{status}}",
+    "insightTransitTime": "Often arrives {{days}} day {{status}}",
+    "insightTransitTime_plural": "Often arrives {{days}} days {{status}}",
     "insightsTransitOnTime": "Often arrives on time",
     "insightTooltipTitle": "Shippo Insights:",
     "insightTooltipContent": " Calculated based on actual delivery times for parcels in the last 90 days with similar Origin/destination as this order"
@@ -1553,7 +1557,7 @@
     "hideOrders": "Hide Orders",
     "unhideOrder": "Unhide Order",
     "viewAll": "View all",
-    "viewSelectedOnly": "View selected only",
+    "viewSelectedOnly": "View selected",
     "editAddresses": "Edit addresses",
     "viewItems": "View items",
     "choosePackage": "Choose package",
@@ -1571,7 +1575,8 @@
     "successfullyUnhidden": "Order successfully unhidden",
     "successfullyUnhidden_plural": "Orders successfully unhidden",
     "downloadLabels": "Download labels",
-    "clearSelection": "Clear selection"
+    "clearSelection": "Clear selection",
+    "editTags": "Edit tags"
   },
   "pagination": {
     "showHiddenOrders": "Show only hidden orders",
