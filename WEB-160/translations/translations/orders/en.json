@@ -1123,6 +1123,7 @@
     "signatureConfirmation": "Signature confirmation",
     "signature": "Signature",
     "signatureIconAltText": "signature icon",
+    "signatureErrorMsg": "Signature could not be applied because it is not available for {{source}}",
     "shipmentIconAltText": "shipment icon",
     "insuranceTotalCost": "Total cost",
     "coverage": "coverage",
