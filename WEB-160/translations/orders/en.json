@@ -1216,7 +1216,9 @@
     "returnAddressNames": {
       "sender": "Sender (Customer)",
       "recipient": "Return to",
-      "to": "Return to"
+      "to": "Return to",
+      "editSender": "Sender (customer) address",
+      "editReturnTo": "Return to address"
     }
   },
   "bypassAddress": {
