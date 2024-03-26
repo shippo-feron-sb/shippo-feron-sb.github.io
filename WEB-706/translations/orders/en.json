@@ -1590,31 +1590,5 @@
   "customsCard": {
     "customsItems": "Customs items",
     "multipleNote": "Select a single order to edit customs items"
-  },
-  "accountValidation": {
-    "title": "Account validation",
-    "verificationCode": "Verification code",
-    "send": "Send",
-    "resend": "Resend",
-    "validationType": {
-      "title": "Validation type",
-      "pin": {
-        "title":"Verification code validation",
-        "subText":"With this validation, we will send you a verification code to the contact method associated with your FedEx account."
-      },
-      "invoice": {
-        "title":"Invoice validation",
-        "subText":"With this validation, provide details from your most recent FedEx invoice. "
-      }
-    },
-    "contactMethod": {
-      "title": "Contact method",
-      "placeholder": "Verification code",
-      "options": {
-          "text":"SMS / text",
-          "email":"email",
-          "phone":"phone call"
-        }
-    }
   }
 }

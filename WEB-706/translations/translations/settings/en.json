@@ -183,6 +183,32 @@
       "description": "You can easily connect your existing Canada Post account with Shippo by logging into your Canada Post account:",
       "buttonText": "Connect via Canada Post",
       "reloadInstruction": "Reload this page after the connection to confirm your account."
+    },
+    "accountValidation": {
+      "title": "Account validation",
+      "verificationCode": "Verification code",
+      "send": "Send",
+      "resend": "Resend",
+      "validationType": {
+        "title": "Validation type",
+        "pin": {
+          "title":"Verification code validation",
+          "subText":"With this validation, we will send you a verification code to the contact method associated with your FedEx account."
+        },
+        "invoice": {
+          "title":"Invoice validation",
+          "subText":"With this validation, provide details from your most recent FedEx invoice. "
+        }
+      },
+      "contactMethod": {
+        "title": "Contact method",
+        "placeholder": "Verification code",
+        "options": {
+            "text":"SMS / text",
+            "email":"email",
+            "phone":"phone call"
+          }
+      }
     }
   },
   "company": {
