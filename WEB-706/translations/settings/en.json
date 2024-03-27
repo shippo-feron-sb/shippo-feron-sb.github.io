@@ -205,8 +205,8 @@
         "placeholder": "Verification code",
         "options": {
             "text":"SMS / text",
-            "email":"email",
-            "phone":"phone call"
+            "email":"Email",
+            "phone":"Phone call"
           }
       }
     }
