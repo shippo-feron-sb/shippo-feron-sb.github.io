@@ -120,7 +120,8 @@
     "notificationSuccess": "Email notification sent to buyer",
     "notificationHelper": "Send email notification to buyer",
     "viewPackingSlips": "View packing slips",
-    "viewLabelsNow": "View labels now"
+    "viewLabelsNow": "View labels now",
+    "returnLabelOrderNumberPrefix": "Order"
   },
   "batchErrors": {
     "skipForNow": "Skip for now",
@@ -674,7 +675,8 @@
       "creatingReturnLabel": "Creating label",
       "returnLabelTitle": "Confirm return label",
       "forOrder": "Order",
-      "createReturnLabel": "Create return label"
+      "createReturnLabel": "Create return label",
+      "seeShipmentDetails": "See shipment details"
     },
     "packingSlip": {
       "title": "Add note to packing slip",
