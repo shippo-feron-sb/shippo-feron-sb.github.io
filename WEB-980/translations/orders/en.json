@@ -1219,7 +1219,7 @@
     "returnAddressNames": {
       "sender": "Sender (Customer)",
       "recipient": "Return to",
-      "to": "Return to",
+      "return": "Return to",
       "editSender": "Sender (customer) address",
       "editReturnTo": "Return to address"
     }
