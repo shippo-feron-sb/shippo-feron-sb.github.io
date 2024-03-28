@@ -1,0 +1,170 @@
+{
+  "account": {
+    "billing": {
+      "paymentMethods": {
+        "noCreditCard": "Creditcard toevoegen om te starten met Shippo.",
+        "addCreditCard": "Creditcard toevoegen",
+        "title": "Betaalmethodes",
+        "updateCard": "Kaart bijwerken"
+      },
+      "promoCode": {
+        "header": "Actiecode",
+        "subheader": "Heb je een actiecode? Wat een geluk! Voer de code hier in:",
+        "buttonText": "Toepassen"
+      },
+      "allTransactions": {
+        "header": "Alle transacties",
+        "subheader": "Zoek, filter en exporteer elke labelaankoop, opslag, vergoeding of restitutiekrediet.",
+        "buttonText": "Alles weergeven",
+        "noResults": "Geen resultaten gevonden",
+        "actionText": "Pas je zoekopdracht en/of filters aan",
+        "backToBilling": "Terug naar facturen",
+        "table": {
+          "headers": {
+            "dateTime": "Datum, tijd",
+            "invoiceItemType": "Type",
+            "orderDetails": "Details",
+            "trackingNumber": "Volgnummer",
+            "invoiceItemAmountStatus": "Status",
+            "invoice": "Factuur",
+            "amount": "Totaal"
+          },
+          "invoiceItemType": {
+            "LABEL_PAYMENT": "Label betaling",
+            "LABEL_FAILURE": "Label fout",
+            "LABEL_SURCHARGE": "Label opslag",
+            "LABEL_REFUND": "Label terugbetaling",
+            "REBATE": "Korting",
+            "ONE_OFF_CREDIT": "Krediet",
+            "LEGACY_CHARGE": "Overige kosten",
+            "LEGACY_REFUND": "Overige terugbetalingen",
+            "INVALID_TYPE": "Onbekend",
+            "TRACK_FEE": "Trackingkosten",
+            "ADDRESS_VALIDATION_FEE": "Adresvalidatie",
+            "BRANDING": "Kosten voor branding",
+            "MULTI_USER_LOGIN": "Kosten meerdere gebruikers",
+            "INSURANCE_FEE": "Verzekeringskosten",
+            "LABEL_FEE": "Label kosten",
+            "SUBSCRIPTION_PLAN_FEE": "Abonnementskosten",
+            "POSTAGE_PRICE": "Verzendkosten",
+            "PROMO_CODE_CREDIT": "Actiekorting",
+            "LABEL_PRICE_TRUE_UP_CHARGE": "Label prijsaanpassingen betaling",
+            "LABEL_PRICE_TRUE_UP_REFUND": "Label prijsaanpassingen terugbetaling",
+            "UNKNOWN": "Onbekend",
+            "PREAUTH_CAPTURE": "Pre-autorisatie vastleggen"
+          },
+          "invoiceStatus": {
+            "paid": "Betaald",
+            "pending": "In behandeling",
+            "credited": "Gecrediteerd"
+          }
+        },
+        "export": {
+          "cancel": "Annuleren",
+          "error": "Oeps! Er is iets fout gegaan met je export. Probeer het opnieuw, of neem contact op met <0>support@shippo.com</0> als je problemen blijft houden.",
+          "export": "Exporteren naar CSV",
+          "header": "Transacties exporteren",
+          "notice": "Als je bestand niet begint met downloaden, moet je misschien pop-ups inschakelen in je browser en het opnieuw proberen.",
+          "textLine1WithFilters": "Je gaat factuuritems exporteren naar CSV.",
+          "textLine1WithoutFilters": "Je hebt geen filters ingesteld—daardoor worden de laatste 10.000 transacties exporteert.",
+          "textLine2WithFilters": "Facturen die aan deze filters voldoen worden geëxporteerd:",
+          "textLine2WithoutFilters": "Om filters in te stellen, klik hieronder op <0>Annuleren</0> en vervolgens op <0>Filters toevoegen</0> naast de zoekbalk."
+        },
+        "exportButtonText": "CSV exporteren",
+        "filters": {
+          "add": "Filters toevoegen",
+          "clear": "Filters verwijderen",
+          "apply": "Toepassen",
+          "pageSizeLabel": "Transacties per pagina",
+          "placeholders": {
+            "startDate": "Startdatum",
+            "endDate": "Einddatum",
+            "invoiceStatus": "Status",
+            "invoiceItemType": "Type",
+            "storeName": "Winkel",
+            "carrierAccount": "Koeriersaccount"
+          },
+          "options": {
+            "invoiceStatus": {
+              "PAID": "Betaald",
+              "UNPAID": "Onbetaald"
+            }
+          }
+        }
+      },
+      "pendingTransactions": {
+        "backToBilling": "Terug naar facturen",
+        "header": "Lopende transacties",
+        "subheader": "Lopende transacties en terugbetaalverzoeken weergeven. ",
+        "buttonText": "Lopende transacties weergeven",
+        "pageTitle": "Lopende transacties",
+        "emptyTitle": "Geen lopende transacties",
+        "emptySubtitle": "Het kan een paar minuten duren voordat sommige transacties hier verschijnen – controleer het snel opnieuw.",
+        "table": {
+          "headers": {
+            "dateTime": "Datum, tijd",
+            "description": "Beschrijving",
+            "trackingNumber": "Trackingnummer",
+            "amount": "Totaal"
+          }
+        }
+      },
+      "invoices": {
+        "download": {
+          "invoiceDate": "Datum: {{invoiceDate}}",
+          "invoiceNumber": "Factuurnr.: {{invoiceNumber}}",
+          "vatDisclaimer": "Btw wordt automatisch afgedragen door de koper",
+          "errors": {
+            "retrieveInvoice": "Fout bij het ophalen van de factuur. Probeer het opnieuw of neem contact op met support@shippo.com",
+            "retrieveInvoiceItems": "Fout bij het ophalen van de factuuritems. Probeer het opnieuw of neem contact op met support@shippo.com"
+          },
+          "invoiceItemsTable": {
+            "gstIncluded": "incl. btw",
+            "title": "Gefactureerde transacties",
+            "headers": {
+              "date": "Datum",
+              "itemType": "Itemtype",
+              "carrier": "Koerier",
+              "trackingNumber": "Trackingnummer",
+              "tax": "Belasting",
+              "amount": "Bedrag"
+            },
+            "footers": {
+              "subtotal": "Subtotaal",
+              "total": "Totaal"
+            }
+          }
+        },
+        "header": "Facturen",
+        "subheader": {
+          "text": "Facturen geven alle transacties weer die in de gegeven betalingscyclus hebben plaatsgevonden, ze kunnen je helpen begrijpen wat je in rekening wordt gebracht.",
+          "link": "(Meer informatie)"
+        },
+        "table": {
+          "cells": {
+            "invoiceNumber": "Shippo factuur #",
+            "download": "Downloaden",
+            "status": {
+              "paid": "Betaald",
+              "unpaid": "Onbetaald",
+              "inProgress": "Betaling in behandeling",
+              "success": "Betaling gelukt",
+              "failure": "Mislukt",
+              "reattempt": "Opnieuw proberen",
+              "writtenOff": "Afgeschreven",
+              "paymentPending": "In afwachting van betaling"
+            },
+            "writtenOffToolTip": "Deze factuur hoeft niet betaald te worden. Er is geen actie vereist.",
+            "button": "Weergeven"
+          }
+        }
+      }
+    },
+    "nav": {
+      "planTabName": "PLANNING",
+      "billingTabName": "FACTURERING",
+      "profileTabName": "PROFIEL",
+      "account": "Account"
+    }
+  }
+}
