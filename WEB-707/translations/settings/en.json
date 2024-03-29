@@ -191,11 +191,11 @@
       "resend": "Resend",
       "validationType": {
         "title": "Validation type",
-        "pin": {
+        "PIN": {
           "title":"Verification code validation",
           "subText":"With this validation, we will send you a verification code to the contact method associated with your FedEx account."
         },
-        "invoice": {
+        "INVOICE": {
           "title":"Invoice validation",
           "subText":"With this validation, provide details from your most recent FedEx invoice. "
         }
