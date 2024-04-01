@@ -116,6 +116,7 @@
       "createACarrierAccount": "Create a {{carrierName}} Account",
       "pinSent": "Pin has been sent to your contact method.",
       "fedexVerificationError": "Connection with FedEx was lost. Please try again.",
+      "requiredError": "This field is required",
       "serviceLevelsSection": {
         "header": "Show/Hide Service Levels",
         "subtitle": "Hiding a service level will <0>hide it everywhere</0> in Shippo's web app. Service levels used elsewhere (as a default, automation rule, or rate at checkout) cannot be hidden.",
@@ -205,6 +206,7 @@
       "contactMethod": {
         "title": "Contact method",
         "placeholder": "Verification code",
+        "pinValidationLength": "Verification code must be 7 digits",
         "options": {
             "text":"SMS / text",
             "email":"Email",
