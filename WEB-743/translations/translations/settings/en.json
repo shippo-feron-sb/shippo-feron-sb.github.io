@@ -219,6 +219,14 @@
         "currencyPlaceholder": "Invoice currency",
         "amountPlaceholder": "Invoice amount"
       },
+      "signature": {
+        "title": "Add signature",
+        "instruction": "Type your name below to create your signature.",
+        "label": "Your name",
+        "previewLabel": "How your signature will appear:",
+        "submit": "Submit",
+        "clear": "Clear"
+      },
       "fedexInternational": {
         "title": "International shipments",
         "checkboxLabel": "Allow purchase of international (cross border) labels through this account",
