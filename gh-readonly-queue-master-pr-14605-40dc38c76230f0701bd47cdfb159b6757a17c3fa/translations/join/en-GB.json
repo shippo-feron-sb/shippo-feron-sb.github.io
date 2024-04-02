@@ -1,0 +1,20 @@
+{
+  "firstName": "First name",
+  "lastName": "Last name",
+  "password": "Password",
+  "signUp": "Get Started",
+  "loading": "Working...",
+  "termsAndPolicy": "By clicking on {{start}} below, you agree to the Shippo {{terms}} and {{privacy}}.",
+  "accountExists": "Already have a Shippo account?",
+  "login": "Log in",
+  "workEmail": "Work email",
+  "terms": "Terms of use",
+  "privacy": "privacy policy",
+  "personalizedStore": {
+    "signUp": "Get Discounted Shipping"
+  },
+  "embeddable": {
+    "title": "Wix uses Shippo to offer discounted shipping rates",
+    "messaging": "Create an account to buy labels directly in Wix"
+  }
+}
