@@ -230,10 +230,13 @@
       "fedexInternational": {
         "title": "International shipments",
         "checkboxLabel": "Allow purchase of international (cross border) labels through this account",
-        "description": "A company logo and digital signature is required to ship internationally on this account. Upload PNG or JPEG below.",
+        "description": "A company logo and digital signature is required to ship internationally on this account. Upload PNG or GIF below.",
         "companyLogo": "Company logo",
         "digitalSignature": "Digital signature",
-        "upload": "Upload"
+        "upload": "Upload",
+        "fileTooLargeErrorTitle": "File too large",
+        "fileSizeError": "Image must be 5MB or smaller.",
+        "fileDimensionError": "Company logo must be 700 x 50 pixels or smaller."
       }
     }
   },
