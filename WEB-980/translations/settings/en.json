@@ -226,6 +226,14 @@
         "previewLabel": "How your signature will appear:",
         "submit": "Submit",
         "clear": "Clear"
+      },
+      "fedexInternational": {
+        "title": "International shipments",
+        "checkboxLabel": "Allow purchase of international (cross border) labels through this account",
+        "description": "A company logo and digital signature is required to ship internationally on this account. Upload PNG or JPEG below.",
+        "companyLogo": "Company logo",
+        "digitalSignature": "Digital signature",
+        "upload": "Upload"
       }
     }
   },
