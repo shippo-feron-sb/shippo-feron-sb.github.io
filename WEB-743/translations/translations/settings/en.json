@@ -98,6 +98,8 @@
     },
     "form": {
       "connect": "Connect",
+      "next": "Next",
+      "back": "Back",
       "create": "Create",
       "edit": "Edit",
       "titleText": "{{formType}} {{carrierName}} Account",
@@ -114,7 +116,7 @@
       "verifying": "Verifying",
       "updating": "Updating",
       "createACarrierAccount": "Create a {{carrierName}} Account",
-      "pinSent": "Pin has been sent to your contact method.",
+      "pinSent": "Verifications code has been sent to your contact method.",
       "fedexVerificationError": "Connection with FedEx was lost. Please try again.",
       "requiredError": "This field is required",
       "serviceLevelsSection": {
@@ -233,6 +235,7 @@
         "description": "A company logo and digital signature is required to ship internationally on this account. Upload PNG or GIF below.",
         "companyLogo": "Company logo",
         "digitalSignature": "Digital signature",
+        "addSignature": "Add",
         "upload": "Upload",
         "fileTooLargeErrorTitle": "File too large",
         "fileSizeError": "Image must be 5MB or smaller.",
