@@ -237,6 +237,7 @@
         "digitalSignature": "Digital signature",
         "addSignature": "Add",
         "upload": "Upload",
+        "change": "Change",
         "fileTooLargeErrorTitle": "File too large",
         "fileSizeError": "Image must be 5MB or smaller.",
         "fileDimensionError": "Company logo must be 700 x 50 pixels or smaller.",
