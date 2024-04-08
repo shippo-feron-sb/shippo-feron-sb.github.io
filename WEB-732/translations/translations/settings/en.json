@@ -116,9 +116,10 @@
       "verifying": "Verifying",
       "updating": "Updating",
       "createACarrierAccount": "Create a {{carrierName}} Account",
-      "pinSent": "Verifications code has been sent to your contact method.",
+      "pinSent": "Verification code has been sent to your contact method.",
       "fedexVerificationError": "Connection with FedEx was lost. Please try again.",
       "requiredError": "This field is required",
+      "newFedExFooterCopy": "FedEx service marks are owned by Federal Express Corporation and are used by permission.",
       "serviceLevelsSection": {
         "header": "Show/Hide Service Levels",
         "subtitle": "Hiding a service level will <0>hide it everywhere</0> in Shippo's web app. Service levels used elsewhere (as a default, automation rule, or rate at checkout) cannot be hidden.",
