@@ -195,12 +195,12 @@
       "validationType": {
         "title": "Validation type",
         "PIN": {
-          "title":"Verification code validation",
-          "subText":"With this validation, we will send you a verification code to the contact method associated with your FedEx account."
+          "title": "Verification code validation",
+          "subText": "With this validation, we will send you a verification code to the contact method associated with your FedEx account."
         },
         "INVOICE": {
-          "title":"Invoice validation",
-          "subText":"With this validation, provide details from your most recent FedEx invoice. "
+          "title": "Invoice validation",
+          "subText": "With this validation, provide details from your most recent FedEx invoice. "
         }
       },
       "contactMethod": {
@@ -208,10 +208,10 @@
         "placeholder": "Verification code",
         "pinValidationLength": "Verification code must be 7 digits",
         "options": {
-            "text":"SMS / text",
-            "email":"Email",
-            "phone":"Phone call"
-          }
+          "text": "SMS / text",
+          "email": "Email",
+          "phone": "Phone call"
+        }
       },
       "invoiceFields": {
         "numberPlaceholder": "Invoice number",
@@ -1472,11 +1472,6 @@
       "title": "Address book",
       "recipients": "Recipients",
       "senderReturn": "Sender & return"
-    },
-    "micro-frontend": {
-      "title": "Micro frontend",
-      "feature-a": "Feature A",
-      "feature-b": "Feature B"
     }
   },
   "internationalDefaults": {
