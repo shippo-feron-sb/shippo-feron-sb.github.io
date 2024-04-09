@@ -40,7 +40,7 @@
       "label": "1 shipping label",
       "returnLabel": "1 return label",
       "title": "View shipment detail",
-      "returnTitle": "Return shipment detail",
+      "returnTitle": "Return shipment details",
       "tracking": "Tracking #",
       "trackingStatus": "Tracking status",
       "shipDate": "Ship date",
@@ -50,6 +50,12 @@
       "customer": "Customer",
       "total": "Total",
       "viewOrder": "View order"
+    },
+    "bulk": {
+      "packingSlipDownloaded": "Packing slip downloaded",
+      "packingSlipDownloaded_plural": "Packing slips downloaded",
+      "labelDownloaded": "Label downloaded",
+      "labelDownloaded_plural": "Labels downloaded"
     }
   },
   "currency": "{{value, currency}}",
@@ -175,6 +181,7 @@
   },
   "notify": {
     "genericSuccessMessage": "Successfully sent an email notification",
+    "genericSuccessMessage_plural": "Successfully sent email notifications",
     "genericErrorMessage": "An error was encountered when sending a notification",
     "copyTrackingNumber": "Tracking number copied"
   },
