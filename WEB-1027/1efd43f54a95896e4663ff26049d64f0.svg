@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2px" height="14px" viewBox="0 0 2 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.2 (101010) - https://sketch.com -->
+    <title>388D07A5-F742-4ADF-AD9B-31964E4BFEAE</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Components-library" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1222.000000, -655.000000)" fill="#E84155" id="Group">
+            <g transform="translate(1187.000000, 626.000000)">
+                <g id="Group-3" transform="translate(22.000000, 22.000000)">
+                    <g id="icon/alert_error" transform="translate(13.000000, 7.000000)">
+                        <g id="Group-3">
+                            <path d="M1,0 C0.448,0 0,0.24827816 0,0.555432126 L0,9.44456787 C0,9.75172184 0.448,10 1,10 C1.552,10 2,9.75172184 2,9.44456787 L2,0.555432126 C2,0.24827816 1.552,0 1,0" id="Fill-274"></path>
+                            <path d="M1,12 C0.447,12 0,12.4477761 0,12.9995002 C0,13.5522239 0.447,14 1,14 C1.552,14 2,13.5522239 2,12.9995002 C2,12.4477761 1.552,12 1,12" id="Fill-275"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
