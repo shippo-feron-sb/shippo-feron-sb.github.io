@@ -1539,11 +1539,17 @@
       "deleteTag": "Delete tag",
       "icon": "Icon"
     },
+    "inputName":{
+      "placeholder": "Enter a name",
+      "error": {
+        "required": "Tag name is required.",
+        "maxLength": "Tag name is invalid. Names cannot exceed 13 characters."
+      }
+    },
     "modal": {
       "title": "Create new tag",
       "settingsLink": "Tag settings",
-      "save": "Save",
-      "tagNamePlaceholder": "Enter a name"
+      "save": "Save"
     },
     "create": {
       "success": "Tag added",
