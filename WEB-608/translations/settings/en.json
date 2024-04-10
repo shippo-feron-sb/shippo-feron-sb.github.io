@@ -1541,11 +1541,11 @@
     },
     "deleteModal": {
       "title": "Remove tag?",
-      "message": "Are you sure you want to remove Subscription? You cannot undo this. ",
+      "message": "Are you sure you want to remove {{tagId}}? You cannot undo this. ",
       "cancel": "Cancel",
       "removeTag": "Remove tag",
-      "successMessage": "Successfully removed tag",
-      "failedMessage": "Failed to remove tag"
+      "successMessage": "Tag removed",
+      "failedMessage": "Tag could not be removed. Please try again."
     }
   }
 }
