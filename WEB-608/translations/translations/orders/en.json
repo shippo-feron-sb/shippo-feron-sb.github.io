@@ -1492,8 +1492,7 @@
   },
   "returnLabelWorkflow": {
     "createBatchEntry": {
-      "error": "Something went wrong, please refresh and try again",
-      "loading": "Loading..."
+      "error": "Something went wrong. Please try again later."
     }
   },
   "itemsCard": {

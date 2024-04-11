@@ -1539,6 +1539,22 @@
       "deleteTag": "Delete tag",
       "icon": "Icon"
     },
+    "inputName":{
+      "placeholder": "Enter a name",
+      "error": {
+        "required": "Tag name is required.",
+        "maxLength": "Tag name is invalid. Names cannot exceed 13 characters."
+      }
+    },
+    "modal": {
+      "title": "Create new tag",
+      "settingsLink": "Tag settings",
+      "save": "Save"
+    },
+    "create": {
+      "success": "Tag added",
+      "error": "Something went wrong, please refresh and try again"
+    },
     "deleteModal": {
       "title": "Remove tag?",
       "message": "Are you sure you want to remove {{tagId}}? You cannot undo this. ",
