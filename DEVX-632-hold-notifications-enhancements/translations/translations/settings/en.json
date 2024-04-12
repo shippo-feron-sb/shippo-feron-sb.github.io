@@ -98,6 +98,8 @@
     },
     "form": {
       "connect": "Connect",
+      "next": "Next",
+      "back": "Back",
       "create": "Create",
       "edit": "Edit",
       "titleText": "{{formType}} {{carrierName}} Account",
@@ -114,9 +116,10 @@
       "verifying": "Verifying",
       "updating": "Updating",
       "createACarrierAccount": "Create a {{carrierName}} Account",
-      "pinSent": "Pin has been sent to your contact method.",
+      "pinSent": "Verification code has been sent to your contact method.",
       "fedexVerificationError": "Connection with FedEx was lost. Please try again.",
       "requiredError": "This field is required",
+      "newFedExFooterCopy": "FedEx service marks are owned by Federal Express Corporation and are used by permission.",
       "serviceLevelsSection": {
         "header": "Show/Hide Service Levels",
         "subtitle": "Hiding a service level will <0>hide it everywhere</0> in Shippo's web app. Service levels used elsewhere (as a default, automation rule, or rate at checkout) cannot be hidden.",
@@ -233,7 +236,9 @@
         "description": "A company logo and digital signature is required to ship internationally on this account. Upload PNG or GIF below.",
         "companyLogo": "Company logo",
         "digitalSignature": "Digital signature",
+        "addSignature": "Add",
         "upload": "Upload",
+        "change": "Change",
         "fileTooLargeErrorTitle": "File too large",
         "fileSizeError": "Image must be 5MB or smaller.",
         "fileDimensionError": "Company logo must be 700 x 50 pixels or smaller.",
@@ -1533,6 +1538,30 @@
       "createTag": "Create tag",
       "deleteTag": "Delete tag",
       "icon": "Icon"
+    },
+    "inputName":{
+      "placeholder": "Enter a name",
+      "error": {
+        "required": "Tag name is required.",
+        "maxLength": "Tag name is invalid. Names cannot exceed 13 characters."
+      }
+    },
+    "modal": {
+      "title": "Create new tag",
+      "settingsLink": "Tag settings",
+      "save": "Save"
+    },
+    "create": {
+      "success": "Tag added",
+      "error": "Something went wrong, please refresh and try again"
+    },
+    "deleteModal": {
+      "title": "Remove tag?",
+      "message": "Are you sure you want to remove {{tagId}}? You cannot undo this. ",
+      "cancel": "Cancel",
+      "removeTag": "Remove tag",
+      "successMessage": "Tag removed",
+      "failedMessage": "Tag could not be removed. Please try again."
     }
   }
 }
