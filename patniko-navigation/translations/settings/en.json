@@ -1555,6 +1555,11 @@
       "success": "Tag added",
       "error": "Something went wrong, please refresh and try again"
     },
+    "update": {
+      "success": "Changes saved",
+      "resolveError": "Resolve error to continue",
+      "error": "Something went wrong, please refresh and try again"
+    },
     "deleteModal": {
       "title": "Remove tag?",
       "message": "Are you sure you want to remove {{tagId}}? You cannot undo this. ",
