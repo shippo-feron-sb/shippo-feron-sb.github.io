@@ -1537,10 +1537,7 @@
       "tagName": "Tag name",
       "createTag": "Create tag",
       "deleteTag": "Delete tag",
-      "icon": "Icon",
-      "changesSaved": "Changes saved",
-      "resolveError": "Resolve error to continue",
-      "emptyTagError": "Tag name cannot be empty"
+      "icon": "Icon"
     },
     "inputName":{
       "placeholder": "Enter a name",
@@ -1556,6 +1553,12 @@
     },
     "create": {
       "success": "Tag added",
+      "error": "Something went wrong, please refresh and try again"
+    },
+    "update": {
+      "success": "Changes saved",
+      "resolveError": "Resolve error to continue",
+      "emptyTagError": "Tag name cannot be empty",
       "error": "Something went wrong, please refresh and try again"
     },
     "deleteModal": {
