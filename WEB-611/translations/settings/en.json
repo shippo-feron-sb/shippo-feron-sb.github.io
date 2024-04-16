@@ -1558,7 +1558,6 @@
     "update": {
       "success": "Changes saved",
       "resolveError": "Resolve error to continue",
-      "emptyTagError": "Tag name cannot be empty",
       "error": "Something went wrong, please refresh and try again"
     },
     "deleteModal": {
