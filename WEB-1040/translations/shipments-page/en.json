@@ -143,7 +143,9 @@
       "insuranceTitle": "Insurance",
       "coverageIncluded": "Coverage value",
       "coverage": "coverage",
-      "fileClaim": "File a claim"
+      "fileClaim": "File a claim",
+      "copyId": "Copy ID",
+      "copySuccess": "Insurance ID successfully copied"
     },
     "refunded": "Refunded",
     "refundPending": "Refund Pending",
