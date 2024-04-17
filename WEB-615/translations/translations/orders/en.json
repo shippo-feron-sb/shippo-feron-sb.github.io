@@ -1035,6 +1035,11 @@
         "fragile": "like stained glass or neon signs",
         "hazardous": ""
       }
+    },
+    "automatedInsurance": {
+      "title": "You’re automatically insured!",
+      "description": "Change this setting any time or remove insurance on individual shipments.",
+      "learnMore": "Learn more"
     }
   },
   "signature": {
