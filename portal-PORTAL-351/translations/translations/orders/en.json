@@ -452,7 +452,10 @@
     "addAddress": "Add sender address",
     "editRecipient": "Edit recipient",
     "openAddressBook": "Addresses...",
-    "addRecipient": "Add Recipient"
+    "addRecipient": "Add Recipient",
+    "errors": {
+      "create": "Failed to save address to the address book"
+    }
   },
   "packageInfo": {
     "addPackageInfo": "Add Package Info",
