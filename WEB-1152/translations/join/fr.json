@@ -72,5 +72,77 @@
   "embeddable": {
     "title": "Wix utilise Shippo pour proposer des frais d'expédition réduits",
     "messaging": "Créez un compte pour acheter des étiquettes directement sur Wix"
+  },
+  "onboarding2024": {
+    "learnMore": "En savoir plus",
+    "back": "Retour",
+    "next": "Suivant",
+    "genericError": "Un problème est survenu. Veuillez réessayer.",
+    "plans": {
+      "title": "Choisissez votre forfait",
+      "starter": {
+        "title": "Débutant",
+        "pricing": "Gratuit",
+        "description": "Jusqu'à 30 étiquettes/mois",
+        "features": {
+          "line1": "Frais les plus avantageux chez les principaux transporteurs",
+          "line2": "Connexions illimitées de magasins",
+          "line3": "Des automatisations qui font gagner du temps",
+          "line4": "Assistance par courriel",
+          "line5": "1 connexion d'utilisateur"
+        }
+      },
+      "pro": {
+        "title": "Pro",
+        "pricing": "Essai de 30 jours gratuits",
+        "description": "Puis commence à 19 $/mois",
+        "features": {
+          "line1": "Jusqu'à 10,000 étiquettes/mois",
+          "line2": "Vos propres comptes transporteurs",
+          "line3": "Expédition sous marque",
+          "line4": "Assistance par courriel, clavardage et téléphone",
+          "line5": "5 connexions d'utilisateur"
+        }
+      },
+      "developer": {
+        "title": "Développeur",
+        "pricing": "Gratuit",
+        "description": "Jusqu'à 30 étiquettes/mois",
+        "features": {
+          "line1": "1 intégration, 40 transporteurs",
+          "line2": "Frais les plus avantageux chez les principaux transporteurs",
+          "line3": "Vos propres comptes transporteurs",
+          "line4": "Sécurité à l'épreuve de l'entreprise"
+        }
+      }
+    },
+    "pages": {
+      "connect_store": {
+        "title": "Ajoutez vos commandes",
+        "description": "Connectez votre boutique à Shippo pour importer des commandes et commencer à envoyer.",
+        "popular": "Connexions populaires",
+        "all": "Toutes les connexions",
+        "do_it_yourself": {
+          "title": "Faites-le vous-même",
+          "manual": "Créer un envoi manuellement",
+          "upload": "Téléverser une feuille de calcul"
+        }
+      }
+    },
+    "join": {
+      "line1": "Rejoignez le club des 100k",
+      "line2": "Expéditeurs et mise à niveau",
+      "line3": "votre activité aujourd'hui",
+      "createAccount": "Créer un compte",
+      "formSubmitting": "Traitement...",
+      "accountExists": "Vous avez déjà un compte Shippo?",
+      "login": "Se connecter",
+      "termsAndPolicy": "En vous inscrivant, vous acceptez les{{lineBreakTag}}{{terms}} et la {{privacy}} de Shippo.",
+      "terms": "Conditions",
+      "privacy": "Politique de confidentialité",
+      "shipmentFields": "Envois mensuels estimatifs",
+      "seoTitle": "S'inscrire sur Shippo gratuitement",
+      "seoDescription": "Cliquez ici pour ouvrir un compte Shippo gratuit et commencer à économiser jusqu'à 90% sur vos envois de commerce électronique dès aujourd'hui. Comparez les tarifs et les services d'expédition en un seul et même endroit"
+    }
   }
 }
