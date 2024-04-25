@@ -1,0 +1,13 @@
+{
+  "totalNumberOfItems": "Total Number of Items",
+  "estimatedTotalWeight": "Estimated Total Weight",
+  "title": "Schedule {{carrierName}} Pickup",
+  "listTitle": "We found the following {{carrierName}} packages with a shipment date of today and tomorrow",
+  "listBottomText": {
+    "USPS": "Items over 70 lbs or 130\" and stamps-only mail pieces exceeding 13 oz are not eligible for pickup.",
+    "DHL Express": "The maximum allowable weight for US domestic packages is 150 pounds. The maximum dimension for US domestic packages is 108 inches in Length or 165 inches in Length plus Girth (2Hx2L). These limitations do not apply for international shipments."
+  },
+  "pickupDateTitle": "Pickup Date",
+  "date": "Date",
+  "pickupDateText": "Your packages will be picked up by {{carrierName}} in the next few business days. Your actual pickup date will be confirmed once your pickup is successfully scheduled."
+}
