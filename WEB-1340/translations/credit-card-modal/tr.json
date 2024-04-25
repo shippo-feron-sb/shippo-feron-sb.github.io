@@ -1,0 +1,21 @@
+{
+  "title": "Kredi kartınızı ekleyin",
+  "disclaimer": "Posta, sigorta ve Shippo ücretleri <0/> bu kredi kartından tahsil edilecektir.",
+  "security": "AES-256 Bankacılık Standartlarında Şifreleme",
+  "submit": "Kart Ekle",
+  "blocked": "Ödeme hesabınızla ilgili bir sorun var. Devam etmek için lütfen fatura bilgilerinizi güncelleyin.",
+  "billingAddress": "Fatura adresi",
+  "cancel": "İptal et",
+  "useSenderAddress": "Ana gönderen adresini kullan",
+  "useDifferentAddress": "Farklı bir adres kullan",
+  "saveAsPrimaryAddress": "Bu adresi gönderen adresiniz olarak kaydedin",
+  "updateSenderAddressToMatchBilling": "Gönderen adresinizi fatura adresinizle eşleşecek şekilde güncelleyin",
+  "cardNumber": "Kart numarası",
+  "expiration": "Son kullanma tarihi",
+  "CVV": "CVV",
+  "editAddress": "Adresi güncelle",
+  "closeIcon": "Kapat",
+  "addressError": "Lütfen geçerli bir adres girin",
+  "titleUpdate": "Kredi kartınızı güncelleyin",
+  "submitUpdate": "Kartı Güncelle"
+}
