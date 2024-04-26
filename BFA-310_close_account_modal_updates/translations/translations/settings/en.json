@@ -910,11 +910,16 @@
       "closeAccount": {
         "title": "Close account",
         "description": "When you close your account, you lose access to your historical shipping data and settings.",
+        "toolTip": "Please contact your account representative to close your account",
         "modal": {
           "title": "Close account",
           "description": "We're sad to see you go! Please note that closing your account is permanent. Any data and account configurations will not be recoverable in the future.",
           "cancel": "Cancel",
-          "confirm": "Close account"
+          "confirm": "Close account",
+          "confirmWithSubscription": "End subscription and close account",
+          "payInvoice": "Pay invoice",
+          "unpaidInvoice": "Please resolve your open invoice prior to closing your account.",
+          "proPlan": "You still have a pro plan subscription until {{ end_date }}. Closing your account now will end this subscription."
         },
         "form": {
           "reasonLabel": "Why do you want to close your account?",
