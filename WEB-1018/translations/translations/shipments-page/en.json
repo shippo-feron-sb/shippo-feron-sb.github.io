@@ -40,7 +40,7 @@
       "label": "1 shipping label",
       "returnLabel": "1 return label",
       "title": "View shipment detail",
-      "returnTitle": "Return shipment detail",
+      "returnTitle": "Return shipment details",
       "tracking": "Tracking #",
       "trackingStatus": "Tracking status",
       "shipDate": "Ship date",
@@ -141,9 +141,12 @@
     "error": "Error",
     "insurance": {
       "insuranceTitle": "Insurance",
-      "coverageIncluded": "Coverage value",
+      "insuredValue": "Insured value:",
+      "XcoverId": "XCover ID:",
       "coverage": "coverage",
-      "fileClaim": "File a claim"
+      "fileClaim": "File a claim",
+      "copyId": "Copy ID",
+      "copySuccess": "Insurance ID successfully copied"
     },
     "refunded": "Refunded",
     "refundPending": "Refund Pending",

@@ -115,7 +115,7 @@
     "downloadMerged_plural": "Download labels and packing slips",
     "notificationTitle": "NOTIFICATION",
     "notificationTitle_plural": "NOTIFICATIONS",
-    "notificationSetUp": "Set Up Autosend Notifications",
+    "notificationSetUp": "Set up autosend notifications",
     "notificationSend": "Send now",
     "notificationSuccess": "Email notification sent to buyer",
     "notificationHelper": "Send email notification to buyer",
@@ -402,6 +402,7 @@
       "warningTitleUPS": "You're close to the limit!",
       "warningTitle": "Warning",
       "addTagToOrderError": "Failed to add tag, please try again later.",
+      "addTagToOrderLimitError": "Unable to add tag. Selected orders have too many tags. Remove tags to add a new tag. ",
       "removeTagFromOrderError": "Failed to remove tag, please try again later."
     },
     "addRecipient": "Add recipient",
@@ -451,7 +452,10 @@
     "addAddress": "Add sender address",
     "editRecipient": "Edit recipient",
     "openAddressBook": "Addresses...",
-    "addRecipient": "Add Recipient"
+    "addRecipient": "Add Recipient",
+    "errors": {
+      "create": "Failed to save address to the address book"
+    }
   },
   "packageInfo": {
     "addPackageInfo": "Add Package Info",
@@ -985,6 +989,7 @@
     "numOfInsured": "{{numInsured}} of {{numOrders}} covered",
     "numOfRequired": "{{numRequired}} of {{numOrders}} required",
     "customValue": "Custom value",
+    "perOrder": "per order",
     "selectionTitle": "Insurance selection",
     "orderInformationTitle": "Insured order information",
     "informationTitle": "Insurance information",
@@ -1034,6 +1039,11 @@
         "fragile": "like stained glass or neon signs",
         "hazardous": ""
       }
+    },
+    "automatedInsurance": {
+      "title": "You’re automatically insured!",
+      "description": "Change this setting any time or remove insurance on individual shipments.",
+      "learnMore": "Learn more"
     }
   },
   "signature": {
@@ -1492,8 +1502,7 @@
   },
   "returnLabelWorkflow": {
     "createBatchEntry": {
-      "error": "Something went wrong, please refresh and try again",
-      "loading": "Loading..."
+      "error": "Something went wrong. Please try again later."
     }
   },
   "itemsCard": {
