@@ -71,8 +71,6 @@
     "account": "Account",
     "active": "Active",
     "edit": "Edit",
-    "reconnect": "Reconnect",
-    "reconnectError": "Error reconnecting account. Please try again.",
     "descriptions": {
       "usps": {
         "discounts": "Access discounts up to 90%",
