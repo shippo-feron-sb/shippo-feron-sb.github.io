@@ -1502,7 +1502,7 @@
   },
   "returnLabelWorkflow": {
     "createBatchEntry": {
-      "error": "Something went wrong. Please try again later."
+      "error": "Something is not working right at the moment. We've notified our team to work on this. Please try again."
     }
   },
   "itemsCard": {
