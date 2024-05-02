@@ -675,7 +675,7 @@
       "errorMessage": "Please unselect an order to continue",
       "alreadyFulfilled": "already fulfilled. Deselect to continue purchases for other",
       "loading": "Loading",
-      "purchasing": "Purchasing Labels",
+      "purchasing": "Purchasing labels",
       "creatingReturnLabel": "Creating label",
       "returnLabelTitle": "Confirm return label",
       "forOrder": "Order",
