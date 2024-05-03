@@ -683,7 +683,7 @@
       "errorMessage": "Please unselect an order to continue",
       "alreadyFulfilled": "already fulfilled. Deselect to continue purchases for other",
       "loading": "Loading",
-      "purchasing": "Purchasing Labels",
+      "purchasing": "Purchasing labels",
       "creatingReturnLabel": "Creating label",
       "returnLabelTitle": "Confirm return label",
       "forOrder": "Order",
@@ -1510,7 +1510,7 @@
   },
   "returnLabelWorkflow": {
     "createBatchEntry": {
-      "error": "Something went wrong. Please try again later."
+      "error": "Something is not working right at the moment. We've notified our team to work on this. Please try again."
     }
   },
   "itemsCard": {
