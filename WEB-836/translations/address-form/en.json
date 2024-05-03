@@ -15,7 +15,6 @@
   "setDefaultSender": "Save as default sender address",
   "defaultReturn": "Default return address",
   "setDefaultReturn": "Save as default return address",
-  "applyChangesToSavedAddress": "Apply changes to the saved address",
   "apply": "Apply",
   "edit": "Edit",
   "cancel": "Cancel",
