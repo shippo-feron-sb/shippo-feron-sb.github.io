@@ -1556,7 +1556,7 @@
     "insightsTransitOnTime": "Often arrives on time",
     "insightTooltipTitle": "Shippo Insights:",
     "insightTooltipContent": " Calculated based on actual delivery times for parcels in the last 90 days with similar Origin/destination as this order",
-    "timedoutCardSummary": "Still waiting for rates",
+    "timedoutCardTitle": "Still waiting for rates",
     "timedoutAlertMsg": "It’s taking longer than expected to get your rates. Please try again.",
     "tryAgain": "Try again"
   },
