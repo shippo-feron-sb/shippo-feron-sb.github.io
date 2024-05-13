@@ -122,12 +122,14 @@
       "developer": {
         "title": "Developer",
         "pricing": "Free",
-        "description": "Up to 30 labels/month",
+        "description": "Up to 30k labels",
+        "description2": "API integration required",
         "features": {
-          "line1": "1 integration, 40 carriers",
-          "line2": "Best rates with top carriers",
-          "line3": "Your own carrier accounts",
-          "line4": "Enterprise-ready security"
+          "line1": "Tracking, returns, and more",
+          "line2": "1 integration to 40+ carriers",
+          "line3": "Compare discounted rates",
+          "line4": "Your own carrier accounts",
+          "line5": "Enterprise-ready security"
         }
       }
     },
