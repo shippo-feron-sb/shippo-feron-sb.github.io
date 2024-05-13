@@ -195,6 +195,7 @@
       "serviceLevelsUnavailable": "Rates Unavailable",
       "shipmentOptionsPopupButtonTitle": "Shipment Extras",
       "shipmentOptionsPopupButtonDescription": "Add insurance & signature",
+      "shipmentOptionsPopupButtonDescriptionNoInsurance": "Add signature",
       "billingMessage": "You can create labels in batches after you add a valid payment method.",
       "invalidMessage": "At least one order must be valid to create labels in a batch.",
       "readyToBuy": "{{count}} of {{ total }} ready",

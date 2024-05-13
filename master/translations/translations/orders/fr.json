@@ -113,6 +113,7 @@
       "serviceLevelsUnavailable": "Ne pouvait pas générer le frais d'envoi",
       "shipmentOptionsPopupButtonTitle": "Options d'expédition",
       "shipmentOptionsPopupButtonDescription": "Ajouter assurance & signature",
+      "shipmentOptionsPopupButtonDescriptionNoInsurance": "Ajouter signature",
       "billingMessage": "Vous pouvez créer des étiquettes par lots après avoir ajouté un mode de paiement valide.",
       "invalidMessage": "Au moins une commande doit être valide pour créer des étiquettes dans un lot.",
       "readyToBuy": "{{count}} sur {{ total }} prête",
