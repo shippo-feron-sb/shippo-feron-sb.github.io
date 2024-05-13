@@ -6,11 +6,11 @@ do
     echo "Date of last commit: ${DATEOFLAST}"
     echo "Five days ago: ${FIVE_DAYS_AGO}"
     echo "Directory: ${dir}"
-    if [[ $DATEOFLAST -ge $FIVE_DAYS_AGO && $dir != "./master/" ]]
+    if [[ $DATEOFLAST -le $FIVE_DAYS_AGO && $dir != "./master/" ]]
     then
         HAS_CLEANUP=true
         echo "Deleting ${dir}"
-        # rm -rf ${dir}
+        rm -rf ${dir}
     fi
 done
 
