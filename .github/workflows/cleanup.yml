@@ -14,5 +14,6 @@ jobs:
         run: |
           git clone https://github.com/shippo-feron-sb/shippo-feron-sb.github.io.git
           cd shippo-feron-sb.github.io
+          ls -l
           sh cleanup.sh
       
