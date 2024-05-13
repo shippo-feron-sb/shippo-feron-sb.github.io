@@ -1,11 +1,15 @@
 name: "Clean up old builds"
+# on:
+#   schedule:
+#   - cron: "*/15 * * * *"
 on:
-  schedule:
-  - cron: "*/15 * * * *"
+  push:
+    branches:
+      - main
 jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
       - name: Cleanup old builds
-        run: sh cleanup.sh
+        run: ls
       
