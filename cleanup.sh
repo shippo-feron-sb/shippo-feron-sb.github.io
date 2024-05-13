@@ -1,16 +1,16 @@
 HAS_CLEANUP=false
-FIVE_DAYS_AGO=$(date +%s -d '5 days ago')
+FIVE_DAYS_AGO=$(gdate +%s -d '5 days ago')
 for dir in ./*/
 do
     DATEOFLAST=`git log -n 1 --pretty=format:%ct ${dir}`
     echo "Date of last commit: ${DATEOFLAST}"
     echo "Five days ago: ${FIVE_DAYS_AGO}"
     echo "Directory: ${dir}"
-    if [[ $DATEOFLAST < $FIVE_DAYS_AGO && $dir != "./master/" ]]
+    if [[ $DATEOFLAST -ge $FIVE_DAYS_AGO && $dir != "./master/" ]]
     then
         HAS_CLEANUP=true
         echo "Deleting ${dir}"
-        rm -rf ${dir}
+        # rm -rf ${dir}
     fi
 done
 
