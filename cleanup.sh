@@ -1,5 +1,5 @@
 HAS_CLEANUP=false
-FIVE_DAYS_AGO=$(gdate +%s -d '5 days ago')
+FIVE_DAYS_AGO=$(date +%s -d '5 days ago')
 for dir in ./*/
 do
     DATEOFLAST=`git log -n 1 --pretty=format:%ct ${dir}`
