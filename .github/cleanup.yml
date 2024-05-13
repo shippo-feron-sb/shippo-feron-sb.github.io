@@ -1,0 +1,11 @@
+name: "Clean up old builds"
+on:
+  schedule:
+  - cron: "0 0 * * *"
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sh cleanup.sh
+      
