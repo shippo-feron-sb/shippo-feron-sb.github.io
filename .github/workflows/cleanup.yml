@@ -1,11 +1,7 @@
 name: "Clean up old builds"
-# on:
-#   schedule:
-#   - cron: "*/15 * * * *"
 on:
-  push:
-    branches:
-      - main
+  schedule:
+  - cron: "0 0 * * *" # every day at midnight
 jobs:
   cleanup:
     runs-on: ubuntu-latest
