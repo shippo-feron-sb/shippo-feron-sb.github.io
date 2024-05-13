@@ -298,16 +298,21 @@
     "popupTitle": "Informations sur le paquet"
   },
   "refund": {
-    "title": "Are you sure you want to refund this shipping label?",
-    "initialNote": "Take into consideration the following important information:",
-    "bullet1": "Refunds typically take <0>14 days</0> to credit into your account. ",
-    "link": "Read more about refunds",
-    "bulletInsurance": "Toute assurance souscrite auprès d'un transporteur ou par le biais de Shippo Total Protection sera annulée et vous sera remboursée",
-    "bullet2": "You will immediately be unable to use this shipping label for postage",
-    "bullet3": "This action cannot be undone, but you can create a new label",
-    "confirm": "Yes, request refund",
-    "errorTitle": "Remboursement d'étiquettes momentanément indisponible",
-    "errorText": "Postes Canada est en train de traiter votre requête initiale d'achat d'étiquettes. Pour rembourser votre achat, veuillez réessayer votre remboursement d'étiquette au moins 60 minutes après l'heure de l'achat de l'étiquette."
+    "title": "Demander des remboursements",
+    "bullets": [
+      "Les remboursements peuvent prendre jusqu'à 14 jours pour être crédités sur votre compte. <0>Apprendre encore plus</0>",
+      "Toute assurance achetée auprès d'un transporteur ou via Shippo Total Protection sera annulée et vous sera remboursée.",
+      "Vous ne pourrez immédiatement plus utiliser d’étiquettes pour l’envoi.",
+      "Les remboursements ne peuvent pas être annulés, mais vous pouvez créer une nouvelle étiquette en dupliquant votre commande ou en achetant une nouvelle étiquette."
+    ],
+    "insuranceAcknowledge": "Je reconnais que demander un remboursement annulera ma couverture d'assurance XCover et que les réclamations ne seront pas payées.",
+    "cancel": "Annuler",
+    "request": "Demande de remboursement",
+    "result": {
+      "success": "Remboursement demandé",
+      "error": "La demande de remboursement a échoué",
+      "canadaPostIneligible": "Postes Canada est toujours en train de traiter votre achat initial d'étiquettes. Veuillez demander à nouveau le remboursement après au moins 60 minutes."
+    }
   },
   "notifications": {
     "modalPrompt": "Envoyer des emails de confirmation?",
