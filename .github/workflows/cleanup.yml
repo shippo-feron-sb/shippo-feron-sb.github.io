@@ -11,5 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Cleanup old builds
-        run: ls
+        run: git clone https://github.com/shippo-feron-sb/shippo-feron-sb.github.io.git
+        run: cd shippo-feron-sb.github.io
+        run: sh cleanup.sh
       
