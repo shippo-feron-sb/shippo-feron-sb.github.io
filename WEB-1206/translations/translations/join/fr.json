@@ -108,11 +108,13 @@
         "title": "Développeur",
         "pricing": "Gratuit",
         "description": "Jusqu'à 30 étiquettes/mois",
+        "description2": "API integration required",
         "features": {
-          "line1": "1 intégration, 40 transporteurs",
-          "line2": "Frais les plus avantageux chez les principaux transporteurs",
-          "line3": "Vos propres comptes transporteurs",
-          "line4": "Sécurité à l'épreuve de l'entreprise"
+          "line1": "Tracking, returns, and more",
+          "line2": "1 intégration, 40 transporteurs",
+          "line3": "Frais les plus avantageux chez les principaux transporteurs",
+          "line4": "Vos propres comptes transporteurs",
+          "line5": "Sécurité à l'épreuve de l'entreprise"
         }
       }
     },
