@@ -645,7 +645,15 @@
     "bypassAddressValidationCTA": "Confirm address",
     "negotiatedRate": "You will be charged the negotiated rate",
     "insuranceCoverage": "{{insuranceValue}} coverage included in the price",
-    "xcoverNote": "By adding protection, you agree to the <1>terms, conditions and exclusions</1>. Protection sold by Cover Genius and powered by XCover.",
+    "xcoverNote": "By adding protection, you agree to the <0>terms, conditions and exclusions</0>. Protection sold by Cover Genius and powered by XCover.",
+    "xcoverNoteByCountry": {
+      "GB": "By pressing {{buttonName}}, you declare that you agree with the <0>terms & conditions</0> of the shipping protection, the <1>product information sheet</1> incl. the additional administration fee, and the <2>data protection declaration</2>.",
+      "FR": "By pressing {{buttonName}}, you declare that you agree with the <0>terms & conditions</0> of the shipping protection, the <1>product information sheet</1> incl. the additional administration fee, and the <2>data protection declaration</2>.",
+      "IT": "By pressing {{buttonName}}, you declare that you agree with the <0>terms & conditions</0> of the shipping protection, the <1>product information sheet</1> incl. the additional administration fee, and the <2>data protection declaration</2>.",
+      "NL": "By pressing {{buttonName}}, you declare that you agree with the <0>terms & conditions</0> of the shipping protection, the <1>product information sheet</1> incl. the additional administration fee, and the <2>data protection declaration</2>.",
+      "DE": "By pressing {{buttonName}}, you declare that you agree with the <0>terms & conditions incl. the withdrawal policy</0> of the shipping protection, the <1>notice on the consequences of a breach of obligations</1>, the <2>product information sheet</2> incl. the additional administration fee, and the <3>data protection declaration</3>.",
+      "ES": "By pressing {{buttonName}}, you declare that you agree with the <0>terms & conditions</0> of the shipping protection, the <1>product information sheet</1> incl. the additional administration fee, and the <2>data protection declaration</2>."
+    },
     "total": "Total:",
     "fixOrderToContinue": "Please update order details to continue",
     "fixOrderTooltip": "The most common issues are with Package Info, Recipient, and Customs Declarations.",
