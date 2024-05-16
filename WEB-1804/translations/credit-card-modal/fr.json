@@ -1,0 +1,7 @@
+{
+  "title": "Entrez vos informations de carte de crédit",
+  "disclaimer": "Les frais d’affranchissement, d’assurance et Shippo seront portés <0/> à cette carte de crédit.",
+  "security": "AES-256 Bank-Level Encryption",
+  "submit": "Sauvegarder",
+  "blocked": "Il y a un problème avec votre compte de paiement. Veuillez mettre à jour vos informations de facturation pour continuer."
+}
