@@ -476,7 +476,10 @@
     "incompleteOrdersBatch_plural": "{{count}} commandes ont besoin d'attention",
     "labelNotPurchased": "{{count}} étiquette ne sera pas achetée",
     "labelNotPurchased_plural": "{{count}} étiquettes ne seront pas achetées",
-    "xcoverNote": "En ajoutant une protection, vous acceptez les <1>termes, conditions et exclusions</1>. Protection vendue par Cover Genius et optimisée par XCover."
+    "xcoverNote": "En ajoutant une protection, vous acceptez les <0>termes, conditions et exclusions</0>. Protection vendue par Cover Genius et optimisée par XCover.",
+    "xcoverNoteByCountry": {
+      "FR": "En appuyant sur {{buttonName}}, vous déclarez être d'accord avec les <0>Conditions Générales</0> de la protection d'expédition, la <1>fiche d'information sur le produit</1>, y compris les frais d'administration supplémentaires, et la <2>déclaration de protection des données</2>."
+    }
   },
   "calculateRates": {
     "header": "Détails de la commande",

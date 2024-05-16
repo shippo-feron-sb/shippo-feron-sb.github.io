@@ -56,7 +56,8 @@
       "packingSlipDownloaded": "Packing slip downloaded",
       "packingSlipDownloaded_plural": "Packing slips downloaded",
       "labelDownloaded": "Label downloaded",
-      "labelDownloaded_plural": "Labels downloaded"
+      "labelDownloaded_plural": "Labels downloaded",
+      "labelDownloadError": "Something is not working right at the moment. We've notified our team to work on this. Please try again."
     }
   },
   "currency": "{{value, currency}}",
