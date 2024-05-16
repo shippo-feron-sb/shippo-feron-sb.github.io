@@ -177,7 +177,7 @@
       "selectCarrierParcel": "Select a Carrier provided parcel",
       "noTemplatesAvailable": "No templates available",
       "search": "Search",
-      "searchTemplates": "Search carrier provided parcels",
+      "searchTemplates": "Search templates and carrier packages",
       "save": "Save"
     },
     "multi": {
@@ -753,6 +753,7 @@
       },
       "moreDetails": "More",
       "lessDetails": "Less",
+      "carrierMessages": "Carrier messages",
       "errors": {
         "actionRequired": "Action required",
         "phoneNumberRequired": "Add recipient phone number",
