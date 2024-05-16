@@ -753,6 +753,7 @@
       },
       "moreDetails": "More",
       "lessDetails": "Less",
+      "carrierMessages": "Carrier messages",
       "errors": {
         "actionRequired": "Action required",
         "phoneNumberRequired": "Add recipient phone number",
