@@ -918,7 +918,6 @@
           "description": "We're sad to see you go! Please note that closing your account is permanent. Any data and account configurations will not be recoverable in the future.",
           "cancel": "Cancel",
           "confirm": "Close account",
-          "confirmWithSubscription": "End subscription and close account",
           "payInvoice": "Pay invoice",
           "unpaidInvoice": "Please resolve your unpaid invoice prior to closing your account.",
           "proPlan": "You still have a pro plan subscription until {{ end_date }}. Closing your account now will end this subscription."
