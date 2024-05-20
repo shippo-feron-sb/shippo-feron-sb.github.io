@@ -14,10 +14,8 @@ jobs:
       - name: Check Github User
         run: |
           git --version
-          git config user.name 'shippo-feron-sb'
-          git config user.email 'feron-storybook@shippo.com'
-          git config user.name
-          git config user.email
+          git config --global user.name 'shippo-feron-sb'
+          git config --global user.email 'feron-storybook@shippo.com'
       - name: Set up SSH
         uses: pioug/la-cle@v1.1.0
         with:
