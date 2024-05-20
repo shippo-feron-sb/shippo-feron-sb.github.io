@@ -6,9 +6,20 @@ jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
+      - name: Check Github User
+        run: |
+          git --version
+          git config user.name 'shippo-feron-sb'
+          git config user.email 'feron-storybook@shippo.com'
+          git config user.name
+          git config user.email
+      - name: Set up SSH
+        uses: pioug/la-cle@v1.1.0
+        with:
+          GH_SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Cleanup old builds
         run: |
-          git clone https://github.com/shippo-feron-sb/shippo-feron-sb.github.io.git
+          git clone git@github.com:shippo-feron-sb/shippo-feron-sb.github.io.git
           cd shippo-feron-sb.github.io
           sh cleanup.sh
       
