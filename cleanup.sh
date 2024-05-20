@@ -17,6 +17,8 @@ done
 
 if [ "$HAS_CLEANUP" = true ]
 then
+    git config --global user.email "feron-storybook@shippo.com"
+    git config --global user.name "shippo-feron-sb"
     git add .
     git commit -m "Cleanup"
     git push origin main
