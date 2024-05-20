@@ -1,5 +1,6 @@
 name: "Clean up old builds"
-on: [push]
+on: 
+  workflow_dispatch:
   # schedule:
   # # - cron: "0 0 * * *" # every day at midnight
   # - cron: "*/15 * * * *" # every day at midnight
