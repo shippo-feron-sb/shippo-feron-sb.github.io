@@ -1249,6 +1249,12 @@
       "return": "Return to",
       "editSender": "Sender (customer) address",
       "editReturnTo": "Return to address"
+    },
+    "emptyAddressLabels": {
+      "to": "Add recipient address",
+      "sender": "Add sender address",
+      "return": "Add return address",
+      "senderAndReturn": "Add sender & return address"
     }
   },
   "bypassAddress": {
