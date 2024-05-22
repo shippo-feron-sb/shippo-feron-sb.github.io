@@ -1182,6 +1182,8 @@
     "saveAsDefaultSender": "Save as default sender address",
     "senderAndReturnAreTheSame": "Sender and return addresses are the same",
     "useAsReturnAddress": "Use as return address",
+    "applyChangesToSavedAddress": "Apply changes to the saved address",
+    "saveToAddressBook": "Save to address book",
     "senderAddress": "Sender address",
     "editAddress": "Edit address",
     "editAddress_plural": "Edit addresses",
@@ -1247,6 +1249,12 @@
       "return": "Return to",
       "editSender": "Sender (customer) address",
       "editReturnTo": "Return to address"
+    },
+    "emptyAddressLabels": {
+      "to": "Add recipient address",
+      "sender": "Add sender address",
+      "return": "Add return address",
+      "senderAndReturn": "Add sender & return address"
     }
   },
   "bypassAddress": {
