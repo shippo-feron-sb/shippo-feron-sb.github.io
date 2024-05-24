@@ -1438,6 +1438,8 @@
   },
   "add_recipient_address": "Add recipient address",
   "add_sender_address": "Add sender address",
+  "add_return_address": "Add return address",
+  "add_addresses": "Add addresses",
   "centimeters": "centimeters",
   "centimetersAbbreviation": "cm",
   "city": "City",
