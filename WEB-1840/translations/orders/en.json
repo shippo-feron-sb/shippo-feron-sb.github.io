@@ -777,7 +777,10 @@
         "packageErrors": "Package required",
         "dateErrors": "Shipment date required",
         "customsErrors": "Customs required",
-        "recipientErrors": "Recipient required",
+        "recipientErrors": "Recipient address required",
+        "senderErrors": "Sender address required",
+        "returnErrors": "Return address required",
+        "addressesErrors": "Addresses required",
         "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers"
       },
       "info": {
@@ -1438,6 +1441,8 @@
   },
   "add_recipient_address": "Add recipient address",
   "add_sender_address": "Add sender address",
+  "add_return_address": "Add return address",
+  "add_addresses": "Add addresses",
   "centimeters": "centimeters",
   "centimetersAbbreviation": "cm",
   "city": "City",
