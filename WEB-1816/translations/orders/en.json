@@ -778,7 +778,10 @@
         "packageErrors": "Package required",
         "dateErrors": "Shipment date required",
         "customsErrors": "Customs required",
-        "recipientErrors": "Recipient required",
+        "recipientErrors": "Recipient address required",
+        "senderErrors": "Sender address required",
+        "returnErrors": "Return address required",
+        "addressesErrors": "Addresses required",
         "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers"
       },
       "info": {
