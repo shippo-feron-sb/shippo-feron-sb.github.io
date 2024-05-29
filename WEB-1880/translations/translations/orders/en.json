@@ -777,7 +777,10 @@
         "packageErrors": "Package required",
         "dateErrors": "Shipment date required",
         "customsErrors": "Customs required",
-        "recipientErrors": "Recipient required",
+        "recipientErrors": "Recipient address required",
+        "senderErrors": "Sender address required",
+        "returnErrors": "Return address required",
+        "addressesErrors": "Addresses required",
         "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers"
       },
       "info": {
@@ -1213,7 +1216,7 @@
     "country": "Country",
     "select": "Select",
     "selected": "Selected",
-    "clearAddress": "Clear Address",
+    "clearAddress": "Clear",
     "pasteAddress": "Paste US Address",
     "contactInformation": "Contact information",
     "address": "Address",
