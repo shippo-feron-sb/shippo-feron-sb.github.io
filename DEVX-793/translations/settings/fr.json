@@ -14,6 +14,7 @@
       "descriptionZeroState": "Téléchargez un logo qui sera appliqué à vos pages de suivi, vos e-mails de notification et vos bons de livraison.",
       "uploadSuccess": "Succès! Le logo de votre entreprise a été téléchargé.",
       "uploadError": "Oups! La mise à jour de votre image de logo a échoué. Veuillez réessayer.",
+      "uploadErrorRetry": "Réessayer",
       "uploadUnsuccessful": "Échec du téléversement - {{cause}}",
       "fileSizeExceedsLimit": "la taille du fichier dépasse 1 Mo",
       "invalidFileFormat": "le fichier doit être au format PNG ou JPEG",
