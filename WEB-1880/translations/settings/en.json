@@ -12,8 +12,9 @@
       "descriptionLine1": "Your logo will be applied to your tracking pages, notification emails, and packing slips.",
       "descriptionLine2": "To apply your logo to USPS labels, visit the <0>Labels</0> settings page.",
       "descriptionZeroState": "Upload a logo that will be applied to your tracking pages, notification emails and packing slips.",
-      "uploadSuccess": "Success! Your company logo has been uploaded.",
-      "uploadError": "Oops! Your logo image update failed. Please try again.",
+      "uploadSuccess": "Your company logo has been uploaded.",
+      "uploadError": "Your logo image update failed.",
+      "uploadErrorRetry": "Try again",
       "uploadUnsuccessful": "Upload unsuccessful - {{cause}}",
       "fileSizeExceedsLimit": "file size exceeds 1MB",
       "invalidFileFormat": "file must be PNG or JPEG format",
@@ -29,8 +30,8 @@
       "inputLabel": "Hex value",
       "descriptionLine1": "Your brand color will be applied to your tracking pages and emails.",
       "descriptionLine2": "Choose a primary color for buttons, text titles, etc. and a lighter background color for design accents.",
-      "updateSuccess": "Success! Your brand color has been updated.",
-      "updateError": "Oops! Your brand color update failed. Please try again.",
+      "updateSuccess": "Your brand color has been updated.",
+      "updateError": "Your brand color update failed. Please try again.",
       "inputError": "Invalid characters",
       "primaryLabel": "Primary color",
       "secondaryLabel": "Background color"
@@ -1549,7 +1550,7 @@
       "deleteTag": "Delete tag",
       "icon": "Icon"
     },
-    "inputName":{
+    "inputName": {
       "placeholder": "Enter a name",
       "error": {
         "required": "Tag name is required.",
