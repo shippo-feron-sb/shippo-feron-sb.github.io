@@ -749,7 +749,8 @@
         "FASTEST": "FASTEST",
         "MORE": "MORE RATES",
         "CHEAPEST_AND_FASTEST": "CHEAPEST & FASTEST",
-        "PAY_ON_USE": "PAY ON USE"
+        "PAY_ON_USE": "PAY ON USE",
+        "BEST_OPTION": "BEST"
       },
       "moreDetails": "More",
       "lessDetails": "Less",
@@ -777,7 +778,10 @@
         "packageErrors": "Package required",
         "dateErrors": "Shipment date required",
         "customsErrors": "Customs required",
-        "recipientErrors": "Recipient required",
+        "recipientErrors": "Recipient address required",
+        "senderErrors": "Sender address required",
+        "returnErrors": "Return address required",
+        "addressesErrors": "Addresses required",
         "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers"
       },
       "info": {
@@ -1213,7 +1217,7 @@
     "country": "Country",
     "select": "Select",
     "selected": "Selected",
-    "clearAddress": "Clear Address",
+    "clearAddress": "Clear",
     "pasteAddress": "Paste US Address",
     "contactInformation": "Contact information",
     "address": "Address",
@@ -1438,6 +1442,8 @@
   },
   "add_recipient_address": "Add recipient address",
   "add_sender_address": "Add sender address",
+  "add_return_address": "Add return address",
+  "add_addresses": "Add addresses",
   "centimeters": "centimeters",
   "centimetersAbbreviation": "cm",
   "city": "City",
@@ -1574,11 +1580,6 @@
     "missingInformation": "{{count}} missing information",
     "typeRequired": "Add {{type}} to view rates",
     "refreshNeeded": "Refresh rates",
-    "insightTransitTime": "Often arrives {{days}} day {{status}}",
-    "insightTransitTime_plural": "Often arrives {{days}} days {{status}}",
-    "insightsTransitOnTime": "Often arrives on time",
-    "insightTooltipTitle": "Shippo Insights:",
-    "insightTooltipContent": " Calculated based on actual delivery times for parcels in the last 90 days with similar Origin/destination as this order",
     "timedoutCardTitle": "Still waiting for rates",
     "timedoutAlertMsg": "It’s taking longer than expected to get your rates. Please try again.",
     "tryAgain": "Try again"
