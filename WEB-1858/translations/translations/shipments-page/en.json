@@ -1,0 +1,201 @@
+{
+  "page": {
+    "title": "Shipments"
+  },
+  "actionButtons": {
+    "createManifest": "Create manifest",
+    "createManifestXS": "Manifest",
+    "schedulePickup": "Schedule pickup",
+    "export": "Export"
+  },
+  "banners": {
+    "pickupHasBeenScheduled": "{{carrier}} pickup has been scheduled",
+    "pickupHasBeenScheduledFor": "{{carrier}} pickup has been scheduled for",
+    "mustBeReadyBy": "Your packages must be ready for pickup by",
+    "confirmationNumber": "Confirmation #",
+    "noneAvailable": "There are no packages available for pickup. You need to create at least one transaction in order to proceed."
+  },
+  "drawers": {
+    "schedulePickup": {
+      "title": "Schedule pickup",
+      "scheduleCarrier": "Schedule {{carrier}} Pickup",
+      "noPickups": "There are no packages available for pickup. Create at least one shipment to schedule a pickup. "
+    },
+    "export": {
+      "title": "Export",
+      "selectDates": "Choose a start and end date for your export. ",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "close": "Close",
+      "export": "Export",
+      "exporting": "Exporting...",
+      "download": "Download",
+      "processing": "Processing export...",
+      "complete": "Export complete",
+      "success": "Successfully completed CSV export for {{StartDate}} to {{EndDate}}",
+      "error": "We couldn't find any shipments for this period (we don't include test shipments in this export). Please select another period and try again.",
+      "previousReports": "Previous Reports"
+    },
+    "shipmentInformation": {
+      "label": "1 shipping label",
+      "returnLabel": "1 return label",
+      "title": "View shipment detail",
+      "returnTitle": "Return shipment details",
+      "tracking": "Tracking #",
+      "trackingStatus": "Tracking status",
+      "shipDate": "Ship date",
+      "rate": "Rate",
+      "order": "Order",
+      "returnOrder": "Return for order",
+      "customer": "Customer",
+      "total": "Total",
+      "viewOrder": "View order",
+      "createdBy": "Created by"
+    },
+    "bulk": {
+      "packingSlipDownloaded": "Packing slip downloaded",
+      "packingSlipDownloaded_plural": "Packing slips downloaded",
+      "labelDownloaded": "Label downloaded",
+      "labelDownloaded_plural": "Labels downloaded",
+      "labelDownloadError": "Something is not working right at the moment. We've notified our team to work on this. Please try again."
+    }
+  },
+  "currency": "{{value, currency}}",
+  "search": {
+    "searchButton": {
+      "submit": "Search"
+    },
+    "searchBar": {
+      "placeholder": "Search {{contextKey}}"
+    },
+    "clearButton": {
+      "submit": "Clear all"
+    },
+    "sort": {
+      "newestFirst": "Newest",
+      "oldestFirst": "Oldest",
+      "mostRelevant": "Most relevant",
+      "sortBy": "Sort by",
+      "oldest": "Oldest",
+      "newest": "Newest",
+      "labelOldest": "Oldest",
+      "labelNewest": "Newest",
+      "labelRelevant": "Most relevant"
+    },
+    "filters": {
+      "date": {
+        "dateButton": "Date",
+        "after": "After",
+        "before": "Before",
+        "selectDates": "Select dates",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "clearAll": "Clear all",
+        "apply": "Apply"
+      },
+      "carriers": {
+        "all": "All",
+        "drawerTitle": "Carriers",
+        "label": "Carrier"
+      },
+      "trackStatus": {
+        "drawerTitle": "Tracking status",
+        "label": "Tracking status",
+        "choices": {
+          "all": "All",
+          "delivered": "Delivered",
+          "inTransit": "In transit",
+          "returned": "Returned",
+          "unknown": "Unknown",
+          "failure": "Failure",
+          "preTransit": "Pre-transit"
+        }
+      },
+      "labelType": {
+        "drawerTitle": "Label filter",
+        "label": "Labels",
+        "choicesFull": {
+          "all": "All",
+          "live": "Live labels",
+          "test": "Test labels"
+        },
+        "choicesShort": {
+          "all": "All",
+          "live": "Live",
+          "test": "Test"
+        }
+      },
+      "labelStatus": {
+        "drawerTitle": "Label status",
+        "labelBase": "Label status",
+        "choices": {
+          "all": "All",
+          "error": "Error",
+          "refunded": "Refunded",
+          "refundPending": "Refund pending",
+          "refundRejected": "Refund rejected",
+          "successful": "Purchased"
+        }
+      }
+    }
+  },
+  "cells": {
+    "error": "Error",
+    "insurance": {
+      "insuranceTitle": "Insurance",
+      "insuredValue": "Insured value:",
+      "XcoverId": "XCover ID:",
+      "coverage": "coverage",
+      "fileClaim": "File a claim",
+      "copyId": "Copy ID",
+      "copySuccess": "Insurance ID successfully copied"
+    },
+    "refunded": "Refunded",
+    "refundPending": "Refund Pending",
+    "rate": {
+      "inclInsurance": "incl. {{value, currency}} insurance",
+      "return": "Return",
+      "whenUsed": "when used",
+      "payOnUse": "Pay on use",
+      "test": "Test"
+    }
+  },
+  "action": {
+    "refundRequested": "Refund requested",
+    "download": "Download",
+    "notify": "Notify",
+    "WAITING": "Waiting",
+    "QUEUED": "Queued",
+    "SUCCESS": "Success",
+    "ERROR": "Error",
+    "REFUNDPENDING": "Refund Pending",
+    "REFUNDREJECTED": "Refund Rejected",
+    "REFUNDED": "Refunded",
+    "RETURNED": "Returned"
+  },
+  "menu": {
+    "title": "More actions",
+    "downloadLabel": "Download label",
+    "sendNotification": "Send notification email",
+    "sendNotificationCaption": "Send email with tracking status",
+    "createReturn": "Create return label",
+    "createReturnCaption": "Create a return label that charges on scan",
+    "refundLabel": "Refund label",
+    "downloadCommercialInvoice": "Download commercial invoice",
+    "downloadCommercialInvoiceCaption": "Required when shipping internationally"
+  },
+  "notify": {
+    "genericSuccessMessage": "Successfully sent an email notification",
+    "genericSuccessMessage_plural": "Successfully sent email notifications",
+    "genericErrorMessage": "An error was encountered when sending a notification",
+    "copyTrackingNumber": "Tracking number copied"
+  },
+  "dialog": {
+    "close": "Close",
+    "fraud": "Your account has been suspended, your labels will not be available for download until your account suspension is resolved. Your account will not be charged for any labels that are not available. Please reach out to support@shippo.com to re-activate your account."
+  },
+  "table": {
+    "noRows": "0 search results",
+    "requestError": "An error occurred displaying your shipment. Please try again."
+  }
+}
