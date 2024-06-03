@@ -1,0 +1,11 @@
+{
+  "url": "Veuillez entrer une URL valide.",
+  "maxLength": "Ne peut pas contenir plus de {{max}} caractères.",
+  "minLength": "Doit comporter au moins {{min}} caractères",
+  "requiredField": "Ceci est un champ obligatoire",
+  "enterValidPhoneNumber": "s'il vous plaît entrer un numéro de téléphone valide",
+  "pickupTimeEarliestError": "La première heure de ramassage ne peut pas être après La dernière heure de ramassage",
+  "requiredFieldWithName": "{{fieldName}} est un champ obligatoire.",
+  "maxLengthExtended": "{{fieldName}} doit comporter {{maxLength}} caractères au maximum (caractères {{current}} actuellement)",
+  "emailInvalid": "Format de courrier électronique invalide"
+}
