@@ -1529,6 +1529,17 @@
       "error": "There was an issue deleting the recipient address. Please try again later"
     }
   },
+  "addressSuggestion": {
+    "title": "Update {{addressType}}",
+    "text": "This {{addressType}} cannot be validated. Use the suggested address to avoid issues with your shipment.",
+    "originalAddress": "Original address",
+    "recommendedAddress": "Suggested address",
+    "addressTypes": {
+      "sender": "sender address",
+      "return": "return address",
+      "to": "recipient address"
+    }
+  },
   "returnLabelWorkflow": {
     "createBatchEntry": {
       "error": "Something is not working right at the moment. We've notified our team to work on this. Please try again."
