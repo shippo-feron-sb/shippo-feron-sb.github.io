@@ -37,20 +37,42 @@
       "previousReports": "Previous Reports"
     },
     "shipmentInformation": {
-      "label": "1 shipping label",
-      "returnLabel": "1 return label",
-      "title": "View shipment detail",
+      "title": "Shipment detail",
       "returnTitle": "Return shipment details",
-      "tracking": "Tracking #",
+      "tracking": "Tracking #<0>{{trackingNumber}}</0>",
       "trackingStatus": "Tracking status",
       "shipDate": "Ship date",
-      "rate": "Rate",
       "order": "Order",
       "returnOrder": "Return for order",
       "customer": "Customer",
       "total": "Total",
-      "viewOrder": "View order",
-      "createdBy": "Created by"
+      "createdBy": "Created by",
+      "refundRequested": "Refund requested {{refundRequestDate}}",
+      "refunded": "Refund complete",
+      "error": "Error",
+      "refundRejected": "Refund rejected",
+      "refundRequestedAlert": {
+        "title": "Refund requested",
+        "message": "Refunds typically take 14 days to credit to your Shippo Account.",
+        "learnMore": "Learn more"
+      },
+      "refundRejectedAlert": {
+        "title": "Refund rejected",
+        "message": "Your refund request has been rejected. <0>Learn more</0> about common reasons for rejection or contact <1>Shippo support</1>."
+      },
+      "refundedAlert": {
+        "title": "Refund complete",
+        "message": "The total amount was credited to your Shippo account. <0>View credits</0>"
+      },
+      "insurance": {
+        "insuranceTitle": "Insurance",
+        "insuredValue": "Insured value:",
+        "XcoverId": "XCover ID:",
+        "fileClaim": "File claim"
+      },
+      "rate": {
+        "total": "Total"
+      }
     },
     "bulk": {
       "packingSlipDownloaded": "Packing slip downloaded",
@@ -141,15 +163,6 @@
   },
   "cells": {
     "error": "Error",
-    "insurance": {
-      "insuranceTitle": "Insurance",
-      "insuredValue": "Insured value:",
-      "XcoverId": "XCover ID:",
-      "coverage": "coverage",
-      "fileClaim": "File a claim",
-      "copyId": "Copy ID",
-      "copySuccess": "Insurance ID successfully copied"
-    },
     "refunded": "Refunded",
     "refundPending": "Refund Pending",
     "rate": {
