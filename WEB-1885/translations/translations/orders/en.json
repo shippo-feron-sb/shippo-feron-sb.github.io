@@ -475,6 +475,12 @@
       "Refunds cannot be undone, but you can create a new label by duplicating your order or purchasing a new label."
     ],
     "insuranceAcknowledge": "I acknowledge that requesting a refund will void my Shippo Total Protection, and claims will not be paid.",
+    "nonRefundable":{
+      "itemsSelected": "{{count}} shipment",
+      "itemsSelected_plural": "{{count}} shipments",
+      "message": "is not eligible for refund. Labels in transit, delivered, returned, or older than 90 days will not be refunded.",
+      "message_plural": "are not eligible for refunds. Labels in transit, delivered, returned, or older than 90 days will not be refunded."
+    },
     "cancel": "Cancel",
     "request": "Request refund",
     "result": {
