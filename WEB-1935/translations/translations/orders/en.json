@@ -474,7 +474,7 @@
       "You will immediately be unable to use labels for postage.",
       "Refunds cannot be undone, but you can create a new label by duplicating your order or purchasing a new label."
     ],
-    "insuranceAcknowledge": "I acknowledge that requesting a refund will void my XCover insurance coverage, and claims will not be paid.",
+    "insuranceAcknowledge": "I acknowledge that requesting a refund will void my Shippo Total Protection, and claims will not be paid.",
     "cancel": "Cancel",
     "request": "Request refund",
     "result": {
@@ -1617,6 +1617,8 @@
     "unhideShipment": "Unhide shipment",
     "hideOrderV2": "Hide order",
     "downloadButton": "Download {{count}}",
+    "refundButton": "Request {{count}} refund",
+    "refundButton_plural": "Request {{count}} refunds",
     "copyTrackingNumber": "Copy tracking",
     "successfullyHidden": "Order successfully hidden",
     "successfullyHidden_plural": "Orders successfully hidden",
