@@ -1617,6 +1617,8 @@
     "unhideShipment": "Unhide shipment",
     "hideOrderV2": "Hide order",
     "downloadButton": "Download {{count}}",
+    "refundButton": "Request {{count}} refund",
+    "refundButton_plural": "Request {{count}} refunds",
     "copyTrackingNumber": "Copy tracking",
     "successfullyHidden": "Order successfully hidden",
     "successfullyHidden_plural": "Orders successfully hidden",
