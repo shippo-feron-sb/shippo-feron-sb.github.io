@@ -630,7 +630,7 @@
         "complete": {
           "title": "Downgrade complete",
           "successAlert": "You will be moved to the Starter plan. You can re-activate your plan on this page anytime.",
-          "feedbackTitle": "If you have any feedback for Shippo...",
+          "feedbackTitle": "Please share any additional feedback for Shippo.",
           "feedbackLabel": "Enter feedback",
           "done": "Done"
         },
