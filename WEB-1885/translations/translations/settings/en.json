@@ -621,10 +621,77 @@
       },
       "downgrade": {
         "actionButton": "Downgrade",
-        "cancel": "Cancel",
-        "modalTitle": "Downgrade to Starter Plan",
-        "confirmation": "I understand that by downgrading I will lose access to custom branding and multiple user access for my account. Any previously configured branded experiences will not be able to be recovered in the future.",
-        "disclaimer": "Downgrading means losing access to Pro features."
+        "title": "Downgrade to Starter plan",
+        "error": "Your plan update failed. Please try again.",
+        "actions": {
+          "cancel": "Cancel",
+          "downgrade": "Downgrade"
+        },
+        "complete": {
+          "title": "Downgrade complete",
+          "successAlert": "You will be moved to the Starter plan. You can re-activate your plan on this page anytime.",
+          "feedbackTitle": "Please share any additional feedback for Shippo.",
+          "feedbackLabel": "Enter feedback",
+          "done": "Done"
+        },
+        "questions": {
+          "needsChanging": {
+            "description": "On Starter you will be capped at 30 labels per month, 1 user seat, and will lose access to premium features.",
+            "question": "Are your shipping needs changing?",
+            "hint": "Select an option to continue.",
+            "options": {
+              "dontNeedToShipAsMuch": "I don't need to ship as much anymore",
+              "wontUseShippo": "I still need to ship, but won't use Shippo",
+              "stillPlanToShipViaShippo": "I still plan to ship my packages via Shippo"
+            }
+          },
+          "whatHappened": {
+            "question": "What happened?",
+            "options": {
+              "storeVolumeDecreased": "My store volume decreased",
+              "goingOutOfBusiness": "I'm going out of business",
+              "other": "Other"
+            }
+          },
+          "howCanWeDoBetter": {
+            "question": "How can we do better?",
+            "options": {
+              "difficult": "Too difficult to use",
+              "missingFeatures": "Missing features needed",
+              "price": "Price is too high",
+              "other": "Other"
+            }
+          },
+          "howWillYouShip": {
+            "question": "How will you ship?",
+            "options": {
+              "anotherProvider": "Another online multi-carrier provider",
+              "directlyWithCarrier": "Directly with the shipping carrier (USPS, UPS, FedEx, etc.)"
+            }
+          },
+          "whichProvider": {
+            "question": "Which one?",
+            "whichPlatform": {
+              "label": "Which shipping platform?"
+            },
+            "options": {
+              "shipStation": "ShipStation",
+              "pirateShip": "PirateShip",
+              "easyShip": "EasyShip",
+              "shippingEasy": "ShippingEasy",
+              "easyPost": "EasyPost",
+              "other": "Other"
+            }
+          },
+          "whyDowngrade": {
+            "question": "Why the downgrade?",
+            "options": {
+              "seasonal": "My business is seasonal and I won't have high enough volume in the coming months",
+              "noExceed": "I usually don't exceed 30 labels a month",
+              "other": "Other"
+            }
+          }
+        }
       },
       "starter": {
         "currentPlan": "CURRENT PLAN",
