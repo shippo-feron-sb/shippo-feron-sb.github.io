@@ -482,7 +482,8 @@
       "message_plural": "are not eligible for refunds. Labels in transit, delivered, returned, or older than 90 days will not be refunded."
     },
     "cancel": "Cancel",
-    "request": "Request refund",
+    "request": "Request {{count}} refund",
+    "request_plural": "Request {{count}} refunds", 
     "result": {
       "success": "Refund requested",
       "error": "Refund request failed",
