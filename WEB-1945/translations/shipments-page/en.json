@@ -147,6 +147,11 @@
           "test": "Test"
         }
       },
+      "createdBy": {
+        "drawerTitle": "Created by",
+        "label": "Created by",
+        "all": "All"
+      },
       "labelStatus": {
         "drawerTitle": "Label status",
         "labelBase": "Label status",
