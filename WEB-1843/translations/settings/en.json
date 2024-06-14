@@ -157,13 +157,13 @@
     },
     "promo": {
       "getSpecialDiscounts": "Continue",
-      "ups": "Access discounts up to 77% off on UPS® Rates",
+      "ups": "Save Up To 77% On UPS® Rates",
       "canada_post": "New! Sign up to receive Canada Post® Rates"
     },
     "masterAccountsTab": "Shippo Accounts",
     "userAccountsTab": "Your Accounts",
     "upsShortForm": {
-      "title": "Access discounts up to 77% off on UPS® Rates",
+      "title": "Save Up To 77% On UPS® Rates",
       "description": "You're just one click away from saving on UPS shipping. Agree to UPS' terms below to access discounted rates in Shippo.",
       "primaryButton": "Continue"
     },
@@ -187,7 +187,7 @@
     },
     "shortform": {
       "ups_us": {
-        "title": "Access discounts up to 77% off on UPS® Rates",
+        "title": "Save Up To 77% On UPS® Rates",
         "description": "You're just one click away from saving on UPS shipping. Agree to UPS' terms below to access discounted rates in Shippo.",
         "primaryButton": "Continue"
       },
