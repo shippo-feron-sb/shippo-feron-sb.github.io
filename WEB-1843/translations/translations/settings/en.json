@@ -76,6 +76,9 @@
     "reconnectError": "Error reconnecting account. Please try again.",
     "descriptions": {
       "domestic": {
+        "fedex": {
+          "discounts": "Access discounts up to 90%"
+        },
         "ups": {
           "discounts": "Access discounts up to 77% off on UPS® Rates"
         },
