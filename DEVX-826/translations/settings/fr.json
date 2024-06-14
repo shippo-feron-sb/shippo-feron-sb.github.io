@@ -399,11 +399,7 @@
         "upgrade": "Mettre votre plan à niveau"
       },
       "downgrade": {
-        "actionButton": "Rétrograder",
-        "cancel": "Annuler",
-        "modalTitle": "Rétrograder au plan de démarrage",
-        "confirmation": "Je comprends qu'en rétrogradant, je perdrai l'accès à la marque personnalisée et à l'accès à plusieurs utilisateurs pour mon compte. Les expériences de marque configurées précédemment ne pourront plus être récupérées à l'avenir.",
-        "disclaimer": "La rétrogradation implique la perte de l'accès aux fonctionnalités professionnelles."
+        "actionButton": "Rétrograder"
       },
       "starter": {
         "currentPlan": "Plan actuel",
