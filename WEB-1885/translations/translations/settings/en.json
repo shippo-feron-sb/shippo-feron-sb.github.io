@@ -75,28 +75,47 @@
     "reconnect": "Reconnect",
     "reconnectError": "Error reconnecting account. Please try again.",
     "descriptions": {
-      "usps": {
-        "discounts": "Access discounts up to 90%",
-        "pickups": "Schedule package pickups",
-        "manifests": "Create Manifests"
+      "domestic": {
+        "fedex": {
+          "discounts": "Access discounts up to 90%"
+        },
+        "ups": {
+          "discounts": "Access discounts up to 77% off on UPS® Rates"
+        },
+        "usps": {
+          "discounts": "Access discounts up to 90%",
+          "pickups": "Schedule package pickups",
+          "manifests": "Create Manifests"
+        }
       },
-      "dhl_express": {
-        "discounts": "Access discounts up to 75%",
-        "pickups": "Schedule package pickups",
-        "customs": "Pre-fill customs forms"
+      "regional": {
+        "lso": {
+          "discounts": "Save 40% on regional deliveries",
+          "shipments": "Most shipments arrive in 1 day",
+          "pickups": "Free, automated pickups"
+        }
       },
-      "lso": {
-        "discounts": "Save 40% on regional deliveries",
-        "shipments": "Most shipments arrive in 1 day",
-        "pickups": "Free, automated pickups"
+      "international": {
+        "ups": {
+          "discounts": "Access discounts up to 83% off on UPS® Rates"
+        },
+        "usps": {
+          "discounts": "Access discounts up to 90%",
+          "pickups": "Schedule package pickups",
+          "manifests": "Create Manifests"
+        },
+        "dhl_express": {
+          "discounts": "Access discounts up to 75%",
+          "pickups": "Schedule package pickups",
+          "customs": "Pre-fill customs forms"
+        }
       },
-      "ups": {
-        "discounts": "Access discounts up to 62%"
-      },
-      "canada_post": {
-        "discounts": "Access exclusive discounts up to 12%",
-        "reach": "Reach all 16.5 million Canadian addresses",
-        "access": "Gain immediate access with no additional signup required"
+      "canada": {
+        "canada_post": {
+          "discounts": "Access exclusive discounts up to 12%",
+          "reach": "Reach all 16.5 million Canadian addresses",
+          "access": "Gain immediate access with no additional signup required"
+        }
       }
     },
     "form": {
@@ -138,13 +157,13 @@
     },
     "promo": {
       "getSpecialDiscounts": "Continue",
-      "ups": "Save Up To 62% On UPS® Rates",
+      "ups": "Save Up To 77% On UPS® Rates",
       "canada_post": "New! Sign up to receive Canada Post® Rates"
     },
     "masterAccountsTab": "Shippo Accounts",
     "userAccountsTab": "Your Accounts",
     "upsShortForm": {
-      "title": "Save Up To 62% On UPS® Rates",
+      "title": "Save Up To 77% On UPS® Rates",
       "description": "You're just one click away from saving on UPS shipping. Agree to UPS' terms below to access discounted rates in Shippo.",
       "primaryButton": "Continue"
     },
@@ -168,7 +187,7 @@
     },
     "shortform": {
       "ups_us": {
-        "title": "Save Up To 62% On UPS® Rates",
+        "title": "Save Up To 77% On UPS® Rates",
         "description": "You're just one click away from saving on UPS shipping. Agree to UPS' terms below to access discounted rates in Shippo.",
         "primaryButton": "Continue"
       },
