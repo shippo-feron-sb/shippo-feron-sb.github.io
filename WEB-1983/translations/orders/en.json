@@ -486,7 +486,9 @@
     "request_plural": "Request {{count}} refunds", 
     "result": {
       "success": "Refund requested",
+      "success_plural": "{{count}} refunds requested",
       "error": "Refund request failed",
+      "error_plural": "One or more of your refund requests failed",
       "canadaPostIneligible": "Canada Post is still processing your initial label purchase. Please request refund again after at least 60 minutes."
     }
   },
