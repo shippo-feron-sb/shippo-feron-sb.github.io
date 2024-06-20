@@ -703,7 +703,8 @@
       "returnLabelTitle": "Confirm return label",
       "forOrder": "Order",
       "createReturnLabel": "Create return label",
-      "seeShipmentDetails": "See shipment details"
+      "seeShipmentDetails": "See shipment details",
+      "purchaseError": "There was an error processing your request. Please try again later. See <1>Shippo status</1> or <2>contact support</2> for more assistance."
     },
     "packingSlip": {
       "title": "Add note to packing slip",
