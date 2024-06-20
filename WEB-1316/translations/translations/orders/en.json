@@ -1641,7 +1641,7 @@
     "successfullyUnhidden_plural": "Orders successfully unhidden",
     "downloadLabels": "Download labels",
     "clearSelection": "Clear selection",
-    "editTags": "Edit tags"
+    "editTags": "Tags"
   },
   "pagination": {
     "showHiddenOrders": "Show only hidden orders",
