@@ -470,12 +470,11 @@
     "title": "Request refunds",
     "bullets": [
       "Refunds may take up to 14 days to credit into your account. <0>Learn more</0>",
-      "Any insurance purchased with a carrier or through Shippo Total Protection will be voided and refunded to you.",
       "You will immediately be unable to use labels for postage.",
       "Refunds cannot be undone, but you can create a new label by duplicating your order or purchasing a new label."
     ],
     "insuranceAcknowledge": "I acknowledge that requesting a refund will void my Shippo Total Protection, and claims will not be paid.",
-    "nonRefundable":{
+    "nonRefundable": {
       "itemsSelected": "{{count}} shipment",
       "itemsSelected_plural": "{{count}} shipments",
       "message": "is not eligible for refund. Labels in transit, delivered, returned, or older than 90 days will not be refunded.",
@@ -483,7 +482,7 @@
     },
     "cancel": "Cancel",
     "request": "Request {{count}} refund",
-    "request_plural": "Request {{count}} refunds", 
+    "request_plural": "Request {{count}} refunds",
     "result": {
       "success": "Refund requested",
       "success_plural": "{{count}} refunds requested",
@@ -703,7 +702,8 @@
       "returnLabelTitle": "Confirm return label",
       "forOrder": "Order",
       "createReturnLabel": "Create return label",
-      "seeShipmentDetails": "See shipment details"
+      "seeShipmentDetails": "See shipment details",
+      "purchaseError": "There was an error processing your request. Please try again later. See <1>Shippo status</1> or <2>contact support</2> for more assistance."
     },
     "packingSlip": {
       "title": "Add note to packing slip",
