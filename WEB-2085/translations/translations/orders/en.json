@@ -470,7 +470,6 @@
     "title": "Request refunds",
     "bullets": [
       "Refunds may take up to 14 days to credit into your account. <0>Learn more</0>",
-      "Any insurance purchased with a carrier or through Shippo Total Protection will be voided and refunded to you.",
       "You will immediately be unable to use labels for postage.",
       "Refunds cannot be undone, but you can create a new label by duplicating your order or purchasing a new label."
     ],
@@ -703,7 +702,8 @@
       "returnLabelTitle": "Confirm return label",
       "forOrder": "Order",
       "createReturnLabel": "Create return label",
-      "seeShipmentDetails": "See shipment details"
+      "seeShipmentDetails": "See shipment details",
+      "purchaseError": "There was an error processing your request. Please try again later. See <1>Shippo status</1> or <2>contact support</2> for more assistance."
     },
     "packingSlip": {
       "title": "Add note to packing slip",
@@ -1335,12 +1335,18 @@
     "hidden": "Hidden orders"
   },
   "orderTags": {
-    "createNew": "Create new"
+    "newTag": "New tag..."
   },
   "orderTagsFilter": {
     "label": "Tags",
     "labelWithCount": "Tags: {{count}}",
-    "notTagged": "Not tagged"
+    "notTagged": "Not tagged",
+    "clearAll": "Clear all",
+    "apply": "Apply",
+    "empty": {
+      "title": "No tags exist",
+      "tagSettings": "Tag settings"
+    }
   },
   "destinationFilter": {
     "all": "All destinations",
@@ -1635,7 +1641,7 @@
     "successfullyUnhidden_plural": "Orders successfully unhidden",
     "downloadLabels": "Download labels",
     "clearSelection": "Clear selection",
-    "editTags": "Edit tags"
+    "editTags": "Tags"
   },
   "pagination": {
     "showHiddenOrders": "Show only hidden orders",
