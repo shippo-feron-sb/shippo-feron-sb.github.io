@@ -57,6 +57,7 @@
     "connectCarrierAccount": "Connect Your {{carrierName}} Account",
     "cancel": "Cancel",
     "back": "Back",
+    "submit": "Submit",
     "activateMasterAccountSuccess": "Success! Your {{carrierName}} account has been activated.",
     "addCarrierSuccess": "Success! You now have access to {{carrierName}} rates.",
     "updateCarrierSuccess": "Your {{carrierName}} Account was successfully updated.",
@@ -73,6 +74,7 @@
     "active": "Active",
     "edit": "Edit",
     "reconnect": "Reconnect",
+    "verifyAccount": "Verify Account",
     "reconnectError": "Error reconnecting account. Please try again.",
     "descriptions": {
       "domestic": {
