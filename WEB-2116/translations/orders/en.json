@@ -167,7 +167,7 @@
       "jumpToError": "Jump to error",
       "downloadCommercialInvoice": "Download commercial invoice",
       "buyLabelOptions": "Select options to buy label",
-      "downloadPackingSlip": "Download packing slip",
+      "createPackingSlip": "Create packing slip",
       "viewPurchaseLabel": "View purchase label details",
       "duplicateOrder": "Duplicate order",
       "clearAll": "Clear All",
@@ -470,7 +470,6 @@
     "title": "Request refunds",
     "bullets": [
       "Refunds may take up to 14 days to credit into your account. <0>Learn more</0>",
-      "Any insurance purchased with a carrier or through Shippo Total Protection will be voided and refunded to you.",
       "You will immediately be unable to use labels for postage.",
       "Refunds cannot be undone, but you can create a new label by duplicating your order or purchasing a new label."
     ],
@@ -707,12 +706,11 @@
       "purchaseError": "There was an error processing your request. Please try again later. See <1>Shippo status</1> or <2>contact support</2> for more assistance."
     },
     "packingSlip": {
-      "title": "Download packing slip",
+      "title": "Add note to packing slip",
       "enterNote": "Enter note",
-      "addNote": "Add note to packing slip",
       "cancelButton": "Cancel",
       "submitButton": {
-        "idle": "Save",
+        "idle": "Submit",
         "loading": "Saving"
       },
       "downloadButton": {
