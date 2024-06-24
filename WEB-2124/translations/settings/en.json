@@ -233,7 +233,10 @@
       "contactMethod": {
         "title": "Contact method",
         "placeholder": "Verification code",
-        "pinValidationLength": "Verification code must be 7 digits",
+        "pinValidationLength": {
+          "production": "Verification code must be 6 digits",
+          "development": "Verification code must be 7 digits"
+        },
         "options": {
           "text": "SMS / text",
           "email": "Email",
