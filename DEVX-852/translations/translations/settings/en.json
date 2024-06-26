@@ -1634,6 +1634,13 @@
     "on": "ON",
     "off": "OFF",
     "fetchError": "Tags could not be retrieved. Refresh and try again.",
+    "toggleUpdate": {
+      "success": {
+        "on": "Tags are turned on, you can now view, assign, remove, and create tags on your Orders page.",
+        "off": "Tags are turned off, you can turn it on on this page anytime. You will not see tags on your Orders page."
+      },
+      "error": "Tags update failed. Refresh and try again."
+    },
     "list": {
       "tagName": "Tag name",
       "createTag": "Create tag",
