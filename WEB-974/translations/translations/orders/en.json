@@ -402,7 +402,6 @@
       "warningTitleUPS": "You're close to the limit!",
       "warningTitle": "Warning",
       "addTagToOrderError": "Failed to add tag, please try again later.",
-      "addTagToOrderLimitError": "Unable to add tag. Selected orders have too many tags. Remove tags to add a new tag. ",
       "removeTagFromOrderError": "Failed to remove tag, please try again later."
     },
     "addRecipient": "Add recipient",
