@@ -1339,6 +1339,7 @@
   "orderTagsFilter": {
     "label": "Tags",
     "labelWithCount": "Tags: {{count}}",
+    "labelUntagged": "Not tagged",
     "notTagged": "Not tagged",
     "clearAll": "Clear all",
     "apply": "Apply",
@@ -1640,7 +1641,7 @@
     "successfullyUnhidden_plural": "Orders successfully unhidden",
     "downloadLabels": "Download labels",
     "clearSelection": "Clear selection",
-    "editTags": "Tags"
+    "editTags": "Tag"
   },
   "pagination": {
     "showHiddenOrders": "Show only hidden orders",
