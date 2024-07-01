@@ -350,7 +350,6 @@
     "selectedPackageHeader": "SELECTED",
     "parcelNeeded": "Add package",
     "parcelNotAdded": "None added",
-    "parcelAdded": "Added",
     "multipleParcels": "Mixed",
     "singleError": "error",
     "multipleErrors": "errors",
@@ -1334,12 +1333,19 @@
     "hidden": "Hidden orders"
   },
   "orderTags": {
-    "createNew": "Create new"
+    "newTag": "New tag..."
   },
   "orderTagsFilter": {
     "label": "Tags",
     "labelWithCount": "Tags: {{count}}",
-    "notTagger": "Not tagged"
+    "labelUntagged": "Not tagged",
+    "notTagged": "Not tagged",
+    "clearAll": "Clear all",
+    "apply": "Apply",
+    "empty": {
+      "title": "No tags exist",
+      "tagSettings": "Tag settings"
+    }
   },
   "destinationFilter": {
     "all": "All destinations",
@@ -1634,7 +1640,7 @@
     "successfullyUnhidden_plural": "Orders successfully unhidden",
     "downloadLabels": "Download labels",
     "clearSelection": "Clear selection",
-    "editTags": "Edit tags"
+    "editTags": "Tag"
   },
   "pagination": {
     "showHiddenOrders": "Show only hidden orders",
