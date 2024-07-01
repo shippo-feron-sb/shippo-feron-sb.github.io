@@ -350,7 +350,6 @@
     "selectedPackageHeader": "SELECTED",
     "parcelNeeded": "Add package",
     "parcelNotAdded": "None added",
-    "parcelAdded": "Added",
     "multipleParcels": "Mixed",
     "singleError": "error",
     "multipleErrors": "errors",
