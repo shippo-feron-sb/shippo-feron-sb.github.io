@@ -1,0 +1,805 @@
+{
+  "phrases": {
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "send": "Envoyer",
+    "save": "Conserver",
+    "saveChanges": "Sauvegarder les Modifications",
+    "sync": "Synchroniser commandes",
+    "syncing": "Synchronisation des commandes...",
+    "importCSV": "Télécharger un fichier CSV",
+    "downloadLabel": "Télécharger étiquette",
+    "refundLabel": "Rembourser étiquette",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "and": "et",
+    "continue": "Continuer",
+    "update": "Mise à jour"
+  },
+  "all": {
+    "title": "Commandes",
+    "createOrder": "Créer une étiquette",
+    "seeNew": "Voir les nouvelles commandes",
+    "shipBy": "Expédier par: ",
+    "deliverBy": "Livrer par: ",
+    "timeGuarantees": "Garanties de temps",
+    "createReturn": "Créer une étiquette de retour",
+    "nonRefundable": "Non remboursable",
+    "orderNotes": "Remarques",
+    "refunded": "Remboursé",
+    "refundPending": "Remboursement en attente",
+    "refundRejected": "Remboursement refusé",
+    "addressType": {
+      "return": "Retour",
+      "sender": "Expéditeur",
+      "to": "Destinataire"
+    }
+  },
+  "parcel": {
+    "title": "Définir les informations de colis",
+    "useImportedWeightForMultipleOrdersText": "Plusieurs"
+  },
+  "downloadLabel": {
+    "title": "Télécharger l'étiquette",
+    "shippingLabels": "Étiquettes d'expédition",
+    "download": "Télécharger",
+    "noNumber": "[pas de numéro]",
+    "error": {
+      "fraud": "Votre compte a été suspendu, vos étiquettes ne seront pas disponibles au téléchargement tant que la suspension de votre compte ne sera pas résolue. Votre compte ne sera pas facturé pour les étiquettes non disponibles. Veuillez contacter support@shippo.com pour réactiver votre compte."
+    },
+    "paperlessTrade": {
+      "shipmentIneligible": "Non éligible pour le commerce sans papier.",
+      "instructions": "La facture commerciale doit être jointe à ce colis. Téléchargez et imprimez l'étiquette et la facture commerciale ci-dessus ou sur la page Expéditions."
+    },
+    "labelsTitle": "ÉTIQUETTE D'EXPÉDITION",
+    "labelsTitle_plural": "ÉTIQUETTES D'EXPÉDITION",
+    "packingSlipsTitle": "BANDE D'EMBALLAGE",
+    "packingSlipsTitle_plural": "BANDES D'EMBALLAGE",
+    "labelsAndPackingSlipsTitle": "ÉTIQUETTE D'EXPÉDITION & BANDE D'EMBALLAGE",
+    "labelsAndPackingSlipsTitle_plural": "ÉTIQUETTES D'EXPÉDITION & BANDES D'EMBALLAGE",
+    "packingSlips": "Bordereau d'expédition",
+    "packingSlips_plural": "Bordereaux d'expédition",
+    "downloadLabels": "Téléchargez l'étiquette",
+    "downloadLabels_plural": "Téléchargez les étiquettes",
+    "downloadPackingSlips": "Téléchargez le bon de livraison",
+    "downloadPackingSlips_plural": "Télécharger les bordereaux d'expédition"
+  },
+  "batchErrors": {
+    "skipForNow": "Passer",
+    "fixOrders": "Régler Les Commandes",
+    "title": "Régler Les Commandes Restantes?"
+  },
+  "actions": {
+    "single": {
+      "viewOrder": "Voir L'ordre",
+      "splitOrder": "Diviser L'ordre",
+      "createLabel": "Créer une étiquette",
+      "buy": "Acheter",
+      "edit": "Éditer",
+      "add": "Ajouter",
+      "fulfilled": "Rempli",
+      "cancelled": "Annulé",
+      "refunded": "Remboursé",
+      "refundPending": "Remboursement en attente",
+      "refundRejected": "Remboursement refusé",
+      "printLabel": "Imprimer étiquette",
+      "printLabels": "Imprimer étiquettes",
+      "createAnother": "Créer une autre étiquette",
+      "createReturn": "Créer étiquette de retour",
+      "refundLabel": "Rembourser l'étiquette",
+      "refundLabels": "Rembourser les étiquettes",
+      "download": "Télécharger",
+      "downloadSlip": "Télécharger le bordereau d’expédition",
+      "sendEmail": "Envoyer une notification par courriel",
+      "hide": "Masquer la commande",
+      "unhide": "Afficher la commande",
+      "getRates": "Obtenir tarifs",
+      "buyAgain": "Acheter à nouveau",
+      "jumpToError": "Naviguer vers l'erreur",
+      "downloadCommercialInvoice": "Télécharger la facture commerciale"
+    },
+    "multi": {
+      "addressPopupButtonTitle": "Modifier l'adresse",
+      "addressPopupButtonDescription": "Expéditeur et retour",
+      "editAddresses": "Modifier les adresses",
+      "editPackageInfo": "Modifier les Informations du Package",
+      "multipleAddressesSelected": "Plusieurs adresses sélectionnées",
+      "packageInfoPopupButtonTitle": "Informations sur le paquet",
+      "packageInfoPopupButtonDescription": "Définir poids / dimensions",
+      "serviceLevelsMayVary": "Le prix et l’heure d’arrivée prévue peuvent varier",
+      "serviceLevelsMultiple": "Services multiples",
+      "serviceLevelsRequired": "Requis",
+      "serviceLevelsSelectRates": "Sélectionner les tarifs",
+      "serviceLevelsUnavailable": "Ne pouvait pas générer le frais d'envoi",
+      "shipmentOptionsPopupButtonTitle": "Options d'expédition",
+      "shipmentOptionsPopupButtonDescription": "Ajouter assurance & signature",
+      "shipmentOptionsPopupButtonDescriptionNoInsurance": "Ajouter signature",
+      "billingMessage": "Vous pouvez créer des étiquettes par lots après avoir ajouté un mode de paiement valide.",
+      "invalidMessage": "Au moins une commande doit être valide pour créer des étiquettes dans un lot.",
+      "readyToBuy": "{{count}} sur {{ total }} prête",
+      "additionalServices": "Services supplémentaires",
+      "shipmentOptions": "Modifier les options d'expédition",
+      "ordersNotPurchasable": "Aucune commandes prête à être expédiée n'a été sélectionnée",
+      "shipmentDate": "Date d'expédition",
+      "serviceLevels": "Niveaux de service",
+      "buyLabels": "Acheter {{count}} étiquette",
+      "buyLabels_plural": "Acheter {{count}} étiquettes",
+      "purchaseLabels": "Acheter l'étiquette",
+      "purchaseLabels_plural": "Acheter {{count}} étiquettes",
+      "createLabels": "Créer une étiquette",
+      "createLabels_plural": "Créer des étiquettes",
+      "editOrdersCount": "por {{count}} ordre",
+      "editOrdersCount_plural": "for {{count}} ordres",
+      "downloadLabels": "Télécharger l'étiquette",
+      "downloadLabels_plural": "Télécharger les étiquettes",
+      "downloadPackingSlips": "Télécharger le bordereau d'expédition",
+      "downloadPackingSlips_plural": "Télécharger les bordereaux d'expédition",
+      "sendEmails": "Envoyer une notification",
+      "sendEmails_plural": "Envoyer des notifications",
+      "hide": "Masquer la commande",
+      "hide_plural": "Masquer les commandes",
+      "unhide": "Afficher la commande",
+      "unhide_plural": "Afficher les commandes",
+      "selected": "{{count}} commande sélectionnée",
+      "selected_plural": "{{count}} commandes sélectionnées",
+      "editPackages": "Modifier le colis",
+      "editPackages_plural": "Modifier les colis",
+      "editOrders": "Modifier la commande",
+      "editOrders_plural": "Modifier les commandes",
+      "ordersCount": "pour {{count}} commande",
+      "ordersCount_plural": "pour {{count}} commandes"
+    }
+  },
+  "filters": {
+    "title": "Filtres",
+    "all": "Tous",
+    "unfulfilled": "Inachevée",
+    "fulfilled": "Rempli",
+    "newSearch": "Nouvelle recherche",
+    "searchPlaceholder": "Rechercher...",
+    "dropdownTitle": "AJOUTER UN FILTRE",
+    "apply": "Ajouter un filtre",
+    "placeholder": "Sélectionner",
+    "requiredError": "Ce champ est requis",
+    "date": {
+      "title": "Date",
+      "error": "Vous devez sélectionner au moins une date",
+      "start": "Date de début",
+      "end": "Date de fin"
+    },
+    "destination": {
+      "title": "Destination",
+      "prompt": "La destination est",
+      "international": "International",
+      "domestic": "National"
+    },
+    "weight": {
+      "minTitle": "Poids min",
+      "minInputPlaceholder": "Par ex. 2 ou vide",
+      "maxTitle": "Poids max",
+      "maxInputPlaceholder": "Par ex. 8 ou vide",
+      "title": "Poids",
+      "lessThan": "Moins que",
+      "greaterThan": "Plus grand que",
+      "inputLabel": "Poids de la étiquette",
+      "inputPlaceholder": "Entrez le poids",
+      "measurement": "La dimension",
+      "error": {
+        "minWeightLesser": "Le poids minimum doit être inférieur au poids maximum",
+        "maxWeightGreater": "Le poids maximum doit être supérieur au poids minimum",
+        "minMaxWeightRequired": "Vous devez entrer au moins un poids",
+        "numeric": "Le poids doit être un nombre positif"
+      }
+    },
+    "shops": {
+      "title": "Magasins",
+      "prompt": "Magasin est"
+    },
+    "shippingMethod": {
+      "title": "Méthode d'envoi du client",
+      "prompt": "La méthode d'expédition est",
+      "emptyPlaceholder": "Aucune méthode d’expédition"
+    }
+  },
+  "table": {
+    "headers": {
+      "number": "Nº de commande",
+      "order": "Commande",
+      "date": "Date",
+      "customer": "Client",
+      "items": "Articles",
+      "shipping": "Expédition",
+      "label": "Étiquette",
+      "parcelInfo": "Info de colis",
+      "rates": "Tarif"
+    },
+    "images": {
+      "orderNotes": {
+        "alt": "Indicateur de notes de commande",
+        "title": "Avoir des notes de commande"
+      }
+    },
+    "noEmailFound": "Aucune adresse email n'a été trouvée pour ce client.",
+    "multipleLineItems": "Éléments de campagne multiples",
+    "parcelNeeded": "Ajouter un package",
+    "noRows": "Aucune ligne",
+    "noItems": "Aucun article",
+    "noRates": "Pas de tarifs",
+    "loadingRate": "Taux de chargement",
+    "ordersPerPage": "Commandes par page",
+    "showHidden": "Afficher uniquement les commandes masquées",
+    "invalidMessage": "Cette commande contient des erreurs qui empêchent l'achat d'étiquettes. Cliquez pour afficher ces erreurs.",
+    "fulfilledOutside": "Réalisé en dehors de Shippo",
+    "errors": {
+      "noRates": "Ne pouvait pas générer le frais d'envoi",
+      "ratesWarning": "ATTENTION",
+      "ratesUnavailable": "Ne pouvait pas générer le frais d'envoi",
+      "ratesUnavailableBecause": "Tarifs indisponibles pour les raisons suivantes:",
+      "missingParcelInfo": "Forfait requis",
+      "missingParcelWeight": "Le poids du colis est manquante",
+      "missingSenderAddress": "L'adresse de l'expéditeur est manquante",
+      "missingRecipientAddress": "L'adresse du destinataire est manquante",
+      "setSenderAddress": "Définir l'adresse",
+      "transactionFailedTitle": "Impossible d'acheter l'étiquette",
+      "transactionFailedMessage": "Une erreur s'est produite lors du traitement de votre transaction. S'il vous plaît contacter le support.",
+      "retryShipment": "Refaire",
+      "plusMore": "+ {{count}} de plus",
+      "packageWeight": "Le poids du colis est inférieur au poids des articles de la commande.",
+      "ratesCustomsPhoneWarning": "Un numéro de téléphone du destinataire est requis par la plupart des transporteurs, y compris UPS, FedEx et DHL.",
+      "packageAboutToExceedLengthWarningUPS": "",
+      "packageAboutToExceedGirthWarningUPS": "",
+      "packageAboutToExceedWeightWarningUPS": "",
+      "largePackageAboutToExceedLengthWarningUPS": "",
+      "largePackageAboutToExceedGirthWarningUPS": "",
+      "learnMore": "",
+      "learnWhenThisApplies": "",
+      "surchargeTitleUPS": "",
+      "surchargeTitleUPSLargePackage": ""
+    },
+    "addRecipient": "Ajouter un destinataire",
+    "editSender": "Modifier l'expéditeur",
+    "modals": {
+      "fraud": {
+        "body": "Bonjour,<1 />Il semble qu'un problème puisse empêcher l'accès à votre compte pour le moment.<3 />Pour revenir à l'expédition le plus tôt possible, veuillez contacter support@shippo.com pour obtenir de l'aide et inclure le texte suivant dans la ligne d'objet: «URGENT: Shippo Verification Needed».<5 />L'équipe Shippo",
+        "confirmButtonText": "Contactez le support"
+      }
+    },
+    "clipboard": "Numéro de suivi copié",
+    "lineItems": "+ {{count}} article",
+    "lineItems_plural": "+ {{count}} articles",
+    "totalItems": "articles",
+    "totalItems_plural": "article"
+  },
+  "errors": {
+    "popup": {
+      "required": "Obligatoire",
+      "recipient": {
+        "title": "Bénéficiaire",
+        "description": "Nous avons besoin des informations sur les destinataires pour vous montrer les tarifs."
+      }
+    },
+    "batch": {
+      "sender": "We couldn’t save the sender address for {{count}} order. Please try again.",
+      "sender_plural": "We couldn’t save the sender address for {{count}} orders. Please try again.",
+      "return": "We couldn’t save the return address for {{count}} order. Please try again.",
+      "return_plural": "We couldn’t save the return address for {{count}} orders. Please try again.",
+      "to": "We couldn’t save the recipient address for {{count}} order. Please try again.",
+      "to_plural": "We couldn’t save the recipient address for {{count}} orders. Please try again."
+    }
+  },
+  "address": {
+    "message": "Avant de pouvoir créer des étiquettes, nous devons savoir d’où vous envoyez habituellement vos colis. ",
+    "addAddress": "Ajouter l'adresse de l'expéditeur",
+    "editRecipient": "Modifier le destinataire",
+    "openAddressBook": "Adresses...",
+    "addRecipient": "Ajouter un destinataire"
+  },
+  "packageInfo": {
+    "addPackageInfo": "Ajouter un colis",
+    "popupTitle": "Informations sur le paquet"
+  },
+  "refund": {
+    "title": "Demander des remboursements",
+    "bullets": [
+      "Les remboursements peuvent prendre jusqu'à 14 jours pour être crédités sur votre compte. <0>Apprendre encore plus</0>",
+      "Toute assurance achetée auprès d'un transporteur ou via Shippo Total Protection sera annulée et vous sera remboursée.",
+      "Vous ne pourrez immédiatement plus utiliser d’étiquettes pour l’envoi.",
+      "Les remboursements ne peuvent pas être annulés, mais vous pouvez créer une nouvelle étiquette en dupliquant votre commande ou en achetant une nouvelle étiquette."
+    ],
+    "insuranceAcknowledge": "Je reconnais que demander un remboursement annulera ma couverture d'assurance XCover et que les réclamations ne seront pas payées.",
+    "nonRefundable":{
+      "itemsSelected": "{{count}} expédition",
+      "itemsSelected_plural": "{{count}} expéditions",
+      "message": "n’est pas éligible au remboursement. Les étiquettes en transit, livrées, retournées ou datant de plus de 90 jours ne seront pas remboursées.",
+      "message_plural": "ne sont pas éligibles au remboursement. Les étiquettes en transit, livrées, retournées ou datant de plus de 90 jours ne seront pas remboursées."
+    },
+    "cancel": "Annuler",
+    "request": "Demande de remboursement",
+    "result": {
+      "success": "Remboursement demandé",
+      "success_plural": "{{count}} remboursements demandés",
+      "error": "La demande de remboursement a échoué",
+      "error_plural": "Une ou plusieurs de vos demandes de remboursement ont échoué",
+      "canadaPostIneligible": "Postes Canada est toujours en train de traiter votre achat initial d'étiquettes. Veuillez demander à nouveau le remboursement après au moins 60 minutes."
+    }
+  },
+  "notifications": {
+    "modalPrompt": "Envoyer des emails de confirmation?",
+    "sending": "Envoi des courriels aux clients...",
+    "sent": "Tous les courriels ont bien été envoyés.",
+    "error": "Une erreur s’est produite lors de l’envoi de vos courriels.",
+    "wixProPlan": "Avec votre plan Wix, vous avez désormais accès gratuitement au plan professionnel de Shippo. Tarifs d'expédition réduits, pas de frais par étiquette, et plus encore."
+  },
+  "labelMerge": {
+    "loading": "Vos étiquettes sont en cours de fusion et seront bientôt disponibles.",
+    "finished": "Vous pouvez à présent télécharger vos étiquettes:"
+  },
+  "zeroState": {
+    "noMatching": "Aucune commande correspondante",
+    "importCSVFile": "Importer le fichier CSV",
+    "firstConnectedStore": {
+      "title": "Presque là!",
+      "subtitle": "Chargez vos commandes, on peut-etre prendre un moment",
+      "wait": "Ne pouvez pas attendre? Essayer ",
+      "link": "synchroniser les commandes",
+      "speed": " pour accélérer les choses.."
+    },
+    "newUser": {
+      "connectStore": {
+        "title": "Connectez votre plate-forme de commerce électronique",
+        "description": "Ajoutez votre magasin pour synchroniser automatiquement les détails de la commande et expédier plus rapidement.",
+        "link": "Synchronisez votre magasin"
+      },
+      "createOrder": {
+        "title": "Envoyons votre premier colis",
+        "description": "Créez votre première étiquette plus rapidement que vous ne pouvez dire \"Service postal américain\".",
+        "link": "Créer une commande"
+      },
+      "getStarted": {
+        "title": "Lisez notre guide de démarrage",
+        "description": "Apprenez à enregistrer votre adresse, vos informations de facturation, etc.",
+        "link": "Visitez le guide"
+      },
+      "connectCarrier": {
+        "title": "Connectez votre (vos) transporteur(s)",
+        "description": "Ajoutez votre propre compte d'opérateur et vos tarifs pour encore plus d'options tarifaires.",
+        "link": "Aller aux paramètres"
+      },
+      "batch": {
+        "title": "Imprimer plusieurs étiquettes par lot",
+        "description": "Imprimez plusieurs étiquettes à la fois pour rationaliser votre travail.",
+        "link": "Voir la vidéo"
+      }
+    },
+    "newZeroState": {
+      "header": "Créer un commande en",
+      "helpText": {
+        "zeroOrdersGreeting": "Bienvenue à Shippo, {{firstName}}",
+        "zeroOrdersInstructionalMessage": "Regardez la vidéo ci-dessous pour découvrir comment configurer votre compte et bénéficier de la livraison!",
+        "zeroOrders": "Il n'y a actuellement aucune commande sur votre compte. Créez une commande via l'une des options ci-dessous.",
+        "connectedToStore": "Nous nous sommes connectés à votre compte {{storeName}}. Cliquez ",
+        "linkText": "sync",
+        "anyOrdersFromStore": " pour importer toutes les commandes de {{storeName}}."
+      },
+      "connectStore": {
+        "title": "Connectez-vous à boutique commerce électronique",
+        "subtitle": "Importer vos commandes de votre boutique commerce électronique"
+      },
+      "manualEntry": {
+        "title": "Manual Entry",
+        "subtitle": "Create one shipping label by manually entering details",
+        "buttonText": "Create Label"
+      },
+      "bulkUpload": {
+        "title": "Bulk Upload",
+        "subtitle": "Upload multiple customers' orders in a single CSV file",
+        "buttonText": "Upload CSV"
+      },
+      "godaddyAddon": "Votre magasin GoDaddy est actuellement connecté à votre compte {{email}} Shippo."
+    }
+  },
+  "shipments": {
+    "title": "Les envois",
+    "emailSent": "Email envoyé",
+    "sendEmail": "Envoyer l'email",
+    "requestRefund": "Rembourser l'étiquette",
+    "refundRequested": "Remboursement demandé",
+    "noneFound": "Désolé, aucune transaction réussie n'a été récupérée pour cette commandes."
+  },
+  "promo": {
+    "expires": "Exp.",
+    "terms": "Conditions promotionnelles",
+    "specificTerms": {
+      "DEFAULT": {
+        "firstHalf": "Buy and ship your first {{minUnits}} USPS or DHL Express packages using Shippo’s Master Accounts before {{oneMonth}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. ",
+        "limit": "Limit first {{maxUses}} users. ",
+        "secondHalf": "Promo valid only for users who received this offer directly from Shippo. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. ",
+        "expiration": "Offer expires at 11:59PM Pacific Time on {{endDate}}."
+      },
+      "DEFAULT_EXTENDED_TRIAL": "Enjoy {{freeMonths}} months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free {{freeMonths}}-month promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first {{freeMonths}} months after sign up.",
+      "2FREEPRO": "Enjoy 2 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 2 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first two month after sign up.",
+      "3MONTHSFREENOW": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
+      "3MONTHSFREESUMMER": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
+      "6FREEPROFS": "Enjoy 6 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 6-month promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first 6 months after sign up.",
+      "BREX4MONTHSFREE": "Enjoy four months of our professional plan, free on us when you sign up suing the Brex promo code. Must have an active Shippo account to use code. One free 4 months promotion per customer. Promo valid for users who receive this offer directly from Shippo or Brex. May not be combined with other offers, discounts, or credits. Valid only for the first for months after signup.",
+      "FREESTYLE1000": "Buy and ship your first 500 USPS or DHL Express packages using Shippo’s Master Accounts before 12/31/2019 and get $1,000 credit towards your future Shippo invoices applied in January 2020. Must have an active Shippo account to use code. One $1,000 credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or Freestyle. May not be combined with other offers, discounts, or credits. Unused credits will expire within 6 months. Offer expires at 11:59PM Pacific Time on 10/31/2019.",
+      "NOLABELFEES": "Enjoy our professional plan, which includes no per-label fees and the ability to brand your customer emails and tracking pages for free. One free Shippo professional subscription for 5 years per customer. You need to switch your plan to Professional in Shippo after applying the code. Promo valid only for users that receive the offer directly from Shippo, purchase under 5 thousand labels per month, and use Shippo's master accounts with USPS and DHL. Offer must be redeemed by December 31, 2019. May not be combined with other offers, discounts, or credits. Valid for 5 years after redemption. Shippo reserves the right to evaluate promotions on an annual basis to account for potential changes to its plans and pricing.",
+      "SHIP150": "Buy and ship your first USPS or DHL Express package using Shippo’s Master Accounts before {{endDate}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or Freestyle. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. Offer expires at 11:59PM Pacific Time on {{endDate}}.",
+      "SHIP2TEE": "Buy and ship your first {{minUnits}} USPS or DHL Express packages using Shippo’s Master Accounts before {{endDate}} and get a Shippo T-shirt. Must have an active Shippo account to use code. One Shippo T-Shirt per customer, while supplies last. Promo valid only for users who received this offer directly from Shippo. May not be combined with other offers, discounts, or credits. Offer expires at 11:59PM Pacific Time on {{endDate}}.",
+      "SHIPHERO1000": "Buy and ship your first 500 USPS or DHL Express packages using Shippo’s Master Accounts before 12/31/2019 and get $1,000 credit towards your future Shippo invoices applied in January 2020. Must have an active Shippo account to use code. One $1,000 credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or ShipHero. May not be combined with other offers, discounts, or credits. Unused credits will expire within 6 months. Offer expires at 11:59PM Pacific Time on 10/31/2019.",
+      "USPSREP01": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or USPS affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
+      "WEEBLYTEN": "Buy and ship your first USPS or DHL Express package using Shippo’s Master Accounts before {{endDate}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. Promo valid only for users who received this offer directly from Shippo or Weebly. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. Offer expires at 11:59PM Pacific Time on {{endDate}}."
+    }
+  },
+  "status": {
+    "payment": {
+      "AWAITPAY": "En attente",
+      "UNPAID": "Non payé",
+      "PAID": "Payé",
+      "PARTIALLY_FULFILLED": "Payé",
+      "SHIPPED": "Payé",
+      "REFUND": "Remboursement",
+      "REFUNDED": "Remboursé",
+      "CANCELLED": "Annulé",
+      "UNKNOWN": "Inconnu",
+      "GENERIC": "Inconnu"
+    },
+    "fulfillment": {
+      "AWAITPAY": "Non exécuté",
+      "PAID": "Non exécuté",
+      "PARTIALLY_FULFILLED": "Partiellement exécuté",
+      "SHIPPED": "Exécuté",
+      "REFUNDED": "Remboursé",
+      "CANCELLED": "Annulé",
+      "UNKNOWN": "Inconnu",
+      "GENERIC": "Non exécuté"
+    }
+  },
+  "checkout": {
+    "back": "Reculer",
+    "confirmPurchase": "Confirmer l'achat",
+    "close": "Conclure",
+    "purchasableOrders": "Vous achetez {{purchasableCount}} de vos {{totalCount}} commandes.",
+    "return": "Revenir",
+    "returnCharge": "Chargé lors de la numérisation",
+    "invalidRecipientAddressTitle": "Confirmer l'adresse du destinataire",
+    "invalidRecipientAddressMessage": "L'adresse du destinataire n'a pas pu être validée. Veuillez vérifier que cela semble correct:",
+    "bypassAddressValidationDisclaimer": "*En achetant une étiquette sans adresse valide, vous acceptez la responsabilité si le colis ne peut pas être livré.",
+    "bypassAddressValidationCTA": "Confirmer l'adresse",
+    "negotiatedRate": "Vous serez facturé au tarif négocié",
+    "total": "Total:",
+    "fixOrderToContinue": "Veuillez mettre à jour les détails de la commande pour continuer",
+    "fixOrderTooltip": "Les problèmes les plus courants concernent les informations sur le colis, le destinataire et les déclarations en douane.",
+    "purchaseLabels": "Achat {{count}} étiquette",
+    "purchaseLabels_plural": "Achatez {{count}} étiquettes",
+    "purchasedLabels": "{{count}} étiquette a été achetée",
+    "purchasedLabels_plural": "{{count}} étiquettes ont été achetées",
+    "transactionsFailed": "{{count}} étiquette n'a pas pu être achetée:",
+    "transactionsFailed_plural": "{{count}} étiquettes n'ont pas pu être achetées:",
+    "excludedOrders": "{{count}} commande a été exclue de ce lot, car elle n'est pas prête à être expédiée.",
+    "excludedOrders_plural": "{{count}} commandes ont été exclues de ce lot, car elles n'étaient pas prêtes à être expédiées.",
+    "incompleteOrders": "{{count}} commande a des informations manquantes",
+    "incompleteOrders_plural": "{{count}} commandes ont des informations manquantes",
+    "incompleteOrdersBatch": "{{count}} commande a besoin d'attention",
+    "incompleteOrdersBatch_plural": "{{count}} commandes ont besoin d'attention",
+    "labelNotPurchased": "{{count}} étiquette ne sera pas achetée",
+    "labelNotPurchased_plural": "{{count}} étiquettes ne seront pas achetées",
+    "xcoverNote": "En ajoutant une protection, vous acceptez les <0>termes, conditions et exclusions</0>. Protection vendue par Cover Genius et optimisée par XCover.",
+    "xcoverNoteByCountry": {
+      "FR": "En appuyant sur {{buttonName}}, vous déclarez être d'accord avec les <0>Conditions Générales</0> de la protection d'expédition, la <1>fiche d'information sur le produit</1>, y compris les frais d'administration supplémentaires, et la <2>déclaration de protection des données</2>."
+    }
+  },
+  "calculateRates": {
+    "header": "Détails de la commande",
+    "headerWithOrderNumber": "Détails de la commande - {{orderNumber}}",
+    "headerNoRecipient": "Aucun destinataire",
+    "backLong": "Reculer aux commandes",
+    "back": "Reculer",
+    "rates": {
+      "chooseRates": "Les taux",
+      "chooseService": "Un service",
+      "transitTimeEstimated": "Les temps de transit peuvent être estimés.",
+      "refresh": "Rafraîchir",
+      "refreshing": "Rafraîchissant",
+      "attributes": {
+        "cheapest": "Moins cher",
+        "popular": "Populaire",
+        "fastest": "Le plus rapide",
+        "bestvalue": "Meilleure valeur",
+        "moreRates": "Plus de prix",
+        "cheapestAndFastest": "Moins cher et rapide"
+      },
+      "errors": {
+        "cantGetRate": "Impossible d'obtenir le taux",
+        "title": "Corrigez les éléments suivants pour obtenir les tarifs:",
+        "recipient": "Adresse du destinataire",
+        "parcel": "Informations sur le forfait",
+        "parcelWeight": "Poids du colis requis",
+        "sender": "Adresse de l'expéditeur",
+        "senderPhoneNumber": "Téléphone de l'expéditeur requis",
+        "transactionFailure": "Une erreur s'est produite lors du traitement de votre transaction. S'il vous plaît contacter le support.",
+        "order_weight_exceeded": "Nous ne pouvons pas générer de taux car le poids total du poste de commande est supérieur au poids total du colis. Veuillez vérifier vos articles de commande, puis mettre à jour <2>les informations de votre colis</2>.",
+        "order_item_incomplete": "Des informations supplémentaires sur les articles sont nécessaires pour générer une déclaration en douane.",
+        "customs_item_invalid": "Au moins un article est requis pour compléter la déclaration en douane.",
+        "viewMessages": "Afficher les messages d'avertissement",
+        "hideMessages": "Masquer les messages d'avertissement"
+      },
+      "info": {
+        "etaUnavailable": "ETA non disponible",
+        "noTracking": "{{provider}} n'offre pas actuellement de mises à jour de suivi pour ce service"
+      },
+      "surcharges": {
+        "residentialSurcharge": "Supplément résidentiel",
+        "baseCharge": "Frais d'expédition",
+        "fuelSurcharge": "Suppléments de carburant",
+        "customsSurcharge": "Supplément douanier",
+        "otherSurcharges": "Autres suppléments",
+        "taxes": "Les impôts"
+      },
+      "serviceLevels": {
+        "selected": "Sélectionnés",
+        "allServices": "TOUS LES SERVICES",
+        "accountType": {
+          "master": "Shippo Maître",
+          "personal": "Personnel"
+        }
+      }
+    },
+    "tabs": {
+      "orderItems": {
+        "addItem": "Ajouter un Item",
+        "splitOrder": "Ordre Fractionné"
+      },
+      "tooltip": {
+        "info": {
+          "weightApprox": "Weight is approximated based on your default unit settings. Actual weight may vary based on item details."
+        }
+      },
+      "navigation": {
+        "shipmentTitle": "Expédition",
+        "shipmentTitleSeparator": "de"
+      },
+      "notifications": {
+        "notFulfilled": "Cet envoi n'est pas encore terminé."
+      },
+      "shipmentInfo": {
+        "title": "Cargaison",
+        "shippingMethodUppercase": "Méthode d'envoi",
+        "shippingMethod": "Méthode d'envoi",
+        "recipientAddress": "Destinataire",
+        "addAddress": "Ajouter {{type}}",
+        "packageInfo": "Info de colis",
+        "addPackageInfo": "Ajouter un colis",
+        "customDimensions": "Dimensions personnalisées",
+        "dimensions": "Dimensions",
+        "dimensionsSubtext": "Dimensions:",
+        "customDimensionsSubtext": "Entrez les dimensions du colis",
+        "packageWeightLabel": "Poids du paquet",
+        "optionalLabel": "optionnel",
+        "useImportedWeight": "Utiliser le poids des articles",
+        "includesPackaging": "Comprend l'emballage",
+        "additionalServices": "Services supplémentaires",
+        "shippingAddress": "Expéditeur",
+        "returnAddress": "Retour",
+        "useAsReturnAddress": "Utiliser comme l'adresse de retour",
+        "customsDeclaration": "Déclaration en douane",
+        "customsDeclarationAutoGenerated": "Nous avons généré une déclaration en douane basée sur le contenu de la commande fourni.",
+        "customsDeclarationEmpty": "Shippo générera automatiquement une déclaration en douane pour vous en fonction du contenu de la commande.",
+        "customsDeclarationReview": "Réviser le contenu de la commande",
+        "customsDeclarationOptOut": "Désactiver la déclaration en douane",
+        "customsDeclarationOptOutTooltip": "La plupart des envois internationaux nécessitent une déclaration en douane.",
+        "customsDeclarationOptOutWarning": "Attention: la plupart des envois internationaux nécessitent une déclaration en douane. Voir les <0>déclarations en douane de Shippo</0> pour plus de détails.",
+        "customsDeclarationOptOutWarningIcs2": "AVERTISSEMENT: en raison d'ICS2, les envois intra-UE nécessitent désormais des données détaillées sur les articles contenus dans le colis sur l'étiquette. Pour afficher les détails de l'article sur l'étiquette, veuillez activer les douanes. Voir les <0>déclarations en douane de Shippo</0> pour plus de détails.",
+        "customsDeclarationOptOutWarningLink": "déclarations en douane de Shippo",
+        "customsDeclarationEdit": "Modifier la déclaration en douane",
+        "customsDeclarationShowDetails": "Afficher les détails",
+        "customsDeclarationHideDetails": "Cacher les détails",
+        "shipmentDate": "Date d'expédition",
+        "recipientAddressEdit": "Modifier destinataire",
+        "returnAddressEdit": "Modifier retour",
+        "shippingAddressEdit": "Modifier l'expéditeur",
+        "errors": {
+          "orderWeightExceeded": "Pour les envois internationaux, le poids du colis doit être égal ou supérieur au poids des articles douaniers ({{weight}} {{weightUnit}})."
+        },
+        "modals": {
+          "common": {
+            "cancel": "Annuler",
+            "save": "Conserver",
+            "add": "Ajouter",
+            "description": "La description",
+            "quantity": "Quantité",
+            "unitWeight": "Unité de poids",
+            "unitValue": "Valeur unitaire",
+            "originCountry": "Pays d'origine",
+            "sku": "SKU"
+          },
+          "lineItemModal": {
+            "newTitle": "Nouvel article",
+            "editTitle": "Détails de l'article",
+            "deleteConfirm": "Effacer l'article",
+            "deleteConfirmationMessage": "La suppression de cet article de la commande peut modifier le poids de cet envoi, l'article n'apparaîtra pas sur le bon de livraison et cette action ne peut être annulée. Êtes-vous sûr?"
+          },
+          "customsItemModal": {
+            "newTitle": "Nouvel article douanier",
+            "editTitle": "Détails de l'article douanier",
+            "harmonizationCode": "Code d'harmonisation (HS/HTS)",
+            "deleteConfirm": "Supprimer l'article douanier",
+            "deleteConfirmationMessage": "La suppression de cet article douanier de la commande peut modifier le poids de cet envoi, l'article n'apparaîtra pas sur la déclaration en douane et cette action ne peut pas être annulée. Êtes-vous sûr?",
+            "deleteAllConfirm": "Oui, supprimer",
+            "deleteAllConfirmationMessage": "La suppression des articles douaniers de la commande peut modifier le poids de cet envoi et l'article n'apparaîtra pas sur la déclaration en douane. Cette action ne peut pas être annulée. Êtes-vous sûr?"
+          }
+        }
+      },
+      "orderContents": {
+        "title": "Contenu de la commande",
+        "lineItemsTitle": "Articles",
+        "noItems": "Aucun article dans cette commande",
+        "minimumItemsRequired": "Au moins un article est requis pour générer une déclaration en douane.",
+        "cantEditLineItems": "Les commandes exécutées ne peuvent pas être modifiées.",
+        "orderTotal": "Total de la commande (reflète les remises)",
+        "orderTaxesTotal": "Taxes et frais",
+        "orderShippingCost": "Frais d'expédition payés",
+        "addCustomsItem": "+ Ajouter un article aux douanes",
+        "addLineItem": "+ Ajouter un article à la commande",
+        "addCustomsItemAddOnLink": "+ Ajouter un article aux douanes",
+        "addLineItemAddOnLink": "+ Ajouter un article à la commande",
+        "sku": "SKU: {{sku}}",
+        "origin": "Origine: {{country}}",
+        "inThisShipment": "Dans cet envoi",
+        "deleteAllCustomsItems": "Supprimer tous les articles douaniers",
+        "itemCount": "{{count}} article",
+        "itemCount_plural": "{{count}} articles"
+      }
+    }
+  },
+  "upsRegModal": {
+    "title": "Mettre à jour l'adresse pour activer le compte UPS",
+    "submit": "Soumettre"
+  },
+  "ebayCanadaPostRegistration": {
+    "accountNickname": "Compte Canada Post pour la boutique eBay"
+  },
+  "additionalServices": {
+    "signatureConfirmation": "Ajouter une confirmation de signature",
+    "returns": "Créer une étiquette de retour",
+    "notEligibleForReturn": "Impossible de créer automatiquement une étiquette de retour",
+    "notEligibleForReturnBulk": "Impossible de créer automatiquement certaines étiquettes de retour",
+    "insurance": "Ajouter une assurance d'expédition",
+    "insuranceValue": "Valeur totale de la commande individuelle",
+    "insuranceUseImported": "Utiliser la valeur de la commande importée",
+    "insuranceContents": "Contenu de l'emballage pour l'assurance",
+    "insuranceContentsPlaceholder": "Vêtements, électronique, etc.",
+    "insuranceCurrencyLabel": "Currency",
+    "shipsuranceHelperText": "L'assurance est assurée par Shipsurance. Il s'agit d'un assureur maritime professionnel qui est présent dans le monde entier, couvre les colis et le fret et peut avoir une limite de couverture supérieure à 1 000 $. Pour en savoir plus sur les limites des transporteurs, cliquez <1>ici<1>",
+    "insuranceDetails": "Détails de l'assurance",
+    "containsAlcohol": "L'expédition contient de l'alcool",
+    "alcoholRecipientType": "Type de récipiendaire d'alcool",
+    "alcoholSignatureDisclaimer": "Signature d'un adulte (21+) requise pour l'alcool",
+    "alcoholDisclaimer": "Un compte conforme avec UPS ou FedEx est requis. Pour plus d'informations, <1>visitez notre FAQ</1>.",
+    "hazmat": "Shipment contains hazardous materials"
+  },
+  "splitOrder": {
+    "form": {
+      "title": "Diviser Ordre",
+      "subtitle": "Ajustez la quantité d'article pour diviser l'ordre en expéditions",
+      "sections": {
+        "items": "Articles",
+        "quantity": "Quantité",
+        "weight": "Poids"
+      },
+      "rows": {
+        "shipment": "Expédition",
+        "total": "Total",
+        "lineItem": "Élément de campagne"
+      },
+      "footer": {
+        "addShipment": "Ajouter une expédition",
+        "save": "Sauver",
+        "reset": "Réinitialiser"
+      },
+      "errors": {
+        "invalidQuantity": "Les quantités de chaque expédition doivent correspondre au total.",
+        "contactUs": "Nous contacter",
+        "genericError": "Quelque chose s'est mal passé de notre côté. Veuillez réessayer ou contactez-nous pour obtenir de l'aide."
+      }
+    }
+  },
+  "insurance": {
+    "basicHeadline": "Assurance",
+    "exclusionsApply": "Des exclusions s'appliquent",
+    "termsConditions": "Conditions générales",
+    "insuranceByShipsurance": "Assurance par Shipsurance",
+    "numOfInsured": "{{numInsured}} de {{numOrders}} couverts",
+    "numOfRequired": "{{numRequired}} de {{numOrders}} requis",
+    "customValue": "Valeur personnalisée",
+    "totalValue": "Valeur totale",
+    "insuredValue": "Valeur assurée",
+    "notSelectedMessageVariant": "Aucune protection ajoutée",
+    "coverageValue": "Valeur de la couverture",
+    "poweredByCoverGenius": "Assurance fournie par Cover Genius",
+    "termsAndConditions": "Modalités et conditions",
+    "xcoverNote": "En ajoutant une protection, vous acceptez les <1>termes, conditions et exclusions</1>. Protection vendue par Cover Genius et optimisée par XCover."
+  },
+  "shipmentExtras": {
+    "returnLabelsNotInsuredWarning": "Les étiquettes de retour ne peuvent pas être assurées lorsqu'une signature est requise. Créez une étiquette distincte s'il faut une assurance pour le retour.",
+    "shipmentInsuredVariant": "Votre envoi est protégé",
+    "shipmentNotInsuredVariant": "Votre envoi n'est pas protégé",
+    "xcoverRecommend": "Protégez vos envois jusqu’à la valeur totale de la commande des envois perdus, volés ou endommagés",
+    "xcoverRecommendItems": "Protégez vos envois à hauteur de la valeur totale de la commande en cas de perte, de vol ou d'endommagement moyennant {{value}}.",
+    "noCoverage": "Aucune couverture",
+    "coverageValue": "Valeur de la couverture",
+    "notInsuredTitleVariant": "Votre envoi n'est pas protégé",
+    "insuredTitleVariant": "Votre envoi est protégé",
+    "insuredWithShippoTotalProtection": "Protection totale Shippo",
+    "valueOfItems": "Valeur des éléments",
+    "update": "Mise à jour"
+  },
+  "manualLabel": {
+    "back": "reculer",
+    "toOrders": "à ordres",
+    "next": "prochaine",
+    "orderDetails": "détails de la commande",
+    "createNewLabel": "créer une nouvelle étiquette",
+    "addresses": "adresses...",
+    "saveAsDefaultSender": "Enregistrer comme adresse d'expéditeur par défaut",
+    "useAsReturnAddress": "Utiliser comme adresse de retour",
+    "senderAddress": "adresse de l'expéditeur",
+    "recipientAddress": "Adresse du destinataire",
+    "shipFrom": "Expédier de",
+    "shipTo": "Envoyez à",
+    "returnAddress": "Adresse de retour",
+    "saveAsDefaultReturn": "Enregistrer comme adresse de retour par défaut",
+    "step1": "Étape 1 de 2",
+    "cancel": "Annuler",
+    "apply": "Appliquer",
+    "name": "Nom",
+    "company": "Entreprise",
+    "email": "Email",
+    "addressType": "Address Type",
+    "isResidential": "This is a residential address",
+    "phone": "Téléphone",
+    "street": "rue",
+    "streetNumber": "Numéro de rue",
+    "streetLine2": "Rue (ligne 2)",
+    "city": "Ville",
+    "state": "Etat",
+    "postalCode": "code postal",
+    "country": "Pays",
+    "select": "sélectionner",
+    "selected": "Choisie",
+    "error": {
+      "nameRequired": "Le nom ne peut pas être vide",
+      "phoneRequiredInternational": "Requis pour les envois internationaux",
+      "phoneInvalid": "Le numéro de téléphone fourni n'est pas valide pour ce pays",
+      "streetNumberRequired": "Le numéro de rue ne peut pas être vide",
+      "cityRequired": "La ville ne peut pas être vide",
+      "stateRequired": "État nécessaire pour ce pays",
+      "emailInvalid": "Adresse e-mail invalide"
+    }
+  },
+  "success": {
+    "batch": {
+      "sender": "Sender address updated for {{count}} order.",
+      "sender_plural": "Sender address updated for {{count}} orders.",
+      "return": "Return address updated for {{count}} order.",
+      "return_plural": "Return address updated for {{count}} orders.",
+      "to": "Recipient address updated for {{count}} order.",
+      "to_plural": "Recipient address updated for {{count}} orders."
+    }
+  },
+  "canadaPostRegModal": {
+    "title": "Obtenez les tarifs de Postes Canada",
+    "submit": "Soumettre",
+    "description": "Saisissez les informations suivantes et acceptez les conditions de Canada Post ci-dessous pour accéder aux tarifs réduits de Shippo."
+  },
+  "blackbeard": {
+    "shipmentInsuredVariant": "Votre envoi est protégé",
+    "shipmentNotInsuredVariant": "Votre envoi n'est pas protégé",
+    "shipmentMixedInsured": "Tous les envois ne sont pas protégés",
+    "shipmentNotInsured": "Votre envoi n'est pas protégé",
+    "shipmentNotInsuredVariant_plural": "Vos envois ne sont pas protégés",
+    "xcoverRecommendItems": "Protégez vos envois à hauteur de la valeur totale de la commande en cas de perte, de vol ou d'endommagement moyennant",
+    "noCoverage": "Aucune couverture",
+    "coverageValue": "Valeur de la couverture"
+  }
+}
