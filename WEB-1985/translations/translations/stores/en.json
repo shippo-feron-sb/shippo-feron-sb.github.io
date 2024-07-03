@@ -37,8 +37,15 @@
     "featured": "Featured Platforms",
     "all": "All Platforms"
   },
+  "sidePanel": {
+    "title": "Connect store"
+  },
   "cancel": "Cancel",
   "save": "Save",
+  "stores": {
+    "popular": "Popular stores",
+    "all": "All stores"
+  },
   "connections": {
     "amazon": {
       "title": "Connect your Amazon store to Shippo",
