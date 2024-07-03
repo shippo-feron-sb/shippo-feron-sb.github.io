@@ -37,6 +37,9 @@
     "featured": "Featured Platforms",
     "all": "All Platforms"
   },
+  "sidePanel": {
+    "title": "Connect store"
+  },
   "cancel": "Cancel",
   "save": "Save",
   "connections": {
