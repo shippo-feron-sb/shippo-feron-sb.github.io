@@ -44,7 +44,9 @@
   "save": "Save",
   "stores": {
     "popular": "Popular stores",
-    "all": "All stores"
+    "all": "All stores",
+    "search": "Search stores",
+    "noSearchResults": "No search results"
   },
   "connections": {
     "amazon": {

@@ -39,40 +39,6 @@
     "customer": "Manage Your <1 /> Customer Experiences",
     "grow": "Grow Your <1 /> Business"
   },
-  "carrierBrandedMessaging": {
-    "ups": {
-      "line1": "Shipping made easy with UPS",
-      "line2": "",
-      "line3": "Sign up for free!"
-    },
-    "fedex": {
-      "line1": "Shippo + FedEx makes\n shipping easy",
-      "line2": "",
-      "line3": "Sign up for free!"
-    }
-  },
-  "searchTermMessaging": {
-    "usps": {
-      "line1": "Shipping made easy with USPS",
-      "line2": "Automatically get up to 90% off USPS rates.",
-      "line3": "Sign up for free!"
-    },
-    "ups": {
-      "line1": "Shipping made easy with UPS",
-      "line2": "Save up to 76% on UPS rates",
-      "line3": "Sign up for free!"
-    },
-    "fedex": {
-      "line1": "Shipping made easy with FedEx",
-      "line2": "Get up to 50% off FedEx rates",
-      "line3": "Sign up for free!"
-    },
-    "dhl_express": {
-      "line1": "Shipping made easy with DHL",
-      "line2": "Save up to 63% on DHL rates",
-      "line3": "Sign up for free!"
-    }
-  },
   "personalizedStore": {
     "signUp": "Get Discounted Shipping",
     "wix": "Wix Shipping Simplified",
