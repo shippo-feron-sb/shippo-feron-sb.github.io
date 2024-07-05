@@ -34,38 +34,6 @@
     "customer": "Gérez vos <1 /> expériences client",
     "grow": "Développez votre <1 /> entreprise"
   },
-  "searchTermMessaging": {
-    "usps": {
-      "line1": "Expédition simplifiée avec USPS",
-      "line2": "Obtenez automatiquement jusqu'à 90% de réduction sur les tarifs USPS",
-      "line3": "Inscription gratuite!"
-    },
-    "ups": {
-      "line1": "Expédition simplifiée avec UPS",
-      "line2": "Économisez jusqu'à 76% sur les tarifs UPS",
-      "line3": "Inscription gratuite!"
-    },
-    "fedex": {
-      "line1": "Expédition simplifiée avec FedEx",
-      "line2": "Obtenez jusqu'à 50% de réduction sur les tarifs FedEx",
-      "line3": "Inscription gratuite!"
-    },
-    "shipstation": {
-      "line1": "Frustré par ShipStation?",
-      "line2": "L'expédition est facile avec Shippo",
-      "line3": "Inscription gratuite!"
-    },
-    "stamps": {
-      "line1": "Ne limitez pas vos envois à USPS avec Stamps.com",
-      "line2": "L'expédition avec plusieurs transporteurs est facile avec Shippo",
-      "line3": "Inscription gratuite!"
-    },
-    "pirateship": {
-      "line1": "Ne limitez pas vos envois à USPS avec Pirate Ship",
-      "line2": "L'expédition avec plusieurs transporteurs est facile avec Shippo",
-      "line3": "Inscription gratuite!"
-    }
-  },
   "personalizedStore": {
     "signUp": "Obtenez vos livraisons à prix réduit"
   },
