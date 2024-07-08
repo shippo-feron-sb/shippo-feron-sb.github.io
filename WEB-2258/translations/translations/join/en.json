@@ -6,6 +6,7 @@
     "wix": "Register with Shippo to claim your discount on shipping labels with leading shipping carriers"
   },
   "title": "Shipping Simplified",
+  "iframeTitle": "Sign up",
   "seoTitle": "Sign-Up To Shippo For Free",
   "seoDescription": "Click here to sign up for a free Shippo account to start saving up to 90% on your e-commerce shipments today. Compare shipping rates and services all in one place",
   "firstName": "First name",
@@ -18,6 +19,7 @@
   "phone": "Phone",
   "emailNotif": "Yes, I'd like to receive email tips and news from Shippo",
   "signUp": "Get Started",
+  "iframeSignUp": "Create account",
   "loading": "Working...",
   "termsAndPolicy": "By clicking on {{start}} below, you agree to the Shippo {{terms}} and {{privacy}}.",
   "shippoTermsAndPolicy": "I agree to the Shippo {{terms}} and {{privacy}}",
@@ -36,40 +38,6 @@
     "connect": "Connect Your <1 /> Favorite Tools",
     "customer": "Manage Your <1 /> Customer Experiences",
     "grow": "Grow Your <1 /> Business"
-  },
-  "carrierBrandedMessaging": {
-    "ups": {
-      "line1": "Shipping made easy with UPS",
-      "line2": "",
-      "line3": "Sign up for free!"
-    },
-    "fedex": {
-      "line1": "Shippo + FedEx makes\n shipping easy",
-      "line2": "",
-      "line3": "Sign up for free!"
-    }
-  },
-  "searchTermMessaging": {
-    "usps": {
-      "line1": "Shipping made easy with USPS",
-      "line2": "Automatically get up to 90% off USPS rates.",
-      "line3": "Sign up for free!"
-    },
-    "ups": {
-      "line1": "Shipping made easy with UPS",
-      "line2": "Save up to 76% on UPS rates",
-      "line3": "Sign up for free!"
-    },
-    "fedex": {
-      "line1": "Shipping made easy with FedEx",
-      "line2": "Get up to 50% off FedEx rates",
-      "line3": "Sign up for free!"
-    },
-    "dhl_express": {
-      "line1": "Shipping made easy with DHL",
-      "line2": "Save up to 63% on DHL rates",
-      "line3": "Sign up for free!"
-    }
   },
   "personalizedStore": {
     "signUp": "Get Discounted Shipping",
@@ -158,6 +126,7 @@
       "terms": "Terms",
       "privacy": "Privacy Policy",
       "shipmentFields": "Estimated monthly shipments",
+      "shipmentFieldsIFrame": "How many shipments each month?",
       "seoTitle": "Sign Up To Shippo For Free",
       "seoDescription": "Click here to sign up for a free Shippo account to start saving up to 90% on your e-commerce shipments today. Compare shipping rates and services all in one place"
     }
