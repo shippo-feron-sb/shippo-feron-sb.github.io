@@ -28,7 +28,8 @@
     "nickname": "Nickname"
   },
   "zeroState": {
-    "message": "You haven't connected to any e-commerce channel"
+    "message": "You haven't connected to any e-commerce channel",
+    "description": "Sync order details directly into Shippo by connecting your store"
   },
   "connectButtonText": "Connect Store",
   "connectModal": {
