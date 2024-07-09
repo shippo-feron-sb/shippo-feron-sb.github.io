@@ -61,7 +61,7 @@
     "back": "Back",
     "next": "Next",
     "genericError": "Something went wrong. Please try again.",
-    "plans": {
+    "plans": { 
       "title": "Choose your plan",
       "starter": {
         "title": "Starter",
@@ -96,6 +96,19 @@
           "line1": "Tracking, returns, and more",
           "line2": "1 integration to 40+ carriers",
           "line3": "Compare discounted rates",
+          "line4": "Your own carrier accounts",
+          "line5": "Enterprise-ready security"
+        }
+      },
+      "api": {
+        "title": "API",
+        "pricing": "",
+        "description": "Get started with no subscription and pay only for what you use",
+        "description2": "",
+        "features": {
+          "line1": "30 labels free (per month)",
+          "line2": "Low per-label fee after 30 labels ($.07/label)",
+          "line3": "5 users per account",
           "line4": "Your own carrier accounts",
           "line5": "Enterprise-ready security"
         }
