@@ -25,7 +25,8 @@
     "isFulfillEmailEnabled": "Envoyez une notification au client via {{storeName}}",
   },
   "zeroState": {
-    "message": "You haven't connected to any e-commerce channel"
+    "message": "You haven't connected to any e-commerce channel",
+    "description": "Synchronisez les détails de la commande directement dans Shippo en connectant votre boutique"
   },
   "connectButtonText": "Connecter le magasin",
   "connectModal": {
