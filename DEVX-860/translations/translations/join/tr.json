@@ -1,0 +1,22 @@
+{
+  "firstName": "Adı",
+  "lastName": "Soyadı",
+  "email": "E-posta",
+  "password": "Şifre",
+  "passwordMessage": "En az 8 karakterden oluşmalı ve yaygın olarak kullanılan bir parola olmamalıdır",
+  "signUp": "Kullanmaya Başlayın",
+  "loading": "Çalışıyor...",
+  "termsAndPolicy": "{{start}} düğmesine tıkladığınızda Shippo {{terms}} ve {{privacy}} metinlerini kabul etmiş olursunuz.",
+  "terms": "Şartlar",
+  "privacy": "Gizlilik Politikası",
+  "accountExists": "Shippo hesabınız var mı?",
+  "login": "Oturum aç",
+  "workEmail": "İş e-postası",
+  "embeddable": {
+    "title": "Wix, indirimli kargo ücretleri sunmak için Shippo'yu kullanıyor",
+    "messaging": "Doğrudan Wix'te etiket satın almak için bir hesap oluşturun"
+  },
+  "personalizedStore": {
+    "signUp": "İndirimli Kargoya Sahip Ol"
+  }
+}
