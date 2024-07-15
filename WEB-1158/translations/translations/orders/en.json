@@ -167,7 +167,7 @@
       "jumpToError": "Jump to error",
       "downloadCommercialInvoice": "Download commercial invoice",
       "buyLabelOptions": "Select options to buy label",
-      "createPackingSlip": "Create packing slip",
+      "downloadPackingSlip": "Download packing slip",
       "viewPurchaseLabel": "View purchase label details",
       "duplicateOrder": "Duplicate order",
       "clearAll": "Clear All",
@@ -704,11 +704,12 @@
       "purchaseError": "There was an error processing your request. Please try again later. See <0>Shippo status</0> or <1>contact support</1> for more assistance."
     },
     "packingSlip": {
-      "title": "Add note to packing slip",
+      "title": "Download packing slip",
       "enterNote": "Enter note",
+      "addNote": "Add note to packing slip",
       "cancelButton": "Cancel",
       "submitButton": {
-        "idle": "Submit",
+        "idle": "Save",
         "loading": "Saving"
       },
       "downloadButton": {
