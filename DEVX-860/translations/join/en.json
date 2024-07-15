@@ -6,6 +6,7 @@
     "wix": "Register with Shippo to claim your discount on shipping labels with leading shipping carriers"
   },
   "title": "Shipping Simplified",
+  "iframeTitle": "Sign up",
   "seoTitle": "Sign-Up To Shippo For Free",
   "seoDescription": "Click here to sign up for a free Shippo account to start saving up to 90% on your e-commerce shipments today. Compare shipping rates and services all in one place",
   "firstName": "First name",
@@ -18,6 +19,7 @@
   "phone": "Phone",
   "emailNotif": "Yes, I'd like to receive email tips and news from Shippo",
   "signUp": "Get Started",
+  "iframeSignUp": "Create account",
   "loading": "Working...",
   "termsAndPolicy": "By clicking on {{start}} below, you agree to the Shippo {{terms}} and {{privacy}}.",
   "shippoTermsAndPolicy": "I agree to the Shippo {{terms}} and {{privacy}}",
@@ -54,7 +56,7 @@
     "title": "Wix uses Shippo to offer discounted shipping rates",
     "messaging": "Create an account to buy labels directly in Wix"
   },
-  "onboarding": {
+  "onboarding2024": {
     "learnMore": "Learn more",
     "back": "Back",
     "next": "Next",
