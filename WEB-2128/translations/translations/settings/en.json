@@ -518,6 +518,8 @@
       "edit": "Edit",
       "create": "Create",
       "save": "Save rule",
+      "successSaveMessage": "Rule saved successfully",
+      "errorSaveMessage": "Rule save failed",
       "cancel": "Cancel",
       "orderWeight": "Order weight",
       "actions": {
