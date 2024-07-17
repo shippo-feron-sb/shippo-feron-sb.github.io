@@ -167,7 +167,7 @@
       "jumpToError": "Jump to error",
       "downloadCommercialInvoice": "Download commercial invoice",
       "buyLabelOptions": "Select options to buy label",
-      "createPackingSlip": "Create packing slip",
+      "downloadPackingSlip": "Download packing slip",
       "viewPurchaseLabel": "View purchase label details",
       "duplicateOrder": "Duplicate order",
       "clearAll": "Clear All",
@@ -579,31 +579,6 @@
     "refundRequested": "Refund Requested",
     "noneFound": "Sorry, no successful transactions were retrieved for this order."
   },
-  "promo": {
-    "expires": "Exp.",
-    "terms": "PROMOTIONAL TERMS",
-    "specificTerms": {
-      "DEFAULT": {
-        "firstHalf": "Buy and ship your first {{minUnits}} USPS or DHL Express packages using Shippo’s Master Accounts before {{oneMonth}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. ",
-        "limit": "Limit first {{maxUses}} users. ",
-        "secondHalf": "Promo valid only for users who received this offer directly from Shippo. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. ",
-        "expiration": "Offer expires at 11:59PM Pacific Time on {{endDate}}."
-      },
-      "DEFAULT_EXTENDED_TRIAL": "Enjoy {{freeMonths}} months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free {{freeMonths}}-month promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first {{freeMonths}} months after sign up.",
-      "2FREEPRO": "Enjoy 2 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 2 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first two month after sign up.",
-      "3MONTHSFREENOW": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
-      "3MONTHSFREESUMMER": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
-      "6FREEPROFS": "Enjoy 6 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 6-month promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first 6 months after sign up.",
-      "BREX4MONTHSFREE": "Enjoy four months of our professional plan, free on us when you sign up suing the Brex promo code. Must have an active Shippo account to use code. One free 4 months promotion per customer. Promo valid for users who receive this offer directly from Shippo or Brex. May not be combined with other offers, discounts, or credits. Valid only for the first for months after signup.",
-      "FREESTYLE1000": "Buy and ship your first 500 USPS or DHL Express packages using Shippo’s Master Accounts before 12/31/2019 and get $1,000 credit towards your future Shippo invoices applied in January 2020. Must have an active Shippo account to use code. One $1,000 credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or Freestyle. May not be combined with other offers, discounts, or credits. Unused credits will expire within 6 months. Offer expires at 11:59PM Pacific Time on 10/31/2019.",
-      "NOLABELFEES": "Enjoy our professional plan, which includes no per-label fees and the ability to brand your customer emails and tracking pages for free. One free Shippo professional subscription for 5 years per customer. You need to switch your plan to Professional in Shippo after applying the code. Promo valid only for users that receive the offer directly from Shippo, purchase under 5 thousand labels per month, and use Shippo's master accounts with USPS and DHL. Offer must be redeemed by December 31, 2019. May not be combined with other offers, discounts, or credits. Valid for 5 years after redemption. Shippo reserves the right to evaluate promotions on an annual basis to account for potential changes to its plans and pricing.",
-      "SHIP150": "Buy and ship your first USPS or DHL Express package using Shippo’s Master Accounts before {{endDate}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or Freestyle. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. Offer expires at 11:59PM Pacific Time on {{endDate}}.",
-      "SHIP2TEE": "Buy and ship your first {{minUnits}} USPS or DHL Express packages using Shippo’s Master Accounts before {{endDate}} and get a Shippo T-shirt. Must have an active Shippo account to use code. One Shippo T-Shirt per customer, while supplies last. Promo valid only for users who received this offer directly from Shippo. May not be combined with other offers, discounts, or credits. Offer expires at 11:59PM Pacific Time on {{endDate}}.",
-      "SHIPHERO1000": "Buy and ship your first 500 USPS or DHL Express packages using Shippo’s Master Accounts before 12/31/2019 and get $1,000 credit towards your future Shippo invoices applied in January 2020. Must have an active Shippo account to use code. One $1,000 credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or ShipHero. May not be combined with other offers, discounts, or credits. Unused credits will expire within 6 months. Offer expires at 11:59PM Pacific Time on 10/31/2019.",
-      "USPSREP01": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or USPS affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
-      "WEEBLYTEN": "Buy and ship your first USPS or DHL Express package using Shippo’s Master Accounts before {{endDate}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. Promo valid only for users who received this offer directly from Shippo or Weebly. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. Offer expires at 11:59PM Pacific Time on {{endDate}}."
-    }
-  },
   "status": {
     "payment": {
       "AWAITPAY": "Awaiting",
@@ -704,11 +679,12 @@
       "purchaseError": "There was an error processing your request. Please try again later. See <0>Shippo status</0> or <1>contact support</1> for more assistance."
     },
     "packingSlip": {
-      "title": "Add note to packing slip",
+      "title": "Download packing slip",
       "enterNote": "Enter note",
+      "addNote": "Add note to packing slip",
       "cancelButton": "Cancel",
       "submitButton": {
-        "idle": "Submit",
+        "idle": "Save",
         "loading": "Saving"
       },
       "downloadButton": {

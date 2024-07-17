@@ -50,6 +50,11 @@
     "noSearchResults": "No search results"
   },
   "connections": {
+    "header": "Connect store",
+    "buttons": {
+      "back": "Back",
+      "continue": "Continue"
+    },
     "amazon": {
       "title": "Connect your Amazon store to Shippo",
       "description": "To connect, select the country of your Amazon store and click <0>Connect</0> to sign in to your account and sync your Amazon orders into Shippo.",
