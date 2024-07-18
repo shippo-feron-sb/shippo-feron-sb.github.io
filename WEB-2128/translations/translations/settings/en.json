@@ -999,6 +999,8 @@
       "perYear": "per year",
       "forQuestions": "For questions about your plan, please contact your account manager or support@shippo.com.",
       "contactUs": "Contact Us",
+      "managePlan": "Manage plan",
+      "apiPlan": "API plan",
       "professionalPlan": "Professional Plan",
       "professionalPlanTrial": "Professional Plan Trial",
       "pricePerMonth": "<0>${{ price }}</0> {{ perWhen }}",
