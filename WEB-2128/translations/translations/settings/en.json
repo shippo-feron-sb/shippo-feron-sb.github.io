@@ -586,6 +586,8 @@
         "serviceLevelTokenRequired": "You must select a service level.",
         "senderAPIAddressRequired": "You must select a valid sender address.",
         "tagAssignmentRequired": "You must select a valid tag",
+        "tagAssignmentEmptyCreate": "Create a tag",
+        "tagAssignmentEmpty": "to use this action",
         "invalidWeightRange": "Invalid weight range.",
         "duplicateWeightOperators": "The weight condition type cannot be the same.",
         "invalidOperatorCombination": "\"{{ firstOperator }}\" cannot be used with \"{{ secondOperator }}\" as a weight condition.",
