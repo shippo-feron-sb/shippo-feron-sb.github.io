@@ -45,7 +45,7 @@
   "save": "Save",
   "stores": {
     "popular": "Popular stores",
-    "more": "More stores",
+    "all": "All stores",
     "search": "Search stores",
     "noSearchResults": "No search results"
   },
