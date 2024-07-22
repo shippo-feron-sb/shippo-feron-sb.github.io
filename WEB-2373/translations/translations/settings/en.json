@@ -518,14 +518,19 @@
       "edit": "Edit",
       "create": "Create",
       "save": "Save rule",
+      "successSaveMessage": "Rule saved successfully",
+      "errorSaveMessage": "Failed to save rule, please try again later.",
+      "cancel": "Cancel",
       "orderWeight": "Order weight",
       "actions": {
         "package": "Assign package template",
         "serviceLevel": "Assign service level",
-        "senderAddress": "Assign sender address"
+        "senderAddress": "Assign sender address",
+        "tagAssignment": "Assign tag"
       },
       "senderAddressPlaceholder": "Sender address",
       "serviceLevelPlaceholder": "Search by carrier or service",
+      "tagAssignmentPlaceholder": "Select tag",
       "comingSoon": "Coming Soon",
       "itemName": "Item name",
       "sku": "Item SKU",
@@ -533,12 +538,12 @@
       "shippingDestination": "Shipment destination",
       "selectTemplate": "Select template",
       "description": "Choose from the conditions below to automatically apply actions to incoming orders. Orders must meet ALL conditions for an action to be applied.",
-      "ifConditionSectionTitle": "If",
-      "andConditionSectionTitle": "And",
-      "actionSectionTitle": "Then",
-      "addCondition": "Add Condition",
-      "removeCondition": "Remove Condition",
-      "addAction": "Add Action",
+      "ifConditionSectionTitle": "IF",
+      "andConditionSectionTitle": "AND",
+      "actionSectionTitle": "THEN",
+      "addCondition": "Add condition",
+      "removeCondition": "Remove condition",
+      "addAction": "Add action",
       "nameLabel": "Rule name",
       "namePlaceholder": "Name your rule, e.g. \"less than 3lbs\"",
       "descriptionLabel": "Description",
@@ -580,6 +585,9 @@
         "conditionsWeightRequired": "You must enter a valid order weight.",
         "serviceLevelTokenRequired": "You must select a service level.",
         "senderAPIAddressRequired": "You must select a valid sender address.",
+        "tagAssignmentRequired": "You must select a valid tag",
+        "tagAssignmentEmptyCreate": "Create a tag",
+        "tagAssignmentEmpty": "to use this action",
         "invalidWeightRange": "Invalid weight range.",
         "duplicateWeightOperators": "The weight condition type cannot be the same.",
         "invalidOperatorCombination": "\"{{ firstOperator }}\" cannot be used with \"{{ secondOperator }}\" as a weight condition.",
@@ -614,7 +622,8 @@
       "actions": {
         "package": " package assigned",
         "serviceLevel": " service level assigned",
-        "senderAddress": " assigned as sender address"
+        "senderAddress": " assigned as sender address",
+        "tagAssignment": " tag assigned"
       }
     }
   },
