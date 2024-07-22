@@ -519,7 +519,7 @@
       "create": "Create",
       "save": "Save rule",
       "successSaveMessage": "Rule saved successfully",
-      "errorSaveMessage": "Rule save failed",
+      "errorSaveMessage": "Failed to save rule, please try again later.",
       "cancel": "Cancel",
       "orderWeight": "Order weight",
       "actions": {
