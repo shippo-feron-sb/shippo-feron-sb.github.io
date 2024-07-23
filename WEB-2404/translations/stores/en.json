@@ -41,6 +41,10 @@
   "sidePanel": {
     "title": "Connect store"
   },
+  "managementSidePanel": {
+    "title": "Manage connection",
+    "successMessage": "Your {{storeName}} store settings have been updated"
+  },
   "cancel": "Cancel",
   "save": "Save",
   "stores": {
