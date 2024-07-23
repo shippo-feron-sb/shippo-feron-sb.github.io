@@ -41,11 +41,15 @@
   "sidePanel": {
     "title": "Connect store"
   },
+  "managementSidePanel": {
+    "title": "Manage connection",
+    "successMessage": "Your {{storeName}} store settings have been updated"
+  },
   "cancel": "Cancel",
   "save": "Save",
   "stores": {
     "popular": "Popular stores",
-    "all": "All stores",
+    "more": "More stores",
     "search": "Search stores",
     "noSearchResults": "No search results"
   },
@@ -54,6 +58,28 @@
     "buttons": {
       "back": "Back",
       "continue": "Continue"
+    },
+    "stores": {
+      "shopify": {
+        "description": "To connect, input your store URL below. Then, click <0>Continue</0> to proceed to Shopify where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo.",
+        "label": "Shopify store URL",
+        "placeholder": "shop_name.myshopify.com",
+        "error": "URL for the shop is required"
+      },
+      "amazon": {
+        "description": "To connect, select the country of your Amazon store. Then, click <0>Continue</0> to proceed to Amazon where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo.",
+        "label": "Country",
+        "error": "Country is required"
+      }
+    },
+    "errors": {
+      "STORE_ALREADY_CONNECTED_ERROR": "You already have a {{store}} store connected",
+      "MISSING_USERID_ERROR": "User ID is missing.",
+      "INVALID_JWT_HEADER": "Please login and try again.",
+      "POSSIBLE_CREDENTIALS_ERROR": "Could not connect your {{store}} store. Are your credentials correct?",
+      "MISSING_SCOPES_ERROR": "Could not connect your {{store}} store. Missing permissions in your delegated access key.",
+      "MISSING_SHOP_URL_ERROR": "The shop URL is missing.",
+      "CATCH_ALL": "Could not connect your {{store}} store."
     },
     "amazon": {
       "title": "Connect your Amazon store to Shippo",
