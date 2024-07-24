@@ -77,6 +77,9 @@
         "description": "To connect, select the country of your Amazon store. Then, click <0>Continue</0> to proceed to Amazon where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo.",
         "label": "Country",
         "error": "Country is required"
+      },
+      "wix": {
+        "description": "Click <0>Continue</0> below to proceed to Wix where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo."
       }
     },
     "errors": {
