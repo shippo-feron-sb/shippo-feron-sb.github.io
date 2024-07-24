@@ -14,7 +14,7 @@
     "connect": "Connect",
     "manage": "Manage",
     "rename": "Rename",
-    "expiredToken": "Your security token has expired. For your security, please reconnect your store.",
+    "expiredToken": "This store connection has expired. For your security, please reconnect your store.",
     "reconnect": "Reconnect"
   },
   "editForm": {
@@ -49,7 +49,8 @@
   "disconnectDialog": {
     "title": "Disconnect {{storeName}} store",
     "description": "Are you sure you want to disconnect this {{storeName}} store ({{storeDisplayName}}) from Shippo? Existing orders from this store will remain in Shippo, but no new orders will be synced once you disconnect.",
-    "confirm": "Disconnect"
+    "confirm": "Disconnect",
+    "successMessage": "Your {{storeName}} store has been disconnected from Shippo"
   },
   "cancel": "Cancel",
   "save": "Save",
