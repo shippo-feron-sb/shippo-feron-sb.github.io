@@ -14,7 +14,7 @@
     "connect": "Connect",
     "manage": "Manage",
     "rename": "Rename",
-    "expiredToken": "Your security token has expired. For your security, please reconnect your store.",
+    "expiredToken": "This store connection has expired. For your security, please reconnect your store.",
     "reconnect": "Reconnect"
   },
   "editForm": {
@@ -43,7 +43,14 @@
   },
   "managementSidePanel": {
     "title": "Manage connection",
+    "disconnect": "Disconnect",
     "successMessage": "Your {{storeName}} store settings have been updated"
+  },
+  "disconnectDialog": {
+    "title": "Disconnect {{storeName}} store",
+    "description": "Are you sure you want to disconnect this {{storeName}} store ({{storeDisplayName}}) from Shippo? Existing orders from this store will remain in Shippo, but no new orders will be synced once you disconnect.",
+    "confirm": "Disconnect",
+    "successMessage": "Your {{storeName}} store has been disconnected from Shippo"
   },
   "cancel": "Cancel",
   "save": "Save",
@@ -70,6 +77,9 @@
         "description": "To connect, select the country of your Amazon store. Then, click <0>Continue</0> to proceed to Amazon where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo.",
         "label": "Country",
         "error": "Country is required"
+      },
+      "wix": {
+        "description": "Click <0>Continue</0> below to proceed to Wix where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo."
       },
       "walmart": {
         "description": "To connect, input your client ID and client secret below. Then, click <0>Continue</0> to grant Shippo access and auto-acknowledge your orders in Walmart. Once access is granted, you will see your orders synced in Shippo.\n\nFor instructions on where to find your client ID and client secret, <1>click here</1>.",
