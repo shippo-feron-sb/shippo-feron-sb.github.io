@@ -31,7 +31,7 @@
     "message": "You haven't connected to any e-commerce channel",
     "description": "Sync order details directly into Shippo by connecting your store"
   },
-  "connectButtonText": "Connect Store",
+  "connectButtonText": "Connect store",
   "connectModal": {
     "title": "Connect Your Store",
     "subtitle": "Select your store's e-commerce platform to connect and import orders",
