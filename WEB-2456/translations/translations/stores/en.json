@@ -44,7 +44,8 @@
   "managementSidePanel": {
     "title": "Manage connection",
     "disconnect": "Disconnect",
-    "successMessage": "Your {{storeName}} store settings have been updated"
+    "successMessage": "Your {{storeName}} store settings have been updated",
+    "errorMessage": "Something went wrong while updating your {{storeName}}. Please try again."
   },
   "disconnectDialog": {
     "title": "Disconnect {{storeName}} store",
