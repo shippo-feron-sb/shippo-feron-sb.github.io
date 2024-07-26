@@ -32,7 +32,7 @@
     "message": "You haven't connected to any e-commerce channel",
     "description": "Sync order details directly into Shippo by connecting your store"
   },
-  "connectButtonText": "Connect Store",
+  "connectButtonText": "Connect store",
   "connectModal": {
     "title": "Connect Your Store",
     "subtitle": "Select your store's e-commerce platform to connect and import orders",
@@ -81,6 +81,20 @@
         "description": "To connect, select the country of your Amazon store. Then, click <0>Continue</0> to proceed to Amazon where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo.",
         "label": "Country",
         "error": "Country is required"
+      },
+      "wix": {
+        "description": "Click <0>Continue</0> below to proceed to Wix where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo."
+      },
+      "etsy": {
+        "description": "Click <0>Continue</0> below to proceed to Etsy where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo."
+      },
+      "walmart": {
+        "description": "To connect, input your client ID and client secret below. Then, click <0>Continue</0> to grant Shippo access and auto-acknowledge your orders in Walmart. Once access is granted, you will see your orders synced in Shippo.\n\nFor instructions on where to find your client ID and client secret, <1>click here</1>.",
+        "descriptionLink": "click here",
+        "clientIdLabel": "Client ID",
+        "clientIdError": "Client ID is required",
+        "clientSecretLabel": "Client secret",
+        "clientSecretError": "Client secret is required"
       }
     },
     "errors": {
