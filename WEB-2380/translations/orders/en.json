@@ -1087,6 +1087,7 @@
       "rows": {
         "shipment": "Shipment {{shipmentNumber}}",
         "removeShipment": "Remove shipment {{shipmentNumber}}",
+        "accessibleLabel": "Quantity for \"{{itemName}}\" on Shipment {{shipmentNumber}}",
         "quantity": "Quantity",
         "total": "Total",
         "lineItem": "Line item",
