@@ -1,0 +1,146 @@
+{
+  "title": "Stores",
+  "subtitle": "Connect and manage your e-commerce stores",
+  "disconnectModal": {
+    "cancel": "Cancel",
+    "body": "Orders from this channel will remain, but nothing will be synced once you confirm.",
+    "confirm": "Yes, Disconnect",
+    "title": "Are you sure you want to disconnect {{storeName}} from Shippo?"
+  },
+  "storeRow": {
+    "goToStore": "Go to {{storeName}}",
+    "connected": "Connected",
+    "disconnect": "Disconnect",
+    "connect": "Connect",
+    "manage": "Manage",
+    "rename": "Rename",
+    "expiredToken": "This store connection has expired. For your security, please reconnect your store.",
+    "reconnect": "Reconnect"
+  },
+  "editForm": {
+    "title": "Manage Store Connection",
+    "syncPrompt": "Do you want your labels to be synchronized back to {{storeName}}?",
+    "cancel": "Cancel",
+    "settings": "Store settings",
+    "isAutoFulfill": "Sync tracking numbers and mark orders as fulfilled in {{storeName}}",
+    "isImportPosOrdersEnabled": "Import POS orders from {{storeName}} into Shippo",
+    "isFulfillEmailEnabled": "Send customer tracking notification via {{storeName}} instead of Shippo",
+    "nickname": "Nickname"
+  },
+  "zeroState": {
+    "message": "You haven't connected to any e-commerce channel",
+    "description": "Sync order details directly into Shippo by connecting your store"
+  },
+  "connectButtonText": "Connect store",
+  "connectModal": {
+    "title": "Connect Your Store",
+    "subtitle": "Select your store's e-commerce platform to connect and import orders",
+    "featured": "Featured Platforms",
+    "all": "All Platforms"
+  },
+  "sidePanel": {
+    "title": "Connect store"
+  },
+  "managementSidePanel": {
+    "title": "Manage connection",
+    "disconnect": "Disconnect",
+    "successMessage": "Your {{storeName}} store settings have been updated"
+  },
+  "disconnectDialog": {
+    "title": "Disconnect {{storeName}} store",
+    "description": "Are you sure you want to disconnect this {{storeName}} store ({{storeDisplayName}}) from Shippo? Existing orders from this store will remain in Shippo, but no new orders will be synced once you disconnect.",
+    "confirm": "Disconnect",
+    "successMessage": "Your {{storeName}} store has been disconnected from Shippo"
+  },
+  "cancel": "Cancel",
+  "save": "Save",
+  "stores": {
+    "popular": "Popular stores",
+    "more": "More stores",
+    "search": "Search stores",
+    "noSearchResults": "No search results"
+  },
+  "connections": {
+    "header": "Connect store",
+    "buttons": {
+      "back": "Back",
+      "continue": "Continue"
+    },
+    "stores": {
+      "shopify": {
+        "description": "To connect, input your store URL below. Then, click <0>Continue</0> to proceed to Shopify where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo.",
+        "label": "Shopify store URL",
+        "placeholder": "shop_name.myshopify.com",
+        "error": "URL for the shop is required"
+      },
+      "amazon": {
+        "description": "To connect, select the country of your Amazon store. Then, click <0>Continue</0> to proceed to Amazon where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo.",
+        "label": "Country",
+        "error": "Country is required"
+      },
+      "wix": {
+        "description": "Click <0>Continue</0> below to proceed to Wix where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo."
+      },
+      "etsy": {
+        "description": "Click <0>Continue</0> below to proceed to Etsy where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo."
+      },
+      "walmart": {
+        "description": "To connect, input your client ID and client secret below. Then, click <0>Continue</0> to grant Shippo access and auto-acknowledge your orders in Walmart. Once access is granted, you will see your orders synced in Shippo.\n\nFor instructions on where to find your client ID and client secret, <1>click here</1>.",
+        "descriptionLink": "click here",
+        "clientIdLabel": "Client ID",
+        "clientIdError": "Client ID is required",
+        "clientSecretLabel": "Client secret",
+        "clientSecretError": "Client secret is required"
+      }
+    },
+    "errors": {
+      "STORE_ALREADY_CONNECTED_ERROR": "You already have a {{store}} store connected",
+      "MISSING_USERID_ERROR": "User ID is missing.",
+      "INVALID_JWT_HEADER": "Please login and try again.",
+      "POSSIBLE_CREDENTIALS_ERROR": "Could not connect your {{store}} store. Are your credentials correct?",
+      "MISSING_SCOPES_ERROR": "Could not connect your {{store}} store. Missing permissions in your delegated access key.",
+      "MISSING_SHOP_URL_ERROR": "The shop URL is missing.",
+      "CATCH_ALL": "Could not connect your {{store}} store."
+    },
+    "amazon": {
+      "title": "Connect your Amazon store to Shippo",
+      "description": "To connect, select the country of your Amazon store and click <0>Connect</0> to sign in to your account and sync your Amazon orders into Shippo.",
+      "label": "Country",
+      "goBack": "Go Back"
+    },
+    "buttonText": "Connect",
+    "ebayCA": {
+      "title": "Connect your eBay Canada store to Shippo",
+      "description": "To connect, you’ll be redirected to eBay.ca to grant access to Shippo. After that, your accounts will be linked and your orders will be accessible in Shippo."
+    },
+    "etsy": {
+      "title": "Connect your Etsy store to Shippo",
+      "description": "Click <0>Connect</0> below to sign in to Etsy and connect your orders to Shippo.",
+      "goBack": "Go Back"
+    },
+    "facebook": {
+      "title": "Connect your Facebook store to Shippo",
+      "description": "To connect, you’ll be redirected to Facebook to sign in. After that, your orders will be synced with Shippo."
+    },
+    "shopify": {
+      "title": "Connect your Shopify store to Shippo",
+      "description": "To connect, provide your Shopify URL and click <0>Connect</0> to sign in to your account and sync your Shopify orders into Shippo.",
+      "label": "Shopify shop URL",
+      "placeholder": "your_shop_id.myshopify.com",
+      "goBack": "Go Back"
+    },
+    "walmart": {
+      "title": "Connect your Walmart store to Shippo",
+      "description": "To connect, provide your Client ID and Client Secret and click <0>Connect</0> to sync your Walmart orders with Shippo. Click <1>here</1> for detailed instructions on how to find this information.",
+      "acknowledgeAlert": "Shippo will attempt to auto-acknowledge orders on your behalf during the order import process to enable faster fulfillment.",
+      "labelid": "Client ID",
+      "labelsecret": "Client Secret",
+      "goBack": "Go Back"
+    },
+    "wix": {
+      "title": "Connect your Wix store to Shippo",
+      "description": "Click <0>Connect</0> below to sign in to Wix and connect your orders to Shippo.",
+      "goBack": "Go Back"
+    }
+  }
+}
