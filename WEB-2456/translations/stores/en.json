@@ -1,6 +1,7 @@
 {
   "title": "Stores",
   "subtitle": "Connect and manage your e-commerce stores",
+  "loadingConnectedStores": "Loading connected stores",
   "disconnectModal": {
     "cancel": "Cancel",
     "body": "Orders from this channel will remain, but nothing will be synced once you confirm.",
@@ -51,7 +52,9 @@
     "title": "Disconnect {{storeName}} store",
     "description": "Are you sure you want to disconnect this {{storeName}} store ({{storeDisplayName}}) from Shippo? Existing orders from this store will remain in Shippo, but no new orders will be synced once you disconnect.",
     "confirm": "Disconnect",
-    "successMessage": "Your {{storeName}} store has been disconnected from Shippo"
+    "successMessage": "Your {{storeName}} store has been disconnected from Shippo",
+    "errorMessage": "Something went wrong while disconnecting your {{storeName}} from Shippo. Please try again.",
+    "progressMessage": "Disconnecting store"
   },
   "cancel": "Cancel",
   "save": "Save",
