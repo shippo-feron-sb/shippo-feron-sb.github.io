@@ -1,0 +1,21 @@
+{
+  "title": "Add your card",
+  "disclaimer": "Postage, insurance, and Shippo fees will be charged <0/> to this card.",
+  "security": "AES-256 Bank-Level Encryption",
+  "submit": "Add card",
+  "blocked": "There is a problem with your payment account. Please update your billing details to continue.",
+  "billingAddress": "Billing address",
+  "cancel": "Cancel",
+  "useSenderAddress": "Use primary sender address",
+  "useDifferentAddress": "Use a different address",
+  "saveAsPrimaryAddress": "Save this address as your sender address",
+  "updateSenderAddressToMatchBilling": "Update your sender address to match your billing address",
+  "cardNumber": "Card number",
+  "expiration": "Expiration",
+  "CVV": "CVV",
+  "editAddress": "Edit address",
+  "closeIcon": "Close",
+  "addressError": "Please enter a valid address",
+  "titleUpdate": "Update your card",
+  "submitUpdate": "Update card"
+}
