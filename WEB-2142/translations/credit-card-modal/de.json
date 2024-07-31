@@ -1,0 +1,21 @@
+{
+  "title": "Fügen Sie Ihre Kreditkarte hinzu",
+  "disclaimer": "Porto, Versicherung und Shippo-Gebühren werden <0/> von dieser Kreditkarte abgebucht.",
+  "security": "AES-256-Verschlüsselung auf Bankenniveau",
+  "submit": "Karte hinzufügen",
+  "blocked": "Es gibt ein Problem mit Ihrem Zahlungskonto. Bitte aktualisieren Sie Ihre Abrechnungsdetails, um fortzufahren.",
+  "billingAddress": "Rechnungsadresse",
+  "cancel": "Abbrechen",
+  "useSenderAddress": "Primäre Absenderadresse verwenden",
+  "useDifferentAddress": "Verwenden Sie eine andere Adresse",
+  "saveAsPrimaryAddress": "Speichern Sie diese Adresse als Ihre Absenderadresse",
+  "updateSenderAddressToMatchBilling": "Aktualisieren Sie Ihre Absenderadresse, damit sie mit Ihrer Rechnungsadresse übereinstimmt.",
+  "cardNumber": "Kartennummer",
+  "expiration": "Ablaufdatum",
+  "CVV": "Kreditkartenprüfnummer",
+  "editAddress": "Adresse bearbeiten",
+  "closeIcon": "Schließen",
+  "addressError": "Bitte geben Sie eine gültige Adresse ein",
+  "titleUpdate": "Aktualisieren Sie Ihre Kreditkarte",
+  "submitUpdate": "Karte aktualisieren"
+}
