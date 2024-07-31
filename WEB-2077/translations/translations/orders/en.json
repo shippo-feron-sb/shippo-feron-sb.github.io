@@ -135,6 +135,7 @@
       "viewOrderShort": "View",
       "viewOrder": "View order",
       "splitOrder": "Split order",
+      "editSplitOrder": "Edit split order",
       "createLabel": "Create label",
       "buy": "Buy",
       "buyButton": "Buy",
@@ -1077,27 +1078,35 @@
   },
   "splitOrder": {
     "form": {
-      "title": "Split Order",
-      "subtitle": "Adjust item quantity to split order into shipments",
+      "title": "Split order",
+      "subtitle": "Split order to two shipments, or add more shipments.",
       "sections": {
         "items": "ITEMS",
         "quantity": "QUANTITY",
         "weight": "Weight"
       },
       "rows": {
-        "shipment": "Shipment",
+        "shipment": "Shipment {{shipmentNumber}}",
+        "removeShipment": "Remove shipment {{shipmentNumber}}",
+        "accessibleLabel": "Quantity for \"{{itemName}}\" on Shipment {{shipmentNumber}}",
+        "quantity": "Quantity",
         "total": "Total",
-        "lineItem": "Line item"
+        "lineItem": "Line item",
+        "noLineItem": "No items",
+        "of": "of {{quantity}}"
       },
       "footer": {
-        "addShipment": "Add Shipment",
+        "addShipment": "Add shipment",
         "save": "Save",
         "reset": "Reset"
       },
       "errors": {
-        "invalidQuantity": "The quantities of each shipment must add up to the total.",
-        "contactUs": "Contact us",
-        "genericError": "Something went wrong on our end. Please try again or contact us for assistance."
+        "quantityMismatch": "Quantities must add up to total"
+      },
+      "result": {
+        "success": "Order split successfully",
+        "successWithNumber": "Order {{orderNumber}} split successfully",
+        "error": "Splitting order failed"
       }
     }
   },
