@@ -1,0 +1,10 @@
+{
+  "title": "Reset Password",
+  "registeredEmail": "Registered Email",
+  "email": "Your email address...",
+  "sendRequest": "Send Reset Request",
+  "loading": "Working...",
+  "login": "or login with your existing password",
+  "noAccount": "Don't have an account?",
+  "signUp": "Sign Up"
+}
