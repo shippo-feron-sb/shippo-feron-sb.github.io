@@ -1661,7 +1661,7 @@
       "tagName": "Tag name",
       "createTag": "Create tag",
       "deleteTag": "Delete tag",
-      "deleteTagRuleMessage": "Cannot remove a tag related to automation rule",
+      "deleteTagRuleMessage": "Cannot remove tags used in automation rules. Check your automation rule to remove",
       "icon": "Icon"
     },
     "inputName": {
