@@ -1046,6 +1046,7 @@
     },
     "profile": {
       "title": "Profile",
+      "details": "Details",
       "description": "For your security, making changes to your profile information requires that you confirm your password.",
       "password": "Password",
       "save": "Save",
