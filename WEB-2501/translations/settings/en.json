@@ -1046,6 +1046,7 @@
     },
     "profile": {
       "title": "Profile",
+      "details": "Details",
       "description": "For your security, making changes to your profile information requires that you confirm your password.",
       "password": "Password",
       "save": "Save",
@@ -1652,7 +1653,7 @@
     "toggleUpdate": {
       "success": {
         "on": "Tags are turned on, you can now view, assign, remove, and create tags on your Orders page.",
-        "off": "Tags are turned off, you can turn it on on this page anytime. You will not see tags on your Orders page."
+        "off": "Tags are turned off, you can turn it on, on this page anytime. You will not see tags on your Orders page."
       },
       "error": "Tags update failed. Refresh and try again."
     },
@@ -1660,6 +1661,7 @@
       "tagName": "Tag name",
       "createTag": "Create tag",
       "deleteTag": "Delete tag",
+      "deleteTagRuleMessage": "Cannot remove a tag related to automation rule",
       "icon": "Icon"
     },
     "inputName": {
