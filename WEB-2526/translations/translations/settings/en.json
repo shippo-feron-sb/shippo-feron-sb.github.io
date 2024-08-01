@@ -1071,7 +1071,10 @@
         "password": "Password",
         "passwordError": "Current password is required",
         "genericErrorMessage": "Something went wrong. Please try again.",
-        "confirmationInProgress": "Password confirmation in progress"
+        "confirmationInProgress": "Password confirmation in progress",
+        "backendErrors": {
+          "password is invalid": "The password you entered was incorrect. Please try again."
+        }
       },
       "changePasswordModal": {
         "title": "Change Password",
