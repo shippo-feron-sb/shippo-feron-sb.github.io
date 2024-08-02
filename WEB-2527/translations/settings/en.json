@@ -1058,6 +1058,7 @@
       "name": "Name",
       "nameError": "Name is required",
       "changePassword": "Change Password",
+      "change": "Change",
       "language": "Language",
       "french": "French",
       "english": "English",
