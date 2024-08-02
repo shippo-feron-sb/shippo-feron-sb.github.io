@@ -373,8 +373,8 @@
     "description": "Save addresses you use most often to speed up your label purchase process."
   },
   "recipients": {
-    "title": "Recipient addresses",
-    "header": "Recipient addresses",
+    "title": "Recipient address book",
+    "header": "Recipient address book",
     "description": "Save frequently used recipient addresses",
     "editAddress": "Edit recipient address",
     "addAddress": "Add recipient address",
@@ -385,6 +385,7 @@
     "noCompany": "No company",
     "noSavedRecipients": "No saved recipients",
     "zeroSearchResults": "0 search results",
+    "zeroStateLabel": "Speed up order creation by saving and autofilling repeat customer addresses",
     "error": "Network error. Please try refreshing the page.",
     "search": "Search saved recipients"
   },
@@ -1064,12 +1065,17 @@
       "emailVerification": "<0>You must verify your email to purchase labels. Check your email to activate.</0> <1>Resend Email</1>",
       "resendEmailSuccess": "We’ve sent a new verification link. Click the link in the email to complete verification.",
       "passwordModal": {
-        "description": "For your security, making changes to your profile information requires that you confirm your password.",
-        "title": "Confirm your password",
+        "description": "For your security, changing your name or email requires password confirmation.",
+        "title": "Confirm password",
         "cancel": "Cancel",
         "confirmSave": "Confirm",
         "password": "Password",
-        "passwordError": "Current password is required"
+        "passwordError": "Current password is required",
+        "genericErrorMessage": "Something went wrong. Please try again.",
+        "confirmationInProgress": "Password confirmation in progress",
+        "backendErrors": {
+          "password is invalid": "The password you entered was incorrect. Please try again."
+        }
       },
       "changePasswordModal": {
         "title": "Change Password",
@@ -1653,7 +1659,7 @@
     "toggleUpdate": {
       "success": {
         "on": "Tags are turned on, you can now view, assign, remove, and create tags on your Orders page.",
-        "off": "Tags are turned off, you can turn it on, on this page anytime. You will not see tags on your Orders page."
+        "off": "Tags are turned off. You can turn it on anytime. You will not see tags on your Orders page."
       },
       "error": "Tags update failed. Refresh and try again."
     },
@@ -1661,6 +1667,7 @@
       "tagName": "Tag name",
       "createTag": "Create tag",
       "deleteTag": "Delete tag",
+      "deleteTagRuleMessage": "Cannot remove tags used in automation rules. Check your automation rule to remove",
       "icon": "Icon"
     },
     "inputName": {
@@ -1687,6 +1694,7 @@
     "deleteModal": {
       "title": "Remove tag?",
       "message": "Are you sure you want to remove {{tagId}}? You cannot undo this. ",
+      "warningAutomation": "This tag is part of an automation rule. Removing it will delete the rule.",
       "cancel": "Cancel",
       "removeTag": "Remove tag",
       "successMessage": "Tag removed",
