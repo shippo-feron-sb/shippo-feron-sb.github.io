@@ -136,6 +136,7 @@
       "viewOrder": "View order",
       "splitOrder": "Split order",
       "editSplitOrder": "Edit split order",
+      "undoSplit": "Undo split",
       "createLabel": "Create label",
       "buy": "Buy",
       "buyButton": "Buy",
@@ -1106,7 +1107,12 @@
       "result": {
         "success": "Order split successfully",
         "successWithNumber": "Order {{orderNumber}} split successfully",
-        "error": "Splitting order failed"
+        "error": "Failed to split order. Please try again",
+        "undo": {
+          "success": "Order restored",
+          "successWithNumber": "Order {{orderNumber}} restored",
+          "error": "Failed to undo split. Please try again"
+        }
       }
     }
   },
