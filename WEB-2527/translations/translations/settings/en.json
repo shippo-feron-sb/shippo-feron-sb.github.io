@@ -1075,7 +1075,8 @@
         "genericErrorMessage": "Something went wrong. Please try again.",
         "confirmationInProgress": "Password confirmation in progress",
         "backendErrors": {
-          "password is invalid": "The password you entered was incorrect. Please try again."
+          "password is invalid": "The password you entered was incorrect. Please try again.",
+          "genericErrorMessage": "Something went wrong. Please try again."
         }
       },
       "changePasswordModal": {
@@ -1086,7 +1087,7 @@
         "newPasswordError": "New password is required",
         "confirmNewPassword": "Confirm new password",
         "confirmNewPasswordError": "Confirm new password is required",
-        "passwordMatchError": "The passwords do not match",
+        "passwordMatchError": "New password and confirmed password do not match",
         "cancel": "Cancel",
         "save": "Save"
       },
