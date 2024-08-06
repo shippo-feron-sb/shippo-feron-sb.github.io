@@ -1,0 +1,22 @@
+{
+  "manualLabel": {
+    "name": "Имя",
+    "phone": "Телефон",
+    "street": "Улица",
+    "streetNumber": "Номер дома",
+    "streetLine2": "Улица (строка 2)",
+    "city": "Город",
+    "state": "Штат",
+    "postalCode": "Почтовый индекс",
+    "country": "Страна",
+    "select": "Выбрать",
+    "error": {
+      "nameRequired": "Укажите имя",
+      "streetNumberRequired": "Укажите номер дома",
+      "cityRequired": "Укажите город",
+      "stateRequired": "Для этой страны требуется указать штат",
+      "zipcodeInvalid": "Неверный почтовый индекс для выбранной страны",
+      "countryInvalid": "Укажите страну"
+    }
+  }
+}
