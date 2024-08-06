@@ -61,6 +61,7 @@
     "activateMasterAccountSuccess": "Success! Your {{carrierName}} account has been activated.",
     "addCarrierSuccess": "Success! You now have access to {{carrierName}} rates.",
     "updateCarrierSuccess": "Your {{carrierName}} Account was successfully updated.",
+    "connectingAlert": "Connecting...",
     "ebayOnly": "This account can only be used for fulfillment of eBay orders.",
     "popularAccountsBannerTitle": "Connect Your Carrier(s)",
     "popularAccountsBannerSubtitle": "Add your own carrier account and rates for even more rate options.",
@@ -213,6 +214,10 @@
       "description": "You can easily connect your existing Canada Post account with Shippo by logging into your Canada Post account:",
       "buttonText": "Connect via Canada Post",
       "reloadInstruction": "Reload this page after the connection to confirm your account."
+    },
+    "upsOauthRegistrationForm": {
+      "next": "Connect via UPS",
+      "description": "You can easily connect your existing UPS account with Shippo by logging into your UPS account"
     },
     "accountValidation": {
       "title": "Account validation",
