@@ -1003,7 +1003,7 @@
       "premierPlan": "Premier Plan",
       "nextBilling": "Next billing date: {{ date }} {{ billingFrequency }}",
       "billedMonthly": "billed monthly",
-      "billedYearly": "billed yearly", 
+      "billedYearly": "billed yearly",
       "perMonth": "per month",
       "perYear": "per year",
       "forQuestions": "For questions about your plan, please contact your account manager or support@shippo.com.",
