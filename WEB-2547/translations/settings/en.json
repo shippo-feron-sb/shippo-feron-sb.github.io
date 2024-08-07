@@ -61,6 +61,7 @@
     "activateMasterAccountSuccess": "Success! Your {{carrierName}} account has been activated.",
     "addCarrierSuccess": "Success! You now have access to {{carrierName}} rates.",
     "updateCarrierSuccess": "Your {{carrierName}} Account was successfully updated.",
+    "connectingAlert": "Connecting...",
     "ebayOnly": "This account can only be used for fulfillment of eBay orders.",
     "popularAccountsBannerTitle": "Connect Your Carrier(s)",
     "popularAccountsBannerSubtitle": "Add your own carrier account and rates for even more rate options.",
@@ -213,6 +214,10 @@
       "description": "You can easily connect your existing Canada Post account with Shippo by logging into your Canada Post account:",
       "buttonText": "Connect via Canada Post",
       "reloadInstruction": "Reload this page after the connection to confirm your account."
+    },
+    "upsOauthRegistrationForm": {
+      "next": "Connect via UPS",
+      "description": "You can easily connect your existing UPS account with Shippo by logging into your UPS account"
     },
     "accountValidation": {
       "title": "Account validation",
@@ -495,14 +500,22 @@
     "defaultRuleTitle": "Default Rules <1/>",
     "defaultRulesDescription": "Once shipping rules are applied, defaults will apply to all remaining orders.",
     "noDefaultSet": "No default set",
-    "setUpDefault": "Set up Default",
-    "defaultPackageTemplateRuleTitle": "Default Package Template",
-    "defaultServiceTemplateRuleTitle": "Default Service Level",
+    "setUpDefault": "Set up default",
+    "setUp": "Set up",
+    "manage": "Manage",
+    "manageDefault": "Manage default",
+    "defaultPackageTemplateRuleTitle": "Default package template",
+    "defaultServiceTemplateRuleTitle": "Default service level",
     "managePackagesLink": "Manage Packages",
     "manageServiceLink": "Manage Service Levels",
     "processOrders": "<0/> Run Automations",
     "reorderRules": "<0/> Rearrange",
     "saveReorder": "Save",
+    "createRule": "Create and manage your automation rules",
+    "streamLine": "Streamline fulfillment by applying automation rules to orders",
+    "createNew": "Create new rule",
+    "defaults": "Defaults",
+    "defaultsApply": "Once automation rules are applied, defaults will apply to all remaining orders.",
     "reorderTableDescription": "Rule description",
     "reorderTableLastModified": "Last Modified",
     "reorderTableActions": "Actions",
@@ -1058,6 +1071,7 @@
       "name": "Name",
       "nameError": "Name is required",
       "changePassword": "Change Password",
+      "change": "Change",
       "language": "Language",
       "french": "French",
       "english": "English",
@@ -1080,18 +1094,19 @@
         "genericErrorMessage": "Something went wrong. Please try again.",
         "confirmationInProgress": "Password confirmation in progress",
         "backendErrors": {
-          "password is invalid": "The password you entered was incorrect. Please try again."
+          "password is invalid": "The password you entered was incorrect. Please try again.",
+          "genericErrorMessage": "Something went wrong. Please try again."
         }
       },
       "changePasswordModal": {
-        "title": "Change Password",
+        "title": "Change password",
         "currentPassword": "Current password",
         "passwordError": "Current password is required",
         "newPassword": "New password",
         "newPasswordError": "New password is required",
         "confirmNewPassword": "Confirm new password",
         "confirmNewPasswordError": "Confirm new password is required",
-        "passwordMatchError": "The passwords do not match",
+        "passwordMatchError": "New password and confirmed password do not match",
         "cancel": "Cancel",
         "save": "Save"
       },
@@ -1662,6 +1677,7 @@
     "on": "ON",
     "off": "OFF",
     "fetchError": "Tags could not be retrieved. Refresh and try again.",
+    "organize": "Organize your orders and speed up fulfillment by creating reusable tags",
     "toggleUpdate": {
       "success": {
         "on": "Tags are turned on, you can now view, assign, remove, and create tags on your Orders page.",
