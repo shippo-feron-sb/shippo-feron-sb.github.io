@@ -1,0 +1,10 @@
+{
+  "title": "Réinitialiser le mot de passe",
+  "registeredEmail": "Email enregistré",
+  "email": "Votre adresse email...",
+  "sendRequest": "Envoyer une demande de réinitialisation",
+  "loading": "En cours...",
+  "login": "ou connectez-vous avec votre mot de passe existant",
+  "noAccount": "Vous n'avez pas de compte?",
+  "signUp": "S'inscrire"
+}
