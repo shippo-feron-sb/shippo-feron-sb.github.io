@@ -1116,7 +1116,8 @@
         "optIn": "New Orders page",
         "optOut": "Classic Orders page",
         "save": "Save",
-        "success": "Successfully changed Orders page view"
+        "success": "Successfully changed Orders page view",
+        "version": "Version"
       }
     },
     "billing": {
