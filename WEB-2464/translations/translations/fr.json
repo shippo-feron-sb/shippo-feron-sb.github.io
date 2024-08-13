@@ -1,8 +1,0 @@
-{
-  "currency": "{{value, currency}}",
-  "number": "{{value, number}}",
-  "test": "{{type}} de Test",
-  "search": "Chercher",
-  "day": "{{count}} jour",
-  "day_plural": "{{count}} jours"
-}
