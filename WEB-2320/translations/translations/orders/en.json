@@ -140,6 +140,7 @@
       "createLabel": "Create label",
       "buy": "Buy",
       "buyButton": "Buy",
+      "buyOneOf": "Buy 1 of {{count}}",
       "viewOrderButton": "View order",
       "viewErrorsButton": "View errors",
       "viewShipmentShort": "Shipment",
