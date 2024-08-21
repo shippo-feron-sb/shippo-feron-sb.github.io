@@ -1,0 +1,21 @@
+{
+  "title": "Aggiungi la tua carta di credito",
+  "disclaimer": "La spedizione, l'assicurazione e le spese Shippo verranno addebitate <0/> su questa carta.",
+  "security": "Crittografia AES-256 di livello bancario",
+  "submit": "Aggiungi carta",
+  "blocked": "Si è verificato un problema con il conto di pagamento. Aggiorna i dati di fatturazione per continuare.",
+  "billingAddress": "Indirizzo di fatturazione",
+  "cancel": "Annulla",
+  "useSenderAddress": "Usa indirizzo del mittente principale",
+  "useDifferentAddress": "Usa un altro indirizzo",
+  "saveAsPrimaryAddress": "Salva questo indirizzo come indirizzo del mittente",
+  "updateSenderAddressToMatchBilling": "Aggiorna l'indirizzo del mittente in modo che corrisponda a quello di fatturazione",
+  "cardNumber": "Numero di carta",
+  "expiration": "Scadenza",
+  "CVV": "CVV",
+  "editAddress": "Modifica indirizzo",
+  "closeIcon": "Chiudi",
+  "addressError": "Inserisci un indirizzo email valido",
+  "titleUpdate": "Aggiorna la tua carta di credito",
+  "submitUpdate": "Aggiorna carta"
+}
