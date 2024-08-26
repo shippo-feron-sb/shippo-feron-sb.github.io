@@ -140,6 +140,7 @@
       "createLabel": "Create label",
       "buy": "Buy",
       "buyButton": "Buy",
+      "buyOneOf": "Buy {{rank}} of {{count}}",
       "viewOrderButton": "View order",
       "viewErrorsButton": "View errors",
       "viewShipmentShort": "Shipment",
@@ -165,7 +166,7 @@
       "hide": "Hide order",
       "unhide": "Unhide order",
       "getRates": "Get Rates",
-      "buyAgain": "Buy Again",
+      "buyAgain": "Buy again",
       "jumpToError": "Jump to error",
       "downloadCommercialInvoice": "Download commercial invoice",
       "buyLabelOptions": "Select options to buy label",
@@ -404,7 +405,8 @@
       "warningTitleUPS": "You're close to the limit!",
       "warningTitle": "Warning",
       "addTagToOrderError": "Failed to add tag, please try again later.",
-      "removeTagFromOrderError": "Failed to remove tag, please try again later."
+      "removeTagFromOrderError": "Failed to remove tag, please try again later.",
+      "invalidRecipientAddress": "Recipient address cannot be validated"
     },
     "addRecipient": "Add recipient",
     "editSender": "Edit Sender",
