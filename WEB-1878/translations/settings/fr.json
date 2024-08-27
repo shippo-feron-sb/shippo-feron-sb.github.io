@@ -1,0 +1,832 @@
+{
+  "branding": {
+    "title": "Paramètres de marque",
+    "header": "l'image de marque",
+    "description": "Connectez-vous avec vos clients en appliquant des éléments de marque à l'expérience d'expédition",
+    "preview": {
+      "title": "Aperçu",
+      "description": "Pour prévisualiser vos éléments de marque, visitez leurs pages de paramètres respectives:"
+    },
+    "logo": {
+      "heading": "Logo",
+      "descriptionLine1": "Votre logo sera appliqué sur vos pages de suivi, vos e-mails de notification, et vos bons de livraison.",
+      "descriptionLine2": "Pour appliquer votre logo aux étiquettes USPS, visitez la page des paramètres des <0>Étiquettes</0>.",
+      "descriptionZeroState": "Téléchargez un logo qui sera appliqué à vos pages de suivi, vos e-mails de notification et vos bons de livraison.",
+      "uploadSuccess": "Succès! Le logo de votre entreprise a été téléchargé.",
+      "uploadError": "Oups! La mise à jour de votre image de logo a échoué. Veuillez réessayer.",
+      "uploadErrorRetry": "Réessayer",
+      "uploadUnsuccessful": "Échec du téléversement - {{cause}}",
+      "fileSizeExceedsLimit": "la taille du fichier dépasse 1 Mo",
+      "invalidFileFormat": "le fichier doit être au format PNG ou JPEG",
+      "tooltip": {
+        "line1": "Format PNG ou JPEG uniquement",
+        "line2": "Taille maximale de 1 Mo",
+        "line3": "Sera redimensionné à une hauteur de 150 pixels",
+        "line4": "Le rapport largeur / hauteur idéal est de 8: 1"
+      }
+    },
+    "brandColor": {
+      "heading": "Couleur de la marque",
+      "description": "La couleur de votre marque sera appliquée à vos pages de suivi et à vos e-mails.",
+      "updateSuccess": "Succès! La couleur de votre marque a été mise à jour.",
+      "updateError": "Oups! La mise à jour de la couleur de votre marque a échoué. Veuillez réessayer.",
+      "inputError": "Caractères invalides"
+    },
+    "nonPro": {
+      "title": "Activez votre propre image de marque",
+      "description": "Passez au plan Pro pour que votre image de marque soit activée:",
+      "trackingPages": "Suivi des pages",
+      "notificationEmails": "E-mails de notification",
+      "packingSlips": "Bon de livraison",
+      "learnMore": "Apprendre encore plus",
+      "upgradeAccount": "Améliorer le compte"
+    },
+    "uploadLogo": "Téléchargez le logo",
+    "updateLogo": "Mettre à jour le logo",
+    "saveColor": "Enregistrez"
+  },
+  "carriers": {
+    "title": "Paramètres des transporteurs",
+    "header": "Transporteurs",
+    "description": "Utilisez vos contrats existants ou les taux réduits de Shippo.",
+    "connectButtonText": "Connecter un compte opérateur",
+    "connectCarrierAccount": "Connecter Vos {{carrierName}} Compte",
+    "cancel": "Annuler",
+    "back": "Arrière",
+    "activateMasterAccountSuccess": "Succès! Votre compte {{carrierName}} a été activé.",
+    "addCarrierSuccess": "Succès! Vous avez désormais accès aux tarifs de {{carrierName}}.",
+    "updateCarrierSuccess": "Succès ! Compte {{carrierName}} connecté. Cliquez sur 'Éditer' ci-dessous pour configurer votre compte.",
+    "ebayOnly": "Ce compte ne peut être utilisé que pour l'exécution de commandes sur eBay.",
+    "popularAccountsBannerTitle": "Connectez vos opérateurs",
+    "popularAccountsBannerSubtitle": "Ajoutez votre propre compte opérateur et vos tarifs pour encore plus d'options tarifaires.",
+    "connectCarrierImageAltText": "Un lien. Ouvrez un formulaire pour connecter votre compte {{carrierName}}",
+    "searchCarriers": "Rechercher de transporteur...",
+    "searchCarriersNoResult": "Aucun résultat pour ",
+    "filterCarriers": "Filtrer par pays d'origine",
+    "filterCarriersZeroState": "Tous les pays d'origine",
+    "carrier": "Transporteur",
+    "account": "Compte",
+    "active": "Actif",
+    "edit": "Modifier",
+    "descriptions": {
+      "usps": {
+        "discounts": "Accédez à des réductions allant jusqu'à 90%",
+        "pickups": "Planifier les collectes de colis",
+        "manifests": "Créer des manifestes"
+      },
+      "dhl_express": {
+        "discounts": "Accédez à des réductions allant jusqu'à 75%",
+        "pickups": "Planifier les collectes de colis",
+        "customs": "Préremplir les formulaires douaniers"
+      },
+      "lso": {
+        "discounts": "Économisez 40% sur les livraisons régionales",
+        "shipments": "La plupart des envois arrivent en 1 jour",
+        "pickups": "Retraits gratuits et automatisés"
+      },
+      "ups": {
+        "discounts": "Accédez à des remises allant jusqu'à 62%"
+      },
+      "canada_post": {
+        "discounts": "Accédez à des remises exclusives allant jusqu'à 12 %",
+        "reach": "Atteignez les 16,5 millions d'adresses au Canada",
+        "access": "Gagnez un accès instantané sans connexion supplémentaire"
+      }
+    },
+    "form": {
+      "connect": "Connecter",
+      "create": "Créer",
+      "edit": "Modifier",
+      "titleText": "{{formType}} Compte {{carrierName}}",
+      "createFormTab": "Créer un compte",
+      "connectFormTab": "Connecter un compte",
+      "enableTestMode": "Activer le mode test",
+      "enableActualTestAccount": "C'est un compte test",
+      "actualTestAccount": "Cochez cette case uniquement s'il s'agit d'un compte de test {{carrierName}}",
+      "testAccountInfo": "Le mode test vous permet de créer des exemples d'étiquettes pour vous familiariser avec le processus sans dépenser d'argent.",
+      "retailRatesDisclaimer": "Shippo affichera les tarifs de détail par défaut pour ce transporteur. Toutefois, si vous souhaitez saisir vos tarifs personnalisés, veuillez contacter <0>support@shippo.com</0>.",
+      "testLearnMore": "Apprendre encore plus",
+      "updateAccount": "Sauver",
+      "connectAccount": "Connecter un compte",
+      "verifying": "En vérification",
+      "updating": "En mise à jour",
+      "createACarrierAccount": "Créer un compte {{carrierName}}",
+      "serviceLevelsSection": {
+        "header": "Afficher/masquer les niveaux de service",
+        "subtitle": "Masquer un niveau de service <0>le masquera partout</0>, y compris l'API. Les niveaux de service utilisés ailleurs (par défaut, comme règle d'automatisation ou comme tarif lors du paiement) ne peuvent pas être masqués.",
+        "showHideAll": "Tout afficher/masquer",
+        "disabledTooltipMsg": "Ce niveau de service est utilisé ailleurs (par défaut, comme règle d'automatisation ou comme tarif lors du paiement) et ne peut pas être masqué. Vous devez désactiver les autres paramètres afin de pouvoir le masquer."
+      }
+    },
+    "planInfo": {
+      "paygPlanDisclaimer": "Avec votre forfait actuel, Shippo facture un supplément de 5 ¢ par étiquette achetée via vos propres comptes de transporteur connectés",
+      "formPaygPlanDisclaimer": "Remarque: Avec votre forfait actuel, Shippo facture un supplément de 5 ¢ par étiquette achetée via vos propres comptes de transporteur connectés",
+      "adjustPlanLink": "Passez au Plan Professionnel"
+    },
+    "promo": {
+      "getSpecialDiscounts": "Continuer",
+      "ups": "Économisez jusqu'à 62% sur les tarifs UPS®.",
+      "canada_post": "Nouveau ! Inscrivez-vous pour recevoir les tarifs de Postes Canada"
+    },
+    "masterAccountsTab": "Comptes Shippo",
+    "userAccountsTab": "Vos comptes",
+    "upsShortForm": {
+      "title": "Économisez jusqu'à 62% sur les tarifs UPS®",
+      "description": "Vous n'êtes qu'à un clic d'économiser sur l'expédition UPS. Acceptez les conditions d'UPS ci-dessous pour accéder à des tarifs réduits sur Shippo.",
+      "primaryButton": "Continuer"
+    },
+    "upsMasterForm": {
+      "companySubtext": "Remarque: UPS utilise le nom de votre entreprise pour les communications avec les destinataires. Si vous n'avez pas fourni de nom d'entreprise, UPS utilisera votre prénom et votre nom."
+    },
+    "activateAccount": "Activer le Compte",
+    "createAtCarrierWebsite": "Pour créer un compte {{accountType}}, visitez le site Web {{carrierName}}",
+    "clickToGetStarted": "Cliquez ici pour commencer.",
+    "canadaPostMasterForm": {
+      "fields": {
+        "company": "Nom de la compagnie",
+        "full_name": "Nom complet",
+        "email": "Adresse e-mail",
+        "phone": "Numéro de téléphone"
+      },
+      "fieldError": {
+        "required": "Obligatoire",
+        "invalidPhone": "Le numéro de téléphone fourni n'est pas valide."
+      }
+    },
+    "shortform": {
+      "ups_us": {
+        "title": "Économisez jusqu'à 62% sur les tarifs UPS®",
+        "description": "Vous n'êtes qu'à un clic d'économiser sur l'expédition UPS. Acceptez les conditions d'UPS ci-dessous pour accéder à des tarifs réduits sur Shippo.",
+        "primaryButton": "Continuer"
+      },
+      "ups_ca": {
+        "title": "Obtenez les tarifs UPS® DAP",
+        "description": "Vous n'êtes qu'à un clic d'économiser sur l'expédition UPS. Acceptez les conditions d'UPS ci-dessous pour accéder à des tarifs réduits sur Shippo.",
+        "primaryButton": "Continuer"
+      },
+      "canada_post": {
+        "title": "Obtenez les tarifs de Postes Canada",
+        "description": "Vous n'êtes qu'à un clic d'économiser sur l'expédition Postes Canada. Acceptez les conditions d'Postes Canada ci-dessous pour accéder à des tarifs réduits sur Shippo.",
+        "primaryButton": "Continue"
+      }
+    },
+    "canadaPostRedirectForm": {
+      "description": "Vous pouvez facilement connecter votre compte Postes Canada existant à Shippo en vous connectant à votre compte Postes Canada :",
+      "buttonText": "Se connecter via Postes Canada",
+      "reloadInstruction": "Rechargez cette page après la connexion pour confirmer votre compte."
+    }
+  },
+  "company": {
+    "title": "Paramètres de l'entreprise"
+  },
+  "labels": {
+    "title": "Paramètres des étiquettes",
+    "labelFormatTooltip": "Choisissez le type de fichier de l'étiquette. Le PDF est le meilleur pour les formats lettre / pleine page, le 4x6 est le meilleur pour les imprimantes thermiques.",
+    "packingSlipTooltip": "Choisissez le type de fichier du bon de livraison. Le PDF est le meilleur pour les formats lettre / pleine page, le 4x6 est le meilleur pour les imprimantes thermiques.",
+    "textOnLabelTooltip": "Imprimez jusqu'à deux lignes sur l'étiquette d'expédition. Uniquement disponible pour certains transporteurs. Max 50 caractères par ligne.",
+    "carrierLabelTooltip": "Choisissez le transporteur de votre service d'expédition par défaut.",
+    "serviceLevelTooltip": "La définition d'un service d'expédition par défaut vous permettra d'acheter une étiquette immédiatement après avoir entré les détails du colis.",
+    "updateInstructions": "Accédez à <1>la page de personnalisation</1> pour mettre à jour votre logo. Le logo apparaîtra en niveaux de gris sur l'étiquette.",
+    "errors": {
+      "labelTextMaxChars": "Le texte de l'étiquette ne peut pas dépasser 50 caractères par ligne."
+    }
+  },
+  "notifications": {
+    "title": "Paramètres de notifications"
+  },
+  "packages": {
+    "title": "Paramètres de paquets",
+    "deleteModalTitle": "Supprimer ce modèle de colis?",
+    "deleteModalText": "Vous ne pourrez plus utiliser ce modèle de colis lors de l'achat d'étiquettes, mais les étiquettes déjà achetées ne seront pas affectées.",
+    "deleteModalTextAutomations": "Vous ne pourrez plus utiliser ce modèle pour de futures étiquettes. Les étiquettes déjà achetées ne seront pas affectées. <0 /><0 />Ce modèle de colis est associé avec une règle d'automatisation. Le supprimer va supprimer la règle. Cette action est irréversible.",
+    "cancelButton": "Annuler",
+    "removeButton": "Supprimer le modèle de colis"
+  },
+  "addresses": {
+    "title": "Paramètres de adresses",
+    "header": "Adresses",
+    "description": "Enregistrez les adresses que vous utilisez le plus souvent pour accélérer votre processus d’achat d’étiquettes."
+  },
+  "ratesAtCheckout": {
+    "title": "Tarifs à la caisse",
+    "description": "Au moment du paiement, affichez pour les clients de votre boutique soit les tarifs forfaitaires soit les tarifs d'expédition de Shippo en temps réel. Les tarifs en temps réel sont calculés en fonction de l'adresse du client, du poids de l'article, et des dimensions prédéfinies du colis au moment du paiement. <0>En savoir plus</0>",
+    "learnMoreLink": "Apprendre encore plus",
+    "shippingOptionsTitle": "Les options d'expédition",
+    "emptyStateIllustrationDescription": "Aucune option d'expédition n'a encore été ajoutée",
+    "addShippingOptionButton": "Ajouter une option d'expédition",
+    "addShippingOptionMessage": "Ajoutez une option d'expédition pour sélectionner le transporteur/service et envoyer les tarifs à la caisse de votre magasin.",
+    "tableHeaderShippingOption": "Option d'expédition",
+    "tableHeaderRateAdjustment": "Ajustement des taux",
+    "tableHeaderActions": "Actions",
+    "tableFooterMsg": "Les tarifs seront estimés à partir des dimensions de ce paquet:",
+    "DeleteButton": "Supprimer",
+    "EditButton": "Modifier",
+    "CheckoutPreviewTitle": "Aperçu de la caisse",
+    "CheckoutPreviewShowOptions": "Afficher les options",
+    "CheckoutPreviewDeliveryMethod": "MÉTHODE DE LIVRAISON",
+    "CheckoutPreviewFooterMsg": "Les tarifs de livraison peuvent être estimés en fonction des articles dans le panier, de l'adresse du client, du colis, etc. D'autres méthodes de livraison peuvent être disponibles dans les paramètres de votre boutique.",
+    "form": {
+      "title": "Ajouter une option d'expédition",
+      "editTitle": "Modifier l'option d'expédition",
+      "description": "Configurez l'option d'expédition à afficher aux clients lors du passage à la caisse. Vous devrez les activer dans les paramètres de votre boutique Wix.",
+      "nameLabel": "Nom",
+      "namePlaceholder": "par exemple, livraison standard, livraison accélérée.",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "par exemple, 7 à 10 jours ouvrables",
+      "displayRateTypeLabel": "Type de taux",
+      "displayRateTypeLiveRate": "Afficher les taux en direct",
+      "rateTypeFlatRate": "Taux fixe d'affichage",
+      "rateTypePlaceholder": "Sélectionnez le type de paiement",
+      "liveRateSettingsTitle": "Paramètres des taux en direct",
+      "liveRateSettingsDesc": "Shippo va donner une estimation du tarif forfaitaire pour vos acheteurs au moyen des informations de leur panier, telles que l'adresse du destinataire et le poids des articles. Sélectionnez plusieurs services et nous afficherons le moins coûteux.<0>En savoir plus</0>",
+      "liveRateSettingsServiceLevelsLabel": "Services",
+      "liveRateSettingsServiceLevelsPlaceholder": "Sélectionnez un ou plusieurs services",
+      "liveRateSettingsServiceLevelsNote": "Shippo affiche le tarif le moins cher à afficher à la caisse.",
+      "liveRateSettingsPackToCalLabel": "Paquet à calculer",
+      "liveRateSettingsPackToCalPlaceholder": "Sélectionnez un paquet",
+      "liveRateSettingsPackToCalNote": "Shippo calculera le poids dimensionnel à partir de ces dimensions :",
+      "liveRateSettingsFlatRateLabel": "Tarif forfaitaire :",
+      "liveRateSettingsFlatRateNote": "Ce taux sera le taux de repli si les taux ne sont pas chargés.",
+      "liveRateSettingsRateAdjustmentLabel": "Ajustement du taux % (facultatif)",
+      "validateRequiredName": "Le nom est obligatoire",
+      "validateMinLenName": "La longueur minimale est de 3",
+      "validateMaxLenName": "La longueur maximale est de 50",
+      "validateRequiredDesc": "La description est requise",
+      "validateMinLenDesc": "La longueur minimale est de 3",
+      "validateMaxLenDesc": "La longueur maximale est de 50",
+      "validateRequiredFlatRate": "Le taux fixe est requis",
+      "validateRateAdjustment": "Le % d'ajustement du taux est requis",
+      "validateRequiredFlatRateAmount": "Le montant forfaitaire est requis",
+      "validateRequiredServiceLevel": "Les services sont nécessaires",
+      "validateRequiredRateType": "Le type de taux est requis",
+      "deleteWarningMsg": "Supprimer l'option d'expédition",
+      "save": "Sauver",
+      "change": "Changement",
+      "selectPackage": "Ajouter un colis",
+      "learnMoreLink": "En savoir plus",
+      "liveRateSettingsLiveRateLabel": "Si les taux ne sont pas disponibles, définissez un taux fixe:"
+    },
+    "tableHeaderRateType": "Type de tarif",
+    "deleteModal": {
+      "title": "Supprimer l'option d'expédition ?",
+      "text": "Voulez-vous vraiment supprimer cette option d'expédition ?",
+      "cancelButton": "Annuler",
+      "deleteButton": "Supprimer"
+    }
+  },
+  "automations": {
+    "title": "Des Automatisations",
+    "description": "Sur la base des conditions que vous spécifiez, les règles d'automatisation appliquent automatiquement les sélections d'expédition aux commandes nouvellement importées en votre nom. Pour en savoir plus, consultez notre <0>Article de support sur les règles d'automatisation</0> ou notre <1>FAQ</1>.",
+    "descriptionSupportLinkText": "Article de support sur les règles d'automatisation",
+    "descriptionFAQLinkText": "FAQ",
+    "descriptionTip": "Conseil : Les règles d'automatisation s'exécutent dans l'ordre, de haut en bas, de sorte que si plusieurs actions peuvent s'appliquer à une commande, la première du même type d'action (par exemple, Attribuer un paquet) s'appliquera. Faites un glisser-déposer pour réorganiser vos règles d'automatisation.",
+    "deleteModalTitle": "Supprimer la règle d'automatisation?",
+    "deleteModalText": "Voulez-vous vraiment supprimer cette règle d'automatisation?",
+    "cancelButton": "Annuler",
+    "removeButton": "Supprimer",
+    "learnMoreLink": "Apprendre encore plus",
+    "customRulesTitle": "Règles d'expédition",
+    "createRuleButton": "Créer une nouvelle règle",
+    "noCustomRules": "Aucune règle personnalisée n'a encore été définie. Créez une nouvelle règle pour commencer.",
+    "defaultRuleTitle": "Règles par défaut <1/>",
+    "defaultRulesDescription": "Une fois que le règlement des expéditions a été appliqué, les paramètres par défaut seront appliqués à toutes les commandes restantes.",
+    "noDefaultSet": "Aucun ensemble par défaut",
+    "setUpDefault": "Configuration par défaut",
+    "defaultPackageTemplateRuleTitle": "Modèle de package par défaut",
+    "defaultServiceTemplateRuleTitle": "Niveau de service par défaut",
+    "managePackagesLink": "Gérer les packages",
+    "manageServiceLink": "Gérer le niveau de service",
+    "processOrders": "<0/> Exécuter des automatisations",
+    "reorderRules": "<0/> Réarranger",
+    "saveReorder": "Sauver",
+    "reorderTableDescription": "Les automatisations seront appliquées aux commandes dans l'ordre suivant:",
+    "reorderTableLastModified": "Dernière modification",
+    "reorderTableActions": "Actions",
+    "reorderRulesInstructions": "Faites glisser les règles avec <1/> pour réorganiser la séquence d'automatisation",
+    "contactUs": "Contactez-nous",
+    "runAutomationBtnTooltip": "Attention, les automatisations ne fonctionneront que sur les commandes importées d'un magasin ou d'un fichier CSV.",
+    "serviceLevelRetrievalError": "Veuillez réessayer ou contacter le support à support@shippo.com.",
+    "notification": {
+      "inProcess": "Les automatisations sont en cours de traitement",
+      "complete": "les automatisations sont terminées"
+    },
+    "form": {
+      "title": "{{formAction}} Règle d'automatisation",
+      "edit": "Éditer",
+      "create": "Créer",
+      "save": "Sauver",
+      "orderWeight": "Poids de la commande",
+      "actions": {
+        "package": "Attribuer un modèle de paquet",
+        "serviceLevel": "Attribuer un niveau de service",
+        "senderAddress": "Attribuer une adresse de l'expéditeur"
+      },
+      "serviceLevelPlaceholder": "Recherche par transporteur ou service",
+      "comingSoon": "Bientôt disponible",
+      "itemName": "Nom de l'article",
+      "sku": "Article SKU",
+      "orderItemQuantity": "Quantité totale",
+      "shippingDestination": "Destination de l'envoi",
+      "selectTemplate": "Sélectionnez un modèle",
+      "description": "Choisissez parmi les conditions ci-dessous pour appliquer automatiquement des actions aux commandes entrantes. Les commandes doivent remplir TOUTES les conditions pour qu'une action soit appliquée.",
+      "ifConditionSectionTitle": "Si",
+      "andConditionSectionTitle": "Et",
+      "actionSectionTitle": "Alors",
+      "addCondition": "Ajouter une condition",
+      "removeCondition": "Supprimer la condition",
+      "addAction": "Ajouter une action",
+      "namePlaceholder": "Nommez votre règle, par exemple \"moins de 3 livres\"",
+      "descriptionPlaceholder": "Ajouter une description (facultatif)",
+      "selectAction": "Sélectionnez l'action",
+      "selectConditionType": "Sélectionnez la propriété de la commande",
+      "productNameFieldHelpText": "Essayez ceci: copiez et collez le nom du produit de votre magasin.",
+      "errors": {
+        "noEmptyCondition": "Vous devez choisir une condition.",
+        "onlySingleItemCondition": "Vous ne pouvez sélectionner qu'un seul nom de produit par règle. Créez une nouvelle règle pour des produits supplémentaires.",
+        "noConditionTypeCombinations": "Vous ne pouvez sélectionner qu'un seul type de propriété de commande par règle d'automatisation.",
+        "onlySingleConditions": "\"Is equal to\" ne peut être utilisé que seul. Si vous souhaitez spécifier une valeur et une plage, veuillez utiliser \"is greater than or equal to\" ou \"is less than or equal to\".",
+        "noOtherConditionsToBeApplied": "En raison des sélections opérées, aucune autre condition ne peut être ajoutée.",
+        "nameRequired": "Vous devez saisir un nom de règle.",
+        "nameUnique": "Vous devez choisir un nom unique.",
+        "actionsRequired": "Vous devez ajouter au moins une action.",
+        "conditionsRequired": "Vous devez ajouter au moins une condition.",
+        "parcelTemplateRequired": "Vous devez sélectionner un modèle de package.",
+        "conditionsWeightRequired": "Vous devez saisir un poids de commande.",
+        "serviceLevelTokenRequired": "Vous devez sélectionner un niveau de service.",
+        "senderAPIAddressRequired": "Vous devez sélectionner une adresse d'expéditeur valide.",
+        "invalidWeightRange": "Plage de poids non valide.",
+        "duplicateWeightOperators": "Le type de condition de poids ne peut pas être le même.",
+        "invalidOperatorCombination": "\"{{ firstOperator }}\" ne peut pas être utilisé avec \"{{ secondOperator }}\" comme condition de poids.",
+        "invalidUnitsCombination": "Toutes les unités de poids d'une règle doivent être identiques.",
+        "negativeRange": "Le poids doit être supérieur ou égal à zéro.",
+        "maxLength": "Longueur maximale {{ max }} caractères.",
+        "conditionsProductNameRequired": "Vous devez saisir un nom de produit.",
+        "conditionsItemSkuRequired": "Vous devez entrer un article sku.",
+        "conditionsOrderItemQuantityRequired": "Vous devez saisir une valeur de quantité.",
+        "conditionsOrderItemQuantityNotValidInteger": "La quantité d'article doit être une valeur entière supérieure à 0."
+      },
+      "selectDestination": "Choisir la destination",
+      "shipToZipcodeHelpMsg": "Utilisez les virgules pour séparer plusieurs codes postaux. Utilisez un caractère générique * pour faire correspondre plusieurs codes postaux d'un coup (par exemple, 941**)",
+      "shippoMasterAccount": "Shippo Maître",
+      "testAccount": "Mode test",
+      "serviceCategories": "Catégories de services",
+      "defaultServiceLevelOption": "Service par défaut"
+    },
+    "emptyRules": {
+      "illustrationDescription": "Aucune règle personnalisée n'a encore été configurée",
+      "cta": "Vous n'avez pas encore de règles d'expédition configurées. Vous voulez en créer une ?"
+    }
+  },
+  "plans": {
+    "successNotification": "Terminé avec succès ! Votre plan sera automatiquement mis à jour le {{date}}",
+    "learnMore": "En savoir plus",
+    "proPlanCallout": {
+      "enablePersonalCarrier": "Autorisez les comptes de transporteurs personnels",
+      "tryProTrial": "Essayez le plan Pro et bénéficiez d'une période d'essai gratuite de 30 jours afin de connecter des comptes de transporteurs personnels que vous pourrez utiliser pour acheter des étiquettes sans avoir à payer de frais supplémentaires pour chaque étiquette.",
+      "startTrial": "Démarrer l'essai gratuit Pro",
+      "proPlanSuccess": "Votre plan a bien été mis à niveau vers la version Pro",
+      "proPlanError": "Une erreur s'est produite lors de la mise à niveau vers le plan Pro",
+      "reachedLabelLimit": "Vous avez atteint la limite mensuelle de 30 étiquettes.",
+      "tryProWithTrial": "Essayez le plan Pro et bénéficiez d'une période d'essai gratuite de 30 jours qui vous permettra de disposer d'un nombre illimité d'étiquettes par mois et d'accéder à l'ensemble des fonctionnalités de Shippo.",
+      "yourPlanRenews": "Vous avez atteint la limite mensuelle de 30 étiquettes. Votre plan sera renouvelé le {{formattedDate}}.",
+      "thirtyDays": "pendant 30 jours pour débloquer des étiquettes illimitées par mois et accéder à toutes les fonctionnalités de Shippo."
+    },
+    "adjust": {
+      "planNotFound": "Impossible de trouver votre plan actuel. Veuillez réessayer ou contacter support@shippo.com",
+      "fetchPricingPlansError": "Impossible de récupérer les plans tarifaires. Veuillez réessayer ou contacter support@shippo.com",
+      "title": {
+        "adjust": "Ajustez votre plan",
+        "upgrade": "Mettre votre plan à niveau"
+      },
+      "downgrade": {
+        "actionButton": "Rétrograder"
+      },
+      "starter": {
+        "currentPlan": "Plan actuel",
+        "planName": "Plan de démarrage",
+        "downgradePlan": "Rétrograder le plan",
+        "description": "Utilisation gratuite, sans frais mensuels ni restrictions de volume ; parfait pour les entreprises qui n'ont pas de quantité fixe d'envois."
+      },
+      "pro": {
+        "planName": "Plan professionnel",
+        "description": "Le plan idéal pour les entreprises émergentes avec des flux d'automatisation puissants et des expériences utilisateur de marque. Jusqu'à cinq utilisateurs par compte.",
+        "startTrial": "Essayer",
+        "adjustPlan": "Adapter",
+        "slider": {
+          "per": "par",
+          "sliderLabel": "J'imprime environ <1>{{labelCount}}</1> étiquettes par {{frequency}}",
+          "frequencyOptions": {
+            "lowercase": {
+              "month": "mois",
+              "year": "année"
+            },
+            "uppercase": {
+              "month": "Mois",
+              "year": "Année"
+            }
+          }
+        }
+      },
+      "premier": {
+        "planName": "Plan Premier",
+        "description": "Des solutions d'expédition personnalisées pour ceux qui transportent de gros volumes.",
+        "contactUs": "Contactez-nous"
+      }
+    },
+    "help": {
+      "moreQuestions": "D'autres questions ?",
+      "open247": "Notre <1>centre d'assistance</1> est ouvert 24 heures sur 24, 7 jours sur 7",
+      "reachOut": "Ou contactez notre <0>équipe d'assistance</0> mondiale. Nous sommes là pour vous aider.",
+      "reachOutLinkText": "équipe d'assistance"
+    },
+    "upgrade": {
+      "successMessage": "Votre compte a été mis à niveau vers le plan de croissance. Des expériences client de marque, un support de chat en direct et des frais de zéro label jusqu'à 2 500 envois sont maintenant disponibles.",
+      "successTitle": "Mise à niveau réussie",
+      "closeButtonText": "Fermer",
+      "upgradeButtonText": "Améliorer"
+    },
+    "featureGate": {
+      "learnMore": "En savoir plus",
+      "upgradePlan": "Mettre à jour le plan"
+    }
+  },
+  "tracking": {
+    "title": "Page de suivi",
+    "description": "Téléchargez vos ressources de marque pour personnaliser vos pages de suivi ci-dessous.",
+    "liveExample": "Aperçu",
+    "customization": "Personnalisation",
+    "upgradeToPro": "Passer à Pro",
+    "upgradeCopy": "Passez à un plan Pro pour renforcer votre marque et vous connecter avec les clients en incluant la marque et les annonces sur vos pages de suivi.",
+    "ads": "Les publicités",
+    "save": "Sauver",
+    "publish": "Publier en direct",
+    "errors": {
+      "unknown_error": "Échec du téléchargement. Veuillez réessayer.",
+      "invalid_file_type": "Format de fichier image non valide. Veuillez utiliser un fichier png."
+    }
+  },
+  "account": {
+    "plan": {
+      "starterPlan": "Plan de démarrage",
+      "freeToUse": "Utilisation gratuite sans frais mensuels ni restrictions de volume lorsque vous utilisez les comptes des transporteurs de Shippo.",
+      "labelFee": "Des frais de 5 ¢ par étiquette seront appliqués lorsque vous utiliserez votre (vos) propre(s) compte(s) de transporteur connecté(s).",
+      "upgradePlan": "Mettre à jour le plan",
+      "premierPlan": "Plan Premier",
+      "nextBilling": "Prochaine date de facturation: {{ date }} {{ billingFrequency }}",
+      "billedMonthly": "facturé mensuellement",
+      "billedYearly": "facturé annuellement",
+      "perMonth": "par mois",
+      "perYear": "par année",
+      "forQuestions": "Pour toute question concernant votre plan, veuillez contacter votre gestionnaire de compte ou support@shippo.com.",
+      "contactUs": "Contactez-nous",
+      "professionalPlan": "Plan professionnel",
+      "professionalPlanTrial": "Version d'essai du plan professionnel",
+      "pricePerMonth": "<0>{{ price }}</0> $ {{ perWhen }}",
+      "labelsPerMonth": "Jusqu'à <1>{{ labels }}</1> étiquettes {{ perWhen }}",
+      "usersPerAccount": "<0>{{ users }}</0> utilisateurs par compte",
+      "planWillUpgradeYearlyBilling": "<0>🚀</0> Votre plan sera automatiquement mis à jour au <2>plan professionnel</2> (jusqu'à <4>{{ labels }}</4> étiquettes par année) le <6>{{ date }}</6>",
+      "planWillUpgradeMonthlyBilling": "<0>🚀</0> Votre plan sera automatiquement mis à jour au <2>plan professionnel</2> (jusqu'à <4>{{ labels }}</4> étiquettes par mois) le <6>{{ date }}</6>",
+      "planWillDowngrade": "Votre plan sera automatiquement mis à jour au <1>plan de démarrage</1> le <3>{{ date }}</3>",
+      "closeAccount": {
+        "title": "Fermer le compte",
+        "description": "Lorsque vous fermez votre compte, vous perdez l'accès à vos données et paramètres d'expédition historiques.",
+        "modal": {
+          "title": "Fermer le compte",
+          "description": "Nous sommes tristes de vous voir partir ! Veuillez noter que la fermeture de votre compte est permanente. Les données et les configurations de compte ne seront pas récupérables à l'avenir.",
+          "cancel": "Annuler",
+          "confirm": "Fermer le compte"
+        },
+        "form": {
+          "reasonLabel": "Pourquoi voulez-vous fermer votre compte ?",
+          "reasonPlaceholder": "Raison de l'abandon",
+          "reasons": {
+            "missingFeature": "Il manque à Shippo un élément dont j'ai besoin",
+            "highCost": "Cela coûte trop cher",
+            "businessShuttingDown": "Mon entreprise est saisonnière ou en cours de fermeture",
+            "preferredCompetitor": "Je préfère un autre prestataire de services",
+            "other": "Autres"
+          },
+          "tellUsMoreLabel": "En savoir plus",
+          "tellUsMoreMaxLengthError": "Ce champ ne peut pas comporter plus de {{maxLengthTellUsMore}} caractères.",
+          "tellUsMorePlaceholder": "Partagez quelques détails",
+          "tellUsMoreRequiredError": "Ce champ ne peut pas être vide.",
+          "apiError": "Il y a eu un problème de fermeture de votre compte. Veuillez réessayer plus tard."
+        }
+      },
+      "daysLeftInTrial": "{{ days }} jour restant dans la version d'essai",
+      "daysLeftInTrial_plural": "{{ days }} jours restants dans la version d'essai"
+    },
+    "billing": {
+      "paymentMethods": {
+        "noCreditCard": "Veuillez ajouter une carte bancaire pour utiliser Shippo.",
+        "addCreditCard": "Ajouter une carte bancaire",
+        "title": "Modes de paiement",
+        "exp": "Exp.",
+        "updateCard": "Mettre à jour",
+        "ending": "terminant par",
+        "bankAccEnding": "Compte banquaire",
+        "useAsDefault": "Utiliser par défault",
+        "contactUs": "Contactez-nous",
+        "default": "Par défault",
+        "chargedAsShippo": "Facturé \"Shippo\"",
+        "changeDefaultPayment": "Changer de mode de paiement par défaut ?",
+        "cancel": "Annuler",
+        "confirmChangeDefaultPayment": "Êtes-vous sûr de vouloir remplacer votre mode de paiement par défaut par <0><0/></0> ?",
+        "changeDefault": "Modifier",
+        "cardEnding": "Carte bancaire se terminant par",
+        "bankEnding": "Compte bancaire se terminant par",
+        "successCCUpdate": "Succès ! Votre carte de crédit a été modifiée.",
+        "successChangePaymentUpdate": "Terminé avec succès ! Votre mode de paiement par défaut a été mis à jour.",
+        "errorChangePaymentUpdate": "Oups ! Votre mode de paiement par défaut n'a pas pu être mis à jour. Veuillez réessayer."
+      },
+      "promoCode": {
+        "header": "Code promo",
+        "subheader": "Avez vous un code de réduction? Quel chanceux êtes-vous! Entrez-le ici:",
+        "buttonText": "Appliquer",
+        "currentPromo": {
+          "activePromoCode": "Code promo actif",
+          "seeTerms": "Voir les termes"
+        },
+        "replacePromoModal": {
+          "header": "Remplacer le code promotionnel?",
+          "body": {
+            "line1": "Voulez-vous vraiment remplacer votre code promotionnel actuel: ",
+            "line2": "Une fois que vous avez remplacé ce code promotionnel, il ne sera plus actif."
+          },
+          "replaceAction": "Remplacer",
+          "cancelAction": "Annuler"
+        },
+        "promoApplied": "Terminé avec succès ! Votre code promotionnel a été ajouté à votre compte ",
+        "terms": {
+          "DEFAULT": {
+            "firstHalf": "Buy and ship your first {{minUnits}} USPS or DHL Express packages using Shippo’s Master Accounts before {{oneMonth}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. ",
+            "limit": "Limit first {{maxUses}} users. ",
+            "secondHalf": "Promo valid only for users who received this offer directly from Shippo. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. ",
+            "expiration": "Offer expires at 11:59PM Pacific Time on {{endDate}}."
+          },
+          "DEFAULT_EXTENDED_TRIAL": "Enjoy {{freeMonths}} months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free {{freeMonths}}-month promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first {{freeMonths}} months after sign up.",
+          "2FREEPRO": "Enjoy 2 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 2 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first two month after sign up.",
+          "3MONTHSFREENOW": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
+          "3MONTHSFREESUMMER": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
+          "6FREEPROFS": "Enjoy 6 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 6-month promotion per customer. Promo valid only for users who received this offer directly from Shippo or Shippo affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first 6 months after sign up.",
+          "BREX4MONTHSFREE": "Enjoy four months of our professional plan, free on us when you sign up using the Brex promo code. Must have an active Shippo account to use code. One free 4 months promotion per customer. Promo valid for users who receive this offer directly from Shippo or Brex. May not be combined with other offers, discounts, or credits. Valid only for the first four months after signup.",
+          "FREESTYLE1000": "Buy and ship your first 500 USPS or DHL Express packages using Shippo’s Master Accounts before 12/31/2019 and get $1,000 credit towards your future Shippo invoices applied in January 2020. Must have an active Shippo account to use code. One $1,000 credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or Freestyle. May not be combined with other offers, discounts, or credits. Unused credits will expire within 6 months. Offer expires at 11:59PM Pacific Time on 10/31/2019.",
+          "NOLABELFEES": "Enjoy our professional plan, which includes no per-label fees and the ability to brand your customer emails and tracking pages for free. One free Shippo professional subscription for 5 years per customer. You need to switch your plan to Professional in Shippo after applying the code. Promo valid only for users that receive the offer directly from Shippo, purchase under 5 thousand labels per month, and use Shippo's master accounts with USPS and DHL. Offer must be redeemed by December 31, 2019. May not be combined with other offers, discounts, or credits. Valid for 5 years after redemption. Shippo reserves the right to evaluate promotions on an annual basis to account for potential changes to its plans and pricing.",
+          "SHIP2TEE": "Buy and ship your first {{minUnits}} USPS or DHL Express packages using Shippo’s Master Accounts before {endDate} and get a Shippo T-shirt. Must have an active Shippo account to use code. One Shippo T-Shirt per customer, while supplies last. Promo valid only for users who received this offer directly from Shippo. May not be combined with other offers, discounts, or credits. Offer expires at 11:59PM Pacific Time on {{endDate}}.",
+          "SHIP150": "Buy and ship your first USPS or DHL Express package using Shippo’s Master Accounts before {{endDate}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or Freestyle. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. Offer expires at 11:59PM Pacific Time on {{endDate}}.",
+          "SHIPHERO1000": "Buy and ship your first 500 USPS or DHL Express packages using Shippo’s Master Accounts before 12/31/2019 and get $1,000 credit towards your future Shippo invoices applied in January 2020. Must have an active Shippo account to use code. One $1,000 credit per customer. Limit first 100 users. Promo valid only for users who received this offer directly from Shippo or ShipHero. May not be combined with other offers, discounts, or credits. Unused credits will expire within 6 months. Offer expires at 11:59PM Pacific Time on 10/31/2019.",
+          "USPSREP01": "Enjoy 3 months of our professional plan, free on us when you sign up. Must have an active Shippo account to use code. One free 3 months promotion per customer. Promo valid only for users who received this offer directly from Shippo or USPS affiliates. May not be combined with other offers, discounts, or credits. Valid only for the first three month after sign up.",
+          "WEEBLYTEN": "Buy and ship your first USPS or DHL Express package using Shippo’s Master Accounts before {{endDate}} and get {{creditAmount}} credit towards your future Shippo invoices. Must have an active Shippo account to use code. One {{creditAmount}} credit per customer. Promo valid only for users who received this offer directly from Shippo or Weebly. May not be combined with other offers, discounts, or credits. Unused credits will expire within 1 month. Offer expires at 11:59PM Pacific Time on {{endDate}}."
+        },
+        "errors": {
+          "code": {
+            "PROMO_AWAITING_START": "Code promotionnel pas encore valide.",
+            "PROMO_EXPIRED": "Code promotionnel a expiré.",
+            "PROMO_INVALID": "Code promotionnel invalide.",
+            "PROMO_USAGE_EXHAUSTED": "Le code promotionnel n'est plus disponible.",
+            "PROMO_ALREADY_APPLIED": "Code promotionnel déjà appliqué au compte.",
+            "PROMO_NEW_USERS_ONLY": "Le code promotionnel est réservé aux nouveaux utilisateurs.",
+            "MAX_LENGTH": "Le code promotionnel ne peut pas comporter plus de 24 caractères.",
+            "REQUIRED": "Le code promotionnel ne peut pas être vide."
+          }
+        }
+      },
+      "allTransactions": {
+        "header": "Toutes les transactions",
+        "subheader": "Recherchez, filtrez et exportez pour chaque achat d'étiquette, supplément, frais ou crédit de remboursement.",
+        "buttonText": "Voir tout",
+        "noResults": "Aucun résultat trouvé",
+        "actionText": "Veuillez essayer d'ajuster votre recherche et / ou vos filtres",
+        "backToBilling": "Retour à la facturation",
+        "table": {
+          "headers": {
+            "dateTime": "Date, heure",
+            "invoiceItemType": "Type",
+            "orderDetails": "Détails",
+            "trackingNumber": "Numéro de suivi",
+            "invoiceItemAmountStatus": "Statut",
+            "invoice": "Facture d'achat",
+            "amount": "Montant"
+          },
+          "invoiceItemType": {
+            "LABEL_PAYMENT": "Paiement de l'étiquette",
+            "LABEL_FAILURE": "Problème d'étiquette",
+            "LABEL_SURCHARGE": "Supplément du prix de l'étiquette",
+            "LABEL_REFUND": "Remboursement de l'étiquette",
+            "REBATE": "Remboursement",
+            "ONE_OFF_CREDIT": "Crédit",
+            "LEGACY_CHARGE": "Frais divers",
+            "LEGACY_REFUND": "Remboursement divers",
+            "INVALID_TYPE": "Inconnue",
+            "TRACK_FEE": "Frais de suivi",
+            "ADDRESS_VALIDATION_FEE": "Address Validation Fee",
+            "BRANDING": "Frais supplémentaire de la marque",
+            "MULTI_USER_LOGIN": "Frais de licences d'utilisateur",
+            "INSURANCE_FEE": "Frais d'assurance",
+            "LABEL_FEE": "Frais d'étiquetage",
+            "SUBSCRIPTION_PLAN_FEE": "Frais d'abonnement",
+            "POSTAGE_PRICE": "Coût d'affranchissement",
+            "PROMO_CODE_CREDIT": "Crédit promotionnel",
+            "LABEL_PRICE_TRUE_UP_CHARGE": "Label Price True Up Charge",
+            "LABEL_PRICE_TRUE_UP_REFUND": "Label Price True Up Refund",
+            "UNKNOWN": "Inconnue"
+          },
+          "invoiceStatus": {
+            "paid": "Payé",
+            "pending": "En attente",
+            "credited": "Crédité"
+          }
+        },
+        "export": {
+          "cancel": "Annuler",
+          "error": "Oups ! Quelque chose s'est mal passé avec votre exportation. Veuillez réessayer, ou contactez <0>support@shippo.com</0> si vous continuez à avoir des problèmes.",
+          "export": "Exporter en CSV",
+          "header": "Exporter les transactions",
+          "notice": "Si le téléchargement de votre fichier ne démarre pas, vous devrez peut-être activer les fenêtres contextuelles dans votre navigateur et réessayer.",
+          "textLine1WithFilters": "Vous êtes sur le point d'exporter des factures en CSV.",
+          "textLine1WithoutFilters": "Vous n'avez défini aucun filtre; vous exporterez ainsi les 10 000 dernières transactions.",
+          "textLine2WithFilters": "Les factures correspondant à ces filtres seront exportées :",
+          "textLine2WithoutFilters": "Pour définir des filtres, cliquez sur « Annuler » ci-dessous puis cliquez sur « Ajouter des filtres » à côté de la barre de recherche."
+        },
+        "exportButtonText": "Exporter CSV",
+        "filters": {
+          "add": "Ajouter des filtres",
+          "clear": "Supprimer les filtres",
+          "apply": "Appliquer",
+          "pageSizeLabel": "Transactions par page",
+          "placeholders": {
+            "startDate": "Date de début",
+            "endDate": "Date de fin",
+            "invoiceStatus": "Statut",
+            "invoiceItemType": "Type",
+            "storeName": "Boutique",
+            "carrierAccount": "Compte du transporteur"
+          },
+          "options": {
+            "invoiceStatus": {
+              "PAID": "Payé",
+              "UNPAID": "En attente"
+            }
+          }
+        }
+      },
+      "pendingTransactions": {
+        "backToBilling": "Retour à la facturation",
+        "header": "Transactions en attente",
+        "subheader": "Examinez les transactions en attente qui n'ont pas encore été facturées selon votre mode de paiement, ainsi que votre solde créditeur actuel.",
+        "buttonText": "Voir en attente",
+        "pageTitle": "Transactions en attente",
+        "emptyTitle": "Aucune transaction en attente",
+        "emptySubtitle": "Certaines transactions peuvent prendre quelques minutes pour s'afficher ici - revenez bientôt",
+        "table": {
+          "headers": {
+            "dateTime": "Date, heure",
+            "description": "Description",
+            "trackingNumber": "Numéro de suivi",
+            "amount": "Montant"
+          }
+        }
+      },
+      "invoices": {
+        "download": {
+          "invoiceDate": "Date: {{invoiceDate}}",
+          "invoiceNumber": "N ° facture: {{invoiceNumber}}",
+          "vatDisclaimer": "TVA à inverser automatiquement par l'acheteur",
+          "errors": {
+            "retrieveInvoice": "Erreur lors de la récupération de la facture. Veuillez réessayer ou contacter support@shippo.com",
+            "retrieveInvoiceItems": "Erreur lors de la récupération des éléments de facture. Veuillez réessayer ou contacter support@shippo.com"
+          },
+          "invoiceItemsTable": {
+            "gstIncluded": "GST incl.",
+            "title": "Transactions facturées",
+            "headers": {
+              "date": "Date",
+              "itemType": "Type d'élément",
+              "carrier": "Transporteur",
+              "trackingNumber": "Numéro de suivi",
+              "tax": "Impôt",
+              "amount": "Montant"
+            },
+            "footers": {
+              "subtotal": "Sous-total",
+              "total": "Total"
+            }
+          }
+        },
+        "header": "Factures",
+        "subheader": {
+          "text": "Les factures affichent toutes les transactions qui ont eu lieu au cours du cycle de paiement donné. Elles peuvent vous aider à comprendre ce qui vous est facturé.",
+          "link": "Pour en savoir plus, cliquez ici."
+        },
+        "table": {
+          "cells": {
+            "invoiceNumber": "N° de facture Shippo ",
+            "download": "Télécharger",
+            "status": {
+              "paid": "Payé",
+              "unpaid": "Impayé",
+              "inProgress": "Frais dans le processus",
+              "success": "Facturation réussie",
+              "failure": "La facturation a échoué",
+              "reattempt": "Retenter",
+              "writtenOff": "Remboursé"
+            },
+            "writtenOffToolTip": "Cette facture ne requiert pas de paiement. Aucune action n'est nécessaire."
+          }
+        }
+      }
+    },
+    "nav": {
+      "generalSettings": "Paramètres généraux",
+      "currentPlanSettings": "Paramètres du plan actuel",
+      "billingSettings": "Paramètres de facturation",
+      "profileSettings": "Paramètres du profil",
+      "accountSettings": "Paramètres du compte",
+      "generalTabName": "Général",
+      "planTabName": "Plan",
+      "billingTabName": "Facturation",
+      "profileTabName": "Profil",
+      "account": "Compte"
+    }
+  },
+  "api": {
+    "title": "API",
+    "description": "Accédez à et gérez l'API Shippo ici pour automatiser les expéditions et vous connecter à de multiples transporteurs avec une seule intégration.",
+    "token": {
+      "title": "Jeton",
+      "liveToken": "Jeton actif",
+      "liveTokenDescription": "Vous ne devez jamais montrer votre jeton actif. VEUILLEZ LE CONSERVER EN SÉCURITÉ.",
+      "liveTokenToolTip": "Utilisé pour créer des objets actifs et des libellés de production. Il peut être utilisé pour toute requête GET ou POST.",
+      "testToken": "Jeton de test",
+      "generateButton": "Générer le bouton",
+      "testTokenDescription": "Consultez la documentation sur le Mode test pour plus de détails.",
+      "testTokenToolTip": "Ce jeton vous permettra de créer gratuitement n'importe quels objets de test et libellés de test. Il peut être utilisé pour toute requête GET ou POST.",
+      "maxToken": "Le maximum de 2 jetons a été atteint",
+      "manageToken": "Gérez votre jeton"
+    },
+    "tokenGenerateModal": {
+      "title": "Votre jeton API est",
+      "copied": "Copié",
+      "done": "Terminé",
+      "instruction1": "Vous ne devez jamais montrer votre jeton API. <0>Veuillez le conserver en sécurité.</0>",
+      "instruction2": "<0>C'est la seule fois où le jeton API est visible.</0> Vous ne le verrez pas plus tard. Mais vous pouvez créer un nouveau jeton API à tout moment."
+    }
+  },
+  "nav": {
+    "header": "Paramètres",
+    "shipping": {
+      "title": "Expédition",
+      "labels": "Étiquettes et bordereaux",
+      "carriers": "Transporteurs",
+      "packages": "Paquets",
+      "automations": "Automatisations",
+      "tracking-page": "Suivi",
+      "insurance": "Assurance",
+      "rates-at-checkout": "Tarifs appliqués lors du paiement"
+    },
+    "business": {
+      "title": "Votre entreprise",
+      "stores": "Chaînes de commerce électronique",
+      "company": "Informations sur l'entreprise",
+      "addresses": "Adresse de l'expéditeur",
+      "branding": "Valorisation de la marque {{isPro}}"
+    },
+    "account": {
+      "title": "Compte",
+      "billing": "Facturation",
+      "plan": "Plan",
+      "profile": "Profil",
+      "users": "Utilisateurs {{isPro}}"
+    },
+    "advanced": {
+      "title": "Avancé",
+      "apps": "Applications",
+      "api": "API"
+    }
+  },
+  "internationalDefaults": {
+    "purposeOfShipmentOptions": {
+      "documents": "Documents",
+      "gift": "Cadeau",
+      "humanitarian_donation": "Don humanitaire",
+      "merchandise": "Marchandise",
+      "other": "Autre",
+      "return_merchandise": "Retourner de la marchandise",
+      "sample": "Échantillon"
+    }
+  },
+  "insurance": {
+    "descVariant": "La <0>Protection totale Shippo</0> assure vos colis à moindre coût et avec une procédure de réclamation simple. La valeur de vos envois perdus, volés ou endommagés est couverte à hauteur de 10 000 $, frais de réexpédition et remboursement des frais de retour compris.",
+    "insureManuallyVariant": "Ne pas ajouter automatiquement une protection. Je préfère l'ajouter manuellement.",
+    "note1Variant": "Protection 20 % moins coûteuse et traitement des réclamations en 20 jours de moins que la compagnie d'assurance du transporteur",
+    "note2Variant": "Couverture des envois perdus, volés ou endommagés",
+    "note3Variant": "Renvoi et remboursement des retours",
+    "note4": "Paiements instantanés pour les réclamations approuvées",
+    "shippoTotalProtection": "Protection totale Shippo",
+    "insureAllPackage": "Ajouter automatiquement une assurance à tous mes colis",
+    "xcoverNote": "En ajoutant une protection, vous acceptez les <1>termes, conditions et exclusions</1>. Protection vendue par Cover Genius et optimisée par XCover.",
+    "insureWithAmount": "Ajouter automatiquement une assurance à tous mes colis d'une valeur supérieure à",
+    "formHeading": "Protection automatique des colis",
+    "save": "Enregistrer"
+  }
+}
