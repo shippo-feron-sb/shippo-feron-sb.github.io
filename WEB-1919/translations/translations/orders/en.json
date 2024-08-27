@@ -140,6 +140,7 @@
       "createLabel": "Create label",
       "buy": "Buy",
       "buyButton": "Buy",
+      "buyOneOf": "Buy {{rank}} of {{count}}",
       "viewOrderButton": "View order",
       "viewErrorsButton": "View errors",
       "viewShipmentShort": "Shipment",
@@ -165,7 +166,7 @@
       "hide": "Hide order",
       "unhide": "Unhide order",
       "getRates": "Get Rates",
-      "buyAgain": "Buy Again",
+      "buyAgain": "Buy again",
       "jumpToError": "Jump to error",
       "downloadCommercialInvoice": "Download commercial invoice",
       "buyLabelOptions": "Select options to buy label",
@@ -405,7 +406,8 @@
       "warningTitleUPS": "You're close to the limit!",
       "warningTitle": "Warning",
       "addTagToOrderError": "Failed to add tag, please try again later.",
-      "removeTagFromOrderError": "Failed to remove tag, please try again later."
+      "removeTagFromOrderError": "Failed to remove tag, please try again later.",
+      "invalidRecipientAddress": "Recipient address cannot be validated"
     },
     "addRecipient": "Add recipient",
     "editSender": "Edit Sender",
@@ -470,7 +472,7 @@
   "refund": {
     "title": "Request refunds",
     "bullets": [
-      "Refunds may take up to 14 days to credit into your account. <0>Learn more</0>",
+      "Refunds may take up to 14 days to credit to your Shippo account to be used for a future label. <0>Learn more</0>",
       "You will immediately be unable to use labels for postage.",
       "Refunds cannot be undone, but you can create a new label by duplicating your order or purchasing a new label."
     ],
