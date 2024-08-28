@@ -181,7 +181,8 @@
       "noTemplatesAvailable": "No templates available",
       "search": "Search",
       "searchTemplates": "Search templates and carrier packages",
-      "save": "Save"
+      "save": "Save",
+      "noResults": "0 search results"
     },
     "multi": {
       "addressPopupButtonTitle": "Edit Address",
@@ -456,8 +457,10 @@
     "editRecipient": "Edit recipient",
     "openAddressBook": "Addresses...",
     "addRecipient": "Add Recipient",
+    "updateAddress": "Update address",
     "errors": {
-      "create": "Failed to save address to the address book"
+      "create": "Failed to save address to the address book",
+      "invalidRecipient": "Update recipient address"
     }
   },
   "packageInfo": {
@@ -471,7 +474,7 @@
   "refund": {
     "title": "Request refunds",
     "bullets": [
-      "Refunds may take up to 14 days to credit into your account. <0>Learn more</0>",
+      "Refunds may take up to 14 days to credit to your Shippo account to be used for a future label. <0>Learn more</0>",
       "You will immediately be unable to use labels for postage.",
       "Refunds cannot be undone, but you can create a new label by duplicating your order or purchasing a new label."
     ],
@@ -769,7 +772,8 @@
         "senderErrors": "Sender address required",
         "returnErrors": "Return address required",
         "addressesErrors": "Addresses required",
-        "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers"
+        "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers",
+        "invalidRecipientAddress": "Recipient address needs review"
       },
       "info": {
         "etaUnavailable": "ETA unavailable",
