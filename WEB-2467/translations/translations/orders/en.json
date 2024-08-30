@@ -457,8 +457,10 @@
     "editRecipient": "Edit recipient",
     "openAddressBook": "Addresses...",
     "addRecipient": "Add Recipient",
+    "updateAddress": "Update address",
     "errors": {
-      "create": "Failed to save address to the address book"
+      "create": "Failed to save address to the address book",
+      "invalidRecipient": "Update recipient address"
     }
   },
   "packageInfo": {
@@ -770,7 +772,8 @@
         "senderErrors": "Sender address required",
         "returnErrors": "Return address required",
         "addressesErrors": "Addresses required",
-        "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers"
+        "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers",
+        "invalidRecipientAddress": "Recipient address needs review"
       },
       "info": {
         "etaUnavailable": "ETA unavailable",
