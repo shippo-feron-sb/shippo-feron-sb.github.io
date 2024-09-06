@@ -1529,25 +1529,6 @@
       "saveAnywayBtn": "Save anyway",
       "error": "There was an issue validating the address."
     },
-    "invalidImportedAddress": {
-      "title": "Update recipient address",
-      "useUnvalidatedAddress": "Use unvalidated address",
-      "editAddress": "Edit address"
-    },
-    "validationErrors": {
-      "ADDRESS_VACANT": "This recipient address has been marked as vacant by the postal authority after 90 days of inactivity and cannot be validated.",
-      "ADDRESS_CONFIRMED_MISSING_SECONDARY": "This recipient address is a valid street address, but is missing an apartment or suite number and cannot be validated.",
-      "ZIP_POST_CODE_NOT_FOUND": "This recipient address is missing a valid zip code, city, and state, and cannot be validated.",
-      "ZIP_PLUS_FOUR_NOT_FOUND": "This recipient address is not valid for the provided zip code and cannot be validated.",
-      "INCOMPLETE_ADDRESS_INPUT": "This recipient address did not contain enough information to determine a single zip code and cannot be validated.",
-      "MULTIPLE_ZIP_PLUS_FOUR_FOUND": "This recipient address matches with more than one zip code+4 and cannot be validated.",
-      "ADDRESS_INVALID_STREET_DELIVERY": "This recipient address does not receive street delivery from the postal authority for this zip code and cannot be validated.",
-      "ADDRESS_PREMISE_INVALID": "This recipient address does not have a valid house or building number and cannot be validated.",
-      "ADDRESS_CONFIRMED_INVALID_SECONDARY": "This recipient address is a valid street address, but its apartment or suite number is not recognized and cannot be validated.",
-      "ADDRESS_SUFFIX_DIRECTION_NOT_FOUND": "This recipient address contains a combination of directionals (N, E, SW, etc) and the suffix (AVE, ST, BLVD) that is not correct and cannot be validated.",
-      "ADDRESS_STREET_NOT_FOUND": "This recipient address could not be matched to a unique street name and cannot be validated.",
-      "ADDRESS_PREMISE_MISSING": "This recipient address is missing a house or building number and cannot be validated."
-    },
     "update": {
       "success": "Recipient address updated",
       "error": "There was an issue updating the recipient address. Please try again later.",
