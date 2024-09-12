@@ -136,6 +136,6 @@
     "signUp": "Sign up",
     "join": "Join 100k savvy shippers",
     "exitingUser": "Existing user login",
-    "termsAndService": "By clicking on \"Get started\" below, you agree to the Shippo <0>terms</0> and <1>privacy policy</1>."
+    "termsAndService": "By clicking on \"Get started\" below, you agree to the Shippo <0>terms</0> and <1>privacy policy</1>. This site is protected by reCAPTCHA and Google. <2>Privacy Policy</2> and <3>Terms of Service<4> apply."
   }
 }
