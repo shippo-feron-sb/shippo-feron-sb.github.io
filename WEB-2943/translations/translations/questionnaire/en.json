@@ -1,0 +1,11 @@
+{
+  "title": "Tell us more about your business",
+  "fields": {
+    "companyName": "What's your company name?",
+    "phoneNumber": "What's the best phone number to reach you?",
+    "monthlyPackages": "How many packages do you typically ship in a month?",
+    "primaryCarrier": "Which of the following is your primary carrier?",
+    "primaryECommerce": "What e-commerce platform do you use?"
+  },
+  "submit": "Finish"
+}
