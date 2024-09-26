@@ -460,7 +460,8 @@
     "updateAddress": "Update address",
     "errors": {
       "create": "Failed to save address to the address book",
-      "invalidRecipient": "Update recipient address"
+      "invalidRecipient": "Update recipient address",
+      "confirmRecipient": "Unable to confirm recipient address"
     }
   },
   "packageInfo": {
@@ -1158,12 +1159,13 @@
     "valueOfItems": "Value of items",
     "signatureConfirmation": "Signature confirmation",
     "signature": "Signature",
-    "signatureIconAltText": "signature icon",
+    "signatureRemove": "Remove signature",
     "signatureErrorMsg": "Signature could not be applied because it is not available for {{source}}",
     "shipmentIconAltText": "shipment icon",
     "insuranceTotalCost": "Total cost",
     "coverage": "coverage",
     "insuranceAdded": "Insurance added",
+    "insuranceRemove": "Remove insurance",
     "insuredWithShipurance": "Insured with Shipsurance",
     "insuredWithShippoTotalProtection": "Shippo Total Protection",
     "signatureRequired": "Signature Required",
