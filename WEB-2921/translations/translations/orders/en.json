@@ -834,6 +834,7 @@
         "packageWeightLabel": "Package Weight",
         "optionalLabel": "optional",
         "useImportedWeight": "Use weight of items",
+        "mixedSelections": "Mixed selections",
         "saveAsTemplate": "Save this as a new package template",
         "userTemplateNameLabel": "Your package name",
         "setAsDefaultTemplate": "Set as default package template",
@@ -943,6 +944,12 @@
     "hazmatReturnLabelClassification": "Return label classification",
     "hazmatReturnLabelMixed": "Mixed selections",
     "hazmatDisabled": "Hazardous materials option cannot be updated in bulk for the selected orders.",
+    "hazmatInfo": {
+      "titleIncludes": "Hazmat category includes",
+      "descriptionIncludes": "Items such as batteries, dry ice flammable liquids, aerosol sprays, air bags, ammunition, fireworks, gasoline, lighters, lithium batteries, matches, nail polish, nail polish remover, nitrogen-refrigerated liquid, paint, perfume, aerosols, camping stoves, radioactive materials, solvents, and more.",
+      "titleHow": "How Shippo helps",
+      "descriptionHow": "When you indicate a shipment contains hazardous materials, we will ensure your label reflects this."
+    },
     "notEligibleForReturn": "Cannot auto-create a return label",
     "notEligibleForReturnBulk": "Cannot auto-create some return labels",
     "insurance": "Add shipment insurance",
