@@ -834,6 +834,7 @@
         "packageWeightLabel": "Package Weight",
         "optionalLabel": "optional",
         "useImportedWeight": "Use weight of items",
+        "mixedSelections": "Mixed selections",
         "saveAsTemplate": "Save this as a new package template",
         "userTemplateNameLabel": "Your package name",
         "setAsDefaultTemplate": "Set as default package template",
