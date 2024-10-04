@@ -1,0 +1,170 @@
+{
+  "account": {
+    "billing": {
+      "paymentMethods": {
+        "noCreditCard": "Shippo'yu kullanmaya başlamak için bir kredi kartı ekleyin.",
+        "addCreditCard": "Kredi Kartı Ekle",
+        "title": "Ödeme Yöntemleri",
+        "updateCard": "Kartı Güncelle"
+      },
+      "promoCode": {
+        "header": "Promosyon Kodu",
+        "subheader": "Promosyon kodunuz var mı? Şanslısınız! Kodu buraya girin:",
+        "buttonText": "Uygula"
+      },
+      "allTransactions": {
+        "header": "Tüm İşlemler",
+        "subheader": "Her etiket alımı, ek ücret, ücret veya iade kredisinde arama, filtreleme ve dışa aktarım yapın.",
+        "buttonText": "Tümünü Görüntüle",
+        "noResults": "Hiçbir sonuç bulunamadı",
+        "actionText": "Lütfen aramanızı ve/veya filtrelerinizi düzeltmeyi deneyin",
+        "backToBilling": "Faturalandırmaya Dön",
+        "table": {
+          "headers": {
+            "dateTime": "Tarih, Saat",
+            "invoiceItemType": "Tür",
+            "orderDetails": "Ayrıntılar",
+            "trackingNumber": "Takip Numarası",
+            "invoiceItemAmountStatus": "Durum",
+            "invoice": "Fatura",
+            "amount": "Tutar"
+          },
+          "invoiceItemType": {
+            "LABEL_PAYMENT": "Etiket ödemesi",
+            "LABEL_FAILURE": "Etiket hatası",
+            "LABEL_SURCHARGE": "Etiket ek ücreti",
+            "LABEL_REFUND": "Etiket para iadesi",
+            "REBATE": "İndirim",
+            "ONE_OFF_CREDIT": "Kredi",
+            "LEGACY_CHARGE": "Muhtelif ücret",
+            "LEGACY_REFUND": "Muhtelif iade",
+            "INVALID_TYPE": "Bilinmiyor",
+            "TRACK_FEE": "Takip ücreti",
+            "ADDRESS_VALIDATION_FEE": "Adres doğrulama",
+            "BRANDING": "Markalama ücreti",
+            "MULTI_USER_LOGIN": "Kullanıcı lisansları ücreti",
+            "INSURANCE_FEE": "Sigorta ücreti",
+            "LABEL_FEE": "Etiket ücreti",
+            "SUBSCRIPTION_PLAN_FEE": "Abonelik ücreti",
+            "POSTAGE_PRICE": "Posta ücreti",
+            "PROMO_CODE_CREDIT": "Promosyon kredisi",
+            "LABEL_PRICE_TRUE_UP_CHARGE": "Etiket Fiyatı Düzeltme Ücreti",
+            "LABEL_PRICE_TRUE_UP_REFUND": "Etiket Fiyatı Düzeltme İadesi",
+            "UNKNOWN": "Bilinmiyor",
+            "PREAUTH_CAPTURE": "Satışa dönüşen ön provizyon"
+          },
+          "invoiceStatus": {
+            "paid": "Ödendi",
+            "pending": "Beklemede",
+            "credited": "Kredilendirildi"
+          }
+        },
+        "export": {
+          "cancel": "İptal et",
+          "error": "Hay aksi! Dışa aktarım işlemizle ilgili bir sorun oluştu. Lütfen tekrar deneyin. Sorun devam ederse <0>support@shippo.com</0> adresinden bize ulaşın.",
+          "export": "CSV olarak dışa aktar",
+          "header": "İşlemleri Dışa Aktar",
+          "notice": "Dosya indirme işlemi başlamazsa, tarayıcınızda açılır pencereleri etkinleştirip tekrar denemeniz gerekebilir.",
+          "textLine1WithFilters": "Fatura kalemlerini CSV olarak dışa aktarmak üzeresiniz.",
+          "textLine1WithoutFilters": "Herhangi bir filtre ayarlamadınız. Bu durumda son 10.000 işlem dışa aktarılacaktır.",
+          "textLine2WithFilters": "Bu filtrelerle eşleşen fatura kalemleri dışa aktarılacaktır:",
+          "textLine2WithoutFilters": "Filtreleri ayarlamak için aşağıdaki <0>İptal</0> düğmesini, ardından da arama çubuğunun yanındaki <0>Filtre Ekle</0>'ye tıklayın."
+        },
+        "exportButtonText": "CSV olarak dışa aktar",
+        "filters": {
+          "add": "Filtre Ekle",
+          "clear": "Filtreleri Temizle",
+          "apply": "Uygula",
+          "pageSizeLabel": "İşlem / sayfa",
+          "placeholders": {
+            "startDate": "Başlangıç Tarihi",
+            "endDate": "Bitiş Tarihi",
+            "invoiceStatus": "Durum",
+            "invoiceItemType": "Tür",
+            "storeName": "Mağaza",
+            "carrierAccount": "Taşıyıcı hesabı"
+          },
+          "options": {
+            "invoiceStatus": {
+              "PAID": "Ödendi",
+              "UNPAID": "Ödenmedi"
+            }
+          }
+        }
+      },
+      "pendingTransactions": {
+        "backToBilling": "Faturalandırmaya Dön",
+        "header": "Bekleyen İşlemler",
+        "subheader": "Bekleyen işlemleri ve geri ödeme taleplerini inceleyin.",
+        "buttonText": "Bekleyenleri Görüntüle",
+        "pageTitle": "Bekleyen İ̇şlemler",
+        "emptyTitle": "Bekleyen İşlem yok",
+        "emptySubtitle": "Bazı işlemlerin burada görünmesi birkaç dakika sürebilir - kısa süre sonra tekrar kontrol edin",
+        "table": {
+          "headers": {
+            "dateTime": "Tarih, Saat",
+            "description": "Açıklama",
+            "trackingNumber": "Takip Numarası",
+            "amount": "Tutar"
+          }
+        }
+      },
+      "invoices": {
+        "download": {
+          "invoiceDate": "Tarih: {{invoiceDate}}",
+          "invoiceNumber": "Fatura No.: {{invoiceNumber}}",
+          "vatDisclaimer": "KDV otomatik olarak sorumlu sıfatıyla alıcı tarafından ödenecektir",
+          "errors": {
+            "retrieveInvoice": "Fatura alınırken hata oluştu. Lütfen tekrar deneyin veya support@shippo.com adresinden bize ulaşın.",
+            "retrieveInvoiceItems": "Fatura kalemleri alınırken hata oluştu. Lütfen tekrar deneyin veya support@shippo.com adresinden bize ulaşın."
+          },
+          "invoiceItemsTable": {
+            "gstIncluded": "GST dahil",
+            "title": "Faturalanan İşlemler",
+            "headers": {
+              "date": "Tarih",
+              "itemType": "Kalem Türü",
+              "carrier": "Taşıyıcı",
+              "trackingNumber": "Takip Numarası",
+              "tax": "Vergi",
+              "amount": "Tutar"
+            },
+            "footers": {
+              "subtotal": "Ara toplam",
+              "total": "Toplam"
+            }
+          }
+        },
+        "header": "Faturalar",
+        "subheader": {
+          "text": "Faturalar, ilgili ödeme döneminde gerçekleşen tüm işlemleri gösterir. Bu da sizden ne için ücret alındığını anlamanıza yardımcı olabilir.",
+          "link": "(Daha fazla bilgi)"
+        },
+        "table": {
+          "cells": {
+            "invoiceNumber": "Shippo Fatura #",
+            "download": "İndir",
+            "status": {
+              "paid": "Ödendi",
+              "unpaid": "Ödenmedi",
+              "inProgress": "Tahsilat devam ediyor",
+              "success": "Tahsilat başarılı",
+              "failure": "Başarısız",
+              "reattempt": "Tekrar deneme",
+              "writtenOff": "Düşüldü",
+              "paymentPending": "Ödeme bekleniyor"
+            },
+            "writtenOffToolTip": "Bu fatura ödeme gerektirmiyor. Herhangi bir işlem yapılmasına gerek yok.",
+            "button": "Görüntüle"
+          }
+        }
+      }
+    },
+    "nav": {
+      "planTabName": "PLAN",
+      "billingTabName": "FATURALANDIRMA",
+      "profileTabName": "PROFİL",
+      "account": "Hesap"
+    }
+  }
+}
