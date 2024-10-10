@@ -314,7 +314,7 @@
         "delete": "Delete"
       },
       "newSearchDialog": {
-        "name": "name",
+        "name": "Name",
         "newSearchDialogTitle": "Name new search",
         "blankField": "This is field cannot be blank",
         "invalidName": "This is an invalid name",
