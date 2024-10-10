@@ -1136,7 +1136,9 @@
         "changeDefaultPayment": "Change default payment method?",
         "cancel": "Cancel",
         "confirmChangeDefaultPayment": "Are you sure you want to change your default payment method to <0><0/></0>?",
-        "errorOccurred": "An error as occured when updating your payment method.",
+        "errorOccurred": "We were not able to add this payment method at this time - please try again later",
+        "paymentAdded": "Payment method added",
+        "paymentUpdated": "Payment method updated",
         "addPayment": "Add payment method",
         "save": "Save",
         "changeDefault": "Change default",
@@ -1667,7 +1669,8 @@
     "error": "Network error. Please try refreshing the page."
   },
   "snackbars": {
-    "success": "Success! Changes saved."
+    "success": "Success! Changes saved.",
+    "error": "Something went wrong, please refresh and try again"
   },
   "analytics": {
     "shippingActivity": "SHIPPING ACTIVITY",
