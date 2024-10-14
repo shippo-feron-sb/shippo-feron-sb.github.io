@@ -1669,8 +1669,7 @@
     "error": "Network error. Please try refreshing the page."
   },
   "snackbars": {
-    "success": "Success! Changes saved.",
-    "error": "Something went wrong, please refresh and try again"
+    "success": "Success! Changes saved."
   },
   "analytics": {
     "shippingActivity": "SHIPPING ACTIVITY",
