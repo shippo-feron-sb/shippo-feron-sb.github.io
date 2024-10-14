@@ -1142,6 +1142,7 @@
         "addPayment": "Add payment method",
         "save": "Save",
         "changeDefault": "Change default",
+        "useDefault": "Use as default payment method",
         "cardEnding": "Card ending",
         "bankEnding": "Bank account ending",
         "successCCUpdate": "Success! Your credit card has been updated.",
