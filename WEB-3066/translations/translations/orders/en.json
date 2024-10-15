@@ -1692,5 +1692,12 @@
   "customsCard": {
     "customsItems": "Customs items",
     "multipleNote": "Select a single order to edit customs items"
+  },
+  "recommendations": {
+    "successSnackbarMessage": "Successfully updated {{orderUpdateCount}} orders",
+    "failureSnackbarMessage": "Failed to apply parcel template to orders",
+    "alertCopy": "We identified {{ordersToUpdateCount}} orders with the same items, would you like to apply {{parcelName}} to these orders?",
+    "dismiss": "Dismiss",
+    "updateOrders": "Update Orders"
   }
 }
