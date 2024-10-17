@@ -1677,16 +1677,6 @@
     "taxIdNumberLabel": "{{taxIDTypeVal}} number default",
     "vatIOSSFormat": "Expected format: AA12345678AAA",
     "einFormat": "Expected format: 123456789",
-    "aesItnSection": {
-      "title": "AES / ITN",
-      "description": "A unique identifier assigned to shipments for export compliance. It helps track and manage international. Shippo will auto-populate future international shipments, but you will still need to click ‘Save’.",
-      "fields": {
-        "aesItn": {
-          "label": "AES / ITN number",
-          "error": { "expectedFormat": "Expected format: X12345678901234" }
-        }
-      }
-    },
     "learnMore": "Learn more"
   },
   "addressBook": {
