@@ -1124,12 +1124,16 @@
       "paymentMethods": {
         "noCreditCard": "Add a credit card to get started with Shippo.",
         "addCreditCard": "Add Credit/Debit Card",
+        "addPaymentMethod": "Add payment method",
+        "cardInfo": "{{name}} ending <0>{{value}}</0>",
+        "ach": "Bank ACH",
         "title": "Payment Methods",
         "exp": "Exp.",
         "updateCard": "Update Card",
         "ending": "ending",
         "bankAccEnding": "Bank account ending",
         "useAsDefault": "Use as default",
+        "deletePaymentMethod": "Delete payment method",
         "contactUs": "Contact Us",
         "default": "Default",
         "chargedAsShippo": "Charged as \"Shippo\"",
@@ -1149,8 +1153,25 @@
         "successChangePaymentUpdate": "Success! Your default payment method has been updated.",
         "errorChangePaymentUpdate": "Oops! Your default payment method could not be updated. Please try again.",
         "creditCardConvenienceFee": {
+          "text": "A 3% convenience fee is applied to credit card transactions. Use ACH as default to avoid this fee.",
           "achAuthorized": "A 3% convenience fee is applied to credit card transactions. <0>Use ACH as default</0> to avoid this fee.",
           "achNotAuthorized": "A 3% convenience fee is applied to credit card transactions. <0>Reach out to customer support</0> to setup ACH to avoid this fee."
+        },
+        "dialogs": {
+          "update": {
+            "title": "Update default payment method",
+            "content": "Are you sure you want to switch your default payment method to <0>{{name}} ending {{value}}</0>? All future changes will be billed to this card.",
+            "action": "Use as default",
+            "success": "Default payment method updated",
+            "error": "We were not able to update your default payment method at this time - please try again later"
+          },
+          "delete": {
+            "title": "Delete payment method",
+            "content": "Are you sure you want to delete <0>{{name}} ending {{value}}</0> from your account?",
+            "action": "Delete",
+            "success": "Payment method deleted",
+            "error": "We were not able to delete this payment method at this time - please try again later"
+          }
         }
       },
       "promoCode": {
@@ -1656,6 +1677,16 @@
     "taxIdNumberLabel": "{{taxIDTypeVal}} number default",
     "vatIOSSFormat": "Expected format: AA12345678AAA",
     "einFormat": "Expected format: 123456789",
+    "aesItnSection": {
+      "title": "AES / ITN",
+      "description": "A unique identifier assigned to shipments for export compliance. It helps track and manage international. Shippo will auto-populate future international shipments, but you will still need to click ‘Save’.",
+      "fields": {
+        "aesItn": {
+          "label": "AES / ITN number",
+          "error": { "expectedFormat": "Expected format: X12345678901234" }
+        }
+      }
+    },
     "learnMore": "Learn more"
   },
   "addressBook": {
@@ -1670,7 +1701,8 @@
     "error": "Network error. Please try refreshing the page."
   },
   "snackbars": {
-    "success": "Success! Changes saved."
+    "success": "Success! Changes saved.",
+    "error": "Something went wrong, please refresh and try again"
   },
   "analytics": {
     "shippingActivity": "SHIPPING ACTIVITY",
