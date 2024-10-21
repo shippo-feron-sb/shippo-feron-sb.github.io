@@ -774,8 +774,7 @@
         "returnErrors": "Return address required",
         "addressesErrors": "Addresses required",
         "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers",
-        "invalidRecipientAddress": "Recipient address needs review",
-        "eelPfcRequired": "EEL/PFC required"
+        "invalidRecipientAddress": "Recipient address needs review"
       },
       "info": {
         "etaUnavailable": "ETA unavailable",
