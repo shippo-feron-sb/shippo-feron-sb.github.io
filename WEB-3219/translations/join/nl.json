@@ -1,0 +1,22 @@
+{
+  "firstName": "Voornaam",
+  "lastName": "Achternaam",
+  "email": "E-mailadres",
+  "password": "Wachtwoord",
+  "passwordMessage": "Moet acht of meer tekens bevatten en mag geen veelgebruikt wachtwoord zijn",
+  "signUp": "Beginnen",
+  "loading": "Aan het laden...",
+  "termsAndPolicy": "Door op {{start}} hieronder te klikken, ga je akkoord met de {{terms}} en {{privacy}} van Shippo.",
+  "terms": "Voorwaarden",
+  "privacy": "privacybeleid",
+  "accountExists": "Heb je al een Shippo-account?",
+  "login": "Aanmelden",
+  "workEmail": "E-mailadres werk",
+  "embeddable": {
+    "title": "Wix gebruikt Shippo om gereduceerde verzendtarieven aan te bieden",
+    "messaging": "Maak een account aan om labels rechtstreeks in Wix te kopen"
+  },
+  "personalizedStore": {
+    "signUp": "Krijg verzending met korting"
+  }
+}
