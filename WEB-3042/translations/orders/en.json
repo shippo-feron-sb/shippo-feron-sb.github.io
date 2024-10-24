@@ -1623,6 +1623,12 @@
     "hazmat": "Hazmat",
     "mixedHazmat": "Mixed hazmat"
   },
+  "customsOptionsCard": {
+    "aesItnUpdate": {
+      "success": "Your AES / ITN number has been saved in settings and will be auto-populated for future internationals shipments.",
+      "view": "View"
+    }
+  },
   "carrierRatesCard": {
     "title": "Rates",
     "domestic": "Domestic",
