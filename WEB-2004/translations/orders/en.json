@@ -774,7 +774,8 @@
         "returnErrors": "Return address required",
         "addressesErrors": "Addresses required",
         "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers",
-        "invalidRecipientAddress": "Recipient address needs review"
+        "invalidRecipientAddress": "Recipient address needs review",
+        "eelPfcRequired": "EEL/PFC required"
       },
       "info": {
         "etaUnavailable": "ETA unavailable",
@@ -1621,6 +1622,12 @@
     "weightError": "Weight is required",
     "hazmat": "Hazmat",
     "mixedHazmat": "Mixed hazmat"
+  },
+  "customsOptionsCard": {
+    "aesItnUpdate": {
+      "success": "Your AES / ITN number has been saved in settings and will be auto-populated for future internationals shipments.",
+      "view": "View"
+    }
   },
   "carrierRatesCard": {
     "title": "Rates",
