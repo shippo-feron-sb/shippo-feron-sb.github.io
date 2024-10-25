@@ -1730,6 +1730,8 @@
       "noeei3037h": " - The shipment is an authorized gift parcel or humanitarian donation to Cuba that does not require a BIS export license.",
       "noeei3037f": " - Exports of technology and software as defined in 15 CFR part 772 of the EAR that do not require an export license are exempt from AES filing requirements.",
       "howDescription": "Shippo will auto-suggest exemption types based off of your input."
-    }
+    },
+    "warningMessage": "AES / ITN is required to purchase USPS International service.",
+    "warningLink": "Learn if your shipment is eligible for exceptions."
   }
 }
