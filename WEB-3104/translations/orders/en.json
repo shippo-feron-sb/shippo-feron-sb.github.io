@@ -774,7 +774,8 @@
         "returnErrors": "Return address required",
         "addressesErrors": "Addresses required",
         "carrierParcelNoRatesErrors": "Edit package to view rates from other carriers",
-        "invalidRecipientAddress": "Recipient address needs review"
+        "invalidRecipientAddress": "Recipient address needs review",
+        "eelPfcRequired": "EEL/PFC required"
       },
       "info": {
         "etaUnavailable": "ETA unavailable",
@@ -1622,6 +1623,12 @@
     "hazmat": "Hazmat",
     "mixedHazmat": "Mixed hazmat"
   },
+  "customsOptionsCard": {
+    "aesItnUpdate": {
+      "success": "Your AES / ITN number has been saved in settings and will be auto-populated for future internationals shipments.",
+      "view": "View"
+    }
+  },
   "carrierRatesCard": {
     "title": "Rates",
     "domestic": "Domestic",
@@ -1699,5 +1706,32 @@
     "alertCopy": "We identified {{ordersToUpdateCount}} orders with the same items, would you like to apply {{parcelName}} to these orders?",
     "dismiss": "Dismiss",
     "updateOrders": "Update Orders"
+  },
+  "eelPfcSection": {
+    "title": "EEL / PFC",
+    "description": "Exemption and Exclusion Legend or Proof of Filing Citation.",
+    "aesItnLabel": "AES / ITN number",
+    "aesItnHelper": "Provide your AES / ITN number",
+    "eelPfcLabel": "Exemption type",
+    "eelPfcHelper": "Or select an exemption type",
+    "certifyLabel": "I certify that the shipment qualifies for {{exemption}} exemption",
+    "certifyInfo": "Based on your input, Shippo has suggested this exemption type. Please certify by checking the box above and saving.",
+    "saveAesItn": "The AES/ITN number is auto-populated from settings. Click Save to confirm.",
+    "howShippoHelps": "How Shippo helps:",
+    "aesItnTooltip": {
+      "title": "AES / ITN number:",
+      "description": "A unique identifier assigned to shipments for export compliance. It helps track and manage international shipments, ensuring they meet regulatory requirements.",
+      "howDescription": "You will only have to provide this once. Shippo will save your AES / ITN in settings and auto-populate future international shipments."
+    },
+    "exemptionTooltip": {
+      "title": "Exemption types:",
+      "noeei3037a": " - Each type of goods in the shipment is valued at $2,500 or less, and the shipment does not require an export license.",
+      "noeei3036": " - A shipment (regardless of value) is going to Canada and does not require an export license.",
+      "noeei3037h": " - The shipment is an authorized gift parcel or humanitarian donation to Cuba that does not require a BIS export license.",
+      "noeei3037f": " - Exports of technology and software as defined in 15 CFR part 772 of the EAR that do not require an export license are exempt from AES filing requirements.",
+      "howDescription": "Shippo will auto-suggest exemption types based off of your input."
+    },
+    "warningMessage": "AES / ITN is required to purchase USPS International service.",
+    "warningLink": "Learn if your shipment is eligible for exceptions."
   }
 }
