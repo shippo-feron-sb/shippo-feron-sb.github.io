@@ -1,0 +1,170 @@
+{
+  "account": {
+    "billing": {
+      "paymentMethods": {
+        "noCreditCard": "Aggiungi una carta di credito per iniziare con Shippo.",
+        "addCreditCard": "Aggiungi carta di credito",
+        "title": "Metodi di pagamento",
+        "updateCard": "Aggiorna carta"
+      },
+      "promoCode": {
+        "header": "Codice promozionale",
+        "subheader": "Hai un codice promozionale? Che fortuna! Inseriscilo qui:",
+        "buttonText": "Applica"
+      },
+      "allTransactions": {
+        "header": "Tutte le transazioni",
+        "subheader": "Cerca, filtra ed esporta qualsiasi acquisto, supplemento, spesa o accredito di rimborso per le etichette.",
+        "buttonText": "Vedi tutto",
+        "noResults": "Nessun risultato",
+        "actionText": "Prova a modificare la ricerca e/o i filtri",
+        "backToBilling": "Torna alla fatturazione",
+        "table": {
+          "headers": {
+            "dateTime": "Data e ora",
+            "invoiceItemType": "Tipo",
+            "orderDetails": "Dettagli",
+            "trackingNumber": "Numero di tracking",
+            "invoiceItemAmountStatus": "Stato",
+            "invoice": "Fattura",
+            "amount": "Importo"
+          },
+          "invoiceItemType": {
+            "LABEL_PAYMENT": "Pagamento etichetta",
+            "LABEL_FAILURE": "Errore dell'etichetta",
+            "LABEL_SURCHARGE": "Supplemento per le etichette",
+            "LABEL_REFUND": "Rimborso dell'etichetta",
+            "REBATE": "Riduzione",
+            "ONE_OFF_CREDIT": "Accredito",
+            "LEGACY_CHARGE": "Addebiti vari",
+            "LEGACY_REFUND": "Rimborsi vari",
+            "INVALID_TYPE": "Sconosciuto",
+            "TRACK_FEE": "Spese di tracking",
+            "ADDRESS_VALIDATION_FEE": "Convalida dell'indirizzo",
+            "BRANDING": "Spese di branding",
+            "MULTI_USER_LOGIN": "Spese per i posti degli utenti",
+            "INSURANCE_FEE": "Spese assicurative",
+            "LABEL_FEE": "Spese per le etichette",
+            "SUBSCRIPTION_PLAN_FEE": "Spese di abbonamento",
+            "POSTAGE_PRICE": "Spese di spedizione",
+            "PROMO_CODE_CREDIT": "Credito promozionale",
+            "LABEL_PRICE_TRUE_UP_CHARGE": "Addebito a conguaglio sul prezzo dell'etichetta",
+            "LABEL_PRICE_TRUE_UP_REFUND": "Rimborso a conguaglio sul prezzo dell'etichetta",
+            "UNKNOWN": "Sconosciuto",
+            "PREAUTH_CAPTURE": "Acquisizione preaut."
+          },
+          "invoiceStatus": {
+            "paid": "Pagata",
+            "pending": "In attesa",
+            "credited": "Accreditata"
+          }
+        },
+        "export": {
+          "cancel": "Annulla",
+          "error": "Ops! Si è verificato un errore durante l'esportazione. Se il problema persiste, riprova o contatta <0>support@shippo.com</0>.",
+          "export": "Esporta in CSV",
+          "header": "Esporta transazioni",
+          "notice": "Se il download del file non inizia, potrebbe essere necessario abilitare le finestre a comparsa nel browser e riprovare.",
+          "textLine1WithFilters": "Stai per esportare le voci della fattura in formato CSV.",
+          "textLine1WithoutFilters": "Non hai impostato filtri: in questo modo esporterai le ultime 10.000 transazioni.",
+          "textLine2WithFilters": "Verranno esportate le voci della fattura corrispondenti a questi filtri:",
+          "textLine2WithoutFilters": "Per impostare i filtri, clicca su <0>Annulla</0> qui sotto e poi su <0>Aggiungi filtri</0> accanto alla barra di ricerca."
+        },
+        "exportButtonText": "Esporta CSV",
+        "filters": {
+          "add": "Aggiungi filtri",
+          "clear": "Cancella filtri",
+          "apply": "Applica",
+          "pageSizeLabel": "Transazioni per pagina",
+          "placeholders": {
+            "startDate": "Data di inizio",
+            "endDate": "Data di fine",
+            "invoiceStatus": "Stato",
+            "invoiceItemType": "Tipo",
+            "storeName": "Negozio",
+            "carrierAccount": "Account corriere"
+          },
+          "options": {
+            "invoiceStatus": {
+              "PAID": "Pagata",
+              "UNPAID": "Non pagata"
+            }
+          }
+        }
+      },
+      "pendingTransactions": {
+        "backToBilling": "Torna alla fatturazione",
+        "header": "Transazioni in attesa",
+        "subheader": "Rivedi le transazioni e richieste di rimborso in attesa. ",
+        "buttonText": "Vedi in attesa",
+        "pageTitle": "Transazioni in attesa",
+        "emptyTitle": "Nessuna transazione in attesa",
+        "emptySubtitle": "Alcune transazioni potrebbero richiedere qualche minuto per apparire qui: torna presto a vedere",
+        "table": {
+          "headers": {
+            "dateTime": "Data e ora",
+            "description": "Descrizione",
+            "trackingNumber": "Numero di tracking",
+            "amount": "Importo"
+          }
+        }
+      },
+      "invoices": {
+        "download": {
+          "invoiceDate": "Data: {{invoiceDate}}",
+          "invoiceNumber": "Fattura n.: {{invoiceNumber}}",
+          "vatDisclaimer": "IVA con inversione contabile da parte dell'acquirente",
+          "errors": {
+            "retrieveInvoice": "Errore durante il recupero della fattura. Riprova o contatta support@shippo.com",
+            "retrieveInvoiceItems": "Errore durante il recupero delle voci di fatturazione. Riprova o contatta support@shippo.com"
+          },
+          "invoiceItemsTable": {
+            "gstIncluded": "GST incl.",
+            "title": "Transazioni fatturate",
+            "headers": {
+              "date": "Data",
+              "itemType": "Tipo di voce",
+              "carrier": "Corriere",
+              "trackingNumber": "Numero di tracking",
+              "tax": "Imposte",
+              "amount": "Importo"
+            },
+            "footers": {
+              "subtotal": "Subtotale",
+              "total": "Totale"
+            }
+          }
+        },
+        "header": "Fatture",
+        "subheader": {
+          "text": "Le fatture mostrano tutte le transazioni avvenute nel periodo di pagamento specificato. Possono aiutarti a capire cosa ti è stato addebitato.",
+          "link": "(Per saperne di più)"
+        },
+        "table": {
+          "cells": {
+            "invoiceNumber": "Fattura Shippo n.",
+            "download": "Scarica",
+            "status": {
+              "paid": "Pagata",
+              "unpaid": "Non pagata",
+              "inProgress": "Addebito in corso",
+              "success": "Addebito riuscito",
+              "failure": "Non riuscito",
+              "reattempt": "Riprova",
+              "writtenOff": "Stornata",
+              "paymentPending": "In attesa di pagamento"
+            },
+            "writtenOffToolTip": "Questa fattura non deve essere pagata. Nessuna azione richiesta.",
+            "button": "Visualizza"
+          }
+        }
+      }
+    },
+    "nav": {
+      "planTabName": "PIANO",
+      "billingTabName": "FATTURAZIONE",
+      "profileTabName": "PROFILO",
+      "account": "Account"
+    }
+  }
+}
