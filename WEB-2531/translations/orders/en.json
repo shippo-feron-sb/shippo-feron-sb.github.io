@@ -684,8 +684,7 @@
       "forOrder": "Order",
       "createReturnLabel": "Create return label",
       "seeShipmentDetails": "See shipment details",
-      "purchaseError": "There was an error processing your request. Please try again later. See <0>Shippo status</0> or <1>contact support</1> for more assistance.",
-      "verificationError": "Your account needs to be verified before proceeding with this purchase. Please reach out to <0>Shippo Support</0> for further assistance"
+      "purchaseError": "There was an error processing your request. Please try again later. See <0>Shippo status</0> or <1>contact support</1> for more assistance."
     },
     "packingSlip": {
       "title": "Download packing slip",

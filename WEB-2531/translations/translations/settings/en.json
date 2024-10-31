@@ -1155,8 +1155,7 @@
         "creditCardConvenienceFee": {
           "text": "A 3% convenience fee is applied to credit card transactions. Use ACH as default to avoid this fee.",
           "achAuthorized": "A 3% convenience fee is applied to credit card transactions. <0>Use ACH as default</0> to avoid this fee.",
-          "achNotAuthorized": "A 3% convenience fee is applied to credit card transactions. <0>Reach out to customer support</0> to setup ACH to avoid this fee.",
-          "discount": "Switch to ACH to receive a 1% discount on your purchases!"
+          "achNotAuthorized": "A 3% convenience fee is applied to credit card transactions. <0>Reach out to customer support</0> to setup ACH to avoid this fee."
         },
         "dialogs": {
           "update": {
