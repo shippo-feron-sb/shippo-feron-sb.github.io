@@ -111,6 +111,12 @@
         "clientIdError": "Client ID is required",
         "clientSecretLabel": "Client secret",
         "clientSecretError": "Client secret is required"
+      },
+      "woocommerce": {
+        "description": "To connect, input your store URL below. Then, click <0>Continue</0> to proceed to WooCommerce where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo.",
+        "label": "WooCommerce store URL",
+        "placeholder": "https://mystore.com/",
+        "error": "URL for the shop is required"
       }
     },
     "errors": {
