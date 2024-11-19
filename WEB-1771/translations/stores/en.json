@@ -91,6 +91,9 @@
       "square": {
         "description": "Click <0>Continue</0> below to proceed to Square where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo."
       },
+      "squarespace": {
+        "description": "Click <0>Continue</0> below to proceed to Squarespace where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo."
+      },
       "bigcommerce": {
         "description": "Click <0>Continue</0> below to proceed to BigCommerce where you will need to grant Shippo access. Once access is granted, you will see your orders synced in Shippo."
       },
