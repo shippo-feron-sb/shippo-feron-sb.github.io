@@ -1064,6 +1064,16 @@
       "title": "You’re automatically insured!",
       "description": "Change this setting any time or remove insurance on individual shipments.",
       "learnMore": "Learn more"
+    },
+    "upsell": {
+      "title": "Your large package is at a higher risk",
+      "headline": "Shippo Total Protection reimburses you in the event of package damage, loss, or theft",
+      "protectShipment": "Protect your shipment",
+      "recommendation": "It’s a good idea to protect shipments over 90” L+W+H. Purchase Shippo Total Protection to protect your shipment.",
+      "protectPackage": "Protect package",
+      "dismiss": "Dismiss",
+      "shortDisclaimer": "Insurance Powered by Cover Genius | <0>Terms and conditions</0>",
+      "longDisclaimer": "Protection sold by Cover Genius and powered by XCover <0 /> <1>Terms and conditions</1>"
     }
   },
   "signature": {
