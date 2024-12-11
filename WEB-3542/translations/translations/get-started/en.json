@@ -22,5 +22,11 @@
       "connectStoreButton": "Connect a store",
       "createLabel": "Manually create a label",
       "importCSV": "Upload a CSV"
-    }
+    },
+  "zeroStateOverlay": {
+    "headline": "Add orders to start shipping",
+    "connectStore": "Connect a store",
+    "createOrder": "Create manually",
+    "importSpreadsheet": "Upload spreadsheet"
+  }
 }
