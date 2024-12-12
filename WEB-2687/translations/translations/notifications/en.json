@@ -71,6 +71,10 @@
       "actionLabel": "Resend verification email",
       "message": "Please verify your email to purchase labels.",
       "successNotification": "We’ve sent a new verification link. Click the link in the email to complete verification."
+    },
+    "pastDueInvoiceDownload": {
+      "actionLabel": "View invoices",
+      "message": "Labels cannot be downloaded while invoices are past due. Please check your invoices and reattempt charge."
     }
   }
 }
