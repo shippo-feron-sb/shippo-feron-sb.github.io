@@ -1435,6 +1435,7 @@
       "liveToken": "Live Token",
       "liveTokenDescription": "You should never expose your Live Token. PLEASE STORE SECURELY.",
       "liveTokenToolTip": "Used to create live objects and production labels. It may be used for any GET or POST requests.",
+      "contactSupport": "To generate a Live Token, please <0>reach out to sales</0>.",
       "testToken": "Test Token",
       "generateButton": "Generate Token",
       "testTokenDescription": "See <1>Test Mode documentation</1> for more details.",
