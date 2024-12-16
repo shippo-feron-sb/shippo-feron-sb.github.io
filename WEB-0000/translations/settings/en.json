@@ -1435,7 +1435,7 @@
       "liveToken": "Live Token",
       "liveTokenDescription": "You should never expose your Live Token. PLEASE STORE SECURELY.",
       "liveTokenToolTip": "Used to create live objects and production labels. It may be used for any GET or POST requests.",
-      "contactSupport": "Contact our API experts for a live token and helpful tips for smooth setup. We can typically get you up and running within one business day.",
+      "contactSupport": "Contact our API experts for a live token and helpful tips for smooth setup. Most clients are successfully integrated within one business day.",
       "sales": "Request Live Token",      
       "testToken": "Test Token",
       "generateButton": "Generate Token",
