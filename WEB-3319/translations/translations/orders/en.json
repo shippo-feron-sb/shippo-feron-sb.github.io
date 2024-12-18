@@ -1199,7 +1199,11 @@
     "mixedAllNotInsuredNoItems": "Your orders are not insured. We <0>recommend</0> protecting your packages against loss and damage. Exclusions apply.",
     "notInsuredCondensed": "Protect your package against loss and damage for {{value}}. Exclusions apply.",
     "notInsuredNoItemsCondensed": "We <0>recommend</0> protecting your package against loss and damage. Exclusions apply.",
-    "returnLabelsNotInsuredWarning": "Return labels can’t be insured when a signature is required. Create a separate label if return insurance is required."
+    "returnLabelsNotInsuredWarning": "Return labels can’t be insured when a signature is required. Create a separate label if return insurance is required.",
+    "shippingRiskAssessment": {
+      "price": "{{value, currency}}",
+      "callout": "Our data indicates that shipments on this route are at a higher risk for loss or damage. Purchase Shippo Total Protection for just {{value}} to protect your shipment. <0>Learn more</0>"
+    }
   },
   "manualLabel": {
     "back": "Back",

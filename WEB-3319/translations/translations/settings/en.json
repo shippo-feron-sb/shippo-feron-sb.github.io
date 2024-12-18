@@ -17,7 +17,7 @@
       "uploadErrorRetry": "Try again",
       "uploadUnsuccessful": "Upload unsuccessful - {{cause}}",
       "fileSizeExceedsLimit": "file size exceeds 1MB",
-      "invalidFileFormat": "file must be PNG or JPEG format",
+      "invalidFileFormat": "file must be PNG or JPEG format",  
       "tooltip": {
         "line1": "PNG or JPEG format only",
         "line2": "Max size of 1MB",
@@ -1435,6 +1435,8 @@
       "liveToken": "Live Token",
       "liveTokenDescription": "You should never expose your Live Token. PLEASE STORE SECURELY.",
       "liveTokenToolTip": "Used to create live objects and production labels. It may be used for any GET or POST requests.",
+      "contactSupport": "Contact our API experts for a live token and helpful tips for smooth setup. Most clients are successfully integrated within one business day.",
+      "sales": "Request Live Token",      
       "testToken": "Test Token",
       "generateButton": "Generate Token",
       "testTokenDescription": "See <1>Test Mode documentation</1> for more details.",
