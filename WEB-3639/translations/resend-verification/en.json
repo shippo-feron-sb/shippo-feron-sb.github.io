@@ -1,0 +1,12 @@
+{
+  "resend": {
+    "title": "Confirmation error",
+    "body": "We couldn't confirm your email address. Click the button below and we'll send you a new confirmation.",
+    "buttonText": "Send email"
+  },
+  "success": {
+    "title": "Success!",
+    "body": "An email should arrive in your inbox shortly.",
+    "buttonText": "Continue to Shippo"
+  }
+}
