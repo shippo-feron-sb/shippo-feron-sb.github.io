@@ -14,15 +14,6 @@
     "FooterLinkFour": "Printer and label best practices",
     "FooterLinkFive": "How to manually create an order",
     "manyMore": "and many more",
-    "tableOverlay": {
-      "titleHeader": {
-        "orders": "Let's start shipping, {{firstName}}",
-        "shipments": "This is where you’ll track your shipments"
-      },
-      "connectStoreButton": "Connect a store",
-      "createLabel": "Manually create a label",
-      "importCSV": "Upload a CSV"
-    },
   "zeroStateOverlay": {
     "headline": "Add orders to start shipping",
     "connectStore": "Connect a store",
