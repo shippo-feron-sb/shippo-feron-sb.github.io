@@ -523,6 +523,11 @@
     "contactUs": "Contact us",
     "runAutomationBtnTooltip": "Heads up, automations will only run on orders imported from a store or CSV.",
     "serviceLevelRetrievalError": "Please try again or contact support at support@shippo.com.",
+    "name": "Rule Name",
+    "last": "Last Modified",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
     "notification": {
       "inProcess": "Automations are processing",
       "complete": "Automations are completed"
