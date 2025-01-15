@@ -105,14 +105,13 @@
     "pages": {
       "connect_store": {
         "title": "Add your orders",
-        "description": "Connect your store to Shippo to import orders and start shipping",
-        "popular": "Popular connections",
-        "all": "All connections",
-        "do_it_yourself": {
-          "title": "Do it yourself",
-          "manual": "Create a shipment manually",
-          "upload": "Upload a spreadsheet"
-        }
+        "headlineStores": "Sync orders from a store platform",
+        "headlineManual": "Or, create orders on your own",
+        "popularStores": "Popular stores",
+        "moreStores": "More stores",
+        "showMoreStores": "See more stores",
+        "createManualOrder": "Create orders manually",
+        "uploadCSV": "Upload spreadsheet"
       }
     },
     "join": {

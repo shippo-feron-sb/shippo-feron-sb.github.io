@@ -126,7 +126,8 @@
       "POSSIBLE_CREDENTIALS_ERROR": "Could not connect your {{store}} store. Are your credentials correct?",
       "MISSING_SCOPES_ERROR": "Could not connect your {{store}} store. Missing permissions in your delegated access key.",
       "MISSING_SHOP_URL_ERROR": "The shop URL is missing.",
-      "CATCH_ALL": "Could not connect your {{store}} store."
+      "CATCH_ALL": "Could not connect your {{store}} store.",
+      "BUILD_AUTH_URL_ERROR": "The shop URL is invalid. Please provide the full URL of your shop."
     },
     "amazon": {
       "title": "Connect your Amazon store to Shippo",
