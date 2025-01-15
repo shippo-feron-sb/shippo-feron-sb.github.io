@@ -88,7 +88,15 @@
     },
     "pages": {
       "connect_store": {
-        "title": "Ajoutez vos commandes"
+        "title": "Ajoutez vos commandes",
+        "description": "Connectez votre boutique à Shippo pour importer des commandes et commencer à envoyer.",
+        "popular": "Connexions populaires",
+        "all": "Toutes les connexions",
+        "do_it_yourself": {
+          "title": "Faites-le vous-même",
+          "manual": "Créer un envoi manuellement",
+          "upload": "Téléverser une feuille de calcul"
+        }
       }
     },
     "join": {
