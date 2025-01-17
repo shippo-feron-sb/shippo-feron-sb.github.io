@@ -72,31 +72,15 @@
           "line5": "5 connexions d'utilisateur"
         }
       },
-      "developer": {
-        "title": "Développeur",
+      "api": {
+        "title": "API",
         "pricing": "Gratuit",
-        "description": "Jusqu'à 30 étiquettes/mois",
-        "description2": "Intégration API requise",
-        "features": {
-          "line1": "Suivi, retours et bien davantage",
-          "line2": "1 intégration à plus de 40 transporteurs",
-          "line3": "Comparer les tarifs réduits",
-          "line4": "Vos propres comptes transporteurs",
-          "line5": "Une sécurité à l'épreuve de l'entreprise"
-        }
+        "description": "Jusqu'à 30 étiquettes/mois"
       }
     },
     "pages": {
       "connect_store": {
-        "title": "Ajoutez vos commandes",
-        "description": "Connectez votre boutique à Shippo pour importer des commandes et commencer à envoyer.",
-        "popular": "Connexions populaires",
-        "all": "Toutes les connexions",
-        "do_it_yourself": {
-          "title": "Faites-le vous-même",
-          "manual": "Créer un envoi manuellement",
-          "upload": "Téléverser une feuille de calcul"
-        }
+        "title": "Ajoutez vos commandes"
       }
     },
     "join": {
