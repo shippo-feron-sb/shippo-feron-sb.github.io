@@ -62,6 +62,9 @@
     "back": "Back",
     "next": "Next",
     "genericError": "Something went wrong. Please try again.",
+    "header": {
+      "steps": "Step {{current}} of {{total}}"
+    },
     "plans": {
       "title": "Choose your plan",
       "starter": {
