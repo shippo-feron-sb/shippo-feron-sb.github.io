@@ -134,7 +134,6 @@
       "enableActualTestAccount": "This is a test account",
       "actualTestAccount": "Only check this box if this is a {{carrierName}} test account",
       "testAccountInfo": "Test mode lets you create sample labels to familiarize yourself with the process without spending money.",
-      "retailRatesDisclaimer": "Shippo will display default retail rates for this carrier. However if you want to input your custom rates, please contact <0>support@shippo.com</0>.",
       "testLearnMore": "Learn more",
       "updateAccount": "Save",
       "connectAccount": "Connect Account",

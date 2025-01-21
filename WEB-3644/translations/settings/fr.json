@@ -104,7 +104,6 @@
       "enableActualTestAccount": "C'est un compte test",
       "actualTestAccount": "Cochez cette case uniquement s'il s'agit d'un compte de test {{carrierName}}",
       "testAccountInfo": "Le mode test vous permet de créer des exemples d'étiquettes pour vous familiariser avec le processus sans dépenser d'argent.",
-      "retailRatesDisclaimer": "Shippo affichera les tarifs de détail par défaut pour ce transporteur. Toutefois, si vous souhaitez saisir vos tarifs personnalisés, veuillez contacter <0>support@shippo.com</0>.",
       "testLearnMore": "Apprendre encore plus",
       "updateAccount": "Sauver",
       "connectAccount": "Connecter un compte",
