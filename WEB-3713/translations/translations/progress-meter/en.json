@@ -1,0 +1,29 @@
+{
+  "progressMeter": {
+    "welcome": "Welcome!",
+    "dismiss": "Dismiss",
+    "seeMoreOptions": "See More Options",
+    "continueSetup": "Continue Setting Up",
+    "congrats": "Congrats! ",
+    "completedCongratsTitle": "You can now create a label with Shippo",
+    "progressPercentTitle": "Your account is",
+    "progressPercentBody": "% set up"
+  },
+  "todoSteps": {
+    "todoTitle": "To create a label with Shippo:",
+    "addEmail": "Add email address",
+    "addSenderAddress": "Add sender address",
+    "addOrder": "Add an order",
+    "addPayment": "Add payment info",
+    "addEmailCompleted": "Email added",
+    "addSenderAddressCompleted": "Sender address added",
+    "addOrderCompleted": "Order(s) added",
+    "addPaymentCompleted": "Payment info added"
+  },
+  "todoStepsOptional": {
+    "createTemplates": "Create package templates",
+    "setLabelDefaults": "Set label & packing slip defaults",
+    "addPersonalCarrier": "Add personal carrier account",
+    "todoOptionalItemsTitle": "<0>Speed up your workflow <1> (optional) </1></0>"
+  }
+}
