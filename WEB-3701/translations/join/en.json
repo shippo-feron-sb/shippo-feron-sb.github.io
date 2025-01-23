@@ -114,6 +114,10 @@
         "showMoreStores": "See more stores",
         "createManualOrder": "Create orders manually",
         "uploadCSV": "Upload spreadsheet"
+      },
+      "senderAddress": {
+        "title": "Save sender address",
+        "skip": "Skip"
       }
     },
     "join": {
